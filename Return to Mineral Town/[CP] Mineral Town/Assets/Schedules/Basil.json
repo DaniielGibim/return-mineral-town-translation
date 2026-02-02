@@ -1,0 +1,23 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "basil Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/basil",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_LibraryHouseInterior 3 12 1/810 {{ModId}}_LibraryInterior2ndFloor 9 11 3 basil_writing_right/1730 {{ModId}}_InnInterior 6 12 3/2100 {{ModId}}_LibraryHouseInterior2ndFloor 2 11 3 basil_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Mon": "610 {{ModId}}_MountainLake 50 26 3 basil_writing_left/1200 {{ModId}}_Summit 19 16 0/1500 {{ModId}}_InnInterior 6 12 3/2100 {{ModId}}_LibraryHouseInterior2ndFloor 2 11 3 basil_sleep",
+        "Tues": "610 Forest 74 8 2 basil_writing_left/1100 Forest 76 88 basil_reading/1500 Mountain 58 22 0 basil_writing_left/2100 {{ModId}}_LibraryHouseInterior2ndFloor 2 11 3 basil_sleep",
+        "Fri": "610 {{ModId}}_LibraryHouseInterior 3 12 1/810 {{ModId}}_LibraryInterior2ndFloor 9 11 3 basil_writing_right/1100 {{ModId}}_FlowerHill 10 14 3 basil_writing_left/1800 {{ModId}}_LibraryInterior2ndFloor 8 11 2 basil_reading/2100 {{ModId}}_LibraryHouseInterior2ndFloor 2 11 3 basil_sleep",
+        "rain": "610 {{ModId}}_LibraryHouseInterior 3 12 1/810 {{ModId}}_LibraryInterior2ndFloor 9 11 3 basil_writing_right/1730 {{ModId}}_LibraryHouseInterior 15 8 2/2100 {{ModId}}_LibraryHouseInterior2ndFloor 2 11 3 basil_sleep",
+        "GreenRain": "GOTO rain"
+      }
+    }
+  ]
+}

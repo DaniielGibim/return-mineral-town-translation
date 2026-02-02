@@ -1,0 +1,283 @@
+{
+    "Changes": [
+    
+    
+    /*********
+    ** Animations
+    *********/
+    
+        {
+            "LogName": "Animation Data",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+
+        /*********
+        ** Aja
+        *********/
+            "aja_sleep": "48/48/48",
+            "aja_sitright": "0/16 16 16/0",
+            "aja_sitleft": "0/17 17 17/0",
+            "aja_situp": "0/18 18 18/0",
+            "aja_sitdown": "0/19 19 19/0",
+            "aja_standdrink": "20/20 20 20 20 20 20 21 21 21 22 22 22 23 23/20",
+            "aja_sitdrink": "24/24 24 24 24 24 24 25 25 25 26 26 26 27 27/24",
+            "aja_dance": "29/29 29 30 30 31 31 32 32 33 33 34 34 35 35 39 39 30 30/30/Strings\\animationDescriptions:aja.dance",
+        
+        /*********
+        ** Ann
+        *********/
+            "ann_sleep": "48/48/48",
+            "ann_washing": "16/16 16 17 17/16/Strings\\animationDescriptions:ann.washing",
+            "ann_sweeping": "20/20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21/20/Strings\\animationDescriptions:ann.sweeping",
+    
+        /*********
+        ** Anna
+        *********/
+            "anna_sleep": "52/52/52",
+    
+        /*********
+        ** Barley
+        *********/
+            "barley_sleep": "52/52/52",
+    
+        /*********
+        ** Basil
+        *********/
+            "basil_sleep": "48/48/48",
+            "basil_reading": "16/16 16 16 17 17 17 18 18 18 16 16 16/16",
+            "basil_writing_right": "20/20 20 20 21 21 21 22 22 22 21 21 21 22 22 22 21 21 21 22 22 22 21 21 21 22 22 22 21 21 21 22 22 22 20 20 20/20",
+            "basil_writing_left": "24/24 24 24 25 25 25 26 26 26 25 25 25 26 26 26 25 25 25 26 26 26 25 25 25 26 26 26 25 25 25 26 26 26 24 24 24/24",
+    
+        /*********
+        ** Carter
+        *********/
+            "carter_sleep": "52/52/52",
+            "carter_reading": "16/16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 18 18 18 18 18 18 18 18 18 18 18 18/17",
+    
+        /*********
+        ** Cliff
+        *********/
+            "cliff_sleep": "52/52/52",
+    
+        /*********
+        ** Doctor
+        *********/
+            "doctor_sleep": "48/48/48",
+            "doctor_type": "24/24/25/25/26/26/27/27/Strings\\animationDescriptions:doctor.type",
+            "doctor_checkup": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17/17",
+
+        /*********
+        ** Doug
+        *********/
+            "doug_sleep": "48/48/48",
+            "doug_work": "16/16 16 17 17 18 18 17 17/16/Strings\\animationDescriptions:doug.work",
+    
+        /*********
+        ** Duke
+        *********/
+            "duke_sleep": "52/52/52",
+            "duke_drink": "16/16 16 16 16 16 16 16 17 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 17 16 16 16/16/Strings\\animationDescriptions:duke.drink",
+    
+        /*********
+        ** Ellen
+        *********/
+            "ellen_sleep": "16/16 16 16 17 17 17 18 18 18 19 19 19 16 16 16/16",
+            "ellen_nap": "16/16 16 16 17 17 17 18 18 18 19 19 19 16 16 16/16/Strings\\animationDescriptions:ellen.nap",
+
+        /*********
+        ** Elli
+        *********/
+            "elli_sleep": "48/48/48",
+    
+        /*********
+        ** Gotz
+        *********/
+            "gotz_sleep": "48/48/48",
+            "gotz_work": "16/16 17 18 19 20 20 20 20 16 17 18 19 20 16 16 16 16 16 16 16 16 16 16/16",
+    
+        /*********
+        ** Gray
+        *********/
+            "gray_sleep": "48/48/48",
+    
+        /*********
+        ** Harris
+        *********/
+            "harris_sleep": "52/52/52",
+    
+        /*********
+        ** Harvest Goddess
+        *********/
+            "harvestgoddess_sleep": "48/48/48",
+        
+        /*********
+        ** Jeff
+        *********/
+            "jeff_sleep": "52/52/52",
+            "jeff_work": "16/16 17 18 19 20 21 22 23 24 25 26 27/16/Strings\\animationDescriptions:jeff.work",
+    
+        /*********
+        ** Kai
+        *********/
+            "kai_sleep": "48/48/48",
+
+        /*********
+        ** Kappa
+        *********/
+            "kappa_sleep": "48/48/48",            
+    
+        /*********
+        ** Karen
+        *********/
+            "karen_sleep": "48/48/48",
+            "karen_drink": "16/16 16 17 18 19 20 20 20 20 20 20 20 20 20 20 19 18 17 16 16 16 16 16 16 16 16 16/16/Strings\\animationDescriptions:karen.drink",
+    
+        /*********
+        ** Lillia
+        *********/
+            "lillia_sleep": "48/48/48",
+    
+        /*********
+        ** Manna
+        *********/
+            "manna_sleep": "52/52/52",
+    
+        /*********
+        ** Marie
+        *********/
+            "marie_sleep": "52/52/52",
+            "marie_reading": "16/18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 19 19 19 19 19 19 19 19/18",
+    
+        /*********
+        ** Mei
+        *********/
+            "mei_sleep": "16/16/16",
+            "mei_rope": "20/20 20 21 21 22 22 23 23/20",
+            "mei_color": "24/24 24 24 24 24 24 25 25 25 25 25 25/25",
+    
+        /*********
+        ** Nami
+        *********/
+            "nami_sleep": "48/48/48",
+            "nami_nap": "48/48/48/Strings\\animationDescriptions:nami.nap",
+            "nami_drinking": "16/16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 16 16 16/16",
+    
+        /*********
+        ** Popuri
+        *********/
+            "popuri_sleep": "48/48/48",
+    
+        /*********
+        ** Rick
+        *********/
+            "rick_sleep": "48/48/48",
+            "rick_feed": "16/16 16 17 17 18 18 19 19 20 20 21 21 22 22 23 23 24 24/24",
+
+        /*********
+        ** Saibara
+        *********/
+            "saibara_sleep": "16/16 16 16 17 17 17 18 18 18 19 19 19/19",
+            "saibara_work": "20/20 20 20 21 21 21 20 20 20/20",
+        
+        /*********
+        ** Sasha
+        *********/
+            "sasha_sleep": "52/52/52",
+        
+        /*********
+        ** Stu
+        *********/
+            "stu_sleep": "16/16/16",
+            "stu_play": "18/18 18 19 19 18 18/18",
+            "stu_ball": "20/20 20 21 21 22 22 23 23 22 22 21 21 20 20/20",
+        
+        /*********
+        ** Tate
+        *********/
+            "tate_sleep": "48/48/48",
+
+        /*********
+        ** Thomas
+        *********/
+            "thomas_sleep": "20/20/20",
+        
+        /*********
+        ** Won
+        *********/
+            "won_sleep": "52/52/52",
+            "won_reading": "16/17 17 17 17 17 17 17 17 17 17 18 18 18 18 18 18 18 18 18 18/16",
+        
+        /*********
+        ** Zack
+        *********/
+            "zack_sleep": "16/16/16"
+    
+            }
+        },
+    
+        /*********
+        ** Animation Strings
+        *********/
+        {
+            "LogName": "Animation Strings",
+            "Action": "EditData",
+            "Target": "Strings/animationDescriptions",
+            "Entries": {
+        
+        /*********
+        ** Aja
+        *********/
+                "aja.dance": "{{i18n:Animations.aja.dance}}",
+
+        /*********
+        ** Ann
+        *********/
+                "ann.sweeping": "{{i18n:Animations.ann.sweeping}}",
+                "ann.washing": "{{i18n:Animations.ann.washing}}",
+    
+        /*********
+        ** Doctor
+        *********/
+
+                "doctor.type": "{{i18n:Animations.doctor.type}}",
+        /*********
+        ** Doug
+        *********/
+                "doug.work": "{{i18n:Animations.doug.work}}",
+        
+        /*********
+        ** Duke
+        *********/
+                "duke.drink": "{{i18n:Animations.duke.drink}}",
+    
+        /*********
+        ** Ellen
+        *********/
+                "ellen.nap": "{{i18n:Animations.ellen.nap}}",
+    
+        /*********
+        ** Jeff
+        *********/
+                "jeff.work": "{{i18n:Animations.jeff.work}}",
+
+        /*********
+        ** Karen
+        *********/
+                "karen.drink": "{{i18n:Animations.karen.drink}}",
+    
+        /*********
+        ** Nami
+        *********/
+                "nami.nap": "{{i18n:Animations.nami.nap}}",
+
+        /*********
+        ** Saibara
+        *********/
+                "saibara.work": "{{i18n:Animations.saibara.work}}",
+
+            }
+        }
+    ]
+}
+    

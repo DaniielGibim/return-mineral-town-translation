@@ -1,0 +1,215 @@
+{
+    "Changes": [
+    
+            {
+                "LogName": "Mail Triggers",
+                "Action": "EditData",
+                "Target": "Data/TriggerActions",
+                "Entries": {
+
+        //Recipe Letters
+
+        "{{ModID}}_AjaRecipeLetter": {
+            "Id": "AjaRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Aja 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_AjaRecipeLetter now",
+        },
+
+        "{{ModID}}_AnnRecipeLetter": {
+            "Id": "AnnRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Ann 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_AnnRecipeLetter now",
+        },
+
+        "{{ModID}}_BasilRecipeLetter": {
+            "Id": "BasilRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Basil 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_BasilRecipeLetter now",
+        },
+
+        "{{ModID}}_BarleyRecipeLetter": {
+            "Id": "BarleyRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Barley 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_BarleyRecipeLetter now",
+        },
+
+        "{{ModID}}_CarterRecipeLetter": {
+            "Id": "CarterRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Carter 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_CarterRecipeLetter now",
+        },
+
+        "{{ModID}}_CliffRecipeLetter": {
+            "Id": "CliffRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Cliff 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_CliffRecipeLetter now",
+        },
+
+        "{{ModID}}_DoctorRecipeLetter": {
+            "Id": "DoctorRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Doctor 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_DoctorRecipeLetter now",
+        },
+
+        "{{ModID}}_DougRecipeLetter": {
+            "Id": "DougRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Doug 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_DougRecipeLetter now",
+        },
+
+        "{{ModID}}_EllenRecipeLetter": {
+            "Id": "EllenRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Ellen 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_EllenRecipeLetter now",
+        },
+
+        "{{ModID}}_ElliRecipeLetter": {
+            "Id": "ElliRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Elli 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_ElliRecipeLetter now",
+        },
+
+        "{{ModID}}_GotzRecipeLetter": {
+            "Id": "GotzRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Gotz 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_GotzRecipeLetter now",
+        },
+
+        "{{ModID}}_HarrisRecipeLetter": {
+            "Id": "HarrisRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Harris 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_HarrisRecipeLetter now",
+        },
+
+        "{{ModID}}_JeffRecipeLetter": {
+            "Id": "JeffRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Jeff 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_JeffRecipeLetter now",
+        },
+
+        "{{ModID}}_KaiRecipeLetter": {
+            "Id": "KaiRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Kai 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_KaiRecipeLetter now",
+        },
+
+        "{{ModID}}_KarenRecipeLetter": {
+            "Id": "KarenRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Karen 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_KarenRecipeLetter now",
+        },
+
+        "{{ModID}}_LilliaRecipeLetter": {
+            "Id": "LilliaRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Lillia 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_LilliaRecipeLetter now",
+        },
+
+        "{{ModID}}_MarieRecipeLetter": {
+            "Id": "MarieRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Marie 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_MarieRecipeLetter now",
+        },
+
+        "{{ModID}}_MannaRecipeLetter": {
+            "Id": "MannaRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Manna 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_MannaRecipeLetter now",
+        },
+
+        "{{ModID}}_MeiRecipeLetter": {
+            "Id": "MeiRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mei 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_MeiRecipeLetter now",
+        },
+
+        "{{ModID}}_RickRecipeLetter": {
+            "Id": "RickRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Rick 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_RickRecipeLetter now",
+        },
+
+        "{{ModID}}_SaibaraRecipeLetter": {
+            "Id": "SaibaraRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Saibara 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_SaibaraRecipeLetter now",
+        },
+
+        "{{ModID}}_SashaRecipeLetter": {
+            "Id": "SashaRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sasha 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_SashaRecipeLetter now",
+        },
+
+        "{{ModID}}_StuRecipeLetter": {
+            "Id": "StuRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Stu 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_StuRecipeLetter now",
+        },
+
+        "{{ModID}}_TateRecipeLetter": {
+            "Id": "TateRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Tate 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_TateRecipeLetter now",
+        },
+
+        "{{ModID}}_ZackRecipeLetter": {
+            "Id": "ZackRecipeLetter",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Zack 750",
+            "HostOnly": false,
+            "Action": "AddMail Current {{ModID}}_ZackRecipeLetter now",
+
+        },
+    },
+},
+],
+}

@@ -1,0 +1,22 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Jeff Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Jeff",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_MarketInterior 14 5 2/700 {{ModId}}_MarketInterior 4 27 3 jeff_work/730 {{ModId}}_MarketInterior 4 29 3 jeff_work/750 {{ModId}}_MarketInterior 4 31 3 jeff_work/820 {{ModId}}_MarketInterior 4 34 3 jeff_work/840 {{ModId}}_MarketInterior 13 24 0/900 {{ModId}}_MarketInterior 8 25 2/1800 {{ModId}}_TownCenter 78 91 2/2000 {{ModId}}_MarketInterior 14 18 0/2100 {{ModId}}_MarketInterior 6 14 2/2200 {{ModId}}_MarketInterior 14 5 1 jeff_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sun": "610 {{ModId}}_MarketInterior 14 5 2/900 {{ModId}}_ChurchInterior 15 12 0/1600 {{ModId}}_InnInterior 25 11 3/2100 {{ModId}}_MarketInterior 10 5 0/2350 {{ModId}}_MarketInterior 14 5 1 jeff_sleep",
+        "Tue": "610 {{ModId}}_MarketInterior 14 5 2/700 {{ModId}}_MarketInterior 4 27 3 jeff_work/730 {{ModId}}_MarketInterior 4 29 3 jeff_work/750 {{ModId}}_MarketInterior 4 31 3 jeff_work/820 {{ModId}}_MarketInterior 4 34 3 jeff_work/840 {{ModId}}_MarketInterior 13 24 0/900 {{ModId}}_MarketInterior 8 25 2/1230 {{ModId}}_HospitalInterior 20 8 0/1600 {{ModId}}_MarketInterior 8 25 2/1800 {{ModId}}_MarketInterior 14 18 0/1900 {{ModId}}_MarketInterior 6 14 2/2200 {{ModId}}_MarketInterior 14 5 1 jeff_sleep",
+        "rain": "610 {{ModId}}_MarketInterior 14 5 2/700 {{ModId}}_MarketInterior 4 27 3 jeff_work/730 {{ModId}}_MarketInterior 4 29 3 jeff_work/750 {{ModId}}_MarketInterior 4 31 3 jeff_work/820 {{ModId}}_MarketInterior 4 34 3 jeff_work/840 {{ModId}}_MarketInterior 13 24 0/900 {{ModId}}_MarketInterior 8 25 2/1800 {{ModId}}_MarketInterior 14 18 0/1900 {{ModId}}_MarketInterior 6 14 2/2200 {{ModId}}_MarketInterior 14 5 1 jeff_sleep",
+        "GreenRain": "GOTO rain"
+      }
+    }
+  ]
+}

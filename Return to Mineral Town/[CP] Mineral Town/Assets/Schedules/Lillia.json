@@ -1,0 +1,21 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Lillia Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Lillia ",
+      "Entries": {
+
+      //Regular Schedule
+      "spring": "610 {{ModId}}_PoultryInterior 7 6 0/810 {{ModId}}_PoultryInterior 17 12 3/1200 {{ModId}}_PoultryInterior 15 5 0/1300 {{ModId}}_PoultryInterior 13 8 3/1400 {{ModId}}_PoultryInterior 17 12 3/1800 {{ModId}}_PoultryInterior2ndFloor 17 16 0/2100 {{ModId}}_PoultryInterior2ndFloor 16 11 3 lillia_sleep",
+      "summer": "GOTO spring",
+      "fall": "GOTO spring",
+      "winter": "GOTO spring",
+      "Sun": "610 {{ModId}}_PoultryInterior 7 6 0/810 {{ModId}}_PoultryInterior 15 5 0/910 {{ModId}}_PoultryInterior 13 8 3/1010 {{ModId}}_PoultryInterior 17 12 3/1200 {{ModId}}_HospitalInterior 20 8 0/1600 {{ModId}}_PoultryInterior 15 5 0/1900 {{ModId}}_PoultryInterior 13 8 3/2000 {{ModId}}_PoultryInterior 7 6 0/2100 {{ModId}}_PoultryInterior2ndFloor 16 11 3 lillia_sleep",
+      "rain": "GOTO spring",
+      "GreenRain": "GOTO rain"
+      }
+    }
+  ]
+}

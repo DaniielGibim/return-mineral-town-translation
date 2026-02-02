@@ -1,0 +1,37 @@
+{
+    "Changes": [
+    
+    //------------------------
+    // S P R I T E S
+    //------------------------
+    
+        {
+            "LogName": "Sprites",
+            "Action": "Load",
+            "Target": "Characters/Aja, Characters/Ann, Characters/Anna, Characters/Barley, Characters/Basil, Characters/Carter, Characters/Cliff, Characters/Doctor, Characters/Doug, Characters/Duke, Characters/Ellen, Characters/Elli, Characters/Gotz, Characters/Gray, Characters/Harris, Characters/HarvestGoddess, Characters/Jeff, Characters/Kai, Characters/Kappa, Characters/Karen, Characters/Lillia, Characters/Manna, Characters/Marie, Characters/Mei, Characters/Popuri, Characters/Rick, Characters/Saibara, Characters/Sasha, Characters/Stu, Characters/Thomas, Characters/Won, Characters/Zack, Characters/Nami, Characters/Tate",
+            "FromFile": "Assets/Characters/{{TargetWithoutPath}}.png"
+        },
+//        {
+//            "LogName": "Seasonal Sprites",
+//            "Action": "EditImage",
+//            "Target": "Characters/Nami",
+//            "FromFile": "Assets/Characters/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{season}}.png"
+//        },
+        {
+            "LogName": "Beach Sprites",
+            "Action": "Load",
+            "Target": "Characters/Aja_Beach, Characters/Ann_Beach, Characters/Anna_Beach, Characters/Barley_Beach, Characters/Basil_Beach, Characters/Carter_Beach, Characters/Cliff_Beach, Characters/Doctor_Beach, Characters/Doug_Beach, Characters/Duke_Beach, Characters/Ellen_Beach, Characters/Elli_Beach, Characters/Gotz_Beach, Characters/Gray_Beach, Characters/Harris_Beach, Characters/Jeff_Beach, Characters/Kai_Beach, Characters/Karen_Beach, Characters/Manna_Beach, Characters/Marie_Beach, Characters/Mei_Beach, Characters/Nami_Beach, Characters/Popuri_Beach, Characters/Rick_Beach, Characters/Saibara_Beach, Characters/Sasha_Beach, Characters/Stu_Beach, Characters/Tate_Beach, Characters/Thomas_Beach, Characters/Won_Beach, Characters/Zack_Beach",
+            "FromFile": "Assets/BeachCharacters/{{TargetWithoutPath}}.png"
+        },
+//        {
+//            "LogName": "Festival Character Sprites",
+//            "Action": "EditImage",
+//           "Target": "Characters/Aja, Characters/Ann, Characters/Cliff, Characters/Doctor, Characters/Elli, Characters/Gray, Characters/Kai, Characters/Karen, Characters/Marie, Characters/Nami, Characters/Popuri, Characters/Rick, Characters/Tate",
+//            "FromFile": "Assets/FestivalCharacters/{{FestivalMT}}/{{TargetWithoutPath}}_{{FestivalMT}}.png",
+//            "Update": "OnLocationChange",            
+//	 		"When": {
+//                "HasFile:{{FromFile}}": true,
+//            },
+//        },
+    ]
+}

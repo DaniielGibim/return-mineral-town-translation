@@ -1,0 +1,13 @@
+{
+"Changes": [
+	
+//Special Characters
+	{
+		"LogName": "Monsters",
+		"Action": "Load",
+		"Target": "Characters/Monsters/MT.RockCrab",
+		"FromFile": "Assets/MonsterFiles/MT.RockCrab_{{season}}.png",
+	}
+	
+]
+}

@@ -1,0 +1,24 @@
+    {
+	"Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Default",
+        "Fish"
+      ],
+      "Entries": {
+        "{{ModId}}_Won_Ticket": {
+          "Chance": 0.05,
+          "MinFishingLevel": 0,
+          "MinDistanceFromShore": 0,
+          "MaxDistanceFromShore": -1,
+          "Precedence": 1000,
+          "Condition": "ANY \"LOCATION_NAME Target Beach\" \"LOCATION_NAME Target Forest\" \"LOCATION_NAME Target UndergroundMine\" \"LOCATION_NAME Target Desert\" \"LOCATION_NAME Target Mountain\" \"LOCATION_NAME Target Woods\" \"LOCATION_NAME Target Sewer\" \"LOCATION_NAME Target BugLand\" \"LOCATION_NAME Target WitchSwamp\" \"LOCATION_NAME Target IslandNorth\" \"LOCATION_NAME Target IslandSouth\" \"LOCATION_NAME Target IslandWest\" \"LOCATION_NAME Target IslandSouthEast\" \"LOCATION_NAME Target IslandSouthEastCave\" \"LOCATION_NAME Target EastScarp_Village\" \"LOCATION_NAME Target {{ModId}}_MineralBeach\" \"LOCATION_NAME Target {{ModId}}_GoddessHill\" \"LOCATION_NAME Target {{ModId}}_Highway\" \"LOCATION_NAME Target {{ModId}}_MountainLake\" \"LOCATION_NAME Target {{ModId}}_TidePool\" \"LOCATION_NAME Target {{ModId}}_TownCenter\" \"LOCATION_NAME Target {{ModId}}_TownEntrance\"",
+          "Id": "{{ModId}}_Won_Ticket",
+          "ItemId": "(O){{ModId}}_Won_Ticket",
+        }
+      }
+    },
+    	]
+}

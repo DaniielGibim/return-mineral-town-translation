@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        {
+            "LogName": "Weapons",
+            "Action": "Include",
+            "FromFile": "Data/Objects/Weapons.json"
+        },
+        {
+            "LogName": "Objects",
+            "Action": "Include",
+            "FromFile": "Data/Objects/Objects.json"
+        },
+        {
+            "LogName": "Objects",
+            "Action": "Include",
+            "FromFile": "Data/Objects/Recipes.json"   
+        },
+        {
+            "LogName": "Won Ticket Fishing",
+            "Action": "Include",
+            "FromFile": "Data/Fish/FishableTicket.json",
+        }, 
+    ]
+}

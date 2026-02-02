@@ -1,0 +1,29 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Ellen Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Ellen",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_EllenInterior 22 16 3/810 {{ModId}}_TownCenter 79 91 2/1000 {{ModId}}_EllenInterior 18 13 2 ellen_nap/1200 {{ModId}}_EllenInterior 22 16 3/1300 {{ModId}}_EllenInterior 16 13 2/2000 {{ModId}}_EllenInterior 21 5 3 ellen_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Wed": "610 {{ModId}}_EllenInterior 22 16 3/810 {{ModId}}_TownCenter 79 91 2/1000 {{ModId}}_ChurchInterior 15 15 0/1400 {{ModId}}_EllenInterior 16 13 2/2000 {{ModId}}_EllenInterior 21 5 3 ellen_sleep",
+        "Thu": "610 {{ModId}}_EllenInterior 22 16 3/810 {{ModId}}_EllenInterior 18 13 0/1000 {{ModId}}_EllenInterior 22 16 2/1600 {{ModId}}_EllenInterior 13 15 3/2000 {{ModId}}_EllenInterior 21 5 3 ellen_sleep",
+        "Sun": "610 {{ModId}}_EllenInterior 22 16 3/1100 {{ModId}}_ChurchInterior 15 15 0/1800 {{ModId}}_EllenInterior 16 13 2/2000 {{ModId}}_EllenInterior 21 5 3 ellen_sleep",
+        "rain": "610 {{ModId}}_EllenInterior 22 16 3/1000 {{ModId}}_EllenInterior 18 13 2 ellen_nap/1200 {{ModId}}_EllenInterior 22 16 3/1300 {{ModId}}_EllenInterior 16 13 2/2000 {{ModId}}_EllenInterior 21 5 3 ellen_sleep",
+        "GreenRain": "GOTO rain",
+
+        //Checkups
+        "spring_12": "610 {{ModId}}_EllenInterior 22 16 3/1100 {{ModId}}_HospitalInterior 13 12 3/1300 {{ModId}}_HospitalInterior 24 14 3/1600 {{ModId}}_EllenInterior 16 13 2/2000 {{ModId}}_EllenInterior 21 5 3 ellen_sleep",
+        "summer_12": "GOTO spring_12",
+        "fall_12": "GOTO spring_12",
+        "winter_12": "GOTO spring_12",
+      }
+    }
+  ]
+}

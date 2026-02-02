@@ -1,0 +1,42 @@
+{
+    "Changes": [
+	 
+     
+      /////////////////
+	  //BusStop Warps for Ayeisha
+	  /////////////////
+  
+  
+	  //Ayeisha exists
+	  {
+		"Action": "EditMap",
+		"Target": "Maps/Custom_AyeishaVanRoad",
+		"When": {
+		  "HasMod |contains=TheLimeyDragon.Ayeisha": true
+		},
+  
+		"AddWarps": [
+		  "10 9 UndergroundTunnel 0 8",
+		  "10 10 UndergroundTunnel 0 8",
+		  "10 11 UndergroundTunnel 0 8",
+		  "10 12 UndergroundTunnel 0 8",
+		  "10 13 UndergroundTunnel 0 8"
+		]
+	  },
+	  {
+		"Action": "EditMap",
+		"Target": "Assets/Maps/OutdoorMaps/{{ModId}}_UndergroundTunnel",
+		"When": {
+		  "HasMod |contains=TheLimeyDragon.Ayeisha": true
+		},
+  
+		"AddWarps": [
+		  "-1 6 Custom_AyeishaVanRoad 9 13",
+		  "-1 7 Custom_AyeishaVanRoad 9 13",
+		  "-1 8 Custom_AyeishaVanRoad 9 13",
+		  "-1 9 Custom_AyeishaVanRoad 9 13",
+		  "-1 10 Custom_AyeishaVanRoad 9 13"
+		]
+	  },
+    ]
+}

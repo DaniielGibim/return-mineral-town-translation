@@ -1,0 +1,183 @@
+{
+"Changes": [       
+        
+    /*********
+		** Map Strings
+		*********/
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+      // Outdoors
+              "MT.Bin": "{{i18n:MapString.MT.Bin}}",
+      
+              "MT.Highway.1": "{{i18n:MapString.MT.Highway.1}}",
+              "MT.Highway.2": "{{i18n:MapString.MT.Highway.2}}",
+              "MT.Highway.3": "{{i18n:MapString.MT.Highway.3}}",
+              "MT.Highway.4": "{{i18n:MapString.MT.Highway.4}}",
+              "MT.Highway.5": "{{i18n:MapString.MT.Highway.5}}",
+      
+              "MT.LunarBeach.1": "{{i18n:MapString.MT.LunarBeach.1}}",
+      
+              "MT.GoddessHill.2": "{{i18n:MapString.MT.GoddessHill.2}}",
+
+              "MT.MountainLake.1": "{{i18n:MapString.MT.MountainLake.1}}",
+      
+              "MT.Town.1": "{{i18n:MapString.MT.Town.1}}",
+              "MT.Town.2": "{{i18n:MapString.MT.Town.2}}",
+              "MT.Town.3": "{{i18n:MapString.MT.Town.3}}",
+              "MT.Town.4": "{{i18n:MapString.MT.Town.4}}",
+      
+              "MT.Grave.1": "{{i18n:MapString.MT.Grave.1}}",
+              "MT.Grave.2": "{{i18n:MapString.MT.Grave.2}}",
+              "MT.Grave.3": "{{i18n:MapString.MT.Grave.3}}",
+      
+              "MT.Forest.1": "{{i18n:MapString.MT.Forest.1}}",
+      
+      
+              //Indoors
+              //Toilet
+              "MT.Indoors.1": "{{i18n:MapString.MT.Indoors.1}}",
+              "MT.Indoors.2": "{{i18n:MapString.MT.Indoors.2}}",
+              "MT.Indoors.3": "{{i18n:MapString.MT.Indoors.3}}",
+              "MT.Indoors.4": "{{i18n:MapString.MT.Indoors.4}}",
+              "MT.Indoors.5": "{{i18n:MapString.MT.Indoors.5}}",
+      
+              //Hospital
+              "MT.Hospital.1": "{{i18n:MapString.MT.Hospital.1}}",
+              "MT.Hospital.2": "{{i18n:MapString.MT.Hospital.2}}",
+              "MT.Hospital.3": "{{i18n:MapString.MT.Hospital.3}}",
+              "MT.Hospital.4": "{{i18n:MapString.MT.Hospital.4}}",
+              "MT.Hospital.5": "{{i18n:MapString.MT.Hospital.5}}",
+              "MT.Hospital.6": "{{i18n:MapString.MT.Hospital.6}}",
+              "MT.Hospital.7": "{{i18n:MapString.MT.Hospital.7}}",
+              "MT.Hospital.8": "{{i18n:MapString.MT.Hospital.8}}",
+              "MT.Hospital.9": "{{i18n:MapString.MT.Hospital.9}}",
+              "MT.Hospital.10": "{{i18n:MapString.MT.Hospital.10}}",
+              "MT.Hospital.11": "{{i18n:MapString.MT.Hospital.11}}",
+              "MT.Hospital.12": "{{i18n:MapString.MT.Hospital.12}}",
+              "MT.Hospital.13": "{{i18n:MapString.MT.Hospital.13}}",
+              "MT.Hospital.14": "{{i18n:MapString.MT.Hospital.14}}",
+              "MT.Hospital.15": "{{i18n:MapString.MT.Hospital.15}}",
+              "MT.Hospital.16": "{{i18n:MapString.MT.Hospital.16}}",
+      
+              //Inn
+              "MT.Inn.1": "{{i18n:MapString.MT.Inn.1}}",
+              "MT.Inn.2": "{{i18n:MapString.MT.Inn.2}}",
+              "MT.Inn.3": "{{i18n:MapString.MT.Inn.3}}",
+              "MT.Inn.4": "{{i18n:MapString.MT.Inn.4}}",
+              "MT.Inn.5": "{{i18n:MapString.MT.Inn.5}}",
+              "MT.Inn.6": "{{i18n:MapString.MT.Inn.6}}",
+              "MT.Inn.7": "{{i18n:MapString.MT.Inn.7}}",
+              "MT.Inn.8": "{{i18n:MapString.MT.Inn.8}}",
+              "MT.Inn.9": "{{i18n:MapString.MT.Inn.9}}",
+              "MT.Inn.10": "{{i18n:MapString.MT.Inn.10}}",
+              "MT.Inn.11": "{{i18n:MapString.MT.Inn.11}}",
+              "MT.Inn.12": "{{i18n:MapString.MT.Inn.12}}",
+              "MT.Inn.13": "{{i18n:MapString.MT.Inn.13}}",
+
+              //Library
+              "MT.Library.1": "{{i18n:MapString.MT.Library.1}}",
+              "MT.Library.2": "{{i18n:MapString.MT.Library.2}}",
+              "MT.Library.3": "{{i18n:MapString.MT.Library.3}}",
+              "MT.Library.4": "{{i18n:MapString.MT.Library.4}}",
+              "MT.Library.5": "{{i18n:MapString.MT.Library.5}}",
+              "MT.Library.6": "{{i18n:MapString.MT.Library.6}}",
+              "MT.Library.7": "{{i18n:MapString.MT.Library.7}}",
+              "MT.Library.8": "{{i18n:MapString.MT.Library.8}}",
+              "MT.Library.9": "{{i18n:MapString.MT.Library.9}}",
+              "MT.Library.10": "{{i18n:MapString.MT.Library.10}}",
+              "MT.Library.11": "{{i18n:MapString.MT.Library.11}}",
+              "MT.Library.12": "{{i18n:MapString.MT.Library.12}}",
+              "MT.Library.13": "{{i18n:MapString.MT.Library.13}}",
+              "MT.LibraryDoor": "{{i18n:MapString.MT.LibraryDoor}}",
+      
+              //Ellen's House
+              "MT.EllenHouse.1": "{{i18n:MapString.MT.EllenHouse.1}}",
+              "MT.EllenHouse.2": "{{i18n:MapString.MT.EllenHouse.2}}",
+              "MT.EllenHouse.3": "{{i18n:MapString.MT.EllenHouse.3}}",
+              "MT.EllenHouse.4": "{{i18n:MapString.MT.EllenHouse.4}}",
+              "MT.EllenHouse.5": "{{i18n:MapString.MT.EllenHouse.5}}",
+              "MT.EllenHouse.6": "{{i18n:MapString.MT.EllenHouse.6}}",
+              "MT.EllenHouse.7": "{{i18n:MapString.MT.EllenHouse.7}}",
+              "MT.EllenHouse.8": "{{i18n:MapString.MT.EllenHouse.8}}",
+      
+              //Supermarket
+              "MT.market.1": "{{i18n:MapString.MT.market.1}}",
+              "MT.market.2": "{{i18n:MapString.MT.market.2}}",
+              "MT.market.3": "{{i18n:MapString.MT.market.3}}",
+              "MT.market.4": "{{i18n:MapString.MT.market.4}}",
+              "MT.market.5": "{{i18n:MapString.MT.market.5}}",
+              "MT.market.6": "{{i18n:MapString.MT.market.6}}",
+              "MT.market.7": "{{i18n:MapString.MT.market.7}}",
+              "MT.market.8": "{{i18n:MapString.MT.market.8}}",
+      
+              //Mayor's House
+              "MT.Mayor.1": "{{i18n:MapString.MT.Mayor.1}}",
+              "MT.Mayor.2": "{{i18n:MapString.MT.Mayor.2}}",
+              "MT.Mayor.3": "{{i18n:MapString.MT.Mayor.3}}",
+              "MT.Mayor.4": "{{i18n:MapString.MT.Mayor.4}}",
+              "MT.Mayor.5": "{{i18n:MapString.MT.Mayor.5}}",
+              "MT.Mayor.6": "{{i18n:MapString.MT.Mayor.6}}",
+      
+              //Blacksmith
+              "MT.Blacksmith.1": "{{i18n:MapString.MT.Blacksmith.1}}",
+              "MT.Blacksmith.2": "{{i18n:MapString.MT.Blacksmith.2}}",
+              "MT.Blacksmith.3": "{{i18n:MapString.MT.Blacksmith.3}}",
+              "MT.Blacksmith.4": "{{i18n:MapString.MT.Blacksmith.4}}",
+      
+              //Aja Winery
+              "MT.AjaWinery.1": "{{i18n:MapString.MT.AjaWinery.1}}",
+              "MT.AjaWinery.2": "{{i18n:MapString.MT.AjaWinery.2}}",
+              "MT.AjaWinery.3": "{{i18n:MapString.MT.AjaWinery.3}}",
+              "MT.AjaWinery.4": "{{i18n:MapString.MT.AjaWinery.4}}",
+              "MT.AjaWinery.5": "{{i18n:MapString.MT.AjaWinery.5}}",
+              "MT.AjaWinery.6": "{{i18n:MapString.MT.AjaWinery.6}}",
+              "MT.AjaWinery.7": "{{i18n:MapString.MT.AjaWinery.7}}",
+      
+              //Church
+              "MT.Church.1": "{{i18n:MapString.MT.Church.1}}",
+              "MT.Church.2": "{{i18n:MapString.MT.Church.2}}",
+              "MT.Church.3": "{{i18n:MapString.MT.Church.3}}",
+              "MT.Church.4": "{{i18n:MapString.MT.Church.4}}",
+      
+              //SpriteHut
+              "MT.SpriteHut.1": "{{i18n:MapString.MT.SpriteHut.1}}",
+      
+              //PoultryHouse
+              "MT.Poultry.1": "{{i18n:MapString.MT.Poultry.1}}",
+              "MT.Poultry.2": "{{i18n:MapString.MT.Poultry.2}}",
+              "MT.Poultry.3": "{{i18n:MapString.MT.Poultry.3}}",
+      
+              //Yodel Ranch
+              "MT.Yodel.1": "{{i18n:MapString.MT.Yodel.1}}",
+              "MT.Yodel.2": "{{i18n:MapString.MT.Yodel.2}}",
+              "MT.Yodel.3": "{{i18n:MapString.MT.Yodel.3}}",
+              "MT.Yodel.4": "{{i18n:MapString.MT.Yodel.4}}",
+              "MT.Yodel.5": "{{i18n:MapString.MT.Yodel.5}}",
+      
+              //Lumber
+              "MT.Lumber.1": "{{i18n:MapString.MT.Lumber.1}}",
+              "MT.Lumber.2": "{{i18n:MapString.MT.Lumber.2}}",
+              "MT.Lumber.3": "{{i18n:MapString.MT.Lumber.3}}",
+      
+              //Snack Shack
+              "MT.SnS.1": "{{i18n:MapString.MT.SnS.1}}",
+              "MT.SnS.2": "{{i18n:MapString.MT.SnS.2}}",
+              "MT.SnS.3": "{{i18n:MapString.MT.SnS.3}}",
+              "MT.SnS.4": "{{i18n:MapString.MT.SnS.4}}",
+      
+              //Zack's House
+              "MT.ZackHouse.1": "{{i18n:MapString.MT.ZackHouse.1}}",
+              "MT.ZackHouse.2": "{{i18n:MapString.MT.ZackHouse.2}}",
+              "MT.ZackHouse.3": "{{i18n:MapString.MT.ZackHouse.3}}",
+              "MT.ZackHouse.4": "{{i18n:MapString.MT.ZackHouse.4}}",
+              "MT.ZackHouse.5": "{{i18n:MapString.MT.ZackHouse.5}}",
+              "MT.ZackHouse.6": "{{i18n:MapString.MT.ZackHouse.6}}",
+      
+              //Mine
+              "MT.Mine": "{{i18n:MapString.MT.Mine}}"
+            },
+        },
+    ]
+}

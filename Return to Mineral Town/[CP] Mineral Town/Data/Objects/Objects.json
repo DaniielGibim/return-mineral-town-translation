@@ -1,0 +1,2401 @@
+{
+    "Changes": [
+    {
+        "LogName": "Load Objects Tilesheet",
+        "Action": "Load",
+        "Target": "Mods/{{ModID}}/Objects",
+        "FromFile": "Assets/Objects/Objects.png,"
+    },
+    {
+        "LogName": "Load Scarecrows Tilesheet",
+        "Action": "Load",
+        "Target": "Mods/{{ModID}}/Objects/Scarecrows",
+        "FromFile": "Assets/Objects/Scarecrows.png"
+    },
+    {        
+        "LogName": "Load Paintings Tilesheet",
+        "Action": "Load",
+        "Target": "Mods/{{ModID}}/Objects/Paintings",
+        "FromFile": "Assets/Objects/Paintings.png"
+    },
+    {
+        "LogName": "Load Hats Tilesheet",
+        "Action": "Load",
+        "Target": "Mods/{{ModID}}/Objects/Hats",
+        "FromFile": "Assets/Objects/Hats.png"
+    },
+	{
+           
+        "LogName": "Load Furniture Tilesheet",
+        "Action": "Load",
+        "Target": "Mods/{{ModID}}/Objects/Furniture",
+        "FromFile": "Assets/Objects/Furniture.png"
+    },
+	{
+        "LogName": "Objects Data",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {                
+                "{{ModID}}_Amur_Minnow": {
+                "Name": "{{ModID}}_Amur_Minnow",
+                "DisplayName": "{{i18n:object.amur-minnow.name}}",
+                "Description": "{{i18n:object.amur-minnow.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 35,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 0,
+                "Edibility": 5,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green",
+                    "fish_river",
+                    "fish_amur_minnow",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_Baked_Corn": {
+                "Name": "{{ModID}}_Baked_Corn",
+                "DisplayName": "{{i18n:object.baked-corn.name}}",
+                "Description": "{{i18n:object.baked-corn.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 800,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 1,
+                "Edibility": 80,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Bamboo_Shoot": {
+                "Name": "{{ModID}}_Bamboo_Shoot",
+                "DisplayName": "{{i18n:object.bamboo-shoot.name}}",
+                "Description": "{{i18n:object.bamboo-shoot.description}}",
+                "Type": "Vegetable",
+                "Category": -75,
+                "Price": 50,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 2,
+                "Edibility": 35,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green",
+                ]
+            },
+            "{{ModID}}_Bebsi_Cola": {
+                "Name": "{{ModID}}_Bebsi_Cola",
+                "DisplayName": "{{i18n:object.bebsi-cola.name}}",
+                "Description": "{{i18n:object.bebsi-cola.description}}",
+                "Type": "Junk",
+                "Category": -20,
+                "Price": 50,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 3,
+                "Edibility": 5,
+                "IsDrink": true,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_red",
+                ]
+            },
+            "{{ModID}}_Bighead": {
+                "Name": "{{ModID}}_Bighead",
+                "DisplayName": "{{i18n:object.bighead.name}}",
+                "Description": "{{i18n:object.bighead.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 100,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 4,
+                "Edibility": 5,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_gray",
+                    "fish_river",
+                    "fish_bighead",
+                    "season_all"
+                ]
+            },
+            "{{ModID}}_Bitterling": {
+                "Name": "{{ModID}}_Bitterling",
+                "DisplayName": "{{i18n:object.bitterling.name}}",
+                "Description": "{{i18n:object.bitterling.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 35,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 5,
+                "Edibility": 5,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue",
+                    "fish_river",
+                    "fish_bitterling",
+                    "season_all"
+                ]
+            },
+            "{{ModID}}_Black_Bass": {
+                "Name": "{{ModID}}_Black_Bass",
+                "DisplayName": "{{i18n:object.black-bass.name}}",
+                "Description": "{{i18n:object.black-bass.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 55,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 6,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green",
+                    "fish_river",
+                    "fish_black_bass",
+                    "season_all"
+                ]
+            },
+            "{{ModID}}_Black_Grass": {
+                "Name": "{{ModID}}_Black_Grass",
+                "DisplayName": "{{i18n:object.black-grass.name}}",
+                "Description": "{{i18n:object.black-grass.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 10,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 7,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_black",
+                ]
+            },
+            "{{ModID}}_Blackfin_Monkfish": {
+                "Name": "{{ModID}}_Blackfin_Monkfish",
+                "DisplayName": "{{i18n:object.blackfin-monkfish.name}}",
+                "Description": "{{i18n:object.blackfin-monkfish.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 250,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 8,
+                "Edibility": 25,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_brown",
+                    "fish_ocean",
+                    "fish_blackfin_monkfish",
+                    "fish_semi_rare",
+                    "season_spring",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_Blowfish": {
+                "Name": "{{ModID}}_Blowfish",
+                "DisplayName": "{{i18n:object.blowfish.name}}",
+                "Description": "{{i18n:object.blowfish.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 220,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 9,
+                "Edibility": 50,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green",
+                    "fish_ocean",
+                    "fish_blowfish",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_Blue_Grass": {
+                "Name": "{{ModID}}_Blue_Grass",
+                "DisplayName": "{{i18n:object.blue-grass.name}}",
+                "Description": "{{i18n:object.blue-grass.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 50,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 10,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue",
+                ]
+            },
+            "{{ModID}}_Blue_Magic_Grass": {
+                "Name": "{{ModID}}_Blue_Magic_Grass",
+                "DisplayName": "{{i18n:object.blue-magic-grass.name}}",
+                "Description": "{{i18n:object.blue-magic-grass.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 300,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 11,
+                "Edibility": 5,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue",
+                ]
+            },
+            "{{ModID}}_Bluegill": {
+                "Name": "{{ModID}}_Bluegill",
+                "DisplayName": "{{i18n:object.bluegill.name}}",
+                "Description": "{{i18n:object.bluegill.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 12,
+                "Edibility": 8,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue",
+                    "fish_lake",
+                    "fish_bluegill",
+                    "season_all"
+                ]
+            },
+            "{{ModID}}_Bonito": {
+                "Name": "{{ModID}}_Bonito",
+                "DisplayName": "{{i18n:object.bonito.name}}",
+                "Description": "{{i18n:object.bonito.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 120,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 13,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue",
+                    "fish_ocean",
+                    "fish_bonito",
+                    "season_spring",
+                    "season_fall"
+                ]
+            },
+            "{{ModID}}_Brown_Hakeling": {
+                "Name": "{{ModID}}_Brown_Hakeling",
+                "DisplayName": "{{i18n:object.brown-hakeling.name}}",
+                "Description": "{{i18n:object.brown-hakeling.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 120,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 14,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_brown",
+                    "fish_river",
+                    "fish_brown_hakeling",
+                    "season_spring",
+                    "season_summer",
+                    "season_winter",
+                ]
+            },
+            "{{ModID}}_Candied_Sweet_Potatoes": {
+                "Name": "{{ModID}}_Candied_Sweet_Potatoes",
+                "DisplayName": "{{i18n:object.candied-sweet-potatoes.name}}",
+                "Description": "{{i18n:object.candied-sweet-potatoes.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 200,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 15,
+                "Edibility": 80,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_orange"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 4,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Cheese_Fondue": {
+                "Name": "{{ModID}}_Cheese_Fondue",
+                "DisplayName": "{{i18n:object.cheese-fondue.name}}",
+                "Description": "{{i18n:object.cheese-fondue.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 150,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 16,
+                "Edibility": 130,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_orange"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 2,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Cherry_Salmon": {
+                "Name": "{{ModID}}_Cherry_Salmon",
+                "DisplayName": "{{i18n:object.cherry-salmon.name}}",
+                "Description": "{{i18n:object.cherry-salmon.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 85,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 17,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_pink",
+                    "fish_lake",
+                    "fish_cherry_salmon",
+                    "season_summer",
+                    "season_fall"
+                ]
+            },
+            "{{ModID}}_Chocolate_Cookies": {
+                "Name": "{{ModID}}_Chocolate_Cookies",
+                "DisplayName": "{{i18n:object.chocolate-cookies.name}}",
+                "Description": "{{i18n:object.chocolate-cookies.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 18,
+                "Edibility": 120,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_brown"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Cod": {
+                "Name": "{{ModID}}_Cod",
+                "DisplayName": "{{i18n:object.cod.name}}",
+                "Description": "{{i18n:object.cod.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 75,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 19,
+                "Edibility": 20,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green",
+                    "fish_ocean",
+                    "fish_cod",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_Corn_Flakes": {
+                "Name": "{{ModID}}_Corn_Flakes",
+                "DisplayName": "{{i18n:object.corn-flakes.name}}",
+                "Description": "{{i18n:object.corn-flakes.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 20,
+                "Edibility": 75,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 1,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Curry_Rice": {
+                "Name": "{{ModID}}_Curry_Rice",
+                "DisplayName": "{{i18n:object.curry-rice.name}}",
+                "Description": "{{i18n:object.curry-rice.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 21,
+                "Edibility": 75,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_red"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 2,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Daily_Special": {
+                "Name": "{{ModID}}_Daily_Special",
+                "DisplayName": "{{i18n:object.daily-special.name}}",
+                "Description": "{{i18n:object.daily-special.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 400,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 22,
+                "Edibility": 150,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+            },
+            "{{ModID}}_Dark_Chocolate_Bar": {
+                "Name": "{{ModID}}_Dark_Chocolate_Bar",
+                "DisplayName": "{{i18n:object.dark-chocolate-bar.name}}",
+                "Description": "{{i18n:object.dark-chocolate-bar.description}}",
+                "Type": "Cooking",
+                "Category": -25,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 23,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+            },
+            "{{ModID}}_Filefish": {
+                "Name": "{{ModID}}_Filefish",
+                "DisplayName": "{{i18n:object.filefish.name}}",
+                "Description": "{{i18n:object.filefish.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 55,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 24,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue",
+                    "fish_ocean",
+                    "fish_filefish",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_Fluke": {
+                "Name": "{{ModID}}_Fluke",
+                "DisplayName": "{{i18n:object.fluke.name}}",
+                "Description": "{{i18n:object.fluke.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 100,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 25,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_brown",
+                    "fish_ocean",
+                    "fish_fluke",
+                    "season_fall",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_French_Fries": {
+                "Name": "{{ModID}}_French_Fries",
+                "DisplayName": "{{i18n:object.french-fries.name}}",
+                "Description": "{{i18n:object.french-fries.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 26,
+                "Edibility": 36,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow"
+                ]
+            },
+            "{{ModID}}_Fruit_Latte": {
+                "Name": "{{ModID}}_Fruit_Latte",
+                "DisplayName": "{{i18n:object.fruit-latte.name}}",
+                "Description": "{{i18n:object.fruit-latte.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 27,
+                "Edibility": 80,
+                "IsDrink": true,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Golden_Carp": {
+                "Name": "{{ModID}}_Golden_Carp",
+                "DisplayName": "{{i18n:object.golden-carp.name}}",
+                "Description": "{{i18n:object.golden-carp.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 600,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 28,
+                "Edibility": 30,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_gold",
+                    "fish_lake",
+                    "fish_golden_carp",
+                    "season_all",
+                    "fish_semi_rare"
+                ]
+            },
+            "{{ModID}}_Green_Grass": {
+                "Name": "{{ModID}}_Green_Grass",
+                "DisplayName": "{{i18n:object.green-grass.name}}",
+                "Description": "{{i18n:object.green-grass.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 50,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 29,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green",
+                ]
+            },
+            "{{ModID}}_Greenling": {
+                "Name": "{{ModID}}_Greenling",
+                "DisplayName": "{{i18n:object.greenling.name}}",
+                "Description": "{{i18n:object.greenling.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 75,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 30,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_red",
+                    "fish_ocean",
+                    "fish_greenling",
+                    "season_spring"
+                ]
+            },
+            "{{ModID}}_Happy_Eggplant": {
+                "Name": "{{ModID}}_Happy_Eggplant",
+                "DisplayName": "{{i18n:object.happy-eggplant.name}}",
+                "Description": "{{i18n:object.happy-eggplant.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 31,
+                "Edibility": 140,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_purple"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 2,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Harvest_Apple_Pie": { 
+                "Name": "{{ModID}}_Harvest_Apple_Pie", 
+                "DisplayName": "{{i18n:object.harvest-apple-pie.name}}",
+                "Description": "{{i18n:object.harvest-apple-pie.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 600,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 32,
+                "Edibility": 105,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_brown"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 2,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Harvest_Cheesecake": {
+                "Name": "{{ModID}}_Harvest_Cheesecake",
+                "DisplayName": "{{i18n:object.harvest-cheesecake.name}}",
+                "Description": "{{i18n:object.harvest-cheesecake.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 700,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 33,
+                "Edibility": 150,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_white"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 2,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Harvest_Cucumber": {
+                "Name": "{{ModID}}_Harvest_Cucumber",
+                "DisplayName": "{{i18n:object.harvest-cucumber.name}}",
+                "Description": "{{i18n:object.harvest-cucumber.description}}",
+                "Type": "Vegetable",
+                "Category": -75,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 34,
+                "Edibility": 15,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green",
+                ]
+            },
+            "{{ModID}}_Harvest_Curry_Powder": {
+                "Name": "{{ModID}}_Harvest_Curry_Powder",
+                "DisplayName": "{{i18n:object.harvest-curry-powder.name}}",
+                "Description": "{{i18n:object.harvest-curry-powder.description}}",
+                "Type": "Cooking",
+                "Category": -25,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 35,
+                "Edibility": -300,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+            },
+            "{{ModID}}_Harvest_Matsutake": {
+                "Name": "{{ModID}}_Harvest_Matsutake",
+                "DisplayName": "{{i18n:object.harvest-matsutake.name}}",
+                "Description": "{{i18n:object.harvest-matsutake.description}}",
+                "Type": "Greens",
+                "Category": -81,
+                "Price": 350,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 36,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_brown",
+                ]
+            },
+            "{{ModID}}_Harvest_Pink_Cat": {
+                "Name": "{{ModID}}_Harvest_Pink_Cat",
+                "DisplayName": "{{i18n:object.harvest-pink-cat.name}}",
+                "Description": "{{i18n:object.harvest-pink-cat.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 37,
+                "Edibility": 5,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_pink",
+                ]
+            },
+            "{{ModID}}_Harvest_Pudding": {
+                "Name": "{{ModID}}_Harvest_Pudding",
+                "DisplayName": "{{i18n:object.harvest-pudding.name}}",
+                "Description": "{{i18n:object.harvest-pudding.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 700,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 38,
+                "Edibility": 150,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_orange",
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 2,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Huchen": {
+                "Name": "{{ModID}}_Huchen",
+                "DisplayName": "{{i18n:object.huchen.name}}",
+                "Description": "{{i18n:object.huchen.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 125,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 39,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue",
+                    "fish_ocean",
+                    "fish_huchen",
+                    "fish_semi_rare",
+                    "season_fall",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_Indigo_Grass": {
+                "Name": "{{ModID}}_Indigo_Grass",
+                "DisplayName": "{{i18n:object.indigo-grass.name}}",
+                "Description": "{{i18n:object.indigo-grass.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 50,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 40,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue",
+                ]
+            },
+            "{{ModID}}_Kelp_Bass": {
+                "Name": "{{ModID}}_Kelp_Bass",
+                "DisplayName": "{{i18n:object.kelp-bass.name}}",
+                "Description": "{{i18n:object.kelp-bass.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 70,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 41,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow",
+                    "fish_ocean",
+                    "fish_kelp_bass",
+                    "season_fall",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_Lake_Smelt": {
+                "Name": "{{ModID}}_Lake_Smelt",
+                "DisplayName": "{{i18n:object.lake-smelt.name}}",
+                "Description": "{{i18n:object.lake-smelt.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 30,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 42,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow",
+                    "fish_lake",
+                    "fish_lake_smelt",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_Mineral_Salt": {
+                "Name": "{{ModID}}_Mineral_Salt",
+                "DisplayName": "{{i18n:object.mineral-salt.name}}",
+                "Description": "{{i18n:object.mineral-salt.description}}",
+                "Type": "Cooking",
+                "Category": -25,
+                "Price": 100,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 43,
+                "Edibility": -150,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+            },
+            "{{ModID}}_Miso": {
+                "Name": "{{ModID}}_Miso",
+                "DisplayName": "{{i18n:object.miso.name}}",
+                "Description": "{{i18n:object.miso.description}}",
+                "Type": "Cooking",
+                "Category": -25,
+                "Price": 150,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 44,
+                "Edibility": -150,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+            },
+            "{{ModID}}_Mixed_Latte": {
+                "Name": "{{ModID}}_Mixed_Latte",
+                "DisplayName": "{{i18n:object.mixed-latte.name}}",
+                "Description": "{{i18n:object.mixed-latte.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 120,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 45,
+                "Edibility": 85,
+                "IsDrink": true,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 2,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Moondrop": {
+                "Name": "{{ModID}}_Moondrop",
+                "DisplayName": "{{i18n:object.moondrop.name}}",
+                "Description": "{{i18n:object.moondrop.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 60,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 46,
+                "Edibility": 5,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_white",
+                ]
+            },
+            "{{ModID}}_Mountain_Trout": {
+                "Name": "{{ModID}}_Mountain_Trout",
+                "DisplayName": "{{i18n:object.mountain-trout.name}}",
+                "Description": "{{i18n:object.mountain-trout.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 40,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 47,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_orange",
+                    "fish_river",
+                    "fish_mountain_trout",
+                    "season_spring",
+                    "season_summer",
+                    "season_fall"
+                ]
+            },
+            "{{ModID}}_Needlefish": {
+                "Name": "{{ModID}}_Needlefish",
+                "DisplayName": "{{i18n:object.needlefish.name}}",
+                "Description": "{{i18n:object.needlefish.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 45,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 48,
+                "Edibility": 5,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_gray",
+                    "fish_river",
+                    "fish_needlefish",
+                    "season_spring"
+                ]
+            },
+            "{{ModID}}_Omelet_Rice": {
+                "Name": "{{ModID}}_Omelet_Rice",
+                "DisplayName": "{{i18n:object.omelet-rice.name}}",
+                "Description": "{{i18n:object.omelet-rice.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 49,
+                "Edibility": 75,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Orange_Grass": {
+                "Name": "{{ModID}}_Orange_Grass",
+                "DisplayName": "{{i18n:object.orange-grass.name}}",
+                "Description": "{{i18n:object.orange-grass.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 50,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 50,
+                "Edibility": 15,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_orange",
+                ]
+            },
+            "{{ModID}}_Pigfish": {
+                "Name": "{{ModID}}_Pigfish",
+                "DisplayName": "{{i18n:object.pigfish.name}}",
+                "Description": "{{i18n:object.pigfish.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 450,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 51,
+                "Edibility": 50,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_pink",
+                    "fish_lake",
+                    "fish_pigfish",
+                    "season_spring",
+                    "season_summer",
+                    "season_fall",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_Poisonous_Mushroom": {
+                "Name": "{{ModID}}_Poisonous_Mushroom",
+                "DisplayName": "{{i18n:object.poisonous-mushroom.name}}",
+                "Description": "{{i18n:object.poisonous-mushroom.description}}",
+                "Type": "Greens",
+                "Category": -81,
+                "Price": 55,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 52,
+                "Edibility": -200,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_purple",
+                ]
+            },
+            "{{ModID}}_Pudding": {
+                "Name": "{{ModID}}_Pudding",
+                "DisplayName": "{{i18n:object.pudding.name}}",
+                "Description": "{{i18n:object.pudding.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 800,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 53,
+                "Edibility": 80,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 2,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Purple_Grass": {
+                "Name": "{{ModID}}_Purple_Grass",
+                "DisplayName": "{{i18n:object.purple-grass.name}}",
+                "Description": "{{i18n:object.purple-grass.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 60,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 54,
+                "Edibility": 15,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_purple",
+                ]
+            },
+            "{{ModID}}_Raisin_Bread": {
+                "Name": "{{ModID}}_Raisin_Bread",
+                "DisplayName": "{{i18n:object.raisin-bread.name}}",
+                "Description": "{{i18n:object.raisin-bread.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 55,
+                "Edibility": 75,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_purple"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Red_Grass": {
+                "Name": "{{ModID}}_Red_Grass",
+                "DisplayName": "{{i18n:object.red-grass.name}}",
+                "Description": "{{i18n:object.red-grass.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 35,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 56,
+                "Edibility": -10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_red",
+                ]
+            },
+            "{{ModID}}_Red_Magic_Grass": {
+                "Name": "{{ModID}}_Red_Magic_Grass",
+                "DisplayName": "{{i18n:object.red-magic-grass.name}}",
+                "Description": "{{i18n:object.red-magic-grass.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 300,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 57,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_red",
+                ]
+            },
+            "{{ModID}}_Roach": {
+                "Name": "{{ModID}}_Roach",
+                "DisplayName": "{{i18n:object.roach.name}}",
+                "Description": "{{i18n:object.roach.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 35,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 58,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_gray",
+                    "fish_river",
+                    "fish_roach",
+                    "season_spring",
+                    "season_fall"
+                ]
+            },
+            "{{ModID}}_Rocky_Trout": {
+                "Name": "{{ModID}}_Rocky_Trout",
+                "DisplayName": "{{i18n:object.rocky-trout.name}}",
+                "Description": "{{i18n:object.rocky-trout.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 55,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 59,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_orange",
+                    "fish_ocean",
+                    "fish_rocky_trout",
+                    "season_spring",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_Salted_Butter": {
+                "Name": "{{ModID}}_Salted_Butter",
+                "DisplayName": "{{i18n:object.salted-butter.name}}",
+                "Description": "{{i18n:object.salted-butter.description}}",
+                "Type": "Cooking",
+                "Category": -25,
+                "Price": 150,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 60,
+                "Edibility": -10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow"
+                ]
+            },
+            "{{ModID}}_Salted_Popcorn": {
+                "Name": "{{ModID}}_Salted_Popcorn",
+                "DisplayName": "{{i18n:object.salted-popcorn.name}}",
+                "Description": "{{i18n:object.salted-popcorn.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 61,
+                "Edibility": 36,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Sandwich": {
+                "Name": "{{ModID}}_Sandwich",
+                "DisplayName": "{{i18n:object.sandwich.name}}",
+                "Description": "{{i18n:object.sandwich.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 62,
+                "Edibility": 80,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_brown"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Saury_Pike": {
+                "Name": "{{ModID}}_Saury_Pike",
+                "DisplayName": "{{i18n:object.saury-pike.name}}",
+                "Description": "{{i18n:object.saury-pike.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 63,
+                "Edibility": 15,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue",
+                    "fish_ocean",
+                    "fish_saury_pike",
+                    "season_fall",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_Savory_Pancakes": {
+                "Name": "{{ModID}}_Savory_Pancakes",
+                "DisplayName": "{{i18n:object.savory-pancakes.name}}",
+                "Description": "{{i18n:object.savory-pancakes.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 64,
+                "Edibility": 180,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_brown"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 2
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Scad": {
+                "Name": "{{ModID}}_Scad",
+                "DisplayName": "{{i18n:object.scad.name}}",
+                "Description": "{{i18n:object.scad.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 55,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 65,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green",
+                    "fish_ocean",
+                    "fish_scad",
+                    "season_all"
+                ]
+            },
+            "{{ModID}}_Shrimp_Fried_Rice": {
+                "Name": "{{ModID}}_Shrimp_Fried_Rice",
+                "DisplayName": "{{i18n:object.shrimp-fried-rice.name}}",
+                "Description": "{{i18n:object.shrimp-fried-rice.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 66,
+                "Edibility": 100,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 2
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Silver_Carp": {
+                "Name": "{{ModID}}_Silver_Carp",
+                "DisplayName": "{{i18n:object.silver-carp.name}}",
+                "Description": "{{i18n:object.silver-carp.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 550,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 67,
+                "Edibility": 20,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_gray",
+                    "fish_river",
+                    "fish_silver_carp",
+                    "season_all",
+                    "fish_semi_rare"
+                ]
+            },
+            "{{ModID}}_Snakehead": {
+                "Name": "{{ModID}}_Snakehead",
+                "DisplayName": "{{i18n:object.snakehead.name}}",
+                "Description": "{{i18n:object.snakehead.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 75,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 68,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green",
+                    "fish_river",
+                    "fish_snakehead",
+                    "season_spring",
+                    "season_fall"
+                ]
+            },
+            "{{ModID}}_Snow_Cone": {
+                "Name": "{{ModID}}_Snow_Cone",
+                "DisplayName": "{{i18n:object.snow-cone.name}}",
+                "Description": "{{i18n:object.snowc-one.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 250,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 69,
+                "Edibility": 80,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "Buffs": [
+                    {
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Spicy_Ketchup": {
+                "Name": "{{ModID}}_Spicy_Ketchup",
+                "DisplayName": "{{i18n:object.spicy-ketchup.name}}",
+                "Description": "{{i18n:object.spicy-ketchup.description}}",
+                "Type": "Cooking",
+                "Category": -25,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 70,
+                "Edibility": 80,
+                "IsDrink": true,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_red"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Stew": {
+                "Name": "{{ModID}}_Stew",
+                "DisplayName": "{{i18n:object.stew.name}}",
+                "Description": "{{i18n:object.stew.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 71,
+                "Edibility": 95,
+                "IsDrink": true,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_gray"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 800,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 2
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Strawberry_Latte": {
+                "Name": "{{ModID}}_Strawberry_Latte",
+                "DisplayName": "{{i18n:object.strawberry-latte.name}}",
+                "Description": "{{i18n:object.strawberry-latte.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 72,
+                "Edibility": 80,
+                "IsDrink": true,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_pink"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Toy_Flower": {
+                "Name": "{{ModID}}_Toy_Flower",
+                "DisplayName": "{{i18n:object.toy-flower.name}}",
+                "Description": "{{i18n:object.toy-flower.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 30,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 73,
+                "Edibility": 5,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_white",
+                ]
+            },
+            "{{ModID}}_Vegetable_Latte": {
+                "Name": "{{ModID}}_Vegetable_Latte",
+                "DisplayName": "{{i18n:object.vegetable-latte.name}}",
+                "Description": "{{i18n:object.vegetable-latte.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 74,
+                "Edibility": 100,
+                "IsDrink": true,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Warp_Totem_Mineral_Town": {
+                "Name": "{{ModID}}_Warp_Totem_Mineral_Town",
+                "DisplayName": "{{i18n:object.warp-totem-mineral-town.name}}",
+                "Description": "{{i18n:object.warp-totem-mineral-town.description}}",
+                "Type": "Basic",
+                "Category": -8,
+                "Price": 1250,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 75,
+                "Edibility": -300,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "not_placeable",
+                    "totem_item"
+                  ]
+            },
+            "{{ModID}}_White_Flower": {
+                "Name": "{{ModID}}_White_Flower",
+                "DisplayName": "{{i18n:object.white-flower.name}}",
+                "Description": "{{i18n:object.white-flower.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 400,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 76,
+                "Edibility": 5,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_white",
+                ]
+            },
+            "{{ModID}}_White_Grass": {
+                "Name": "{{ModID}}_White_Grass",
+                "DisplayName": "{{i18n:object.white-grass.name}}",
+                "Description": "{{i18n:object.white-grass.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 150,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 77,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_white",
+                ]
+            },
+            "{{ModID}}_Whitefish": {
+                "Name": "{{ModID}}_Whitefish",
+                "DisplayName": "{{i18n:object.whitefish.name}}",
+                "Description": "{{i18n:object.whitefish.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 75,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 78,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_white",
+                    "fish_lake",
+                    "fish_whitefish",
+                    "season_all"
+                ]
+            },
+            "{{ModID}}_Yellow_Grass": {
+                "Name": "{{ModID}}_Yellow_Grass",
+                "DisplayName": "{{i18n:object.yellow-grass.name}}",
+                "Description": "{{i18n:object.yellow-grass.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Price": 40,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 79,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow",
+                ]
+            },
+            "{{ModID}}_Yellow_Miso_Soup": {
+                "Name": "{{ModID}}_Yellow_Miso_Soup",
+                "DisplayName": "{{i18n:object.yellow-miso-soup.name}}",
+                "Description": "{{i18n:object.yellow-miso-soup.description}}",
+                "Type": "Cooking",
+                "Category": -7,
+                "Price": 80,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 80,
+                "Edibility": 100,
+                "IsDrink": true,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_yellow"
+                ],
+                "Buffs": [
+                    {
+                        "Duration": 1600,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 2,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        },
+                    },
+                ],
+            },
+            "{{ModID}}_Yellowtail": {
+                "Name": "{{ModID}}_Yellowtail",
+                "DisplayName": "{{i18n:object.yellowtail.name}}",
+                "Description": "{{i18n:object.yellowtail.description}}",
+                "Type": "Fish",
+                "Category": -4,
+                "Price": 100,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 81,
+                "Edibility": 10,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": false,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue",
+                    "fish_ocean",
+                    "fish_yellowtail",
+                    "season_summer",
+                    "season_winter"
+                ]
+            },
+            "{{ModID}}_Won_Ticket": {
+                "Name": "{{ModID}}_Won_Ticket",
+                "DisplayName": "{{i18n:object.won-ticket.name}}",
+                "Description": "{{i18n:object.won-ticket.description}}",
+                "Type": "Basic",
+                "Category": 0,
+                "Price": 0,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 82,
+                "Edibility": -300,
+                "IsDrink": false,
+                "CanBeGivenAsGift": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green"
+                ]
+            },
+            "{{ModID}}_Adamantite": {
+                "Name": "{{ModID}}_Adamantite",
+                "DisplayName": "{{i18n:object.adamantite.name}}",
+                "Description": "{{i18n:object.adamantite.description}}",
+                "Type": "Mineral",
+                "Category": -12,
+                "Price": 800,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 83,
+                "Edibility": -300,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue"
+                ]
+            },
+            "{{ModID}}_Orichalcum": {
+                "Name": "{{ModID}}_Orichalcum",
+                "DisplayName": "{{i18n:object.orichalcum.name}}",
+                "Description": "{{i18n:object.orichalcum.description}}",
+                "Type": "Mineral",
+                "Category": -12,
+                "Price": 600,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 84,
+                "Edibility": -300,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_purple"
+                ]
+            },
+            "{{ModID}}_Mystrile_Ore": {
+                "Name": "{{ModID}}_Mystile_Ore",
+                "DisplayName": "{{i18n:object.mystrile-ore.name}}",
+                "Description": "{{i18n:object.mystrile-ore.description}}",
+                "Type": "Mineral",
+                "Category": -12,
+                "Price": 1000,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 85,
+                "Edibility": -300,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue"
+                ]
+            },
+            "{{ModID}}_Kappa_Gem": {
+                "Name": "{{ModID}}_Kappa_Gem",
+                "DisplayName": "{{i18n:object.kappa-gem.name}}",
+                "Description": "{{i18n:object.kappa-gem.description}}",
+                "Type": "Mineral",
+                "Category": -12,
+                "Price": 5000,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 86,
+                "Edibility": -300,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_green"
+                ]
+            },
+            "{{ModID}}_Goddess_Gem": {
+                "Name": "{{ModID}}_Goddess_Gem",
+                "DisplayName": "{{i18n:object.goddess-gem.name}}",
+                "Description": "{{i18n:object.goddess-gem.description}}",
+                "Type": "Mineral",
+                "Category": -12,
+                "Price": 5000,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 87,
+                "Edibility": -300,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_silver"
+                ]
+            },
+            "{{ModID}}_Gem_Of_Truth": {
+                "Name": "{{ModID}}_Gem_Of_Truth",
+                "DisplayName": "{{i18n:object.gem-of-truth.name}}",
+                "Description": "{{i18n:object.gem-of-truth.description}}",
+                "Type": "Mineral",
+                "Category": -12,
+                "Price": 5000,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 88,
+                "Edibility": -300,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_black"
+                ]
+            },
+            "{{ModID}}_Blue_Feather": {
+                "Name": "{{ModID}}_Blue_Feather",
+                "DisplayName": "{{i18n:object.blue-feather.name}}",
+                "Description": "{{i18n:object.blue-feather.description}}",
+                "Type": "Basic",
+                "Category": -12,
+                "Price": 1000,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 89,
+                "Edibility": -300,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": true,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue"
+                ]
+            },
+            "{{ModID}}_Golden_Lumber": {
+                "Name": "{{ModID}}_Golden_Lumber",
+                "DisplayName": "{{i18n:object.golden-lumber.name}}",
+                "Description": "{{i18n:object.golden-lumber.description}}",
+                "Type": "Mineral",
+                "Category": -12,
+                "Price": 10000,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 90,
+                "Edibility": -300,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_gold"
+                ]
+            },
+            "{{ModID}}_Mythic_Stone": {
+                "Name": "{{ModID}}_Mythic_Stone",
+                "DisplayName": "{{i18n:object.mythic-stone.name}}",
+                "Description": "{{i18n:object.mythic-stone.description}}",
+                "Type": "Mineral",
+                "Category": -12,
+                "Price": 10000,
+                "Texture": "Mods/{{ModID}}/Objects",
+                "SpriteIndex": 91,
+                "Edibility": -300,
+                "IsDrink": false,
+                "ExcludeFromFishingCollection": true,
+                "ExcludeFromShippingCollection": false,
+                "ExcludeFromRandomSale": true,
+                "ContextTags": [
+                    "color_blue"
+                ]
+            }
+        }
+    },
+
+    //Warp Totem
+
+    {
+        "Action": "EditData",
+        "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+        "Entries": {
+            "{{ModID}}_Warp_Totem_Mineral_Town": { // The object ID
+                "TotemWarp": {
+                    "Location": "{{ModId}}_TownCenter",
+                    "Position": "97, 56",
+                    "Color": { "R": 188, "G": 36, "B": 37, "A": 255 }
+                    }
+                }
+            }
+    },
+
+    //Scarecrows
+    {
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries":{
+        "{{ModID}}_PeteScarecrow":{
+        "Name": "{{ModID}}_PeteScarecrow",
+        "DisplayName": "{{i18n:object.pete-scarecrow.name}}",
+        "Description": "{{i18n:object.pete-scarecrow.description}}",
+        "Price": 5000,
+        "Fragility": 0,
+        "CanBePlacedOutDoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods/{{ModID}}/Objects/Scarecrows",
+        "SpriteIndex": 0,
+        "ContextTags": ["crow_scare", "crow_scare_radius_20"],
+        "CustomFields":{}
+        },
+        }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries":{
+        "{{ModID}}_KevinScarecrow":{
+        "Name": "{{ModID}}_KevinScarecrow",
+        "DisplayName": "{{i18n:object.kevin-scarecrow.name}}",
+        "Description": "{{i18n:object.kevin-scarecrow.description}}",
+        "Price": 5000,
+        "Fragility": 0,
+        "CanBePlacedOutDoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods/{{ModID}}/Objects/Scarecrows",
+        "SpriteIndex": 1,
+        "ContextTags": ["crow_scare", "crow_scare_radius_20"],
+        "CustomFields":{}
+        },
+        }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries":{
+        "{{ModID}}_YutoScarecrow":{
+        "Name": "{{ModID}}_YutoScarecrow",
+        "DisplayName": "{{i18n:object.yuto-scarecrow.name}}",
+        "Description": "{{i18n:object.yuto-scarecrow.description}}",
+        "Price": 5000,
+        "Fragility": 0,
+        "CanBePlacedOutDoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods/{{ModID}}/Objects/Scarecrows",
+        "SpriteIndex": 2,
+        "ContextTags": ["crow_scare", "crow_scare_radius_20"],
+        "CustomFields":{}
+        },
+        }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries":{
+        "{{ModID}}_AngelaScarecrow":{
+        "Name": "{{ModID}}_AngelaScarecrow",
+        "DisplayName": "{{i18n:object.angela-scarecrow.name}}",
+        "Description": "{{i18n:object.angela-scarecrow.description}}",
+        "Price": 5000,
+        "Fragility": 0,
+        "CanBePlacedOutDoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods/{{ModID}}/Objects/Scarecrows",
+        "SpriteIndex": 3,
+        "ContextTags": ["crow_scare", "crow_scare_radius_20"],
+        "CustomFields":{}
+        },
+        }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries":{
+        "{{ModID}}_HollyScarecrow":{
+        "Name": "{{ModID}}_HollyScarecrow",
+        "DisplayName": "{{i18n:object.holly-scarecrow.name}}",
+        "Description": "{{i18n:object.holly-scarecrow.description}}",
+        "Price": 5000,
+        "Fragility": 0,
+        "CanBePlacedOutDoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods/{{ModID}}/Objects/Scarecrows",
+        "SpriteIndex": 4,
+        "ContextTags": ["crow_scare", "crow_scare_radius_20"],
+        "CustomFields":{}
+        },
+        }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries":{
+        "{{ModID}}_WinstonScarecrow":{
+        "Name": "{{ModID}}_WinstonScarecrow",
+        "DisplayName": "{{i18n:object.winston-scarecrow.name}}",
+        "Description": "{{i18n:object.winston-scarecrow.description}}",
+        "Price": 6000,
+        "Fragility": 0,
+        "CanBePlacedOutDoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods/{{ModID}}/Objects/Scarecrows",
+        "SpriteIndex": 5,
+        "ContextTags": ["crow_scare", "crow_scare_radius_20"],
+        "CustomFields":{}
+        },
+        }
+    },
+
+    //Hats
+    {
+        "Logname": "Hats",
+        "Action": "EditData",
+        "Target": "Data/Hats",
+        "Entries":{
+        "{{ModID}}_EmilHead": "{{ModID}}_EmilHead/{{i18n:object.EmilHead.description}}/true/true//{{i18n:object.EmilHead.name}}/0/Mods\\{{ModID}}\\Objects\\Hats",
+        //"{{ModID}}_NiGHTSHood": "{{ModID}}_NiGHTSHood/{{i18n:object.NiGHTSHOOD.description}}/true/true//{{i18n:object.NiGHTSHood.name}}/2/Mods\\{{ModID}}\\Objects\\Hats"    
+        }
+        },
+    //Furniture
+    {
+        "Action": "EditData",
+        "Target": "Data/Furniture",
+        "Entries":{
+            // Paintings
+            "{{ModID}}_BoTW_Painting": "{{ModID}}_BoTW_Painting/painting/2 2/2 2/1/5000/0/{{i18n:object.BoTW_Painting}}/0/Mods\\{{ModID}}\\Objects\\Paintings",
+            "{{ModID}}_EldenRing_Painting": "{{ModID}}_EldenRing_Painting/painting/2 2/2 2/1/5000/0/{{i18n:object.EldenRing_Painting}}/2/Mods\\{{ModID}}\\Objects\\Paintings",
+            "{{ModID}}_FF7_Painting": "{{ModID}}_FF7_Painting/painting/2 2/2 2/1/5000/0/{{i18n:object.FF7_Painting}}/4/Mods\\{{ModID}}\\Objects\\Paintings",
+            "{{ModID}}_Mario_Painting": "{{ModID}}_Mario_Painting/painting/2 2/2 2/1/5000/0/{{i18n:object.Mario_Painting}}/6/Mods\\{{ModID}}\\Objects\\Paintings",
+            "{{ModID}}_Kirby_Painting": "{{ModID}}_Kirby_Painting/painting/2 2/2 2/1/5000/0/{{i18n:object.Kirby_Painting}}/8/Mods\\{{ModID}}\\Objects\\Paintings",
+
+            //Furniture
+            "{{ModID}}_FatChocobo": "{{ModID}}_FatChocobo/decor/2 3/2 1/1/5000/0/{{i18n:object.FatChocobo}}/0/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_Morgana": "{{ModID}}_Morgana/decor/1 2/1 1/1/5000/0/{{i18n:object.Morgana}}/2/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_Tonberry": "{{ModID}}_Tonberry/decor/1 2/1 1/1/5000/0/{{i18n:object.Tonberry}}/3/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_Gato": "{{ModID}}_Gato/decor/2 3/2 1/1/5000/0/{{i18n:object.Gato}}/4/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_BusterSword": "{{ModID}}_BusterSword/painting/1 3/1 3/1/5000/0/{{i18n:object.BusterSword}}/6/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_KHRug": "{{ModID}}_KHRug/rug/3 3/3 3/4/5000/0/{{i18n:object.KHRug}}/7/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_Sonic": "{{ModID}}_Sonic/decor/1 2/1 1/1/5000/0/{{i18n:object.Sonic}}/13/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_Link": "{{ModID}}_Link/decor/1 2/1 1/1/5000/0/{{i18n:object.Link}}/14/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_TriforceRug": "{{ModID}}_TriforceRug/rug/2 2/2 2/4/5000/0/{{i18n:object.TriforceRug}}/15/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_MushroomStool": "{{ModID}}_MushroomStool/chair/1 2/1 1/4/5000/0/{{i18n:object.MushroomStool}}/19/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_BabyYoshi": "{{ModID}}_BabyYoshi/decor/1 2/1 1/1/5000/0/{{i18n:object.BabyYoshi}}/22/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_Tails": "{{ModID}}_Tails/decor/1 2/1 1/1/5000/0/{{i18n:object.Tails}}/23/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_Knuckles": "{{ModID}}_Knuckles/decor/1 2/1 1/1/5000/0/{{i18n:object.Knuckles}}/24/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_DonkeyKong": "{{ModID}}_DonkeyKong/decor/2 3/2 1/1/5000/0/{{i18n:object.DonkeyKong}}/25/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_DragonBallRug": "{{ModID}}_DragonBallRug/rug/3 3/3 3/4/5000/0/{{i18n:object.DragonBallRug}}/27/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_DragonSlayer": "{{ModID}}_DragonSlayer/painting/1 3/1 3/1/5000/0/{{i18n:object.DragonSlayer}}/96/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_PikachuRug": "{{ModID}}_PikachuRug/rug/2 2/2 2/4/5000/0/{{i18n:object.PikachuRug}}/97/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_Moogle": "{{ModID}}_Moogle/decor/1 2/1 1/1/5000/0/{{i18n:object.Moogle}}/101/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_Shadow": "{{ModID}}_Shadow/decor/1 2/1 1/1/5000/0/{{i18n:object.Shadow}}/102/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_MinecraftSwords": "{{ModID}}_MinecraftSwords/painting/1 2/1 1/1/5000/0/{{i18n:object.MinecraftSwords}}/103/Mods\\{{ModID}}\\Objects\\Furniture",
+            "{{ModID}}_MoonlightGreatsword": "{{ModID}}_MoonlightGreatsword/painting/1 3/1 3/1/5000/0/{{i18n:object.MoonlightGreatsword}}/104/Mods\\{{ModID}}\\Objects\\Furniture",
+        }
+    }
+    ]
+}

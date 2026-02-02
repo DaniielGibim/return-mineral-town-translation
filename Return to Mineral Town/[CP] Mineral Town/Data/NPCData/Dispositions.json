@@ -1,0 +1,1608 @@
+{
+	"Changes": [
+		//-------------------------
+		// D I S P O S I T I O N S
+		//-------------------------
+		{
+			"LogName": "NPC Dispositions",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+
+                //Adventurer's Guild
+                "Tate": {
+					"Manner": "Rude",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Spring",
+					"BirthDay": 11,
+					"FriendsAndFamily": {
+						"Mateo": "{{i18n:Relationships.Tate.Mateo}}"
+					},
+					"TextureName": "Tate",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.Tate_Beach",
+							"Portrait": "Portraits/Tate_Beach",
+							"Sprite": "Characters/Tate_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_InnInterior2ndFloor",
+							"Tile": {
+								"X": 9,
+								"Y": 38
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Tate}}",
+					"Age": "Child",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                //Aja Winery
+                "Aja": {
+					"Manner": "Neutral",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"Gender": "Female",
+					"CanBeRomanced": true,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Winter",
+					"BirthDay": 7,
+					"FriendsAndFamily": {
+						"Duke": "{{i18n:Relationships.Aja.Duke}}",
+                        "Manna": "{{i18n:Relationships.Aja.Manna}}"
+					},
+					"TextureName": "Aja",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.AjaBeach",
+							"Portrait": "Portraits/Aja_Beach",
+							"Sprite": "Characters/Aja_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_InnInterior2ndFloor",
+							"Tile": {
+								"X": 35,
+								"Y": 22
+							}
+						}
+                    ],
+					"SpouseRoom": {
+						"MapAsset": "{{ModId}}_MTSpouseRooms",
+						"MapSourceRect": {
+							"X": 12, "Y": 27, "Width": 6, "Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_MTSpousePatios",
+						"MapSourceRect": {
+							"X": 8, "Y": 12, "Width": 4, "Height": 4
+						},
+						"SpriteAnimationFrames": [
+                        ]
+					},
+					"DisplayName": "{{i18n:Name.Aja}}",
+					"Age": "Teen",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest": "false",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"SocialTab":"HiddenUntilMet"
+				},
+
+                "Duke": {
+					"Manner": "Rude",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Neutral",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Winter",
+                    "BirthDay": 15,
+					"FriendsAndFamily": {
+                        "Aja": "{{i18n:Relationships.Duke.Aja}}",
+                        "Manna": "{{i18n:Relationships.Duke.Manna}}"
+                    },
+					"TextureName": "Duke",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.DukeBeach",
+							"Portrait": "Portraits/Duke_Beach",
+							"Sprite": "Characters/Duke_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_WineryInterior2ndFloor",
+							"Tile": {
+								"X": 1,
+								"Y": 19
+							}
+						},
+					],
+					"DisplayName": "{{i18n:Name.Duke}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+				},
+
+                "Manna": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"Gender": "Female",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Fall",
+					"BirthDay": 11,
+					"FriendsAndFamily": {
+                        "Aja": "{{i18n:Relationships.Manna.Aja}}",
+                        "Duke": "{{i18n:Relationships.Manna.Duke}}",
+					},
+					"TextureName": "Manna",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.MannaBeach",
+							"Portrait": "Portraits/Manna_Beach",
+							"Sprite": "Characters/Manna_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_WineryInterior2ndFloor",
+							"Tile": {
+								"X": 3,
+								"Y": 19
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Manna}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                //Beach
+                "Kai": {
+					"Manner": "Neutral",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"Gender": "Male",
+					"CanBeRomanced": true,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Summer",
+                    "BirthDay": 22,
+					"FriendsAndFamily": {},
+                    "IsDarkSkinned": true,
+					"TextureName": "Kai",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.KaiBeach",
+							"Portrait": "Portraits/Kai_Beach",
+							"Sprite": "Characters/Kai_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+						{
+                            "ID": "{{ModID}}.Kai_SpiritsEve",
+                            "Condition": "SEASON_DAY fall 27",
+                            "Portrait": "Portraits/Kai_SpiritsEve",
+                            "Sprite": "Characters/Kai_SpiritsEve",
+                            "Precedence": -20
+                        },
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_KaiBed",
+							"Tile": {
+								"X": 2,
+								"Y": 5
+							}
+						}
+					],
+					"SpouseRoom": {
+						"MapAsset": "{{ModId}}_MTSpouseRooms",
+						"MapSourceRect": {
+							"X": 12, "Y": 18, "Width": 6, "Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_MTSpousePatios",
+						"MapSourceRect": {
+							"X": 8, "Y": 7, "Width": 4, "Height": 4
+						},
+						"SpriteAnimationFrames": [
+						]
+					},
+					"DisplayName": "{{i18n:Name.Kai}}",
+					"Age": "Teen",
+					"SocialTab":"HiddenUntilMet",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest": "false",
+					"PerfectionScore": "{{IncludePerfection}}"
+                },
+
+                "Won": {
+					"Manner": "Rude",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Neutral",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Winter",
+					"BirthDay": 19,
+					"FriendsAndFamily": {},
+					"TextureName": "Won",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.WonBeach",
+							"Portrait": "Portraits/Won_Beach",
+							"Sprite": "Characters/Won_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_ZackHouseInterior",
+							"Tile": {
+								"X": 16,
+								"Y": 8
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Won}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                "Zack": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Summer",
+					"BirthDay": 28,
+					"FriendsAndFamily": {},
+					"TextureName": "Zack",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.ZackBeach",
+							"Portrait": "Portraits/Zack_Beach",
+							"Sprite": "Characters/Zack_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_ZackHouseInterior",
+							"Tile": {
+								"X": 18,
+								"Y": 5
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Zack}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                //Church
+                "Carter": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Fall",
+					"BirthDay": 20,
+					"TextureName": "Carter",
+					"FriendsAndFamily": {
+                        "Cliff": "{{i18n:Relationships.Carter.Cliff}}",
+					},
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.CarterBeach",
+							"Portrait": "Portraits/Carter_Beach",
+							"Sprite": "Characters/Carter_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_CarterHouseInterior",
+							"Tile": {
+								"X": 12,
+								"Y": 6
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Carter}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                //Clinic
+                "Doctor": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"Gender": "Male",
+					"CanBeRomanced": true,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Fall",
+                    "BirthDay": 19,
+					"FriendsAndFamily": {},
+					"TextureName": "Doctor",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.DoctorBeach",
+							"Portrait": "Portraits/Doctor_Beach",
+							"Sprite": "Characters/Doctor_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_DoctorHouseInterior",
+							"Tile": {
+								"X": 15,
+								"Y": 6
+							}
+						}
+					],
+					"SpouseRoom": {
+						"MapAsset": "{{ModId}}_MTSpouseRooms",
+						"MapSourceRect": {
+							"X": 0, "Y": 18, "Width": 6, "Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_MTSpousePatios",
+						"MapSourceRect": {
+							"X": 0, "Y": 8, "Width": 4, "Height": 4
+						},
+						"SpriteAnimationFrames": [
+						]
+					},
+					"DisplayName": "{{i18n:Name.Doctor}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}"
+                },
+
+                //Ellen's House
+                "Ellen": {
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"Gender": "Female",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Winter",
+					"BirthDay": 13,
+					"FriendsAndFamily": {
+						"Elli": "{{i18n:Relationships.Ellen.Elli}}",
+                        "Stu": "{{i18n:Relationships.Ellen.Stu}}"
+					},
+					"TextureName": "Ellen",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.EllenBeach",
+							"Portrait": "Portraits/Ellen_Beach",
+							"Sprite": "Characters/Ellen_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_EllenInterior",
+							"Tile": {
+								"X": 6,
+								"Y": 5
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Ellen}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                "Elli": {
+					"Manner": "Neutral",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Positive",
+					"Gender": "Female",
+					"CanBeRomanced": true,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Spring",
+                    "BirthDay": 16,
+					"FriendsAndFamily": {
+						"Ellen": "{{i18n:Relationships.Elli.Ellen}}",
+                        "Stu": "{{i18n:Relationships.Elli.Stu}}"
+					},
+					"TextureName": "Elli",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.ElliBeach",
+							"Portrait": "Portraits/Elli_Beach",
+							"Sprite": "Characters/Elli_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_EllenInterior",
+							"Tile": {
+								"X": 21,
+								"Y": 5
+							}
+						}
+					],
+					"SpouseRoom": {
+						"MapAsset": "{{ModId}}_MTSpouseRooms",
+						"MapSourceRect": {
+							"X": 0, "Y": 9, "Width": 6, "Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_MTSpousePatios",
+						"MapSourceRect": {
+							"X": 0, "Y": 4, "Width": 4, "Height": 4
+						},
+						"SpriteAnimationFrames": [
+						]
+					},
+					"DisplayName": "{{i18n:Name.Elli}}",
+					"Age": "Teen",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}"
+                },
+
+                "Stu": {
+					"Manner": "Rude",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Neutral",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Fall",
+					"BirthDay": 7,
+					"FriendsAndFamily": {
+						"Ellen": "{{i18n:Relationships.Stu.Ellen}}",
+                        "Elli": "{{i18n:Relationships.Stu.Elli}}",
+						"Mei": "{{i18n:Relationships.Stu.Mei}}"
+					},
+					"TextureName": "Stu",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.StuBeach",
+							"Portrait": "Portraits/Stu_Beach",
+							"Sprite": "Characters/Stu_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_EllenInterior",
+							"Tile": {
+								"X": 16,
+								"Y": 5
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Stu}}",
+					"Age": "Child",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+				},
+
+                //Forest
+                "Gotz": {
+					"Manner": "Neutral",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Neutral",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Fall",
+					"BirthDay": 2,
+					"FriendsAndFamily": {},
+					"TextureName": "Gotz",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.GotzBeach",
+							"Portrait": "Portraits/Gotz_Beach",
+							"Sprite": "Characters/Gotz_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_WoodCutterInterior",
+							"Tile": {
+								"X": 17,
+								"Y": 15
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Gotz}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+				},
+
+                //Jeff's Market
+
+                "Karen": {
+					"Manner": "Rude",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Neutral",
+					"Gender": "Female",
+					"CanBeRomanced": true,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Fall",
+                    "BirthDay": 16,
+					"FriendsAndFamily": {
+						"Jeff": "{{i18n:Relationships.Karen.Jeff}}",
+                        "Sasha": "{{i18n:Relationships.Karen.Sasha}}"
+					},
+					"TextureName": "Karen",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.KarenBeach",
+							"Portrait": "Portraits/Karen_Beach",
+							"Sprite": "Characters/Karen_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_MarketInterior",
+							"Tile": {
+								"X": 3,
+								"Y": 5
+							}
+						}
+					],
+					"SpouseRoom": {
+						"MapAsset": "{{ModId}}_MTSpouseRooms",
+						"MapSourceRect": {
+							"X": 0, "Y": 0, "Width": 6, "Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_MTSpousePatios",
+						"MapSourceRect": {
+							"X": 0, "Y": 0, "Width": 4, "Height": 4
+						},
+						"SpriteAnimationFrames": [
+						]
+					},
+					"DisplayName": "{{i18n:Name.Karen}}",
+					"Age": "Teen",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}"
+                },
+
+                "Jeff": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Negative",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Spring",
+					"BirthDay": 2,
+					"FriendsAndFamily": {
+						"Karen": "{{i18n:Relationships.Jeff.Karen}}",
+                        "Sasha": "{{i18n:Relationships.Jeff.Sasha}}"
+					},
+					"TextureName": "Jeff",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.JeffBeach",
+							"Portrait": "Portraits/Jeff_Beach",
+							"Sprite": "Characters/Jeff_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_MarketInterior",
+							"Tile": {
+								"X": 14,
+								"Y": 5
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Jeff}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                "Sasha": {
+					"Manner": "Neutral",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"Gender": "Female",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Winter",
+					"BirthDay": 17,
+					"FriendsAndFamily": {
+						"Karen": "{{i18n:Relationships.Sasha.Karen}}",
+                        "Jeff": "{{i18n:Relationships.Sasha.Jeff}}"
+					},
+					"TextureName": "Sasha",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.SashaBeach",
+							"Portrait": "Portraits/Sasha_Beach",
+							"Sprite": "Characters/Sasha_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_MarketInterior",
+							"Tile": {
+								"X": 16,
+								"Y": 5
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Sasha}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                //Library
+                "Anna": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"Gender": "Female",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Spring",
+					"BirthDay": 28,
+					"FriendsAndFamily": {
+						"Basil": "{{i18n:Relationships.Anna.Basil}}",
+                        "Marie": "{{i18n:Relationships.Anna.Marie}}"
+					},
+					"TextureName": "Anna",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.AnnaBeach",
+							"Portrait": "Portraits/Anna_Beach",
+							"Sprite": "Characters/Anna_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_LibraryHouseInterior2ndFloor",
+							"Tile": {
+								"X": 4,
+								"Y": 11
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Anna}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                "Basil": {
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Summer",
+					"BirthDay": 11,
+					"FriendsAndFamily": {
+						"Anna": "{{i18n:Relationships.Basil.Anna}}",
+                        "Marie": "{{i18n:Relationships.Basil.Marie}}"
+					},
+					"TextureName": "Basil",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.BasilBeach",
+							"Portrait": "Portraits/Basil_Beach",
+							"Sprite": "Characters/Basil_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_LibraryHouseInterior2ndFloor",
+							"Tile": {
+								"X": 2,
+								"Y": 11
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Basil}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                "Marie": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Neutral",
+					"Gender": "Female",
+					"CanBeRomanced": true,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Winter",
+                    "BirthDay": 23,
+					"FriendsAndFamily": {
+						"Anna": "{{i18n:Relationships.Marie.Anna}}",
+                        "Basil": "{{i18n:Relationships.Marie.Basil}}"
+					},
+					"TextureName": "Marie",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.MarieBeach",
+							"Portrait": "Portraits/Marie_Beach",
+							"Sprite": "Characters/Marie_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_LibraryHouseInterior2ndFloor",
+							"Tile": {
+								"X": 18,
+								"Y": 12
+							}
+						}
+					],
+					"SpouseRoom": {
+						"MapAsset": "{{ModId}}_MTSpouseRooms",
+						"MapSourceRect": {
+							"X": 6, "Y": 9, "Width": 6, "Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_MTSpousePatios",
+						"MapSourceRect": {
+							"X": 4, "Y": 4, "Width": 4, "Height": 4
+						},
+						"SpriteAnimationFrames": [
+						]
+					},
+					"DisplayName": "{{i18n:Name.Marie}}",
+					"Age": "Teen",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}"
+                },
+
+                //Mayor's House
+                "Harris": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Negative",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Summer",
+					"BirthDay": 12,
+					"FriendsAndFamily": {
+						"Thomas": "{{i18n:Relationships.Harris.Thomas}}"
+					},
+					"TextureName": "Harris",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.HarrisBeach",
+							"Portrait": "Portraits/Harris_Beach",
+							"Sprite": "Characters/Harris_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_MayorInterior",
+							"Tile": {
+								"X": 2,
+								"Y": 5
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Harris}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                "Thomas": {
+					"Manner": "Neutral",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Neutral",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Summer",
+					"BirthDay": 25,
+					"FriendsAndFamily": {
+						"Harris": "{{i18n:Relationships.Thomas.Harris}}"
+					},
+					"TextureName": "Thomas",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.ThomasBeach",
+							"Portrait": "Portraits/Thomas_Beach",
+							"Sprite": "Characters/Thomas_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_MayorInterior",
+							"Tile": {
+								"X": 26,
+								"Y": 5
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Thomas}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                //Moonlight Inn
+				"Ann": {
+					"Manner": "Neutral",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"Gender": "Female",
+					"CanBeRomanced": true,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Summer",
+					"BirthDay": 17,
+					"FriendsAndFamily": {
+						"Doug": "{{i18n:Relationships.Ann.Doug}}",
+						"Cliff": "{{i18n:Relationships.Ann.Cliff}}"
+					},
+					"TextureName": "Ann",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.AnnBeach",
+							"Portrait": "Portraits/Ann_Beach",
+							"Sprite": "Characters/Ann_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_InnKitchen",
+							"Tile": {
+								"X": 11,
+								"Y": 5
+							}
+						}
+                    ],
+					"SpouseRoom": {
+						"MapAsset": "{{ModId}}_MTSpouseRooms",
+						"MapSourceRect": {
+							"X": 6, "Y": 0, "Width": 6, "Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_MTSpousePatios",
+						"MapSourceRect": {
+							"X": 5, "Y": 0, "Width": 4, "Height": 4
+						},
+						"SpriteAnimationFrames": [
+                        ]
+					},
+					"DisplayName": "{{i18n:Name.Ann}}",
+					"Age": "Teen",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}"
+				},
+
+                "Cliff": {
+					"Manner": "Neutral",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Negative",
+					"Gender": "Male",
+					"CanBeRomanced": true,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Summer",
+					"BirthDay": 7,
+					"FriendsAndFamily": {
+						"Ann": "{{i18n:Relationships.Cliff.Ann}}",
+						"Carter": "{{i18n:Relationships.Cliff.Carter}}"
+					},
+					"TextureName": "Cliff",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.Cliff_Beach",
+							"Portrait": "Portraits/Cliff_Beach",
+							"Sprite": "Characters/Cliff_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_InnInterior2ndFloor",
+							"Tile": {
+								"X": 19,
+								"Y": 6
+							}
+						}
+					],
+					"SpouseRoom": {
+						"MapAsset": "{{ModId}}_MTSpouseRooms",
+						"MapSourceRect": {
+							"X": 6, "Y": 18, "Width": 6, "Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_MTSpousePatios",
+						"MapSourceRect": {
+							"X": 4, "Y": 8, "Width": 4, "Height": 4
+						},
+						"SpriteAnimationFrames": [
+						]
+					},
+					"DisplayName": "{{i18n:Name.Cliff}}",
+					"Age": "Teen",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}"
+                },
+
+                "Doug": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Winter",
+					"BirthDay": 11,
+					"FriendsAndFamily": {
+						"Ann": "{{i18n:Relationships.Doug.Ann}}"
+					},
+					"TextureName": "Doug",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.DougBeach",
+							"Portrait": "Portraits/Doug_Beach",
+							"Sprite": "Characters/Doug_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_InnKitchen",
+							"Tile": {
+								"X": 24,
+								"Y": 5
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Doug}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                "Nami": {
+					"Manner": "Rude",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"Gender": "Female",
+					"CanBeRomanced": true,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Fall",
+                    "BirthDay": 10,
+					"FriendsAndFamily": {},
+					"TextureName": "Nami",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.NamiBeach",
+							"Portrait": "Portraits/Nami_Beach",
+							"Sprite": "Characters/Nami_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_InnInterior2ndFloor",
+							"Tile": {
+								"X": 24,
+								"Y": 22
+							}
+						}
+					],
+					"SpouseRoom": {
+						"MapAsset": "{{ModId}}_MTSpouseRooms",
+						"MapSourceRect": {
+							"X": 6, "Y": 27, "Width": 6, "Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_MTSpousePatios",
+						"MapSourceRect": {
+							"X": 4, "Y": 12, "Width": 4, "Height": 4
+						},
+						"SpriteAnimationFrames": [
+						]
+					},
+					"DisplayName": "{{i18n:Name.Nami}}",
+					"Age": "Teen",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest": "false",
+					"SocialTab":"HiddenUntilMet",
+					"PerfectionScore": "{{IncludePerfection}}"
+                },
+
+                //PoPoultry
+                "Lillia": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"Gender": "Female",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Spring",
+					"BirthDay": 24,
+                    "CanVisitIsland": false,
+					"FriendsAndFamily": {
+						"Popuri": "{{i18n:Relationships.Lillia.Popuri}}",
+                        "Rick": "{{i18n:Relationships.Lillia.Rick}}"
+					},
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_PoultryInterior2ndFloor",
+							"Tile": {
+								"X": 16,
+								"Y": 11
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Lillia}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                "Popuri": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Positive",
+					"Gender": "Female",
+					"CanBeRomanced": true,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Summer",
+					"BirthDay": 3,
+					"FriendsAndFamily": {
+						"Lillia": "{{i18n:Relationships.Popuri.Lillia}}",
+                        "Rick": "{{i18n:Relationships.Popuri.Rick}}"
+					},
+					"TextureName": "Popuri",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.PopuriBeach",
+							"Portrait": "Portraits/Popuri_Beach",
+							"Sprite": "Characters/Popuri_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_PoultryInterior2ndFloor",
+							"Tile": {
+								"X": 8,
+								"Y": 15
+							}
+						}
+					],
+					"SpouseRoom": {
+						"MapAsset": "{{ModId}}_MTSpouseRooms",
+						"MapSourceRect": {
+							"X": 12, "Y": 0, "Width": 6, "Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_MTSpousePatios",
+						"MapSourceRect": {
+							"X": 8, "Y": 0, "Width": 4, "Height": 4
+						},
+						"SpriteAnimationFrames": [
+						]
+					},
+					"DisplayName": "{{i18n:Name.Popuri}}",
+					"Age": "Teen",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}"
+                },
+
+                "Rick": {
+					"Manner": "Rude",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"Gender": "Male",
+					"CanBeRomanced": true,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Fall",
+					"BirthDay": 27,
+					"FriendsAndFamily": {
+						"Lillia": "{{i18n:Relationships.Rick.Lillia}}",
+                        "Popuri": "{{i18n:Relationships.Rick.Popuri}}"
+					},
+					"TextureName": "Rick",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.RickBeach",
+							"Portrait": "Portraits/Rick_Beach",
+							"Sprite": "Characters/Rick_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_PoultryInterior2ndFloor",
+							"Tile": {
+								"X": 2,
+								"Y": 15
+							}
+						}
+					],
+					"SpouseRoom": {
+						"MapAsset": "{{ModId}}_MTSpouseRooms",
+						"MapSourceRect": {
+							"X": 0, "Y": 27, "Width": 6, "Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_MTSpousePatios",
+						"MapSourceRect": {
+							"X": 0, "Y": 12, "Width": 4, "Height": 4
+						},
+						"SpriteAnimationFrames": [
+						]
+					},
+					"DisplayName": "{{i18n:Name.Rick}}",
+					"Age": "Teen",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}"
+                },
+
+                //Saibara's Smithy
+
+                "Gray": {
+					"Manner": "Rude",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Negative",
+					"Gender": "Male",
+					"CanBeRomanced": true,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Winter",
+					"BirthDay": 6,
+					"FriendsAndFamily": {
+						"Saibara": "{{i18n:Relationships.Gray.Saibara}}"
+					},
+					"TextureName": "Gray",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.GrayBeach",
+							"Portrait": "Portraits/Gray_Beach",
+							"Sprite": "Characters/Gray_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_InnInterior2ndFloor",
+							"Tile": {
+								"X": 28,
+								"Y": 6
+							}
+						}
+					],
+					"SpouseRoom": {
+						"MapAsset": "{{ModId}}_MTSpouseRooms",
+						"MapSourceRect": {
+							"X": 12, "Y": 9, "Width": 6, "Height": 9
+						}
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_MTSpousePatios",
+						"MapSourceRect": {
+							"X": 8, "Y": 4, "Width": 4, "Height": 4
+						},
+						"SpriteAnimationFrames": [
+						]
+					},
+					"DisplayName": "{{i18n:Name.Gray}}",
+					"Age": "Teen",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}"
+                },
+
+                "Saibara": {
+					"Manner": "Rude",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Spring",
+					"BirthDay": 10,
+					"FriendsAndFamily": {
+						"Gray": "{{i18n:Relationships.Saibara.Gray}}"
+					},
+					"TextureName": "Saibara",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.SaibaraBeach",
+							"Portrait": "Portraits/Saibara_Beach",
+							"Sprite": "Characters/Saibara_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_BlacksmithInterior",
+							"Tile": {
+								"X": 18,
+								"Y": 5
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Saibara}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                //Yodel Ranch
+
+                "Barley": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Spring",
+					"BirthDay": 20,
+					"FriendsAndFamily": {
+						"Mei": "{{i18n:Relationships.Barley.Mei}}"
+					},
+					"TextureName": "Barley",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.BarleyBeach",
+							"Portrait": "Portraits/Barley_Beach",
+							"Sprite": "Characters/Barley_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_YodelRanchInterior2ndFloor",
+							"Tile": {
+								"X": 6,
+								"Y": 13
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Barley}}",
+					"Age": "Adult",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"ItemDeliveryQuests": "false",
+					"WinterStarParticipant": "false"
+					
+                },
+
+                "Mei": {
+					"Manner": "Polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"Gender": "Female",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Winter",
+					"BirthDay": 26,
+					"FriendsAndFamily": {
+						"Barley": "{{i18n:Relationships.Mei.Barley}}",
+						"Stu": "{{i18n:Relationships.Mei.Stu}}"
+					},
+					"TextureName": "Mei",
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.MeiBeach",
+							"Portrait": "Portraits/Mei_Beach",
+							"Sprite": "Characters/Mei_Beach",
+							"IsIslandAttire": true,
+							"Precedence": -100,
+							"Weight": 0
+						},
+					],
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_YodelRanchInterior2ndFloor",
+							"Tile": {
+								"X": 3,
+								"Y": 12
+							}
+						}
+					],
+					"DisplayName": "{{i18n:Name.Mei}}",
+					"Age": "Child",
+					"ItemDeliveryQuests": "false",
+					"IntroductionsQuest":"{{IncludeIntro}}",
+					"PerfectionScore": "{{IncludePerfection}}",
+					"WinterStarParticipant": "false"
+                },
+
+                //Goddess Spring
+                "HarvestGoddess": {
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Spring",
+					"BirthDay": 8,
+					"FriendsAndFamily": {},
+                    "CanVisitIsland": false,
+					
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_MTNPCHiddenRoom",
+							"Tile": {
+								"X": 12,
+								"Y": 4
+							},
+							"Direction": "down",
+						}
+					],
+					"DisplayName": "{{i18n:Name.HarvestGoddess}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"SocialTab":"HiddenUntilMet",
+					"IntroductionsQuest": "false",
+					"PerfectionScore": "false",
+					"WinterStarParticipant": "false"
+
+                },
+
+                "Kappa": {
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"BirthSeason": "Summer",
+					"BirthDay": 4,
+					"FriendsAndFamily": {},
+					"TextureName": "Kappa",
+                    "CanVisitIsland": false,
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_MTNPCHiddenRoom",
+							"Tile": {
+								"X": 9,
+								"Y": 6
+							},
+							"Direction": "down",
+						}
+					],
+					"DisplayName": "{{i18n:Name.Kappa}}",
+					"Age": "Adult",
+					"ItemDeliveryQuests": "false",
+					"SocialTab":"HiddenUntilMet",
+					"IntroductionsQuest": "false",
+					"PerfectionScore": "false",
+					"WinterStarParticipant": "false"
+                },
+            },
+        },
+    ]
+}

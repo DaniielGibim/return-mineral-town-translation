@@ -1,0 +1,24 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "gotz Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/gotz",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_MountainLake 44 17 3/830 {{ModId}}_WoodCutter 35 16 1/1030 {{ModId}}_WoodCutterInterior 2 5 0/1120 {{ModId}}_WoodCutterInterior 5 9 0/1700 {{ModId}}_WoodCutterInterior 4 8 1 gotz_work/2100 {{ModId}}_WoodCutterInterior 17 5 1 gotz_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Tue": "610 Forest 71 38 0/1200 Forest 29 38 0/1500 Forest 85 31 3/1900 {{ModId}}_WoodCutterInterior 4 8 3 gotz_work/2100 {{ModId}}_WoodCutterInterior 18 5 1 gotz_sleep",
+        "Sat": "610 {{ModId}}_MountainLake 44 17 3/830 {{ModId}}_WoodCutter 35 16 1/1100 ScienceHouse 5 19 1/1700 Mountain 38 35 3/1900 {{ModId}}_WoodCutterInterior 4 8 1 gotz_work/2100 {{ModId}}_WoodCutterInterior 17 5 1 gotz_sleep",
+        "Sun": "610 {{ModId}}_WoodCutterInterior 2 5 0/710 {{ModId}}_WoodCutterInterior 4 12 2/1230 {{ModId}}_MountainLake 39 39 0/1500 {{ModId}}_WoodCutterInterior 4 5 0/1700 {{ModId}}_WoodCutterInterior 3 10 1/1800 {{ModId}}_InnInterior 15 8 0/2100 {{ModId}}_WoodCutterInterior 17 5 1 gotz_sleep",
+        "rain": "610 {{ModId}}_WoodCutterInterior 2 5 0/710 {{ModId}}_WoodCutterInterior 4 12 2/900 {{ModId}}_WoodCutterInterior 4 8 3 gotz_work/1150 {{ModId}}_WoodCutterInterior 14 8 2/1500 {{ModId}}_WoodCutterInterior 4 5 0/1700 {{ModId}}_WoodCutterInterior 5 9 0/2100 {{ModId}}_WoodCutterInterior 17 5 1 gotz_sleep",
+        "GreenRain": "GOTO rain"
+
+      }
+    }
+  ]
+}

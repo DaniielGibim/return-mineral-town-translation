@@ -1,0 +1,506 @@
+{
+    "Changes": [
+    {
+    "Logname": "Mineral Town Shops",
+    "Action": "EditData",
+    "Target": "Data/Shops",
+    "Entries": {
+
+        "{{ModID}}_DougVendor": { //Moonlight Inn Shop
+        "Owners": [
+            {
+            "Name": "Doug",
+            "Dialogues": [
+        {
+            "Id": "{{ModID}}_DougVendor",
+            "Dialogue": "{{i18n:ShopsDialogue.Doug}}"
+        },
+        ]   
+        },
+        ],
+            "ClosedMessage": "{{i18n:ShopsDialogue.Doug-close}}",
+            "Items": [
+                {
+                    "Id": "{{ModID}}_Daily_Special",
+                    "ItemId": "{{ModID}}_Daily_Special",
+                    "Price": 750,
+                }, 
+                {
+                    "Id": "Salad",
+                    "ItemId": "(O)196",
+                    "Price": 220,
+                },
+                {
+                    "Id": "Beer",
+                    "ItemId": "(O)346",
+                    "Price": 400,
+                },
+                {
+                    "Id": "Bread",
+                    "ItemId": "(O)216",
+                    "Price": 120,
+                },
+                {
+                    "Id": "Pizza",
+                    "ItemId": "(O)206",
+                    "Price": 600,
+                },
+                {
+                    "Id": "Coffee",
+                    "ItemId": "(O)395",
+                    "Price": 300,
+                },
+            ]
+        },
+        "{{ModID}}_JeffVendor": { //Market Shop
+        "Owners": [
+            {
+            "Name": "Jeff",
+            "Dialogues": [
+        {
+            "Id": "{{ModID}}_JeffVendor",
+            "Dialogue": "{{i18n:ShopsDialogue.Jeff}}"
+        },
+        ]   
+        },
+        ],
+        "ClosedMessage": "{{i18n:ShopsDialogue.Jeff-close}}",
+        "Items": [
+            {
+            "Id": "{{ModID}}_Dark_Chocolate_Bar",
+            "ItemId": "{{ModID}}_Dark_Chocolate_Bar",
+            "Price": 200,
+            }, 
+            {
+            "Id": "{{ModID}}_Harvest_Cucumber",
+            "ItemId": "{{ModID}}_Harvest_Cucumber",
+            "Price": 200,
+            },
+            {
+            "Id": "{{ModID}}_Harvest_Curry_Powder",
+            "ItemId": "{{ModID}}_Harvest_Curry_Powder",
+            "Price": 400,
+            },
+            {
+            "Id": "{{ModID}}_Mineral_Salt",
+            "ItemId": "{{ModID}}_Mineral_Salt",
+            "Price": 300,
+            },
+            {
+            "Id": "{{ModID}}_Miso",
+            "ItemId": "{{ModID}}_Miso",
+            "Price": 300,
+            },
+            {
+            "Id": "{{ModID}}_Salted_Butter",
+            "ItemId": "{{ModID}}_Salted_Butter",
+            "Price": 300,
+            },
+            {
+            "Id": "{{ModID}}_Warp_Totem_Mineral_Town",
+            "ItemId": "{{ModID}}_Warp_Totem_Mineral_Town",
+            "Price": 1250,
+            },
+            {
+            "Id": "{{ModID}}_WinstonScarecrow",
+            "ItemId": "{{ModID}}_WinstonScarecrow",
+            "Price": 6000,
+            "AvailableStock": 1,
+            },
+
+                        
+            //Spring
+
+            {
+            "Id": "{{ModID}}_PeteScarecrow",
+            "ItemId": "{{ModID}}_PeteScarecrow",
+            "Price": 5000,
+            "AvailableStock": 1,
+			"Condition": "SEASON spring",   
+            },
+            {
+            "Id": "Parsnip Seeds",
+            "ItemId": "(O)472",
+            "Price": 20,
+			"Condition": "SEASON spring",
+			},
+            {
+            "Id": "Bean Starter",
+            "ItemId": "(O)473",
+            "Price": 60,
+            "Condition": "SEASON spring",
+            },
+            {
+            "Id": "Cauliflower Seeds",
+            "ItemId": "(O)474",
+            "Price": 80,
+            "Condition": "SEASON spring",
+            },
+            {
+            "Id": "Potato Seeds",
+            "ItemId": "(O)475",
+            "Price": 50,
+            "Condition": "SEASON spring",
+            },
+            {
+            "Id": "Kale Seeds",
+            "ItemId": "(O)477",
+            "Price": 70,
+            "Condition": "SEASON spring",
+            },
+            {
+            "Id": "Garlic Seeds",
+            "ItemId": "(O)476",
+            "Price": 40,
+            "Condition": "SEASON spring",
+            },
+            
+
+            //Summer
+            
+            {
+            "Id": "{{ModID}}_KevinScarecrow",
+            "ItemId": "{{ModID}}_KevinScarecrow",
+            "Price": 5000,
+            "AvailableStock": 1,
+			"Condition": "SEASON summer",   
+            },
+            {
+            "Id": "Melon Seeds",
+            "ItemId": "(O)479",
+            "Price": 80,
+            "Condition": "SEASON summer",
+            },
+            {
+            "Id": "Tomato Seeds",
+            "ItemId": "(O)480",
+            "Price": 50,
+            "Condition": "SEASON summer",
+            },
+            {
+            "Id": "Blueberry Seeds",
+            "ItemId": "(O)481",
+            "Price": 80,
+            "Condition": "SEASON summer",
+            },
+            {
+            "Id": "Pepper Seeds",
+            "ItemId": "(O)482",
+            "Price": 40,
+            "Condition": "SEASON summer",
+            },
+            {
+            "Id": "Wheat Seeds",
+            "ItemId": "(O)483",
+            "Price": 10,
+            "Condition": "SEASON summer fall",
+            },
+            {
+            "Id": "Radish Seeds",
+            "ItemId": "(O)484",
+            "Price": 40,
+            "Condition": "SEASON summer",
+            },
+            {
+            "Id": "Hops Starter",
+            "ItemId": "(O)302",
+            "Price": 60,
+            "Condition": "SEASON summer",
+            },
+            {
+            "Id": "Corn Seeds",
+            "ItemId": "(O)487",
+            "Price": 150,
+            "Condition": "SEASON summer fall",
+            },
+            {
+            "Id": "Red Cabbage Seeds",
+            "ItemId": "(O)485",
+            "Price": 100,
+            "Condition": "SEASON summer",
+            },
+                
+
+            //Fall
+
+            {
+            "Id": "{{ModID}}_YutoScarecrow",
+            "ItemId": "{{ModID}}_YutoScarecrow",
+            "Price": 5000,
+            "AvailableStock": 1,
+			"Condition": "SEASON fall",   
+            },
+            {
+            "Id": "Eggplant Seeds",
+            "ItemId": "(O)488",
+            "Price": 20,
+            "Condition": "SEASON fall",
+            },
+            {
+            "Id": "Pumpkin Seeds",
+            "ItemId": "(O)490",
+            "Price": 100,
+            "Condition": "SEASON fall",
+            },
+            {
+            "Id": "Bok Choy Seeds",
+            "ItemId": "(O)491",
+            "Price": 50,
+            "Condition": "SEASON fall",
+            },
+            {
+            "Id": "Yam Seeds",
+            "ItemId": "(O)492",
+            "Price": 60,
+            "Condition": "SEASON fall",
+            },
+            {
+            "Id": "Cranberry Seeds",
+            "ItemId": "(O)493",
+            "Price": 240,
+            "Condition": "SEASON fall",
+            },
+            {
+            "Id": "Amaranth Seeds",
+            "ItemId": "(O)299",
+            "Price": 70,
+            "Condition": "SEASON fall",
+            },
+            {
+            "Id": "Grape Starter",
+            "ItemId": "(O)301",
+            "Price": 60,
+            "Condition": "SEASON fall",
+            },
+            {
+            "Id": "Artichoke Seeds",
+            "ItemId": "(O)489",
+            "Price": 30,
+            "Condition": "SEASON fall",
+            },
+
+            //Winter
+
+            {
+            "Id": "{{ModID}}_AngelaScarecrow",
+            "ItemId": "{{ModID}}_AngelaScarecrow",
+            "Price": 5000,
+            "AvailableStock": 1,
+			"Condition": "SEASON winter",   
+            },
+            {
+            "Id": "{{ModID}}_HollyScarecrow",
+            "ItemId": "{{ModID}}_HollycdfScarecrow",
+            "Price": 5000,
+            "AvailableStock": 1,
+            "Condition": "SEASON winter",   
+            },
+            {
+			"Id": "{{ModID}}_Jeff_Winter",
+			"ItemId": "(O)770",
+			"AvailableStock": 9,
+			"Condition": "SEASON winter"
+			},
+            ]
+            },
+            "{{ModID}}_KaiVendor": { //SnackShack
+            "Owners": [
+            {
+            "Name": "Kai",
+            "Dialogues": [
+            {
+            "Id": "{{ModID}}_KaiVendor",
+            "Dialogue": "{{i18n:ShopsDialogue.Kai}}"
+            },
+                         ]   
+            },
+                        ],
+            "ClosedMessage": "{{i18n:ShopsDialogue.Kai-close}}",
+            "Items": [
+                {
+                    "Id": "{{ModID}}_French_Fries",
+                    "ItemId": "{{ModID}}_French_Fries",
+                    "Price": 300,
+                }, 
+                {
+                    "Id": "{{ModID}}_Salted_Popcorn",
+                    "ItemId": "{{ModID}}_Salted_Popcorn",
+                    "Price": 400,
+                },
+                {
+                    "Id": "{{ModID}}_Sandwich",
+                    "ItemId": "{{ModID}}_Sandwich",
+                    "Price": 300,
+                },
+                {
+                    "Id": "{{ModID}}_Snow_Cone",
+                    "ItemId": "{{ModID}}_Snow_Cone",
+                    "Price": 250,
+                },
+            ]
+        },
+        "BebsiFridge": { //Bebsi Vending
+        "Owners": [
+          {
+            "Name": "AnyOrNone",
+          },
+        ],
+        "Items": [
+                {
+                    "Id": "{{ModID}}_Bebsi_Cola",
+                    "ItemId": "{{ModID}}_Bebsi_Cola",
+                    "Price": 70,
+                },
+            ]    
+        },
+        "{{ModID}}_WonVendor": { //Won's Shop
+        "Owners": [
+        {
+        "Name": "Won",
+        "Dialogues": [
+        {
+        "Id": "{{ModID}}_WonVendor",
+        "Dialogue": "{{i18n:ShopsDialogue.Won}}"
+        },
+                     ]   
+        },
+                    ],
+        "ClosedMessage": "{{i18n:ShopsDialogue.Won-close}}",
+        "Items": [
+            {
+                "Id":"MT.WonVendor.Paintings",
+                "AvaliableStock":1,
+                "Price": 0,
+                "TradeItemId": "{{ModID}}_Won_Ticket",
+                "TradeItemAmount": 5,
+                "AvailableStockLimit":"Player",
+                "RandomItemId":[
+                "{{ModID}}_BoTW_Painting",
+                "{{ModID}}_EldenRing_Painting",
+                "{{ModID}}_FF7_Painting",
+                "{{ModID}}_Mario_Painting",
+                "{{ModID}}_Kirby_Painting",
+                ]
+                },
+            {
+                "Id":"MT.WonVendor.BigPlushies",
+                "AvaliableStock":1,
+                "Price": 0,
+                "TradeItemId": "{{ModID}}_Won_Ticket",
+                "TradeItemAmount": 5,
+                "AvailableStockLimit":"Player",
+                "RandomItemId":[
+                "{{ModID}}_FatChocobo",
+                "{{ModID}}_Gato",
+                "{{ModID}}_DonkeyKong"
+                ]
+                },
+            {
+                "Id":"MT.WonVendor.SmallPlushies",
+                "AvaliableStock":1,
+                "Price": 0,
+                "TradeItemId": "{{ModID}}_Won_Ticket",
+                "TradeItemAmount": 5,
+                "AvailableStockLimit":"Player",
+                "RandomItemId":[
+                "{{ModID}}_Morgana",
+                "{{ModID}}_Tonberry",
+                "{{ModID}}_Sonic",
+                "{{ModID}}_Link",
+                "{{ModID}}_BabyYoshi",
+                "{{ModID}}_Tails",
+                "{{ModID}}_Knuckles",
+                "{{ModID}}_Moogle",
+                "{{ModID}}_Shadow",
+                ]
+                },
+            {
+                "Id":"MT.WonVendor.Rugs",
+                "AvaliableStock":1,
+                "Price": 0,
+                "TradeItemId": "{{ModID}}_Won_Ticket",
+                "TradeItemAmount": 5,
+                "AvailableStockLimit":"Player",
+                "RandomItemId":[
+                "{{ModID}}_KHRug",
+                "{{ModID}}_TriforceRug",
+                "{{ModID}}_DragonBallRug"
+                ]
+                },
+            {
+                "Id":"MT.WonVendor.Hats",
+                "AvaliableStock":1,
+                "Price": 0,
+                "TradeItemId": "{{ModID}}_Won_Ticket",
+                "TradeItemAmount": 5,
+                "AvailableStockLimit":"Player",
+                "RandomItemId":[
+                "{{ModID}}_EmilHead",
+                ]
+                },
+            {
+                "Id":"MT.WonVendor.Furniture",
+                "AvaliableStock":1,
+                "Price": 0,
+                "TradeItemId": "{{ModID}}_Won_Ticket",
+                "TradeItemAmount": 5,
+                "AvailableStockLimit":"Player",
+                "RandomItemId":[
+                "{{ModID}}_BusterSword",
+                "{{ModID}}_MushroomStool",
+                "{{ModID}}_DragonSlayer",
+                "{{ModID}}_MinecraftSwords",
+                "{{ModID}}_MoonlightGreatsword"
+                ]
+                },
+            {
+                "Id":"MT.WonVendor.Weapons",
+                "AvaliableStock":1,
+                "Price": 0,
+                "TradeItemId": "{{ModID}}_Won_Ticket",
+                "TradeItemAmount": 10,
+                "AvailableStockLimit":"Player",
+                "RandomItemId":[
+                "{{ModID}}_Masamune",
+                "{{ModID}}_Kingdom_Key",
+                "{{ModID}}_Monado",
+                "{{ModID}}_Master_Sword",
+                "{{ModID}}_Amy_Hammer",
+                "{{ModID}}_Dream_Staff",
+                "{{ModID}}_Spiral_Heart_Moon_Rod",
+                "{{ModID}}_Sting"
+                ]
+                },
+                {
+                    "Id": "{{ModID}}_Paopu_Sapling",
+                    "ItemId": "{{ModID}}_Paopu_Sapling",
+                    "Price": 0,
+                    "TradeItemId": "{{ModID}}_Won_Ticket",
+                    "TradeItemAmount": 15,
+                    "AvailableStockLimit":"Player",
+                    "Condition": "SEASON spring summer",
+                },
+                {
+                    "Id": "{{ModID}}_Wumpa_Sapling",
+                    "ItemId": "{{ModID}}_Wumpa_Sapling",
+                    "Price": 0,
+                    "TradeItemId": "{{ModID}}_Won_Ticket",
+                    "TradeItemAmount": 15,
+                    "AvailableStockLimit":"Player",
+                    "Condition": "SEASON summer fall",
+                },
+                {
+                    "Id": "{{ModID}}_Mutfruit_Sapling",
+                    "ItemId": "{{ModID}}_Mutfruit_Sapling",
+                    "Price": 0,
+                    "TradeItemId": "{{ModID}}_Won_Ticket",
+                    "TradeItemAmount": 15,
+                    "AvailableStockLimit":"Player",
+                    "Condition": "SEASON fall winter",
+                },
+        ]
+    },
+    },
+}
+]
+}

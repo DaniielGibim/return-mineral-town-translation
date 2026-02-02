@@ -1,0 +1,160 @@
+{
+	"Format": "2.0.0",
+
+// CONFIG OPTIONS
+	"ConfigSchema": {
+		"SeasonalOutfits": {
+			"Description": "Enable Seasonal Outfits",
+			"AllowValues": "true, false",
+			"Default": "true"
+        },
+		"IntroQuest": {
+		  	"Description": "Exclude or Include Npcs from Intro Quest.",
+		  	"AllowValues": "Exclude, Include",
+		  	"Default": "Exclude",
+		  	"AllowBlank": false
+	  	},
+		  "PerfectionScoreNpc": {
+            "Description": "Exclude or Include Npcs from Perfection score.",
+            "AllowValues": "Exclude, Include",
+            "Default": "Exclude",
+            "AllowBlank": false
+        },		
+	},
+	"DynamicTokens": [
+     	{
+            "Name": "IncludeIntro",
+            "Value": "false"
+        },
+        {
+            "Name": "IncludeIntro",
+            "When": {"IntroQuest": "Include",},
+            "Value": "true"
+        },
+		{
+            "Name": "IncludePerfection",
+            "Value": "false"
+        },
+        {
+            "Name": "IncludePerfection",
+            "When": {"PerfectionScoreNpc": "Include",},
+            "Value": "true"
+        }
+	],
+
+	/*********
+	** Include Data
+	*********/
+	"Changes": [
+		
+
+		//Include Dependency Data
+		/* Loads CP code for Custom Companions, Farm Type Manager, Questframework, AntisocialNPCs, and Custom NPC Exclusions. */
+
+	{
+		"Action": "Include",
+		"FromFile": "Data/DependencyData/AntiSocialNPCs.json, Data/DependencyData/CustomCompanions.json, Data/DependencyData/FarmTypeManager.json, Data/DependencyData/CustomNPCExclusions.json",
+	},
+
+		//Locations
+		{
+			"LogName": "Include all the Locations",
+			"Action": "Include",
+			"FromFile": "Data/Locations/Locations.json",
+		},
+		//Include Event Data
+		/* Loads event fork dialogies, blank files, special characters, and event scripts for versions up to 1.2.8. */
+		{
+        	"LogName": "Include all the Events",
+            "Action": "Include",
+            "FromFile": "Data/Events/Events.json,Data/Events/EventsBlank.json",
+       	},
+		{
+			"LogName": "Include all Mail",
+			"Action": "Include",
+			"FromFile": "Data/Mail/Mail.json, Data/Mail/ActionTriggers.json",
+		},
+		//Include Fish Data
+		/* Loads fish data including spawn locations, fishpond, and aquarium data. */
+		{
+			"LogName": "Include Fish Data",
+			"Action": "Include",
+			"FromFile": "Data/Fish/Aquarium.json, Data/Fish/FishData.json, Data/Fish/FishPond.json"
+		},
+		//Include Dynamic Changes
+		/* Loads json files that dynamically change the mod/game as the player meets certain requirements. */
+		{
+			"LogName": "Include Dynamic Changes",
+			"Action": "Include",
+			"FromFile": "Data/DynamicChanges/MapChanges.json"
+		},
+		//Include Intermod Compatibility Files
+		/* Loads files that ensure/apply compatibilities with other mods. */
+		{
+			"LogName": "Include all InterModCompat files",
+			"Action": "Include",
+			"FromFile": "Data/InterModCompat/Ayeisha.json, Data/InterModCompat/Cotton.json, Data/InterModCompat/NPCMapLocations.json, Data/InterModCompat/CJBCheats.json, Data/InterModCompat/CentralStation.json",
+		},
+
+		//Includes Map Data
+		/* Loads files for loading maps, map music, map patches, strings, and warps. */
+		{
+			"LogName": "Include all the Map Data",
+			"Action": "Include",
+			"FromFile": "Data/MapData/MapMusic.json, Data/MapData/MapPatches.json, Data/MapData/MapWarps.json, Data/MapData/MapStrings.json, Data/MapData/GarbageCans.json, Data/MapData/WorldMap.json",
+		},
+		//Includes NPC Data
+		/* Includes all data that concerns the NPCs, that includes: Animations, Conversation Topics, Dialogue, Dispositions, GiftTastes, Mail, Movie Data, Portraits, Romance, Schedules, Schedule Strings, and Sprites */
+		{
+			"LogName": "Include all the NPCData",
+			"Action": "Include",
+			"FromFile": "Data/NPCData/Animations.json, Data/NPCData/Dialogue.json, Data/NPCData/Dispositions.json, Data/NPCData/GiftTasteData.json, Data/NPCData/Portraits.json, Data/NPCData/Romance.json, Data/NPCData/Schedules.json, Data/NPCData/Sprites.json, Data/NPCData/Movies.json",
+		},
+		{
+			"LogName": "Objects",
+			"Action": "Include",
+			"FromFile": "Data/Objects/ObjectContent.json, Data/Objects/Recipes.json, Data/Objects/FruitTrees.json",
+		},
+
+		//Include Festival Data
+		/* Loads json file that adds festival locations and festival dialogue. */
+		{
+			"LogName": "Include all the Festival Data",
+			"Action": "Include",
+			"FromFile": "Data/Festivals/FestivalData.json",
+		},
+
+		//Include Music Data
+		/* Loads json file that adds Custom Music */
+		{
+			"LogName": "Include all the Music",
+			"Action": "Include",
+			"FromFile": "Data/Music.json",
+		},
+
+		//Includes Tilesheets
+		/* Loads tilesheets */
+		{
+			"LogName": "Include Tilesheets",
+			"Action": "Include",
+			"FromFile": "Data/Tilesheets.json",
+		},
+		//Include Shops
+		{
+			"LogName": "Include Shops",
+			"Action": "Include",
+			"FromFile": "Data/Shops.json",
+		},
+		//Include Outfits
+		{
+			"LogName": "Include Seasonal Outfits",
+			"Action": "Include",
+			"Priority": "Low",
+			"FromFile": "Data/Outfits/WinterOutfits.json, Data/Outfits/FallOutfits.json, Data/Outfits/SummerOutfits.json, Data/Outfits/FestivalOutfits.json",
+			      "When": {
+        			"SeasonalOutfits": "true"
+				  		}
+		}
+	
+	]
+}

@@ -1,0 +1,25 @@
+{
+    "Changes": [
+    
+    //------------------------
+    // S C H E D U L E S
+    //------------------------
+    
+      {
+        "LogName": "Load Empty Mineral Town Schedule File",
+           "Action": "Load",
+           "Target": "Characters/Schedules/Aja, Characters/Schedules/Ann, Characters/Schedules/Anna, Characters/Schedules/Barley, Characters/Schedules/Basil, Characters/Schedules/Carter, Characters/Schedules/Cliff, Characters/Schedules/Doctor, Characters/Schedules/Doug, Characters/Schedules/Duke, Characters/Schedules/Ellen, Characters/Schedules/Elli, Characters/Schedules/Gotz, Characters/Schedules/Gray, Characters/Schedules/Harris, Characters/Schedules/HarvestGoddess, Characters/Schedules/Jeff, Characters/Schedules/Kai, Characters/Schedules/Kappa, Characters/Schedules/Karen, Characters/Schedules/Lillia, Characters/Schedules/Manna, Characters/Schedules/Marie, Characters/Schedules/Mei, Characters/Schedules/Nami, Characters/Schedules/Popuri, Characters/Schedules/Rick, Characters/Schedules/Saibara, Characters/Schedules/Sasha, Characters/Schedules/Stu, Characters/Schedules/Tate, Characters/Schedules/Thomas, Characters/Schedules/Won, Characters/Schedules/Zack",
+           "FromFile": "Data/blank.json"
+      },
+    
+        /*********
+        ** Include Schedule Files
+        *********/
+      {
+        "LogName": "Include Mineral Town Schedule Files",
+           "Action": "Include",
+           "FromFile": "Assets/Schedules/Aja.json, Assets/Schedules/Anna.json, Assets/Schedules/Ann.json, Assets/Schedules/Barley.json, Assets/Schedules/Basil.json, Assets/Schedules/Carter.json, Assets/Schedules/Cliff.json, Assets/Schedules/Doctor.json, Assets/Schedules/Doug.json, Assets/Schedules/Duke.json, Assets/Schedules/Ellen.json, Assets/Schedules/Elli.json, Assets/Schedules/Gotz.json, Assets/Schedules/Gray.json, Assets/Schedules/Harris.json, Assets/Schedules/HarvestGoddess.json, Assets/Schedules/Jeff.json, Assets/Schedules/Kai.json, Assets/Schedules/Kappa.json, Assets/Schedules/Karen.json, Assets/Schedules/Lillia.json, Assets/Schedules/Manna.json, Assets/Schedules/Marie.json, Assets/Schedules/Mei.json, Assets/Schedules/Nami.json, Assets/Schedules/Popuri.json, Assets/Schedules/Rick.json, Assets/Schedules/Saibara.json,  Assets/Schedules/Sasha.json,  Assets/Schedules/Stu.json, Assets/Schedules/Tate.json,  Assets/Schedules/Thomas.json,  Assets/Schedules/Won.json,  Assets/Schedules/Zack.json"
+      }
+    
+    ]
+    }

@@ -1,0 +1,27 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Harris Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Harris",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_TownCenter 30 68 2/810 {{ModId}}_TownCenter 115 87 2/1000 {{ModId}}_YodelRanchInterior 7 13 3/1200 {{ModId}}_TownCenter 65 92 2/1400 {{ModId}}_WoodCutter 22 22 1/1800 {{ModId}}_InnInterior 20 18 0/2200 {{ModId}}_MayorInterior 1 5 3 harris_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Mon": "610 {{ModId}}_TownCenter 30 68 2/810 {{ModId}}_TownCenter 115 87 2/1000 {{ModId}}_YodelRanchInterior 7 13 3/1200 {{ModId}}_TownCenter 64 93 2/1400 {{ModId}}_WoodCutter 22 22 1/1800 {{ModId}}_InnInterior 20 18 0/2200 {{ModId}}_MayorInterior 1 5 3 harris_sleep",
+        "Tue": "610 {{ModId}}_MayorInterior 1 5 3/810 {{ModId}}_MayorInterior 11 5 0/1030 {{ModId}}_MayorInterior 15 6 3/1100 {{ModId}}_MayorInterior 6 15 3/1800 {{ModId}}_TownCenter 64 93 2/2000 {{ModId}}_MayorInterior 1 13 0/2200 {{ModId}}_MayorInterior 1 5 3 harris_sleep",
+        "Wed": "610 {{ModId}}_TownCenter 30 68 2/810 {{ModId}}_TownCenter 115 87 2/1000 {{ModId}}_YodelRanchInterior 7 13 3/1200 {{ModId}}_TownCenter 64 93 2/1400 {{ModId}}_WoodCutter 22 22 1/1800 {{ModId}}_InnInterior 20 18 0/2200 {{ModId}}_MayorInterior 1 5 3 harris_sleep",
+        "Thu": "610 {{ModId}}_TownCenter 30 68 2/810 {{ModId}}_TownCenter 115 87 2/1000 {{ModId}}_YodelRanchInterior 7 13 3/1200 {{ModId}}_TownCenter 64 93 2/1400 {{ModId}}_WoodCutter 22 22 1/1800 {{ModId}}_InnInterior 20 18 0/2200 {{ModId}}_MayorInterior 1 5 3 harris_sleep",
+        "Fri": "610 {{ModId}}_MayorInterior 1 5 3/810 {{ModId}}_MayorInterior 11 5 0/1030 {{ModId}}_MayorInterior 15 6 3/1100 {{ModId}}_MayorInterior 6 15 3/1800 {{ModId}}_TownCenter 64 93 2/2000 {{ModId}}_MayorInterior 1 13 0/2200 {{ModId}}_MayorInterior 1 5 3 harris_sleep",
+        "Sat": "610 {{ModId}}_MayorInterior 1 5 3/810 {{ModId}}_MayorInterior 11 5 0/1030 {{ModId}}_MayorInterior 15 6 3/1100 {{ModId}}_MayorInterior 6 15 3/1800 {{ModId}}_TownCenter 64 93 2/2000 {{ModId}}_MayorInterior 1 13 0/2200 {{ModId}}_MayorInterior 1 5 3 harris_sleep",
+        "Sun": "610 {{ModId}}_MayorInterior 1 5 3/800 {{ModId}}_MayorInterior 11 5 0/1000 {{ModId}}_MayorInterior 15 6 3/1100 {{ModId}}_ChurchInterior 14 21 0/1500 {{ModId}}_TownCenter 38 31 2/1800 {{ModId}}_InnInterior 20 18 0/2200 {{ModId}}_MayorInterior 1 5 3 harris_sleep",
+        "rain": "GOTO spring",
+        "GreenRain": "GOTO spring"
+      }
+    }
+  ]
+}

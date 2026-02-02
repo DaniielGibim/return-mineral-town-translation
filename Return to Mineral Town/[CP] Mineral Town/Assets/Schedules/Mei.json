@@ -1,0 +1,25 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Mei Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Mei",
+      "Entries": {
+
+      //Regular Schedule
+        "spring": "610 {{ModId}}_YodelRanchInterior2ndFloor 5 5 0/730 {{ModId}}_TownCenter 75 83 3/1000 {{ModId}}_TownCenter 74 70 2 mei_rope/1300 {{ModId}}_YodelRanchInterior 11 12 2/1500 {{ModId}}_YodelRanchInterior2ndFloor 5 5 3 mei_color/1800 {{ModId}}_YodelRanchInterior2ndFloor 10 5 0/2100 {{ModId}}_YodelRanchInterior2ndFloor 1 9 3 mei_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Tue": "610 {{ModId}}_YodelRanchInterior2ndFloor 5 5 0/810 {{ModId}}_YodelRanchInterior 14 12 3/1100 Town 37 95 3/1300 Town 56 69 3/1400 Town 25 13 0/1800 {{ModId}}_YodelRanchInterior 11 12 2/2100 {{ModId}}_YodelRanchInterior2ndFloor 1 9 3 mei_sleep",
+        "Wed": "610 {{ModId}}_YodelRanchInterior2ndFloor 5 5 0/1000 {{ModId}}_YodelRanchInterior 14 12 3/1100 {{ModId}}_YodelRanchInterior 8 8 2/1130 {{ModId}}_YodelRanchInterior 11 12 2/1200 {{ModId}}_YodelRanchInterior 14 6 3/1230 {{ModId}}_YodelRanchInterior 8 8 2/1300 {{ModId}}_TownCenter 123 102 1/1400 {{ModId}}_TownCenter 126 110 2 mei_rope/1630 {{ModId}}_YodelRanchInterior 11 12 2/2100 {{ModId}}_YodelRanchInterior2ndFloor 1 9 3 mei_sleep",
+        "Sun": "610 {{ModId}}_YodelRanchInterior2ndFloor 5 5 0/800 {{ModId}}_ChurchInterior 2 9 3/1000 {{ModId}}_ChurchInterior 19 8 1/1200 {{ModId}}_ChurchInterior 18 15 0/1500 {{ModId}}_ChurchInterior 2 9 3/1600 {{ModId}}_ChurchInterior 19 8 1/1800 {{ModId}}_YodelRanchInterior2ndFloor 10 5 0/1900 {{ModId}}_YodelRanchInterior 14 9 3/2100 {{ModId}}_YodelRanchInterior2ndFloor 1 9 3 mei_sleep",
+        "summer_Wed": "610 {{ModId}}_YodelRanchInterior2ndFloor 5 5 0/810 {{ModId}}_YodelRanchInterior 14 12 3/1000 {{ModId}}_TownCenter 128 84 0/1200 {{ModId}}_SnackShackInterior 11 8 0/1230 {{ModId}}_SnackShackInterior 18 12 3/1500 {{ModId}}_MineralBeach 13 7 3/1800 {{ModId}}_YodelRanchInterior2ndFloor 10 5 0/1900 {{ModId}}_YodelRanchInterior 14 9 3/2100 {{ModId}}_YodelRanchInterior2ndFloor 1 9 3 mei_sleep",
+        "summer_Fri": "610 {{ModId}}_YodelRanchInterior2ndFloor 5 5 0/900 {{ModId}}_YodelRanchInterior 14 12 3/1100 Town 25 13 0/1300 Town 87 93 0/1700 {{ModId}}_TownCenter 35 74 1/1930 {{ModId}}_YodelRanchInterior 11 12 2/2100 {{ModId}}_YodelRanchInterior2ndFloor 1 9 3 mei_sleep",
+        "rain": "610 {{ModId}}_YodelRanchInterior2ndFloor 5 5 0/1000 {{ModId}}_YodelRanchInterior 14 12 3/1100 {{ModId}}_YodelRanchInterior 8 8 2/1130 {{ModId}}_YodelRanchInterior 11 12 2/1200 {{ModId}}_YodelRanchInterior 14 6 3/1230 {{ModId}}_YodelRanchInterior 8 8 2/1300 {{ModId}}_YodelRanchInterior2ndFloor 5 5 0/1700 {{ModId}}_YodelRanchInterior2ndFloor 10 5 0/1710 {{ModId}}_YodelRanchInterior2ndFloor 11 7 2/1900 {{ModId}}_YodelRanchInterior 14 9 3/2100 {{ModId}}_YodelRanchInterior2ndFloor 1 9 3 mei_sleep",
+        "GreenRain": "GOTO rain"
+      }
+    }
+  ]
+}

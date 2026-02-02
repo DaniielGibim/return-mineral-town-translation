@@ -1,0 +1,105 @@
+{
+"Changes": [
+	{
+   
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/Carter",
+   "Entries": {
+   	"Introduction": "{{i18n:{{TargetWithoutPath}}.Dialogue.Introduction}}",
+
+
+		//Spring
+	"spring_1": "{{i18n:Carter.Dialogue.spring_1}}",
+	"spring_12": "{{i18n:Carter.Dialogue.spring_12}}",
+	"spring_23": "{{i18n:Carter.Dialogue.spring_23}}",
+
+		//Summer
+	"summer_1": "{{i18n:Carter.Dialogue.summer_1}}",
+	"summer_10": "{{i18n:Carter.Dialogue.summer_10}}",
+	"summer_27": "{{i18n:Carter.Dialogue.summer_27}}",
+
+		//Fall
+	"fall_1": "{{i18n:Carter.Dialogue.fall_1}}",
+	"fall_15": "{{i18n:Carter.Dialogue.fall_15}}",
+	"fall_26": "{{i18n:Carter.Dialogue.fall_26}}",
+
+		//Winter
+	"winter_1": "{{i18n:Carter.Dialogue.winter_1}}",
+	"winter_7": "{{i18n:Carter.Dialogue.winter_7}}",
+	"winter_24": "{{i18n:Carter.Dialogue.winter_24}}",
+
+		//Days of the Week
+
+		//0 Hearts
+	"Mon": "{{i18n:Carter.Dialogue.Mon}}",
+	"Tue": "{{i18n:Carter.Dialogue.Tue}}",
+	"Wed": "{{i18n:Carter.Dialogue.Wed}}",
+	"Thu": "{{i18n:Carter.Dialogue.Thu}}",
+	"Fri": "{{i18n:Carter.Dialogue.Fri}}",
+	"Sat": "{{i18n:Carter.Dialogue.Sat}}",
+	"Sun": "{{i18n:Carter.Dialogue.Sun}}",
+	
+		//2 Hearts
+	"Mon2": "{{i18n:Carter.Dialogue.Mon2}}",
+	"Tue2": "{{i18n:Carter.Dialogue.Tue2}}",
+	"Wed2": "{{i18n:Carter.Dialogue.Wed2}}",
+	"Thu2": "{{i18n:Carter.Dialogue.Thu2}}",
+	"Fri2": "{{i18n:Carter.Dialogue.Fri2}}",
+	"Sat2": "{{i18n:Carter.Dialogue.Sat2}}",
+	"Sun2": "{{i18n:Carter.Dialogue.Sun2}}",
+	
+		//4 Hearts
+	"Mon4": "{{i18n:Carter.Dialogue.Mon4}}",
+	"Tue4": "{{i18n:Carter.Dialogue.Tue4}}",
+	"Wed4": "{{i18n:Carter.Dialogue.Wed4}}",
+	"Thu4": "{{i18n:Carter.Dialogue.Thu4}}",
+	"Fri4": "{{i18n:Carter.Dialogue.Fri4}}",
+	"Sat4": "{{i18n:Carter.Dialogue.Sat4}}",
+	"Sun4": "{{i18n:Carter.Dialogue.Sun4}}",
+	
+		//6 Hearts
+	"Mon6": "{{i18n:Carter.Dialogue.Mon6}}",
+	"Tue6": "{{i18n:Carter.Dialogue.Tue6}}",
+	"Wed6": "{{i18n:Carter.Dialogue.Wed6}}",
+	"Thu6": "{{i18n:Carter.Dialogue.Thu6}}",
+	"Fri6": "{{i18n:Carter.Dialogue.Fri6}}",
+	"Sat6": "{{i18n:Carter.Dialogue.Sat6}}",
+	"Sun6": "{{i18n:Carter.Dialogue.Sun6}}",
+			
+		//8 Hearts
+	"Mon8": "{{i18n:Carter.Dialogue.Mon8}}",
+	"Tue8": "{{i18n:Carter.Dialogue.Tue8}}",
+	"Wed8": "{{i18n:Carter.Dialogue.Wed8}}",
+	"Thu8": "{{i18n:Carter.Dialogue.Thu8}}",
+	"Fri8": "{{i18n:Carter.Dialogue.Fri8}}",
+	"Sat8": "{{i18n:Carter.Dialogue.Sat8}}",
+	"Sun8": "{{i18n:Carter.Dialogue.Sun8}}",
+	
+		//10 Hearts
+	"Mon10": "{{i18n:Carter.Dialogue.Mon10}}",
+	"Tue10": "{{i18n:Carter.Dialogue.Tue10}}",
+	"Wed10": "{{i18n:Carter.Dialogue.Wed10}}",
+	"Thu10": "{{i18n:Carter.Dialogue.Thu10}}",
+	"Fri10": "{{i18n:Carter.Dialogue.Fri10}}",
+	"Sat10": "{{i18n:Carter.Dialogue.Sat10}}",
+	"Sun10": "{{i18n:Carter.Dialogue.Sun10}}",
+
+	//Resort
+	"Resort_Entering": "{{i18n:Carter.Dialogue.Resort_Entering}}",
+	"Resort_Leaving": "{{i18n:Carter.Dialogue.Resort_Leaving}}",
+	"Resort_Shore": "{{i18n:Carter.Dialogue.Resort_Shore}}",
+	"Resort_Bar": "{{i18n:Carter.Dialogue.Resort_Bar}}",
+	"Resort": "{{i18n:Carter.Dialogue.Resort}}",
+
+	 //Special Dialogue
+	"MovieInvitation": "{{i18n:Carter.Dialogue.MovieInvitation}}",
+
+	//Location Dialogue
+	"TownCenter_25_24": "{{i18n:Carter.Dialogue.TownCenter_25_24}}",
+	"ChurchInterior_Sun": "{{i18n:Carter.Dialogue.ChurchInterior_Sun}}",
+	"ChurchInterior_11_8": "{{i18n:Carter.Dialogue.ChurchInterior_11_8}}"
+
+		},
+	},
+]
+}

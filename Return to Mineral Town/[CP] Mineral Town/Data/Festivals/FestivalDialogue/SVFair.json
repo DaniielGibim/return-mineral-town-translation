@@ -1,0 +1,71 @@
+{
+    "Changes": [
+    
+    //------------------------
+    // FESTIVAL DIALOGUE
+    //------------------------
+    
+        //Stardew Valley Fair----------------------
+    
+            {
+                "LogName": "SVFair",
+                "Action": "EditData",
+                "Target": "Data/Festivals/fall16",
+                "Entries": {
+    
+                //Non-Dateables
+                    "Anna": "{{i18n:Festivals.StardewFair.Anna}}",
+                    "Barley": "{{i18n:Festivals.StardewFair.Barley}}",
+                    "Basil": "{{i18n:Festivals.StardewFair.Basil}}",
+                    "Carter": "{{i18n:Festivals.StardewFair.Carter}}",
+                    "Doug": "{{i18n:Festivals.StardewFair.Doug}}",
+                    "Duke": "{{i18n:Festivals.StardewFair.Duke}}",
+                    "Ellen": "{{i18n:Festivals.StardewFair.Ellen}}",
+                    "Gotz": "{{i18n:Festivals.StardewFair.Gotz}}",
+                    "Harris": "{{i18n:Festivals.StardewFair.Harris}}",
+                    "HarvestGoddess": "{{i18n:Festivals.StardewFair.HarvestGoddess}}",
+                    "Jeff": "{{i18n:Festivals.StardewFair.Jeff}}",
+                    "Kappa": "{{i18n:Festivals.StardewFair.Tate}}",
+                    "Lillia": "{{i18n:Festivals.StardewFair.Lillia}}",
+                    "Manna": "{{i18n:Festivals.StardewFair.Manna}}",
+                    "Mei": "{{i18n:Festivals.StardewFair.Mei}}",
+                    "Saibara": "{{i18n:Festivals.StardewFair.Saibara}}",
+                    "Sasha": "{{i18n:Festivals.StardewFair.Sasha}}",
+                    "Stu": "{{i18n:Festivals.StardewFair.Stu}}",
+                    "Tate": "{{i18n:Festivals.StardewFair.Tate}}",
+                    "Thomas": "{{i18n:Festivals.StardewFair.Thomas}}",
+                    "Won": "{{i18n:Festivals.StardewFair.Won}}",
+                    "Zack": "{{i18n:Festivals.StardewFair.Zack}}",
+
+    
+                //Dateables
+                    "Aja": "{{i18n:Festivals.StardewFair.Aja}}",
+                    "Aja_spouse": "{{i18n:Festivals.StardewFair.Aja_spouse}}",
+                    "Ann": "{{i18n:Festivals.StardewFair.Ann}}",
+                    "Ann_spouse": "{{i18n:Festivals.StardewFair.Ann_spouse}}",
+                    "Cliff": "{{i18n:Festivals.StardewFair.Cliff}}",
+                    "Cliff_spouse": "{{i18n:Festivals.StardewFair.Cliff_spouse}}",
+                    "Doctor": "{{i18n:Festivals.StardewFair.Doctor}}",
+                    "Doctor_spouse": "{{i18n:Festivals.StardewFair.Doctor_spouse}}",
+                    "Elli": "{{i18n:Festivals.StardewFair.Elli}}",
+                    "Elli_spouse": "{{i18n:Festivals.StardewFair.Elli_spouse}}",
+                    "Gray": "{{i18n:Festivals.StardewFair.Gray}}",
+                    "Gray_spouse": "{{i18n:Festivals.StardewFair.Gray_spouse}}",
+                    "Kai": "{{i18n:Festivals.StardewFair.Kai}}",
+                    "Kai_spouse": "{{i18n:Festivals.StardewFair.Kai_spouse}}",
+                    "Karen": "{{i18n:Festivals.StardewFair.Karen}}",
+                    "Karen_spouse": "{{i18n:Festivals.StardewFair.Karen_spouse}}",
+                    "Marie": "{{i18n:Festivals.StardewFair.Marie}}",
+                    "Marie_spouse": "{{i18n:Festivals.StardewFair.Marie_spouse}}",
+                    "Nami": "{{i18n:Festivals.StardewFair.Nami}}",
+                    "Nami_spouse": "{{i18n:Festivals.StardewFair.Nami_spouse}}",
+                    "Popuri": "{{i18n:Festivals.StardewFair.Popuri}}",
+                    "Popuri_spouse": "{{i18n:Festivals.StardewFair.Popuri_spouse}}",
+                    "Rick": "{{i18n:Festivals.StardewFair.Rick}}",
+                    "Rick_spouse": "{{i18n:Festivals.StardewFair.Rick_spouse}}",
+
+                },
+            },
+    ]
+    }
+    

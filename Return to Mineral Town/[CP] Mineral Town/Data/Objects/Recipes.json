@@ -1,0 +1,45 @@
+{
+    "Changes": [
+        {
+            "LogName": "Recipes Data",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModID}}_Harvest_Apple_Pie": "613 1 246 1 245 1/1 10/{{ModID}}_Harvest_Apple_Pie/f Aja 750/{{i18n:object.harvest-apple-pie.name}}",
+                "{{ModID}}_Baked_Corn": "270 1 247 1/1 10/{{ModId}}_Baked_Corn/f Tate 750/{{i18n:object.baked-corn.name}}",
+                "{{ModId}}_Candied_Sweet_Potatoes": "280 1 245 1 {{ModId}}_Salted_Butter 1/1 10/{{ModId}}_Candied_Sweet_Potatoes/f Manna 750/{{i18n:object.candied-sweet-potatoes.name}}",
+                "{{ModId}}_Cheese_Fondue": "424 1 348 1 248 1/1 10/{{ModId}}_Cheese_Fondue/f Doug 750/{{i18n:object.cheese-fondue.name}}", 
+                "{{ModId}}_Chocolate_Cookies": "{{ModId}}_Dark_Chocolate_Bar 1 246 1 -5 1/1 10/{{ModId}}_Chocolate_Cookies/f Sasha 750/{{i18n:object.chocolate-cookies.name}}",
+                "{{ModId}}_Corn_Flakes": "270 1 245 1 247 1 -6 1/1 10/{{ModId}}_Corn_Flakes/f Rick 750/{{i18n:object.corn-flakes.name}}",
+                "{{ModId}}_Curry_Rice": "423 2 {{ModId}}_Harvest_Curry_Powder 1/1 10/{{ModId}}_Curry_Rice/f Cliff 750/{{i18n:object.curry-rice.name}}",
+                "{{ModId}}_French_Fries": "192 1 247 1/1 10/{{ModId}}_French_Fries/f Stu 750/{{i18n:object.french-fries.name}}",
+                "{{ModId}}_Fruit_Latte": "-6 1 -79 1/1 10/{{ModId}}_Fruit_Latte/f Basil 750/{{i18n:object.fruit-latte.name}}",
+                "{{ModId}}_Happy_Eggplant": "{{ModId}}_Miso 1 245 1 272 1/1 10/{{ModId}}_Happy_Eggplant/f Saibara 750/{{i18n:object.happy-eggplant.name}}",
+                "{{ModId}}_Harvest_Cheesecake": "174 1 186 1 245 1 424 1/1 10/{{ModId}}_Harvest_Cheesecake/f Ann 750/{{i18n:object.harvest-cheesecake.name}}",
+				"{{ModId}}_Harvest_Pudding": "{{ModId}}_Salted_Butter 1 276 1 -5 1 -6 1/1 10/{{ModId}}_Harvest_Pudding/f Mei 750/{{i18n:object.harvest-pudding.name}}",
+				"{{ModId}}_Mixed_Latte": "-6 1 -75 1 -79 1/1 1/{{ModId}}_Mixed_Latte/f Doctor 750/{{i18n:object.mixed-latte.name}}",
+				"{{ModId}}_Omelet_Rice": "-5 1 423 1/1 10/{{ModId}}_Omelet_Rice/f Lillia 750/{{i18n:object.omelet-rice.name}}",
+                "{{ModId}}_Pudding": "{{ModId}}_Salted_Butter 1 -5 1 -6 1/1 10/{{ModId}}_Pudding/f Barley 750/{{i18n:object.pudding.name}}",
+				"{{ModId}}_Raisin_Bread": "216 1 398 1/1 1/{{ModId}}_Raisin_Bread/f Zack 750/{{i18n:object.raisin-bread.name}}",
+				"{{ModId}}_Salted_Popcorn": "{{ModId}}_Salted_Butter 1 270 1/1 10/{{ModId}}_Salted_Popcorn/f Kai 750/{{i18n:object.salted-popcorn.name}}",
+				"{{ModId}}_Sandwich": "{{ModId}}_Harvest_Cucumber 1 216 1 256 1/1 10/{{ModId}}_Sandwich/f Ellen 750/{{i18n:object.sandwich.name}}",
+				"{{ModId}}_Savory_Pancakes": "-5 1 247 1 246 1 266 1/1 10/{{ModId}}_Savory_Pancakes/f Gotz 750/{{i18n:object.savory-pancakes.name}}",
+				"{{ModId}}_Shrimp_Fried_Rice": "423 1 247 1 -5 1 720 1/1 10/{{ModId}}_Shrimp_Fried_Rice/f Harris 750/{{i18n:object.shrimp-fried-rice.name}}",
+				"{{ModId}}_Spicy_Ketchup": "256 1 399 1 260 1/1 10/{{ModId}}_Spicy_Ketchup/f Jeff 750/{{i18n:object.spicy-ketchup.name}}",
+				"{{ModId}}_Stew": "246 1 -6 1/1 10/{{ModId}}_Stew/f Karen 750/{{i18n:object.stew.name}}",
+				"{{ModId}}_Strawberry_Latte": "-6 1 400 1/1 10/{{ModId}}_Strawberry_Latte/f Carter 750/{{i18n:object.strawberry-latte.name}}",
+				"{{ModId}}_Vegetable_Latte": "-6 1 -75 1/1 10/{{ModId}}_Vegetable_Latte/f Marie 750/{{i18n:object.vegetable-latte.name}}",
+				"{{ModId}}_Yellow_Miso_Soup": "{{ModId}}_Miso 1 {{ModId}}_Mineral_Salt 1 {{ModId}}_Bamboo_Shoot 1 404 1/1 10/{{ModId}}_Yellow_Miso_Soup/f Elli 750/{{i18n:object.yellow-miso-soup.name}}",
+
+            }
+        },
+        {
+            "LogName": "Recipes Data",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                        "{{ModId}}_Warp_Totem_Mineral_Town": "709 2 {{ModId}}_Black_Bass 1 {{ModId}}_Harvest_Curry_Powder 1//{{ModId}}_Warp_Totem_Mineral_Town/false/Foraging 3/{{i18n:object.warp-totem-mineral-town.name}}",
+                    }
+                },
+            ]
+        }

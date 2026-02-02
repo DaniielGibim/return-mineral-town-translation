@@ -1,0 +1,58 @@
+{
+	"Changes": [
+		{
+			"LogName": "Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_HospitalInterior",
+			"FromFile": "Data/blank.json",
+		},
+		{		
+			"LogName": "Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_EllenInterior",
+			"FromFile": "Data/blank.json",
+		},
+		{
+			"LogName": "Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_InnInterior",
+			"FromFile": "Data/blank.json",
+		},
+		{
+			"LogName": "Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_TownCenter",
+			"FromFile": "Data/blank.json",
+		},
+		{
+			"LogName": "Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_LibraryInterior2ndFloor",
+			"FromFile": "Data/blank.json",
+		},
+		{
+			"LogName": "Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_MarketInterior",
+			"FromFile": "Data/blank.json",
+		},
+		{
+			"LogName": "Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_MayorInterior",
+			"FromFile": "Data/blank.json",
+		},
+		{
+			"LogName": "Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_GoddessHill",
+			"FromFile": "Data/blank.json",
+		},
+		{
+			"LogName": "Events Blank",
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_SnackShackInterior",
+			"FromFile": "Data/blank.json",
+		},
+	]
+}

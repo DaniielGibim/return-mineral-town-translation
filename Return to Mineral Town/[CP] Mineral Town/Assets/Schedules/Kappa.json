@@ -1,0 +1,20 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Kappa Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Kappa",
+      "Entries": {
+
+      //Regular Schedule
+        "spring": "0610 {{ModId}}_MTNPCHiddenRoom 17 6 2",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sun": "GOTO spring",
+        "rain": "GOTO spring"
+      }
+    }
+  ]
+}

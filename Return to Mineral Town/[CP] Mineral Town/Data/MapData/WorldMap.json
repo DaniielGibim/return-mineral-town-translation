@@ -1,0 +1,1111 @@
+
+{
+"Changes": [
+{
+"LogName": "Load MTWorldMap",
+"Action":"Load",
+"Target":"Mods/{{ModID}}/MTWorldMap",
+"FromFile":"Assets/LooseSprites/MTWorldMap_{{season}}.png", ///when you have seasonals change MTWorldMap.png to MTWorldMap_{{season}}.png
+},
+ {
+"LogName": "Create MineralTown Region",
+"Action": "EditData",
+"Target": "Data/WorldMap",
+"Entries": {
+"MineralTown": {
+"BaseTexture": [
+{
+"Id": "Default",
+"Condition": null,
+"Texture": "Mods/{{ModID}}/MTWorldMap",
+"SourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 300,
+"Height": 180
+},
+"MapPixelArea": {
+"X": 0,
+"Y": 0,
+"Width": 300,
+"Height": 180
+}
+}
+],
+"MapNeighborIdAliases": {
+},
+"MapAreas": [
+		{
+"Id": "Title",
+"PixelArea": {
+"X": 0,
+"Y": 0,
+"Width": 300,
+"Height": 180
+},
+"ScrollText": "Mineral Town",
+},
+{
+"Id": "Default",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 0,
+"Y": 0,
+"Width": 300,
+"Height": 180
+},
+"ScrollText": null,
+},
+{
+"Id": "OceanSummit",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 235,
+"Y": 18,
+"Width":44,
+"Height":47
+},
+"ScrollText":  null,
+},
+{
+"Id": "TownEntrance",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 0,
+"Y": 59,
+"Width":89,
+"Height":33
+},
+"ScrollText":  null,
+},
+{
+"Id": "MineralBeach",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 239,
+"Y": 83,
+"Width":32,
+"Height":46
+},
+"ScrollText":  null,
+},
+{
+"Id": "Summit",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 25,
+"Y": 93,
+"Width":45,
+"Height":29
+},
+"ScrollText": null,
+},
+{
+"Id": "FlowerHill",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 0,
+"Y": 120,
+"Width":88,
+"Height":15
+},
+"ScrollText": null,
+},
+{
+"Id": "GoddessHill",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 50,
+"Y": 135,
+"Width":37,
+"Height":44
+},
+"ScrollText": null,
+},
+{
+"Id": "MountainLake",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 17,
+"Y": 135,
+"Width":33,
+"Height":45
+},
+"ScrollText": null,
+},
+{
+"Id": "SpriteHutInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 0,
+"Y": 135,
+"Width":17,
+"Height":45
+},
+"ScrollText": null,
+},
+{
+"Id": "SouthernMineralWoodlands",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 82,
+"Y": 140,
+"Width": 73,
+"Height": 28
+},
+"ScrollText":  null,
+"Textures": [],
+"Tooltips": [
+	{
+"Id": "InnInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 110,
+"Y": 84,
+"Width": 23,
+"Height": 15
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_InnInterior}}",
+},
+	{
+"Id": "EllenInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 149,
+"Y": 88,
+"Width": 9,
+"Height": 14
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_EllenInterior}}",
+},
+	{
+"Id": "MayorInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 162,
+"Y": 91,
+"Width": 7,
+"Height": 10
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_MayorInterior}}",
+},
+	{
+"Id": "BlacksmithInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 121,
+"Y": 112,
+"Width": 10,
+"Height": 11
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_BlacksmithInterior}}",
+},
+	{
+"Id": "BlacksmithWorkshop",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 121,
+"Y": 112,
+"Width": 10,
+"Height": 11
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_BlacksmithInterior}}",
+},
+	{
+"Id": "CarterHouseInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 164,
+"Y": 45,
+"Width": 12,
+"Height": 9
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_CarterHouseInterior}}",
+},
+	{
+"Id": "ChurchInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 135,
+"Y": 12,
+"Width": 8,
+"Height": 17
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_ChurchInterior}}",
+},
+	{
+"Id": "ConfessionBox",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 135,
+"Y": 12,
+"Width": 8,
+"Height": 17
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_ChurchInterior}}",
+},
+	{
+"Id": "DoctorHouseInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 186,
+"Y": 86,
+"Width": 7,
+"Height": 12
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_DoctorHouseInterior}}",
+},
+	{
+"Id": "HospitalInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 111,
+"Y": 56,
+"Width": 11,
+"Height": 13
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_HospitalInterior}}",
+},
+ {
+"Id": "LibraryHouseInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 143,
+"Y": 39,
+"Width":14,
+"Height": 14
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_LibraryHouseInterior}}",
+},
+		 {
+"Id": "LibraryInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 143,
+"Y": 39,
+"Width":14,
+"Height": 14
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_LibraryInterior}}",
+},
+{
+"Id": "LibraryHouseInterior2ndFloor",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 143,
+"Y": 39,
+"Width":14,
+"Height": 14
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_LibraryHouseInterior}}",
+},
+{
+"Id": "WineryInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 143,
+"Y": 103,
+"Width":13,
+"Height": 12
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_WineryInterior}}",
+},
+{
+"Id": "PoultryInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 183,
+"Y": 104,
+"Width":9,
+"Height": 8
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_PoultryInterior}}",
+},
+{
+"Id": "PoultryInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 183,
+"Y": 104,
+"Width":9,
+"Height": 8
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_PoultryInterior}}",
+},
+
+{
+"Id": "MineralBarn",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 204,
+"Y": 113,
+"Width":8,
+"Height": 9
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_MineralBarn}}",
+},
+{
+"Id": "YodelRanchInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 217,
+"Y": 104,
+"Width":7,
+"Height": 10
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_YodelRanchInterior}}",
+},
+{
+"Id": "YodelRanchInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 217,
+"Y": 104,
+"Width":7,
+"Height": 10
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_YodelRanchInterior}}",
+},
+{
+"Id": "TownSquare",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 141,
+"Y":69,
+"Width": 19,
+"Height": 19
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_TownCenter}}",
+},
+{
+"Id": "MarketInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 166,
+"Y": 76,
+"Width":10,
+"Height":10
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_MarketInterior}}",
+},
+	{
+"Id": "OceanSummit",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 235,
+"Y": 18,
+"Width":44,
+"Height":47
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_OceanSummit}}",
+},
+{
+"Id": "MineralBeach",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 239,
+"Y": 83,
+"Width":32,
+"Height":46
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_MineralBeach}}",
+},
+{
+"Id": "TownEntrance",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 0,
+"Y": 59,
+"Width":89,
+"Height":33
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_TownEntrance}}",
+},
+{
+"Id": "Summit",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 25,
+"Y": 93,
+"Width":45,
+"Height":29
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_Summit}}",
+},
+{
+"Id": "FlowerHill",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 0,
+"Y": 120,
+"Width":88,
+"Height":15
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_FlowerHill}}",
+},
+{
+"Id": "GoddessHill",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 50,
+"Y": 135,
+"Width":37,
+"Height":44
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_GoddessHill}}",
+},
+{
+"Id": "MountainLake",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 17,
+"Y": 135,
+"Width":33,
+"Height":45
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_MountainLake}}",
+},
+{
+"Id": "SpriteHutInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 0,
+"Y": 135,
+"Width":17,
+"Height":45
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_SpriteHutInterior}}",
+},
+	{
+"Id": "WoodCutterInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 118,
+"Y": 141,
+"Width": 9,
+"Height": 12
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_WoodCutterInterior}}",
+},
+	{
+"Id": "SouthernMineralWoodlands",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 85,
+"Y": 134,
+"Width": 123,
+"Height": 36
+},
+"Text": "Southern Wisp Song Forest",
+},
+	{
+"Id": "SouthernMineralWoodlands2",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 142,
+"Y": 136,
+"Width": 71,
+"Height": 45
+},
+"Text": "Southern Wisp Song Forest",
+},
+	{
+"Id": "NorthernMineralWoodlands3",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 89,
+"Y": 0,
+"Width": 187,
+"Height": 15
+},
+"Text": "Northern Wisp Song Forest",
+},
+{
+"Id": "SnackShackInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 253,
+"Y": 76,
+"Width":7,
+"Height":6
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_SnackShackInterior}}",
+},
+{
+"Id": "ZackHouseInterior",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 265,
+"Y": 76,
+"Width":7,
+"Height":7
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_ZackHouseInterior}}",
+},
+{
+"Id": "OceanSummitPath",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 205,
+"Y": 40,
+"Width":13,
+"Height":24
+},
+"Text": "Ocean Summit Path",
+},
+{
+"Id": "LightHouse",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 269,
+"Y": 122,
+"Width":18,
+"Height":19
+},
+"Text": "Mineral Light House",
+},
+{
+"Id": "AjasGreenhouse",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 154,
+"Y": 121,
+"Width": 4,
+"Height": 5
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_WineryGreenhouse}}",
+},
+{
+"Id": "PopoultryCoop",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 172,
+"Y": 112,
+"Width": 4,
+"Height": 7
+},
+"Text": "{{i18n:MapName.Rexstrife20.MineralTownCP_MineralCoop}}",
+},
+],
+"WorldPositions": [
+{
+"Id": "Default",
+"LocationName": "{{ModId}}_TownCenter",
+"MapPixelArea": {
+"X": 109,
+"Y": 0,
+"Width": 139,
+"Height": 139
+},
+"ScrollText": null,
+},
+{
+"Id": "InnInterior",
+"LocationName": "{{ModId}}_InnInterior",
+"MapPixelArea": {
+"X": 110,
+"Y": 84,
+"Width": 14,
+"Height": 14
+},
+"ScrollText": null,
+},
+		 {
+"Id": "InnInterior",
+"LocationName": "{{ModId}}_InnInterior2ndFloor",
+"MapPixelArea": {
+"X": 110,
+"Y": 84,
+"Width": 23,
+"Height": 15
+},
+"ScrollText": null,
+},
+		 {
+"Id": "InnInterior",
+"LocationName": "{{ModId}}_InnBasement",
+"MapPixelArea": {
+"X": 110,
+"Y": 84,
+"Width": 23,
+"Height": 15
+},
+"ScrollText": null,
+},
+		 {
+"Id": "InnInterior",
+"LocationName": "{{ModId}}_InnBasement",
+"MapPixelArea": {
+"X": 110,
+"Y": 84,
+"Width": 23,
+"Height": 15
+},
+"ScrollText": null,
+},
+		 {
+"Id": "InnInterior",
+"LocationName": "{{ModId}}_InnKitchen",
+"MapPixelArea": {
+"X": 110,
+"Y": 84,
+"Width": 23,
+"Height": 15
+},
+"ScrollText": null,
+},
+		 {
+"Id": "EllenInterior",
+"LocationName": "{{ModId}}_EllenInterior",
+"MapPixelArea": {
+"X": 149,
+"Y": 88,
+"Width": 9,
+"Height": 14
+},
+"ScrollText": null,
+},
+		 {
+"Id": "MayorInterior",
+"LocationName": "{{ModId}}_MayorInterior",
+"MapPixelArea": {
+"X": 162,
+"Y": 91,
+"Width": 7,
+"Height": 10
+},
+"ScrollText": null,
+},
+		 {
+"Id": "BlacksmithInterior",
+"LocationName": "{{ModId}}_BlacksmithInterior",
+"MapPixelArea": {
+"X": 121,
+"Y": 112,
+"Width": 10,
+"Height": 11
+},
+"ScrollText": null,
+},
+		 {
+"Id": "BlacksmithWorkshop",
+"LocationName": "{{ModId}}_BlacksmithWorkshop",
+"MapPixelArea": {
+"X": 121,
+"Y": 112,
+"Width": 10,
+"Height": 11
+},
+"ScrollText": null,
+},
+		 {
+"Id": "CarterHouseInterior",
+"LocationName": "{{ModId}}_CarterHouseInterior",
+"MapPixelArea": {
+"X": 164,
+"Y": 45,
+"Width": 12,
+"Height": 9
+},
+"ScrollText": null,
+},
+		 {
+"Id": "ChurchInterior",
+"LocationName": "{{ModId}}_ChurchInterior",
+"MapPixelArea": {
+"X": 135,
+"Y": 12,
+"Width": 8,
+"Height": 17
+},
+"ScrollText": null,
+},
+		 {
+"Id": "ConfessionBox",
+"LocationName": "{{ModId}}_ConfessionBox",
+"MapPixelArea": {
+"X": 135,
+"Y": 12,
+"Width": 8,
+"Height": 17
+},
+"ScrollText": null,
+},
+		 {
+"Id": "DoctorHouseInterior",
+"LocationName": "{{ModId}}_DoctorHouseInterior",
+"MapPixelArea": {
+"X": 186,
+"Y": 86,
+"Width": 7,
+"Height": 12
+},
+"ScrollText": null,
+},
+		 {
+"Id": "HospitalInterior",
+"LocationName": "{{ModId}}_HospitalInterior",
+"MapPixelArea": {
+"X": 111,
+"Y": 56,
+"Width": 11,
+"Height": 13
+},
+"ScrollText": null,
+},
+		 {
+"Id": "LibraryHouseInterior",
+"LocationName": "{{ModId}}_LibraryHouseInterior",
+"MapPixelArea": {
+"X": 143,
+"Y": 39,
+"Width":14,
+"Height": 14
+},
+"ScrollText": null,
+},
+		 {
+"Id": "LibraryInterior",
+"LocationName": "{{ModId}}_LibraryInterior",
+"MapPixelArea": {
+"X": 143,
+"Y": 39,
+"Width":14,
+"Height": 14
+},
+"ScrollText": null,
+},
+{
+"Id": "LibraryHouseInterior2ndFloor",
+"LocationName": "{{ModId}}_LibraryHouseInterior2ndFloor",
+"MapPixelArea": {
+"X": 143,
+"Y": 39,
+"Width":14,
+"Height": 14
+},
+"ScrollText": null,
+},
+{
+"Id": "LibraryHouseInterior2ndFloor",
+"LocationName": "{{ModId}}_LibraryHouseInterior2ndFloor",
+"MapPixelArea": {
+"X": 143,
+"Y": 39,
+"Width":14,
+"Height": 14
+},
+"ScrollText": null,
+},
+{
+"Id": "WineryInterior",
+"LocationName": "{{ModId}}_WineryInterior",
+"MapPixelArea": {
+"X": 143,
+"Y": 103,
+"Width":13,
+"Height": 12
+},
+"ScrollText": null,
+},
+{
+"Id": "PoultryInterior",
+"LocationName": "{{ModId}}_PoultryInterior",
+"MapPixelArea": {
+"X": 183,
+"Y": 104,
+"Width":9,
+"Height": 8
+},
+"ScrollText": null,
+},
+{
+"Id": "PoultryInterior2ndFloor",
+"LocationName": "{{ModId}}_PoultryInterior2ndFloor",
+"MapPixelArea": {
+"X": 183,
+"Y": 104,
+"Width":9,
+"Height": 8
+},
+"ScrollText": null,
+},
+{
+"Id": "MineralBarn",
+"LocationName": "{{ModId}}_MineralBarn",
+"MapPixelArea": {
+"X": 204,
+"Y": 113,
+"Width":8,
+"Height": 9
+},
+"ScrollText": null,
+},
+{
+"Id": "YodelRanchInterior",
+"LocationName": "{{ModId}}_YodelRanchInterior",
+"MapPixelArea": {
+"X": 217,
+"Y": 104,
+"Width":7,
+"Height": 10
+},
+"ScrollText": null,
+},
+{
+"Id": "YodelRanchInterior",
+"LocationName": "{{ModId}}_YodelRanchInterior2ndFloor",
+"MapPixelArea": {
+
+"X": 217,
+"Y": 104,
+"Width":7,
+"Height": 10
+},
+"ScrollText": null,
+},
+{
+"Id": "MarketInterior",
+"LocationName": "{{ModId}}_MarketInterior",
+"MapPixelArea": {
+"X": 166,
+"Y": 76,
+"Width":10,
+"Height":10
+},
+"ScrollText": null,
+},
+{
+"Id": "OceanSummit",
+"LocationName": "{{ModId}}_OceanSummit",
+"MapPixelArea": {
+"X": 235,
+"Y": 18,
+"Width":44,
+"Height":47
+},
+"ScrollText": null,
+},
+{
+"Id": "MineralBeach",
+"LocationName": "{{ModId}}_MineralBeach",
+"MapPixelArea": {
+"X": 237,
+"Y": 83,
+"Width":56,
+"Height":65
+},
+"ScrollText": null,
+},
+{
+"Id": "SnackShackInterior",
+"LocationName": "{{ModId}}_SnackShackInterior",
+"MapPixelArea": {
+"X": 253,
+"Y": 76,
+"Width":7,
+"Height":6
+},
+"ScrollText": null,
+},
+{
+"Id": "ZackHouseInterior",
+"LocationName": "{{ModId}}_ZackHouseInterior",
+"MapPixelArea": {
+"X": 265,
+"Y": 76,
+"Width":7,
+"Height":7
+},
+"ScrollText": null,
+},
+{
+"Id": "TownEntrance",
+"LocationName": "{{ModId}}_TownEntrance",
+"MapPixelArea": {
+"X": 0,
+"Y": 59,
+"Width":89,
+"Height":33
+},
+"ScrollText": null,
+},
+{
+"Id": "Summit",
+"LocationName": "{{ModId}}_Summit",
+"MapPixelArea": {
+"X": 25,
+"Y": 93,
+"Width":45,
+"Height":29
+},
+"ScrollText": null,
+},
+{
+"Id": "FlowerHill",
+"LocationName": "{{ModId}}_FlowerHill",
+"MapPixelArea": {
+"X": 0,
+"Y": 120,
+"Width":88,
+"Height":15
+},
+"ScrollText": null,
+},
+{
+"Id": "GoddessHill",
+"LocationName": "{{ModId}}_GoddessHill",
+"MapPixelArea": {
+"X": 50,
+"Y": 135,
+"Width":37,
+"Height":44
+},
+"ScrollText": null,
+},
+{
+"Id": "MountainLake",
+"LocationName": "{{ModId}}_MountainLake",
+"MapPixelArea": {
+"X": 17,
+"Y": 135,
+"Width":33,
+"Height":45
+},
+"ScrollText": null,
+},
+{
+"Id": "SpriteHutInterior",
+"LocationName": "{{ModId}}_SpriteHutInterior",
+"MapPixelArea": {
+"X": 0,
+"Y": 135,
+"Width":17,
+"Height":45
+},
+"ScrollText": null,
+},
+{
+"Id": "SouthernMineralWoodlands",
+"LocationName": "{{ModId}}_Woodcutter",
+"MapPixelArea": {
+"X": 82,
+"Y": 140,
+"Width": 64,
+"Height": 28
+},
+"ScrollText": null,
+},
+{
+"Id": "SouthernMineralWoodlands2",
+"LocationName": "{{ModId}}_Woodcutter",
+"MapPixelArea": {
+"X": 142,
+"Y": 136,
+"Width": 71,
+"Height": 45
+},
+"ScrollText": null,
+},
+{
+"Id": "NorthernMineralWoodlands3",
+"LocationName": "{{ModId}}_Woodcutter",
+"MapPixelArea": {
+"X": 89,
+"Y": 0,
+"Width": 187,
+"Height": 15
+},
+"ScrollText": null,
+},
+{
+"Id": "WoodCutterInterior",
+"LocationName": "{{ModId}}_WoodCutterInterior",
+"MapPixelArea": {
+"X": 119,
+"Y": 142,
+"Width": 7,
+"Height": 12
+},
+"ScrollText": null,
+},
+{
+"Id": "AjasGreenhouse",
+"LocationName": "{{ModId}}_WineryGreenhouse",
+"MapPixelArea": {
+"X": 154,
+"Y": 121,
+"Width": 4,
+"Height": 5
+},
+"ScrollText": null,
+},
+{
+"Id": "PopoultryCoop",
+"LocationName": "{{ModId}}_MineralCoop",
+"MapPixelArea": {
+"X": 172,
+"Y": 112,
+"Width": 4,
+"Height": 7
+},
+"ScrollText": null,
+},
+],
+"CustomFields": {}
+}
+]
+}
+}
+}
+]
+}

@@ -1,0 +1,71 @@
+{
+    "Changes": [
+    
+    //------------------------
+    // FESTIVAL DIALOGUE
+    //------------------------
+    
+        //Spirits Eve----------------------
+    
+            {
+                "LogName": "SpiritEve",
+                "Action": "EditData",
+                "Target": "Data/Festivals/fall27",
+                "Entries": {
+    
+                //Non-Dateables
+                    "Anna": "{{i18n:Festivals.SpiritEve.Anna}}",
+                    "Barley": "{{i18n:Festivals.SpiritEve.Barley}}",
+                    "Basil": "{{i18n:Festivals.SpiritEve.Basil}}",
+                    "Carter": "{{i18n:Festivals.SpiritEve.Carter}}",
+                    "Doug": "{{i18n:Festivals.SpiritEve.Doug}}",
+                    "Duke": "{{i18n:Festivals.SpiritEve.Duke}}",
+                    "Ellen": "{{i18n:Festivals.SpiritEve.Ellen}}",
+                    "Gotz": "{{i18n:Festivals.SpiritEve.Gotz}}",
+                    "Harris": "{{i18n:Festivals.SpiritEve.Harris}}",
+                    "HarvestGoddess": "{{i18n:Festivals.SpiritEve.HarvestGoddess}}",
+                    "Jeff": "{{i18n:Festivals.SpiritEve.Jeff}}",
+                    "Kappa": "{{i18n:Festivals.SpiritEve.Kappa}}",
+                    "Lillia": "{{i18n:Festivals.SpiritEve.Lillia}}",
+                    "Manna": "{{i18n:Festivals.SpiritEve.Manna}}",
+                    "Mei": "{{i18n:Festivals.SpiritEve.Mei}}",
+                    "Saibara": "{{i18n:Festivals.SpiritEve.Saibara}}",
+                    "Sasha": "{{i18n:Festivals.SpiritEve.Sasha}}",
+                    "Stu": "{{i18n:Festivals.SpiritEve.Stu}}",
+                    "Tate": "{{i18n:Festivals.SpiritEve.Tate}}",
+                    "Thomas": "{{i18n:Festivals.SpiritEve.Thomas}}",
+                    "Won": "{{i18n:Festivals.SpiritEve.Won}}",
+                    "Zack": "{{i18n:Festivals.SpiritEve.Zack}}",
+
+    
+                //Dateables
+                    "Aja": "{{i18n:Festivals.SpiritEve.Aja}}",
+                    "Aja_spouse": "{{i18n:Festivals.SpiritEve.Aja_spouse}}",
+                    "Ann": "{{i18n:Festivals.SpiritEve.Ann}}",
+                    "Ann_spouse": "{{i18n:Festivals.SpiritEve.Ann_spouse}}",
+                    "Cliff": "{{i18n:Festivals.SpiritEve.Cliff}}",
+                    "Cliff_spouse": "{{i18n:Festivals.SpiritEve.Cliff_spouse}}",
+                    "Doctor": "{{i18n:Festivals.SpiritEve.Doctor}}",
+                    "Doctor_spouse": "{{i18n:Festivals.SpiritEve.Doctor_spouse}}",
+                    "Elli": "{{i18n:Festivals.SpiritEve.Elli}}",
+                    "Elli_spouse": "{{i18n:Festivals.SpiritEve.Elli_spouse}}",
+                    "Gray": "{{i18n:Festivals.SpiritEve.Gray}}",
+                    "Gray_spouse": "{{i18n:Festivals.SpiritEve.Gray_spouse}}",
+                    "Kai": "{{i18n:Festivals.SpiritEve.Kai}}",
+                    "Kai_spouse": "{{i18n:Festivals.SpiritEve.Kai_spouse}}",
+                    "Karen": "{{i18n:Festivals.SpiritEve.Karen}}",
+                    "Karen_spouse": "{{i18n:Festivals.SpiritEve.Karen_spouse}}",
+                    "Marie": "{{i18n:Festivals.SpiritEve.Marie}}",
+                    "Marie_spouse": "{{i18n:Festivals.SpiritEve.Marie_spouse}}",
+                    "Nami": "{{i18n:Festivals.SpiritEve.Nami}}",
+                    "Nami_spouse": "{{i18n:Festivals.SpiritEve.Nami_spouse}}",
+                    "Popuri": "{{i18n:Festivals.SpiritEve.Popuri}}",
+                    "Popuri_spouse": "{{i18n:Festivals.SpiritEve.Popuri_spouse}}",
+                    "Rick": "{{i18n:Festivals.SpiritEve.Rick}}",
+                    "Rick_spouse": "{{i18n:Festivals.SpiritEve.Rick_spouse}}",
+
+                },
+            },
+    ]
+    }
+    

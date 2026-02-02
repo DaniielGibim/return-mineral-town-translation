@@ -1,0 +1,20 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "won Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/won",
+      "Entries": {
+
+      //Regular Schedule
+        "spring": "610 {{ModId}}_ZackHouseInterior 16 8 3/700 {{ModId}}_ZackHouseInterior 9 5 0/800 {{ModId}}_ZackHouseInterior 10 7 2/900 {{ModId}}_ZackHouseInterior 16 8 2 won_reading/1200 {{ModId}}_ZackHouseInterior 16 8 3/1600 {{ModId}}_ZackHouseInterior 9 5 0/1800 {{ModId}}_ZackHouseInterior 9 9 2/2100 {{ModId}}_ZackHouseInterior 16 8 2 won_reading/2300 {{ModId}}_ZackHouseInterior 17 9 3 won_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sun": "610 {{ModId}}_ZackHouseInterior 16 8 3/700 {{ModId}}_ZackHouseInterior 9 5 0/800 {{ModId}}_ZackHouseInterior 10 7 2/900 {{ModId}}_ZackHouseInterior 16 8 2 won_reading/1200 {{ModId}}_ZackHouseInterior 16 8 3/1600 {{ModId}}_ZackHouseInterior 9 5 0/1800 {{ModId}}_InnInterior 12 12 3/2200 {{ModId}}_ZackHouseInterior 17 9 3 won_sleep",
+        "GreenRain": "GOTO spring"
+      }
+    }
+  ]
+}

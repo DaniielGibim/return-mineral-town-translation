@@ -1,0 +1,76 @@
+{
+"Changes": [
+
+    {
+        //NPC Positions
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Aja 23 35 right/Ann 16 28 down/Cliff 32 38 left/Doctor 3 27 right/Elli 8 21 down/Gray 3 38 left/Kai 22 41 down/Karen 25 35 left/Marie 17 20 down/Nami 25 37 left/Popuri 19 38 up/Rick 21 38 up/Tate 24 30 left",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters"],
+                "Value": "Aja 11 31 up/Ann 25 26 left/Cliff 25 27 left/Doctor 4 21 right/Elli 4 22 right/Gray 3 26 right/Kai 14 34 up/Karen 16 32 up/Marie 3 25 right/Nami 20 33 up/Popuri 19 20 down/Rick 18 20 down/Tate 22 30 up",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                "Value": "Aja 23 35 right/Ann 16 28 down/Cliff 32 38 left/Doctor 3 27 right/Elli 8 21 down/Gray 3 38 left/Kai 22 41 down/Karen 25 35 left/Marie 17 20 down/Nami 25 37 left/Popuri 19 38 up/Rick 21 38 up/Tate 24 30 left",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                "Value": "Aja 11 31 up/Ann 25 26 left/Cliff 25 27 left/Doctor 4 21 right/Elli 4 22 right/Gray 3 26 right/Kai 14 34 up/Karen 16 32 up/Marie 3 25 right/Nami 20 33 up/Popuri 19 20 down/Rick 18 20 down/Tate 22 30 up",
+                "Delimiter": "/"
+            }
+            
+        ]
+    },
+    {
+        //NPC Positions SVE
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Aja 23 35 right/Ann 5 30 left/Cliff 33 39 left/Doctor 3 27 right/Elli 19 18 down/Gray 3 38 left/Kai 23 41 down/Karen 25 35 left/Marie 16 20 down/Nami 25 37 left/Popuri 20 38 up/Rick 18 38 up/Tate 20 29 left",
+                "Delimiter": "/"
+            },
+    
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters"],
+                "Value": "Aja 11 31 up/Ann 25 26 left/Cliff 25 27 left/Doctor 4 21 right/Elli 4 22 right/Gray 3 26 right/Kai 14 34 up/Karen 16 32 up/Marie 3 25 right/Nami 20 33 up/Popuri 19 20 down/Rick 18 20 down/Tate 22 30 up",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                "Value": "Aja 23 35 right/Ann 5 30 left/Cliff 33 39 left/Doctor 3 27 right/Elli 19 18 down/Gray 3 38 left/Kai 23 41 down/Karen 25 35 left/Marie 16 20 down/Nami 25 37 left/Popuri 20 38 up/Rick 18 38 up/Tate 20 29 left",
+                "Delimiter": "/"
+            },
+    
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                "Value": "Aja 11 31 up/Ann 25 26 left/Cliff 25 27 left/Doctor 4 21 right/Elli 4 22 right/Gray 3 26 right/Kai 14 34 up/Karen 16 32 up/Marie 3 25 right/Nami 20 33 up/Popuri 19 20 down/Rick 18 20 down/Tate 22 30 up",
+                "Delimiter": "/"
+            }
+        ]
+    }
+]
+}

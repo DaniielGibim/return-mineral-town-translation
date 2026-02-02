@@ -1,0 +1,22 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Thomas Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Thomas",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_TownCenter 83 91 2/1000 {{ModId}}_MayorInterior 3 14 1/1200 {{ModId}}_MayorInterior 9 5 0/1300 {{ModId}}_MayorInterior 11 6 1/1400 {{ModId}}_MayorInterior 14 14 2/1600 {{ModId}}_MayorInterior 23 16 2/2100 {{ModId}}_MayorInterior 27 5 1 thomas_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sat": "610 {{ModId}}_MayorInterior 9 5 0/700 {{ModId}}_MayorInterior 11 6 1/730 {{ModId}}_MayorInterior 14 14 2/800 {{ModId}}_MarketInterior 11 34 0/840 {{ModId}}_MarketInterior 1 33 1/900 {{ModId}}_MarketInterior 16 32 1/930 {{ModId}}_MarketInterior 4 26 3/1000 {{ModId}}_EllenInterior 20 16 1/1300 {{ModId}}_TownCenter 83 91 2/1600 {{ModId}}_MayorInterior 9 5 0/1700 {{ModId}}_MayorInterior 11 6 1/1800 {{ModId}}_MayorInterior 23 16 2/2100 {{ModId}}_MayorInterior 27 5 1 thomas_sleep",
+        "Sun": "610 {{ModId}}_MayorInterior 9 5 0/700 {{ModId}}_MayorInterior 11 6 1/730 {{ModId}}_MayorInterior 14 14 2/1000 {{ModId}}_MayorInterior 13 5 0/1040 {{ModId}}_MayorInterior 23 16 2/1200 {{ModId}}_EllenInterior 20 16 1/1300 {{ModId}}_TownCenter 83 91 2/1600 {{ModId}}_MayorInterior 9 5 0/1700 {{ModId}}_MayorInterior 11 6 1/1800 {{ModId}}_MayorInterior 23 16 2/2100 {{ModId}}_MayorInterior 27 5 1 thomas_sleep",
+        "rain": "610 {{ModId}}_MayorInterior 23 5 0/900 {{ModId}}_MayorInterior 23 16 2/1000 {{ModId}}_MayorInterior 3 14 1/1200 {{ModId}}_MayorInterior 9 5 0/1300 {{ModId}}_MayorInterior 11 6 1/1400 {{ModId}}_MayorInterior 14 14 2/1600 {{ModId}}_MayorInterior 23 16 2/2100 {{ModId}}_MayorInterior 27 5 1 thomas_sleep",
+        "GreenRain": "GOTO rain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1415 @@
+{
+  "Changes": [
+    // Custom Companions Content Patcher
+
+    //Harvest Sprites
+    {
+      "LogName": "Adds Harvest Sprite Aqua",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_SpriteHutInterior",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 5,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.Aqua"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "Adds Harvest Sprite Chef",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_SpriteHutInterior",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 16,
+            "Y": 11
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.Chef"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "Adds Harvest Sprite Staid",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_SpriteHutInterior",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 5,
+            "Y": 11
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.Staid"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "Adds Harvest Sprite Nappy",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_SpriteHutInterior",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 15,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.Nappy"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "Adds Harvest Sprite Timid",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_SpriteHutInterior",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 20,
+            "Y": 11
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.Timid"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "Adds Harvest Sprite Bold",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_SpriteHutInterior",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 11,
+            "Y": 7
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.Bold"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "Adds Harvest Sprite Hoggy",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_SpriteHutInterior",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 19,
+            "Y": 7
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.Hoggy"
+          }
+        }
+      ]
+    },
+
+
+    //Removes W.Chickens from coop for next day
+    //Add them outside, remove them at night, then re-add them in coop when sunny night
+    //Add them in coop when rainy
+
+    {
+      "LogName": "Removes White Chickens in Coop for next day",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralCoop",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 5,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 6,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 7,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 8,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        }
+      ],
+      "When": {
+        "Time": "{{Range: 0600, 0610}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds White Chickens in Town when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 80,
+            "Y": 116
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 81,
+            "Y": 116
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteChicken"
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 0620, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds White Chickens in Town when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 75,
+            "Y": 99
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 76,
+            "Y": 99
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteChicken"
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 0620, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Removes White Chickens from Town at night when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 80,
+            "Y": 116
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 81,
+            "Y": 116
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Removes White Chickens from Town at night when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 75,
+            "Y": 99
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 76,
+            "Y": 99
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds White Chickens in Coop at night when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralCoop",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 5,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 6,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 7,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 8,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteChicken"
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds White Chickens in Coop when rainy",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralCoop",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 5,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 6,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 7,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 8,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteChicken"
+          }
+        }
+      ],
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 0620, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+
+    //Removes B.Chickens from coop for next day
+    //Add them outside, remove them at night, then re-add them in coop when sunny night
+    //Add them in coop when rainy
+
+    {
+      "LogName": "Removes Brown Chickens in Coop for next day",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralCoop",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 11,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 12,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 13,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 13,
+            "Y": 7
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        }
+      ],
+      "When": {
+        "Time": "{{Range: 0600, 0610}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds Brown Chickens in Town when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 86,
+            "Y": 116
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 87,
+            "Y": 116
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownChicken"
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 0620, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds Brown Chickens in Town when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 75,
+            "Y": 103
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 76,
+            "Y": 103
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownChicken"
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 0620, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Removes Brown Chickens from Town at night when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 86,
+            "Y": 116
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 87,
+            "Y": 116
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Removes Brown Chickens from Town at night when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 75,
+            "Y": 103
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 76,
+            "Y": 103
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds Brown Chickens in Coop at night when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralCoop",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 11,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 12,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 13,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 13,
+            "Y": 7
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownChicken"
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds Brown Chickens in Coop when rainy",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralCoop",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 11,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 12,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 13,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownChicken"
+          }
+        },
+        {
+          "Position": {
+            "X": 13,
+            "Y": 7
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownChicken"
+          }
+        }
+      ],
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 0620, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+
+    //Removes W.Cows from barn for next day
+    //Add them outside, remove them at night, then re-add them in barn when sunny night
+    //Add them in barn when rainy
+
+    {
+      "LogName": "Removes White Cows in Barn for next day",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralBarn",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 7,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 8,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 9,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 10,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        }
+      ],
+      "When": {
+        "Time": "{{Range: 0600, 0610}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds White Cows in Town when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 112,
+            "Y": 112
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 113,
+            "Y": 112
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 114,
+            "Y": 112
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 115,
+            "Y": 112
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteCow"
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 0620, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Removes White Cows from Town at night when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 112,
+            "Y": 112
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 113,
+            "Y": 112
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 114,
+            "Y": 112
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 115,
+            "Y": 112
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds White Cows in Barn at night when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralBarn",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 7,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 8,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 9,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 10,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteCow"
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds White Cows in Barn when rainy",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralBarn",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 7,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 8,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 9,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 10,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.WhiteCow"
+          }
+        }
+      ],
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 0620, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+
+    //Removes B.Cows from barn for next day
+    //Add them outside, remove them at night, then re-add them in barn when sunny night
+    //Add them in barn when rainy
+
+    {
+      "LogName": "Removes Brown Cows in Barn for next day",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralBarn",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 17,
+            "Y": 9
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 18,
+            "Y": 9
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 19,
+            "Y": 9
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 19,
+            "Y": 10
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        }
+      ],
+      "When": {
+        "Time": "{{Range: 0600, 0610}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds Brown Cows in Town when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 124,
+            "Y": 114
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 125,
+            "Y": 114
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 126,
+            "Y": 114
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 127,
+            "Y": 114
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownCow"
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 0620, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Removes Brown Cows from Town at night when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 124,
+            "Y": 114
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 125,
+            "Y": 114
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 126,
+            "Y": 114
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        },
+        {
+          "Position": {
+            "X": 127,
+            "Y": 114
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds Brown Cows in Barn at night when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralBarn",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 17,
+            "Y": 9
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 18,
+            "Y": 9
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 19,
+            "Y": 9
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 19,
+            "Y": 10
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownCow"
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds Brown Cows in Barn when rainy",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralBarn",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 17,
+            "Y": 9
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 18,
+            "Y": 9
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 19,
+            "Y": 9
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownCow"
+          }
+        },
+        {
+          "Position": {
+            "X": 19,
+            "Y": 10
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.BrownCow"
+          }
+        }
+      ],
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 0620, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+
+    //Removes Barley's Horse from barn for next day
+    //Add her outside, remove her at night, then re-add her in barn when sunny night
+    //Add her in barn when rainy
+
+    {
+      "LogName": "Removes Barley's Horse in Barn for next day",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralBarn",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 4,
+            "Y": 12
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        }
+      ],
+      "When": {
+        "Time": "{{Range: 0600, 0610}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds Barley's Horse in Town when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 125,
+            "Y": 119
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.Horse"
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 0620, 1900}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Removes Barley's Horse from Town at night when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_TownCenter",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 125,
+            "Y": 119
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": null
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds Barley's Horse in Barn at night when sunny",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralBarn",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 4,
+            "Y": 12
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.Horse"
+          }
+        }
+      ],
+      "When": {
+        "Weather": "Sun",
+        "Time": "{{Range: 1900, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "LogName": "Adds Barley's Horse in Barn when rainy",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MineralBarn",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 4,
+            "Y": 12
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.Horse"
+          }
+        }
+      ],
+      "When": {
+        "Weather: |contains=Sun": false,
+        "Time": "{{Range: 0620, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+
+    //Hana The Yodel Dog
+
+    {
+      "LogName": "Adds Hana The Yodel Dog",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_YodelRanchInterior",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 11,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.HanaTheYodelDog"
+          }
+        }
+      ]
+    },
+
+
+    //Inn Cat
+
+    {
+      "LogName": "Adds Inn Cat",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_InnInterior2ndFloor",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 7,
+            "Y": 12
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "CustomCompanions": "Spawn 1 Rexstrife20.MineralTownCC.InnCat"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+"Changes": [
+
+    {
+        //NPC Positions
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Aja 115 47 up/Ann 90 60 down/Anna 96 53 down/Barley 70 52 down/Basil 100 52 up/Carter 89 48 down/Cliff 64 38 left/Doctor 113 56 right/Doug 92 37 up/Duke 84 40 right/Ellen 66 53 up/Elli 78 49 up/Gray 114 41 up/Gotz 85 38 down/Harris 71 46 down/Jeff 86 46 down/Kai 83 49 up/Karen 91 60 down/Lillia 74 46 down/Manna 96 55 up/Marie 112 41 up/Mei 112 52 left/Nami 120 51 left/Popuri 120 55 left/Rick 120 56 left/Saibara 87 41 up/Sasha 95 54 right/Stu 114 50 down/Tate 63 40 up/Thomas 75 43 up/Won 89 51 up/Zack 73 46 down",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters"],
+                "Value": "Aja 75 42 up/Ann 75 47 up/Anna 79 49 up/Barley 83 45 up/Basil 77 49 up/Carter 84 49 up/Cliff 64 39 right/Doctor 83 39 left/Doug 76 47 up/Duke 87 41 left/Ellen 80 45 up/Elli 83 38 left/Gray 66 49 up/Gotz 70 49 up/Harris 71 49 up/Jeff 78 49 up/Kai 89 43 left/Karen 81 43 up/Lillia 85 49 up/Manna 81 49 up/Marie 67 49 up/Mei 77 41 up/Nami 66 43 up/Popuri 89 42 left/Rick 84 41 left/Saibara 83 40 left/Sasha 80 49 up/Stu 76 41 up/Tate 65 38 right/Thomas 73 43 up/Won 69 49 up/Zack 72 49 up",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                "Value": "Aja 115 47 up/Ann 90 60 down/Anna 96 53 down/Barley 70 52 down/Basil 100 52 up/Carter 89 48 down/Cliff 64 38 left/Doctor 113 56 right/Doug 92 37 up/Duke 84 40 right/Ellen 66 53 up/Elli 78 49 up/Gray 114 41 up/Gotz 85 38 down/Harris 71 46 down/Jeff 86 46 down/Kai 83 49 up/Karen 91 60 down/Lillia 74 46 down/Manna 96 55 up/Marie 112 41 up/Mei 112 52 left/Nami 120 51 left/Popuri 120 55 left/Rick 120 56 left/Saibara 87 41 up/Sasha 95 54 right/Stu 114 50 down/Tate 63 40 up/Thomas 75 43 up/Won 89 51 up/Zack 73 46 down",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                "Value": "Aja 75 42 up/Ann 75 47 up/Anna 79 49 up/Barley 83 45 up/Basil 77 49 up/Carter 84 49 up/Cliff 64 39 right/Doctor 83 39 left/Doug 76 47 up/Duke 87 41 left/Ellen 80 45 up/Elli 83 38 left/Gray 66 49 up/Gotz 70 49 up/Harris 71 49 up/Jeff 78 49 up/Kai 89 43 left/Karen 81 43 up/Lillia 85 49 up/Manna 81 49 up/Marie 67 49 up/Mei 77 41 up/Nami 66 43 up/Popuri 89 42 left/Rick 84 41 left/Saibara 83 40 left/Sasha 80 49 up/Stu 76 41 up/Tate 65 38 right/Thomas 73 43 up/Won 69 49 up/Zack 72 49 up",
+                "Delimiter": "/"
+            }
+        ],
+        "When": {
+            "HasMod |contains=Rafseazz.RSVCP": true
+        }
+    }
+]
+}

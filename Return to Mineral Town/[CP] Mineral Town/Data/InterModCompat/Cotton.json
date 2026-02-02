@@ -1,0 +1,49 @@
+{
+    "Changes": [
+
+      /////////////////
+	  //BusStop Warps
+	  /////////////////
+      
+      
+      //TreeStump exists
+	  {
+		"Action": "EditMap",
+		"Target": "Assets/Maps/OutdoorMaps/{{ModId}}_UndergroundTunnel",
+		"When": {
+		  "HasMod |contains=TMXTreeStump": true
+		},
+  
+		"AddWarps": [
+		  "11 9 StreetLeft 0 10",
+		  "11 10 StreetLeft 0 10",
+		  "11 11 StreetLeft 0 10",
+		  "11 12 StreetLeft 0 10",
+		  "11 13 StreetLeft 0 10",
+		  "11 14 StreetLeft 0 10",
+		  "10 14 StreetLeft 0 10",
+		  "9 14 StreetLeft 0 10"
+		]
+	  },
+	  {
+		"Action": "EditMap",
+		"Target": "Maps/StreetLeft",
+		"When": {
+		  "HasMod |contains=TMXTreeStump": true
+		},
+  
+		"AddWarps": [
+		  "-1 9 UndergroundTunnel 10 10",
+		  "-1 10 UndergroundTunnel 10 10",
+		  "-1 11 UndergroundTunnel 10 10",
+		  "-1 12 UndergroundTunnel 10 10",
+		  "-1 13 UndergroundTunnel 10 10",
+		  "34 9 Highway 2 29",
+		  "34 10 Highway 2 29",
+		  "34 11 Highway 2 29",
+		  "34 12 Highway 2 29",
+		  "34 13 Highway 2 29"
+		]
+	  },
+	]
+}

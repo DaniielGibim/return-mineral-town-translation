@@ -1,0 +1,35 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Kai Schedule Before Summer",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Kai",
+      "Entries": {
+
+        //Before meeting
+        "spring": "0 {{ModId}}_MTNPCHiddenRoom 3 6 1/2200 {{ModId}}_MTNPCHiddenRoom 3 6 1 kai_sleep",
+        
+        },
+    },
+
+        //Regular Schedule
+    {
+          "LogName": "After First Summer",
+          "Action": "EditData",
+          "Target": "Characters/Schedules/Kai",
+          "Entries": {
+
+        "spring": "610 {{ModId}}_MineralBeach 38 25 1/1030 {{ModId}}_SnackShackInterior 9 6 2/1700 {{ModId}}_InnInterior 7 18 0/2200 {{ModId}}_KaiBed 2 4 2 kai_sleep",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "summer": "610 {{ModId}}_MineralBeach 38 25 1/1030 {{ModId}}_SnackShackInterior 9 6 2/1700 {{ModId}}_InnInterior 7 18 0/2200 {{ModId}}_KaiBed 2 4 2 kai_sleep",
+        "summer_Sun": "610 {{ModId}}_MineralBeach 23 6 2/800 {{ModId}}_MineralBeach 25 33 1/1100 {{ModId}}_MineralBeach 56 15 1/1300 {{ModId}}_MineralBeach 32 28 1/1700 {{ModId}}_InnInterior 7 18 0/2200 {{ModId}}_KaiBed 2 4 2 kai_sleep",
+        "summer_Fri": "610 {{ModId}}_KaiBed 2 4 2/800 {{ModId}}_MineralBeach 25 33 1/1100 {{ModId}}_SnackShackInterior 8 6 2/1300 {{ModId}}_SnackShackInterior 16 8 2/1700 {{ModId}}_InnInterior 7 18 0/2200 {{ModId}}_KaiBed 2 4 2 kai_sleep",
+        "rain": "610 {{ModId}}_SnackShackInterior 4 5 0/1050 {{ModId}}_SnackShackInterior 9 6 2/2200 {{ModId}}_KaiBed 2 4 2 kai_sleep",
+        "GreenRain": "GOTO rain"
+    },
+      "When": { "HasSeenEvent|contains=MT.KaiArrives": true }
+    }
+  ]
+}

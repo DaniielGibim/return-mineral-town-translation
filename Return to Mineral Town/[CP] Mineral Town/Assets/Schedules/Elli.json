@@ -1,0 +1,24 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Elli Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Elli",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_EllenInterior 8 13 0/630 {{ModId}}_EllenInterior 5 13 0/640 {{ModId}}_EllenInterior 6 13 0/700 {{ModId}}_EllenInterior 11 14 2/800 {{ModId}}_HospitalInterior 10 7 2/1300 {{ModId}}_HospitalInterior 10 7 2/1700 {{ModId}}_EllenInterior 16 13 2/1830 {{ModId}}_EllenInterior 8 13 0/1900 {{ModId}}_EllenInterior 5 13 0/1920 {{ModId}}_EllenInterior 6 13 0/1940 {{ModId}}_EllenInterior 11 14 2/2030 {{ModId}}_EllenInterior 9 5 0/2100 {{ModId}}_EllenInterior 6 5 1 elli_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Wed": "610 {{ModId}}_EllenInterior 8 13 0/630 {{ModId}}_EllenInterior 5 13 0/640 {{ModId}}_EllenInterior 6 13 0/700 {{ModId}}_EllenInterior 11 14 2/810 {{ModId}}_TownCenter 80 91 2/1000 {{ModId}}_ChurchInterior 16 15 0/1400 {{ModId}}_MarketInterior 4 33 3/1600 {{ModId}}_MarketInterior 10 34 0/1700 {{ModId}}_EllenInterior 16 13 2/1830 {{ModId}}_EllenInterior 8 13 0/1900 {{ModId}}_EllenInterior 5 13 0/1920 {{ModId}}_EllenInterior 6 13 0/1940 {{ModId}}_EllenInterior 11 14 2/2030 {{ModId}}_EllenInterior 9 5 0/2100 {{ModId}}_EllenInterior 6 5 1 elli_sleep",
+        "rain": "610 {{ModId}}_EllenInterior 8 13 0/630 {{ModId}}_EllenInterior 5 13 0/640 {{ModId}}_EllenInterior 6 13 0/700 {{ModId}}_EllenInterior 11 14 2/800 {{ModId}}_HospitalInterior 10 7 2/1200 {{ModId}}_HospitalInterior 3 12 1/1300 {{ModId}}_HospitalInterior 10 7 2/1700 {{ModId}}_EllenInterior 16 13 2/1830 {{ModId}}_EllenInterior 8 13 0/1900 {{ModId}}_EllenInterior 5 13 0/1920 {{ModId}}_EllenInterior 6 13 0/1940 {{ModId}}_EllenInterior 11 14 2/2030 {{ModId}}_EllenInterior 9 5 0/2100 {{ModId}}_EllenInterior 6 5 1 elli_sleep",
+        "GreenRain": "GOTO rain"
+      
+      //Marriage Schedule
+
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+    "Changes": [
+    
+    //------------------------
+    // FESTIVAL DIALOGUE
+    //------------------------
+    
+        //RSV: Ember of Resolutions----------------------
+    
+            {
+                "LogName": "EmberOfResolutions",
+                "Action": "EditData",
+                "Target": "Data/Festivals/winter28",
+                "Entries": {
+    
+                //Non-Dateables
+                    "Anna": "{{i18n:Festivals.EoR.Anna}}",
+                    "Barley": "{{i18n:Festivals.EoR.Barley}}",
+                    "Basil": "{{i18n:Festivals.EoR.Basil}}",
+                    "Carter": "{{i18n:Festivals.EoR.Carter}}",
+                    "Doug": "{{i18n:Festivals.EoR.Doug}}",
+                    "Duke": "{{i18n:Festivals.EoR.Duke}}",
+                    "Ellen": "{{i18n:Festivals.EoR.Ellen}}",
+                    "Gotz": "{{i18n:Festivals.EoR.Gotz}}",
+                    "Harris": "{{i18n:Festivals.EoR.Harris}}",
+                    "HarvestGoddess": "{{i18n:Festivals.EoR.HarvestGoddess}}",
+                    "Jeff": "{{i18n:Festivals.EoR.Jeff}}",
+                    "Kappa": "{{i18n:Festivals.EoR.Kappa}}",
+                    "Lillia": "{{i18n:Festivals.EoR.Lillia}}",
+                    "Manna": "{{i18n:Festivals.EoR.Manna}}",
+                    "Mei": "{{i18n:Festivals.EoR.Mei}}",
+                    "Saibara": "{{i18n:Festivals.EoR.Saibara}}",
+                    "Sasha": "{{i18n:Festivals.EoR.Sasha}}",
+                    "Stu": "{{i18n:Festivals.EoR.Stu}}",
+                    "Tate": "{{i18n:Festivals.EoR.Tate}}",
+                    "Thomas": "{{i18n:Festivals.EoR.Thomas}}",
+                    "Won": "{{i18n:Festivals.EoR.Won}}",
+                    "Zack": "{{i18n:Festivals.EoR.Zack}}",
+
+    
+                //Dateables
+                    "Aja": "{{i18n:Festivals.EoR.Aja}}",
+                    "Aja_spouse": "{{i18n:Festivals.EoR.Aja_spouse}}",
+                    "Ann": "{{i18n:Festivals.EoR.Ann}}",
+                    "Ann_spouse": "{{i18n:Festivals.EoR.Ann_spouse}}",
+                    "Cliff": "{{i18n:Festivals.EoR.Cliff}}",
+                    "Cliff_spouse": "{{i18n:Festivals.EoR.Cliff_spouse}}",
+                    "Doctor": "{{i18n:Festivals.EoR.Doctor}}",
+                    "Doctor_spouse": "{{i18n:Festivals.EoR.Doctor_spouse}}",
+                    "Elli": "{{i18n:Festivals.EoR.Elli}}",
+                    "Elli_spouse": "{{i18n:Festivals.EoR.Elli_spouse}}",
+                    "Gray": "{{i18n:Festivals.EoR.Gray}}",
+                    "Gray_spouse": "{{i18n:Festivals.EoR.Gray_spouse}}",
+                    "Kai": "{{i18n:Festivals.EoR.Kai}}",
+                    "Kai_spouse": "{{i18n:Festivals.EoR.Kai_spouse}}",
+                    "Karen": "{{i18n:Festivals.EoR.Karen}}",
+                    "Karen_spouse": "{{i18n:Festivals.EoR.Karen_spouse}}",
+                    "Marie": "{{i18n:Festivals.EoR.Marie}}",
+                    "Marie_spouse": "{{i18n:Festivals.EoR.Marie_spouse}}",
+                    "Nami": "{{i18n:Festivals.EoR.Nami}}",
+                    "Nami_spouse": "{{i18n:Festivals.EoR.Nami_spouse}}",
+                    "Popuri": "{{i18n:Festivals.EoR.Popuri}}",
+                    "Popuri_spouse": "{{i18n:Festivals.EoR.Popuri_spouse}}",
+                    "Rick": "{{i18n:Festivals.EoR.Rick}}",
+                    "Rick_spouse": "{{i18n:Festivals.EoR.Rick_spouse}}",
+
+                },
+            },
+    ]
+    }
+    

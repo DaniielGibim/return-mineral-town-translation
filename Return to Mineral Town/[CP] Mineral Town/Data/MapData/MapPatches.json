@@ -1,0 +1,60 @@
+  {
+    "Changes": [
+    /*********
+    ** Add Map Merge
+    *********/
+
+    //Bus Stop
+    {
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "When": {
+        "HasMod |contains=Rafseazz.RSVCP": false
+      },
+      "FromFile": "Assets/Maps/MapPatches/{{ModId}}_BusStopSign.tmx",
+      "ToArea": { "X": 38, "Y": 6, "Width": 9, "Height": 7 },
+      "PatchMode": "ReplaceByLayer"
+    },
+
+    //Bus Stop Ridgeside Village exists
+    {
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "When": {
+        "HasMod |contains=Rafseazz.RSVCP": true
+      },
+      "FromFile": "Assets/Maps/MapPatches/{{ModId}}_BusStopSignRSV.tmx",
+      "ToArea": { "X": 38, "Y": 6, "Width": 9, "Height": 7 },
+      "PatchMode": "ReplaceByLayer"
+    },
+    
+    //TreeStump exists
+    {
+      "Action": "EditMap",
+      "Target": "Maps/StreetLeft",
+      "When": {
+        "HasMod |contains=TMXTreeStump": true
+      },
+      "FromFile": "Assets/Maps/MapPatches/{{ModId}}_CottonMapPatch.tmx",
+      "ToArea": {
+      "X": 0, "Y": 0, "Width": 10, "Height": 23 },
+      "PatchMode": "ReplaceByLayer"
+    },
+
+    //Minecart
+    {
+      "Action": "EditData",
+      "Target": "Data/Minecarts",
+      "TargetField": [ "Default", "Destinations" ], // for the "Default" network, edit the "Destinations" field
+      "Entries": {
+      "{{ModID}}_MineralTownCart": {
+      "Id": "{{ModID}}_MineralTownCart",
+      "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP}}",
+        "TargetLocation": "{{ModID}}_TownCenter",
+      "TargetTile": { "X": 49, "Y": 17 },
+      "TargetDirection": "down",
+      }
+      }
+      },
+  ]
+}

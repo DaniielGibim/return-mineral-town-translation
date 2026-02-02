@@ -1,0 +1,41 @@
+{
+"Changes": [
+
+	{
+		//Mail Letters
+		"LogName": "Mail Letters",
+		"Action": "EditData",
+		"Target": "Data/Mail",
+		"Entries": {
+
+		//Recipe Letters
+		    "{{ModID}}_AjaRecipeLetter": "{{i18n:Mail.AjaRecipeLetter}} %item cookingRecipe{{ModID}}_Harvest_Apple_Pie%%[#]{{i18n:Title.AjaRecipeLetter}}",
+			"{{ModID}}_AnnRecipeLetter": "{{i18n:Mail.AnnRecipeLetter}} %item cookingRecipe {{ModID}}_Harvest_Cheesecake%%[#]{{i18n:Title.AnnRecipeLetter}}",
+			"{{ModID}}_BasilRecipeLetter": "{{i18n:Mail.BasilRecipeLetter}} %item cookingRecipe {{ModID}}_Fruit_Latte%%[#]{{i18n:Title.BasilRecipeLetter}}",
+			"{{ModID}}_BarleyRecipeLetter": "{{i18n:Mail.BarleyRecipeLetter}} %item cookingRecipe {{ModID}}_Pudding%%[#]{{i18n:Title.BarleyRecipeLetter}}",
+			"{{ModID}}_CarterRecipeLetter": "{{i18n:Mail.CarterRecipeLetter}} %item cookingRecipe {{ModID}}_Strawberry_Latte%%[#]{{i18n:Title.CarterRecipeLetter}}",
+			"{{ModID}}_CliffRecipeLetter": "{{i18n:Mail.CliffRecipeLetter}} %item cookingRecipe {{ModID}}_Curry_Rice%%[#]{{i18n:Title.CliffRecipeLetter}}",
+			"{{ModID}}_DoctorRecipeLetter": "{{i18n:Mail.DoctorRecipeLetter}} %item cookingRecipe {{ModID}}_Mixed_Latte%%[#]{{i18n:Title.DoctorRecipeLetter}}",
+			"{{ModID}}_DougRecipeLetter": "{{i18n:Mail.DougRecipeLetter}} %item cookingRecipe {{ModID}}_Cheese_Fondue%%[#]{{i18n:Title.DougRecipeLetter}}",
+			"{{ModID}}_EllenRecipeLetter": "{{i18n:Mail.EllenRecipeLetter}} %item cookingRecipe {{ModID}}_Sandwich%%[#]{{i18n:Title.EllenRecipeLetter}}",
+			"{{ModID}}_ElliRecipeLetter": "{{i18n:Mail.ElliRecipeLetter}} %item cookingRecipe {{ModID}}_Yellow_Miso_Soup%%[#]{{i18n:Title.ElliRecipeLetter}}",
+			"{{ModID}}_GotzRecipeLetter": "{{i18n:Mail.GotzRecipeLetter}} %item cookingRecipe {{ModID}}_Savory_Pancakes%%[#]{{i18n:Title.GotzRecipeLetter}}",
+      		"{{ModID}}_HarrisRecipeLetter": "{{i18n:Mail.HarrisRecipeLetter}} %item cookingRecipe {{ModID}}_Shrimp_Fried_Rice%%[#]{{i18n:Title.HarrisRecipeLetter}}",
+      		"{{ModID}}_JeffRecipeLetter": "{{i18n:Mail.JeffRecipeLetter}} %item cookingRecipe {{ModID}}_Spicy_Ketchup%%[#]{{i18n:Title.JeffRecipeLetter}}",
+			"{{ModID}}_KaiRecipeLetter": "{{i18n:Mail.KaiRecipeLetter}} %item cookingRecipe {{ModID}}_Salted_Popcorn%%[#]{{i18n:Title.KaiRecipeLetter}}",
+			"{{ModID}}_KarenRecipeLetter": "{{i18n:Mail.KarenRecipeLetter}} %item cookingRecipe {{ModID}}_Stew%%[#]{{i18n:Title.KarenRecipeLetter}}",
+			"{{ModID}}_LilliaRecipeLetter": "{{i18n:Mail.LilliaRecipeLetter}} %item cookingRecipe {{ModID}}_Omelet_Rice%%[#]{{i18n:Title.LilliaRecipeLetter}}",
+			"{{ModID}}_MarieRecipeLetter": "{{i18n:Mail.MarieRecipeLetter}} %item cookingRecipe {{ModID}}_Vegetable_Latte%%[#]{{i18n:Title.MarieRecipeLetter}}",
+			"{{ModID}}_MannaRecipeLetter": "{{i18n:Mail.MannaRecipeLetter}} %item cookingRecipe {{ModID}}_Candied_Sweet_Potatoes%%[#]{{i18n:Title.MannaRecipeLetter}}",
+			"{{ModID}}_MeiRecipeLetter": "{{i18n:Mail.MeiRecipeLetter}} %item cookingRecipe {{ModID}}_Harvest_Pudding%%[#]{{i18n:Title.MeiRecipeLetter}}",
+			"{{ModID}}_RickRecipeLetter": "{{i18n:Mail.RickRecipeLetter}} %item cookingRecipe {{ModID}}_Corn_Flakes %%[#]{{i18n:Title.RickRecipeLetter}}",
+			"{{ModID}}_SaibaraRecipeLetter": "{{i18n:Mail.SaibaraRecipeLetter}} %item cookingRecipe {{ModID}}_Happy_Eggplant%%[#]{{i18n:Title.SaibaraRecipeLetter}}",
+			"{{ModID}}_SashaRecipeLetter": "{{i18n:Mail.SashaRecipeLetter}} %item cookingRecipe {{ModID}}_Chocolate_Cookies%%[#]{{i18n:Title.SashaRecipeLetter}}",
+			"{{ModID}}_StuRecipeLetter": "{{i18n:Mail.StuRecipeLetter}} %item cookingRecipe {{ModID}}_French_Fries%%[#]{{i18n:Title.StuRecipeLetter}}",
+			"{{ModID}}_TateRecipeLetter": "{{i18n:Mail.TateRecipeLetter}} %item cookingRecipe {{ModID}}_Baked_Corn%%[#]{{i18n:Title.TateRecipeLetter}}",
+			"{{ModID}}_ZackRecipeLetter": "{{i18n:Mail.ZackRecipeLetter}} %item cookingRecipe {{ModID}}_Raisin_Bread%%[#]{{i18n:Title.ZackRecipeLetter}}"
+
+		}
+	}
+]
+}

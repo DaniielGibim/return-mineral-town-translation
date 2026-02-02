@@ -1,0 +1,22 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Manna Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Manna",
+      "Entries": {
+
+      //Regular Schedule
+        "spring": "610 {{ModId}}_WineryInterior 3 5 0/700 {{ModId}}_WineryInterior 7 8 1/900 {{ModId}}_WineryInterior 5 17 2/1400 {{ModId}}_WineryInterior 3 5 0/1500 {{ModId}}_WineryInterior 7 8 1/1600 {{ModId}}_WineryInterior 12 17 3/1900 {{ModId}}_WineryInterior2ndFloor 6 22 0/2200 {{ModId}}_WineryInterior2ndFloor 1 19 3 manna_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sat": "610 {{ModId}}_WineryInterior 3 5 0/700 {{ModId}}_WineryInterior 7 8 1/810 {{ModId}}_MarketInterior 16 27 1/1000 {{ModId}}_LibraryInterior 1 7 0/1700 {{ModId}}_WineryInterior 3 5 0/1800 {{ModId}}_WineryInterior 7 8 1/1900 {{ModId}}_WineryInterior2ndFloor 6 22 0/2200 {{ModId}}_WineryInterior2ndFloor 1 19 3 manna_sleep",
+        "Sun": "610 {{ModId}}_WineryInterior 3 5 0/700 {{ModId}}_WineryInterior 7 8 1/900 {{ModId}}_WineryInterior2ndFloor 3 4 0/1030 {{ModId}}_WineryInterior2ndFloor 3 5 3/1200 {{ModId}}_WineryInterior2ndFloor 5 5 0/1400 {{ModId}}_TownCenter 50 76 0/1700 {{ModId}}_WineryInterior 5 6 2/2200 {{ModId}}_WineryInterior2ndFloor 1 19 3 manna_sleep",
+        "rain": "GOTO spring",
+        "GreenRain": "GOTO rain"
+      }
+    }
+  ]
+}

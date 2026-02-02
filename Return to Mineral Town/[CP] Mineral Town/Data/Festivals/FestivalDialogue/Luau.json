@@ -1,0 +1,71 @@
+{
+    "Changes": [
+    
+    //------------------------
+    // FESTIVAL DIALOGUE
+    //------------------------
+    
+        //Luau----------------------
+    
+            {
+                "LogName": "Luau",
+                "Action": "EditData",
+                "Target": "Data/Festivals/summer11",
+                "Entries": {
+    
+                //Non-Dateables
+                    "Anna": "{{i18n:Festivals.Luau.Anna}}",
+                    "Barley": "{{i18n:Festivals.Luau.Barley}}",
+                    "Basil": "{{i18n:Festivals.Luau.Basil}}",
+                    "Carter": "{{i18n:Festivals.Luau.Carter}}",
+                    "Doug": "{{i18n:Festivals.Luau.Doug}}",
+                    "Duke": "{{i18n:Festivals.Luau.Duke}}",
+                    "Ellen": "{{i18n:Festivals.Luau.Ellen}}",
+                    "Gotz": "{{i18n:Festivals.Luau.Gotz}}",
+                    "Harris": "{{i18n:Festivals.Luau.Harris}}",
+                    "HarvestGoddess": "{{i18n:Festivals.Luau.HarvestGoddess}}",
+                    "Jeff": "{{i18n:Festivals.Luau.Jeff}}",
+                    "Kappa": "{{i18n:Festivals.Luau.Kappa}}",
+                    "Lillia": "{{i18n:Festivals.Luau.Lillia}}",
+                    "Manna": "{{i18n:Festivals.Luau.Manna}}",
+                    "Mei": "{{i18n:Festivals.Luau.Mei}}",
+                    "Saibara": "{{i18n:Festivals.Luau.Saibara}}",
+                    "Sasha": "{{i18n:Festivals.Luau.Sasha}}",
+                    "Stu": "{{i18n:Festivals.Luau.Stu}}",
+                    "Tate": "{{i18n:Festivals.Luau.Tate}}",
+                    "Thomas": "{{i18n:Festivals.Luau.Thomas}}",
+                    "Won": "{{i18n:Festivals.Luau.Won}}",
+                    "Zack": "{{i18n:Festivals.Luau.Zack}}",
+
+    
+                //Dateables
+                    "Aja": "{{i18n:Festivals.Luau.Aja}}",
+                    "Aja_spouse": "{{i18n:Festivals.Luau.Aja_spouse}}",
+                    "Ann": "{{i18n:Festivals.Luau.Ann}}",
+                    "Ann_spouse": "{{i18n:Festivals.Luau.Ann_spouse}}",
+                    "Cliff": "{{i18n:Festivals.Luau.Cliff}}",
+                    "Cliff_spouse": "{{i18n:Festivals.Luau.Cliff_spouse}}",
+                    "Doctor": "{{i18n:Festivals.Luau.Doctor}}",
+                    "Doctor_spouse": "{{i18n:Festivals.Luau.Doctor_spouse}}",
+                    "Elli": "{{i18n:Festivals.Luau.Elli}}",
+                    "Elli_spouse": "{{i18n:Festivals.Luau.Elli_spouse}}",
+                    "Gray": "{{i18n:Festivals.Luau.Gray}}",
+                    "Gray_spouse": "{{i18n:Festivals.Luau.Gray_spouse}}",
+                    "Kai": "{{i18n:Festivals.Luau.Kai}}",
+                    "Kai_spouse": "{{i18n:Festivals.Luau.Kai_spouse}}",
+                    "Karen": "{{i18n:Festivals.Luau.Karen}}",
+                    "Karen_spouse": "{{i18n:Festivals.Luau.Karen_spouse}}",
+                    "Marie": "{{i18n:Festivals.Luau.Marie}}",
+                    "Marie_spouse": "{{i18n:Festivals.Luau.Marie_spouse}}",
+                    "Nami": "{{i18n:Festivals.Luau.Nami}}",
+                    "Nami_spouse": "{{i18n:Festivals.Luau.Nami_spouse}}",
+                    "Popuri": "{{i18n:Festivals.Luau.Popuri}}",
+                    "Popuri_spouse": "{{i18n:Festivals.Luau.Popuri_spouse}}",
+                    "Rick": "{{i18n:Festivals.Luau.Rick}}",
+                    "Rick_spouse": "{{i18n:Festivals.Luau.Rick_spouse}}",
+
+                },
+            },
+    ]
+    }
+    

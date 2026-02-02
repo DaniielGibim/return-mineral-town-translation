@@ -1,0 +1,218 @@
+{
+    "Changes": [
+      // custom fruit tree
+      // add fruit + sapling items
+      // note: sapling must have an edibility under 0 (usually -300) to be plantable
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+        "{{ModID}}_Paopu_Fruit": {
+            "Name": "{{ModID}}_Paopu_Fruit",
+            "DisplayName": "{{i18n:object.paopu-fruit.name}}",
+            "Description": "{{i18n:object.paopu-fruit.description}}",
+            "Type": "Fruit",
+            "Category": -79,
+            "Price": 200,
+            "Texture": "Mods/{{ModID}}/Objects",
+            "SpriteIndex": 92,
+            "Edibility": 50,
+            "IsDrink": false,
+            "ExcludeFromFishingCollection": true,
+            "ExcludeFromShippingCollection": false,
+            "ExcludeFromRandomSale": true,
+            "ContextTags": [
+                "color_yellow"
+            ]
+        },
+        "{{ModID}}_Paopu_Sapling": {
+            "Name": "{{ModID}}_Paopu_Sapling",
+            "DisplayName": "{{i18n:object.paopu-sapling.name}}",
+            "Description": "{{i18n:object.paopu-sapling.description}}",
+            "Type": "Seed",
+            "Category": -74,
+            "Price": 10000,
+            "Texture": "Mods/{{ModID}}/Objects",
+            "SpriteIndex": 95,
+            "Edibility": -300,
+            "IsDrink": false,
+            "ExcludeFromFishingCollection": true,
+            "ExcludeFromShippingCollection": true,
+            "ExcludeFromRandomSale": true,
+            "ContextTags": [
+                "color_yellow"
+            ]
+        },
+        "{{ModID}}_Mutfruit": {
+            "Name": "{{ModID}}_Mutfruit",
+            "DisplayName": "{{i18n:object.mutfruit.name}}",
+            "Description": "{{i18n:object.mutfruit.description}}",
+            "Type": "Fruit",
+            "Category": -79,
+            "Price": 175,
+            "Texture": "Mods/{{ModID}}/Objects",
+            "SpriteIndex": 93,
+            "Edibility": 25,
+            "IsDrink": false,
+            "ExcludeFromFishingCollection": true,
+            "ExcludeFromShippingCollection": false,
+            "ExcludeFromRandomSale": true,
+            "ContextTags": [
+                "color_purple"
+            ]
+        },
+        "{{ModID}}_Mutfruit_Sapling": {
+            "Name": "{{ModID}}_Mutfruit_Sapling",
+            "DisplayName": "{{i18n:object.mutfruit-sapling.name}}",
+            "Description": "{{i18n:object.mutfruit-sapling.description}}",
+            "Type": "Seed",
+            "Category": -74,
+            "Price": 250,
+            "Texture": "Mods/{{ModID}}/Objects",
+            "SpriteIndex": 96,
+            "Edibility": -300,
+            "IsDrink": false,
+            "ExcludeFromFishingCollection": true,
+            "ExcludeFromShippingCollection": true,
+            "ExcludeFromRandomSale": true,
+            "ContextTags": [
+                "color_purple"
+            ]
+        },
+        "{{ModID}}_Wumpa_Fruit": {
+            "Name": "{{ModID}}_Wumpa_Fruit",
+            "DisplayName": "{{i18n:object.wumpa-fruit.name}}",
+            "Description": "{{i18n:object.wumpa-fruit.description}}",
+            "Type": "Fruit",
+            "Category": -79,
+            "Price": 250,
+            "Texture": "Mods/{{ModID}}/Objects",
+            "SpriteIndex": 94,
+            "Edibility": 60,
+            "IsDrink": false,
+            "ExcludeFromFishingCollection": true,
+            "ExcludeFromShippingCollection": false,
+            "ExcludeFromRandomSale": true,
+            "ContextTags": [
+                "color_red",
+                "color_orange",
+                "color_yellow",
+                "color_green"
+            ]
+        },
+
+        "{{ModID}}_Wumpa_Sapling": {
+            "Name": "{{ModID}}_Wumpa_Sapling",
+            "DisplayName": "{{i18n:object.wumpa-sapling.name}}",
+            "Description": "{{i18n:object.wumpa-sapling.description}}",
+            "Type": "Seed",
+            "Category": -74,
+            "Price": 250,
+            "Texture": "Mods/{{ModID}}/Objects",
+            "SpriteIndex": 97,
+            "Edibility": -300,
+            "IsDrink": false,
+            "ExcludeFromFishingCollection": true,
+            "ExcludeFromShippingCollection": true,
+            "ExcludeFromRandomSale": true,
+            "ContextTags": [
+                "color_red",
+                "color_orange",
+                "color_yellow",
+                "color_green"
+            ]
+        }
+    }
+},
+  
+      {
+        "LogName": "Load Fruit Tree Sprites",
+        "Action": "Load",
+        "Target": "Mods/{{ModID}}/Trees",
+        "FromFile": "Assets/Objects/Trees.png,"
+      },
+  
+      // add fruit tree
+      {
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "Entries": {
+          "{{ModID}}_Paopu_Sapling": {
+            "DisplayName": "{{i18n:object.paopu-sapling.name}}",
+            "Seasons": [ "spring", "summer" ],
+            "ExcludeFromRandomSale": true,
+            "ExcludeFromShippingCollection": true,
+            "Fruit": [
+              {
+                "Id": "{{ModID}}_Paopu_Fruit",
+                "ItemId": "{{ModID}}_Paopu_Fruit",
+                "Seasons": [ "spring", "summer" ],
+                "Chance": 0.5,
+                "Condition": null,
+                "RandomItemId": null,
+                "MinStack": 0,
+                "MaxStack": 1,
+                "Quality": 1
+              }
+            ],
+            "Texture": "Mods/{{ModID}}/Trees",
+            "TextureSpriteRow": 0
+          }
+        }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "Entries": {
+            "{{ModID}}_Mutfruit_Sapling": {
+                "DisplayName": "{{i18n:object.mutfruit-sapling.name}}",
+                "Seasons": [ "fall", "winter" ],
+                "ExcludeFromRandomSale": true,
+                "ExcludeFromShippingCollection": true,
+                "Fruit": [
+                    {
+                        "Id": "{{ModID}}_Mutfruit",
+                        "ItemId": "{{ModID}}_Mutfruit",
+                        "Seasons": [ "fall", "winter" ],
+                        "Chance": 0.5,
+                        "Condition": null,
+                        "RandomItemId": null,
+                        "MinStack": 0,
+                        "MaxStack": 1,
+                        "Quality": 1
+                    }
+                ],
+                "Texture": "Mods/{{ModID}}/Trees",
+                "TextureSpriteRow": 2
+            }
+        }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "Entries": {
+          "{{ModID}}_Wumpa_Sapling": {
+            "DisplayName": "{{i18n:object.wumpa-sapling.name}}",
+            "Seasons": [ "summer", "fall" ],
+            "ExcludeFromRandomSale": true,
+            "ExcludeFromShippingCollection": true,
+            "Fruit": [
+              {
+                "Id": "{{ModID}}_Wumpa_Fruit",
+                "ItemId": "{{ModID}}_Wumpa_Fruit",
+                "Seasons": [ "summer", "fall" ],
+                "Chance": 0.5,
+                "Condition": null,
+                "RandomItemId": null,
+                "MinStack": 0,
+                "MaxStack": 1,
+                "Quality": 1
+              }
+            ],
+            "Texture": "Mods/{{ModID}}/Trees",
+            "TextureSpriteRow": 1
+          }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,344 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ],
+            "Entries": {
+                "Rexstrife20.MineralTownCP_Town": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Town_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)216",
+                                "(O)245",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_Town2": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Town2_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)192",
+                                "(O)216",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_YodelRanch": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "YodelRanch_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)178",
+                                "(O)179",
+                                "(O)188",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_SuperMart": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "SuperMart_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)274",
+                                "(O)256",
+                                "(O)246",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_Winery": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Winery_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)348",
+                                "(O)350",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_Church1": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Church1_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)96",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_Church2": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Church2_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)98",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_Library": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Library_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)398",
+                                "(O)92",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_Carter": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Carter_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)270",
+                                "(O)176",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_Clinic": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Clinic_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)235",
+                                "(O)216",
+                                "(O)349",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_Blacksmith": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Blacksmith_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)535",
+                                "(O)378",
+                                "(O)330",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_Doctor": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Doctor_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)395",
+                                "(O)613",
+                                "(O)648",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_TownEntrance2": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "TownEntrance2_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)346",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_TownEntrance": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "TownEntrance_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)168",
+                                "(O)170",
+                                "(O)171",
+                                "(O)172",
+                                "(O)346",
+                                "(O){{ModId}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_BeachRises": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "BeachRises_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)137",
+                                "(O)152",
+                                "(O)153",
+                                "(O)168",
+                                "(O){{ModID}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                "Rexstrife20.MineralTownCP_BeachFalls": {
+                   "BaseChance": -1.0,
+                    "Items": [
+                        {
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "BeachFalls_Trash",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)137",
+                                "(O)152",
+                                "(O)153",
+                                "(O)168",
+                                "(O){{ModID}}_Bebsi_Cola",
+                                "(O){{ModId}}_Won_Ticket",
+                                             ],
+                        },
+                ],
+                    "CustomFields": {}
+                },
+                }
+            }
+    ]
+}

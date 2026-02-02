@@ -1,0 +1,46 @@
+{
+"Changes": [
+
+	{
+   "Action": "EditData",
+   "Target": "Data/Festivals/winter28",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Aja 51 50 up/Ann 29 50 right/Anna 36 46 right/Barley 31 34 down/Basil 30 51 up/Carter 54 34 down/Cliff 44 28 down/Doctor 30 32 up/Doug 52 31 left/Duke 25 41 right/Ellen 31 35 down/Elli 51 47 down/Gotz 24 34 down/Gray 53 49 left/Harris 26 35 left/Jeff 47 32 up/Kai 34 32 up/Karen 30 49 down/Lillia 38 46 left/Manna 37 47 up/Marie 31 50 left/Mei 33 40 down/Nami 35 32 up/Popuri 33 32 up/Rick 45 32 up/Saibara 24 36 up/Sasha 37 45 down/Stu 33 42 up/Tate 47 28 down/Thomas 43 47 up/Won 52 36 right/Zack 53 37 right",
+         "Delimiter": "/"
+		},
+
+   //MainEevent
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Aja 38 50 up/Ann 49 40 left/Anna 31 42 right/Barley 43 50 up/Basil 31 41 right/Carter 32 46 right/Cliff 51 42 left/Doctor 51 46 left/Doug 48 42 left/Duke 48 45 left/Ellen 43 49 up/Elli 33 43 right/Gray 29 47 right/Gotz 40 51 up/Harris 35 46 right/Jeff 46 49 up/Kai 51 41 left/Karen 49 41 left/Lillia 29 44 right/Manna 48 46 left/Marie 49 43 left/Mei 41 49 up/Nami 31 44 right/Popuri 29 46 right/Rick 29 45 right/Saibara 39 51 up/Sasha 47 49 up/Stu 42 49 up/Tate 43 48 up/Thomas 35 45 right/Won 51 45 left/Zack 51 46 left",
+         "Delimiter": "/"
+        },
+
+    //SetUp Year 2
+        {
+        "Operation": "Append",
+        "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+        "Value": "Aja 51 50 up/Ann 29 50 right/Anna 36 46 right/Barley 31 34 down/Basil 30 51 up/Carter 54 34 down/Cliff 44 28 down/Doctor 30 32 up/Doug 52 31 left/Duke 25 41 right/Ellen 31 35 down/Elli 51 47 down/Gotz 24 34 down/Gray 53 49 left/Harris 26 35 left/Jeff 47 32 up/Kai 34 32 up/Karen 30 49 down/Lillia 38 46 left/Manna 37 47 up/Marie 31 50 left/Mei 33 40 down/Nami 35 32 up/Popuri 33 32 up/Rick 45 32 up/Saibara 24 36 up/Sasha 37 45 down/Stu 33 42 up/Tate 47 28 down/Thomas 43 47 up/Won 52 36 right/Zack 53 37 right",
+        "Delimiter": "/"
+       },
+
+    //MainEevent Year 2
+       {
+        "Operation": "Append",
+        "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+        "Value": "Aja 38 50 up/Ann 49 40 left/Anna 31 42 right/Barley 43 50 up/Basil 31 41 right/Carter 32 46 right/Cliff 51 42 left/Doctor 51 46 left/Doug 48 42 left/Duke 48 45 left/Ellen 43 49 up/Elli 33 43 right/Gray 29 47 right/Gotz 40 51 up/Harris 35 46 right/Jeff 46 49 up/Kai 51 41 left/Karen 49 41 left/Lillia 29 44 right/Manna 48 46 left/Marie 49 43 left/Mei 41 49 up/Nami 31 44 right/Popuri 29 46 right/Rick 29 45 right/Saibara 39 51 up/Sasha 47 49 up/Stu 42 49 up/Tate 43 48 up/Thomas 35 45 right/Won 51 45 left/Zack 51 46 left",
+        "Delimiter": "/"
+       }
+    ],
+    "When": {
+        "HasMod |contains=Rafseazz.RSVCP": true
+        }
+    }
+]
+}

@@ -1,0 +1,16 @@
+{
+	"Changes": [
+	/*********
+	** AntiSocial NPCs
+	*********/	
+		{
+			"LogName": "Antisocial NPCs",
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"HarvestGoddess": true,
+				"Kappa": true,
+			}
+		},
+],
+}

@@ -1,0 +1,106 @@
+{
+"Changes": [
+	{
+   
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/Gotz",
+   "Entries": {
+   	"Introduction": "{{i18n:{{TargetWithoutPath}}.Dialogue.Introduction}}",
+
+
+		//Spring
+	"spring_1": "{{i18n:Gotz.Dialogue.spring_1}}",
+	"spring_12": "{{i18n:Gotz.Dialogue.spring_12}}",
+	"spring_23": "{{i18n:Gotz.Dialogue.spring_23}}",
+
+		//Summer
+	"summer_1": "{{i18n:Gotz.Dialogue.summer_1}}",
+	"summer_10": "{{i18n:Gotz.Dialogue.summer_10}}",
+	"summer_27": "{{i18n:Gotz.Dialogue.summer_27}}",
+
+		//Fall
+	"fall_1": "{{i18n:Gotz.Dialogue.fall_1}}",
+	"fall_15": "{{i18n:Gotz.Dialogue.fall_15}}",
+	"fall_26": "{{i18n:Gotz.Dialogue.fall_26}}",
+
+		//Winter
+	"winter_1": "{{i18n:Gotz.Dialogue.winter_1}}",
+	"winter_7": "{{i18n:Gotz.Dialogue.winter_7}}",
+	"winter_24": "{{i18n:Gotz.Dialogue.winter_24}}",
+
+		//Days of the Week
+
+		//0 Hearts
+	"Mon": "{{i18n:Gotz.Dialogue.Mon}}",
+	"Tue": "{{i18n:Gotz.Dialogue.Tue}}",
+	"Wed": "{{i18n:Gotz.Dialogue.Wed}}",
+	"Thu": "{{i18n:Gotz.Dialogue.Thu}}",
+	"Fri": "{{i18n:Gotz.Dialogue.Fri}}",
+	"Sat": "{{i18n:Gotz.Dialogue.Sat}}",
+	"Sun": "{{i18n:Gotz.Dialogue.Sun}}",
+	
+		//2 Hearts
+	"Mon2": "{{i18n:Gotz.Dialogue.Mon2}}",
+	"Tue2": "{{i18n:Gotz.Dialogue.Tue2}}",
+	"Wed2": "{{i18n:Gotz.Dialogue.Wed2}}",
+	"Thu2": "{{i18n:Gotz.Dialogue.Thu2}}",
+	"Fri2": "{{i18n:Gotz.Dialogue.Fri2}}",
+	"Sat2": "{{i18n:Gotz.Dialogue.Sat2}}",
+	"Sun2": "{{i18n:Gotz.Dialogue.Sun2}}",
+	
+		//4 Hearts
+	"Mon4": "{{i18n:Gotz.Dialogue.Mon4}}",
+	"Tue4": "{{i18n:Gotz.Dialogue.Tue4}}",
+	"Wed4": "{{i18n:Gotz.Dialogue.Wed4}}",
+	"Thu4": "{{i18n:Gotz.Dialogue.Thu4}}",
+	"Fri4": "{{i18n:Gotz.Dialogue.Fri4}}",
+	"Sat4": "{{i18n:Gotz.Dialogue.Sat4}}",
+	"Sun4": "{{i18n:Gotz.Dialogue.Sun4}}",
+	
+		//6 Hearts
+	"Mon6": "{{i18n:Gotz.Dialogue.Mon6}}",
+	"Tue6": "{{i18n:Gotz.Dialogue.Tue6}}",
+	"Wed6": "{{i18n:Gotz.Dialogue.Wed6}}",
+	"Thu6": "{{i18n:Gotz.Dialogue.Thu6}}",
+	"Fri6": "{{i18n:Gotz.Dialogue.Fri6}}",
+	"Sat6": "{{i18n:Gotz.Dialogue.Sat6}}",
+	"Sun6": "{{i18n:Gotz.Dialogue.Sun6}}",
+			
+		//8 Hearts
+	"Mon8": "{{i18n:Gotz.Dialogue.Mon8}}",
+	"Tue8": "{{i18n:Gotz.Dialogue.Tue8}}",
+	"Wed8": "{{i18n:Gotz.Dialogue.Wed8}}",
+	"Thu8": "{{i18n:Gotz.Dialogue.Thu8}}",
+	"Fri8": "{{i18n:Gotz.Dialogue.Fri8}}",
+	"Sat8": "{{i18n:Gotz.Dialogue.Sat8}}",
+	"Sun8": "{{i18n:Gotz.Dialogue.Sun8}}",
+	
+		//10 Hearts
+	"Mon10": "{{i18n:Gotz.Dialogue.Mon10}}",
+	"Tue10": "{{i18n:Gotz.Dialogue.Tue10}}",
+	"Wed10": "{{i18n:Gotz.Dialogue.Wed10}}",
+	"Thu10": "{{i18n:Gotz.Dialogue.Thu10}}",
+	"Fri10": "{{i18n:Gotz.Dialogue.Fri10}}",
+	"Sat10": "{{i18n:Gotz.Dialogue.Sat10}}",
+	"Sun10": "{{i18n:Gotz.Dialogue.Sun10}}",
+
+	//Resort
+	"Resort_Entering": "{{i18n:Gotz.Dialogue.Resort_Entering}}",
+	"Resort_Leaving": "{{i18n:Gotz.Dialogue.Resort_Leaving}}",
+	"Resort_Shore": "{{i18n:Gotz.Dialogue.Resort_Shore}}",
+	"Resort_Bar": "{{i18n:Gotz.Dialogue.Resort_Bar}}",
+	"Resort": "{{i18n:Gotz.Dialogue.Resort}}",
+
+	 //Special Dialogue
+	"MovieInvitation": "{{i18n:Gotz.Dialogue.MovieInvitation}}",
+
+	//Location Dialogue
+	"Forest_1": "{{i18n:Gotz.Dialogue.Forest_1}}",
+	"Forest_2": "{{i18n:Gotz.Dialogue.Forest_2}}",
+	"Forest_3": "{{i18n:Gotz.Dialogue.Forest_3}}",
+	"ScienceHouse_1": "{{i18n:Gotz.Dialouge.ScienceHouse_1}}",
+	"ScienceHouse_2": "{{i18n:Gotz.Dialouge.ScienceHouse_2}}",
+		},
+	},
+]
+}

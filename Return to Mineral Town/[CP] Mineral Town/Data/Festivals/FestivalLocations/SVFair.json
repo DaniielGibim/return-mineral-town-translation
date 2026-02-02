@@ -1,0 +1,48 @@
+{
+"Changes": [
+
+    {
+        //NPC Positions
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Aja 31 71 up/Ann 26 34 up/Cliff 32 89 left/Doctor 19 33 right/Elli 19 34 right/Gray 39 36 left/Kai 24 72 up/Karen 22 65 up/Marie 39 35 left/Nami 33 38 up/Popuri 56 67 right/Rick 39 61 up/Tate 37 77 down",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                "Value": "Aja 31 71 up/Ann 26 34 up/Cliff 32 89 left/Doctor 19 33 right/Elli 19 34 right/Gray 39 36 left/Kai 24 72 up/Karen 22 65 up/Marie 39 35 left/Nami 33 38 up/Popuri 56 67 right/Rick 39 61 up/Tate 37 77 down",
+                "Delimiter": "/"
+            }
+
+        ]
+    },
+    {
+        //NPC Positions
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Aja 31 71 up/Ann 28 23 up/Cliff 31 87 up/Doctor 19 28 right/Elli 19 29 right/Gray 58 34 up/Kai 22 72 up/Karen 25 65 up/Marie 57 34 up/Nami 28 29 up/Popuri 59 65 down/Rick 33 57 right/Tate 33 77 down",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                "Value": "Aja 31 71 up/Ann 28 23 up/Cliff 31 87 up/Doctor 19 28 right/Elli 19 29 right/Gray 58 34 up/Kai 22 72 up/Karen 25 65 up/Marie 57 34 up/Nami 28 29 up/Popuri 59 65 down/Rick 33 57 right/Tate 33 77 down",
+                "Delimiter": "/"
+            }
+        ]
+    }
+]
+}

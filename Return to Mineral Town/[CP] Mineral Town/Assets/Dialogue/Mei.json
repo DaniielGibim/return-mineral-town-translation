@@ -1,0 +1,106 @@
+{
+"Changes": [
+	{
+   
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/Mei",
+   "Entries": {
+   	"Introduction": "{{i18n:{{TargetWithoutPath}}.Dialogue.Introduction}}",
+
+
+		//Spring
+	"spring_1": "{{i18n:Mei.Dialogue.spring_1}}",
+	"spring_12": "{{i18n:Mei.Dialogue.spring_12}}",
+	"spring_23": "{{i18n:Mei.Dialogue.spring_23}}",
+
+		//Summer
+	"summer_1": "{{i18n:Mei.Dialogue.summer_1}}",
+	"summer_10": "{{i18n:Mei.Dialogue.summer_10}}",
+	"summer_27": "{{i18n:Mei.Dialogue.summer_27}}",
+
+		//Fall
+	"fall_1": "{{i18n:Mei.Dialogue.fall_1}}",
+	"fall_15": "{{i18n:Mei.Dialogue.fall_15}}",
+	"fall_26": "{{i18n:Mei.Dialogue.fall_26}}",
+
+		//Winter
+	"winter_1": "{{i18n:Mei.Dialogue.winter_1}}",
+	"winter_7": "{{i18n:Mei.Dialogue.winter_7}}",
+	"winter_24": "{{i18n:Mei.Dialogue.winter_24}}",
+
+		//Days of the Week
+
+		//0 Hearts
+	"Mon": "{{i18n:Mei.Dialogue.Mon}}",
+	"Tue": "{{i18n:Mei.Dialogue.Tue}}",
+	"Wed": "{{i18n:Mei.Dialogue.Wed}}",
+	"Thu": "{{i18n:Mei.Dialogue.Thu}}",
+	"Fri": "{{i18n:Mei.Dialogue.Fri}}",
+	"Sat": "{{i18n:Mei.Dialogue.Sat}}",
+	"Sun": "{{i18n:Mei.Dialogue.Sun}}",
+	
+		//2 Hearts
+	"Mon2": "{{i18n:Mei.Dialogue.Mon2}}",
+	"Tue2": "{{i18n:Mei.Dialogue.Tue2}}",
+	"Wed2": "{{i18n:Mei.Dialogue.Wed2}}",
+	"Thu2": "{{i18n:Mei.Dialogue.Thu2}}",
+	"Fri2": "{{i18n:Mei.Dialogue.Fri2}}",
+	"Sat2": "{{i18n:Mei.Dialogue.Sat2}}",
+	"Sun2": "{{i18n:Mei.Dialogue.Sun2}}",
+	
+		//4 Hearts
+	"Mon4": "{{i18n:Mei.Dialogue.Mon4}}",
+	"Tue4": "{{i18n:Mei.Dialogue.Tue4}}",
+	"Wed4": "{{i18n:Mei.Dialogue.Wed4}}",
+	"Thu4": "{{i18n:Mei.Dialogue.Thu4}}",
+	"Fri4": "{{i18n:Mei.Dialogue.Fri4}}",
+	"Sat4": "{{i18n:Mei.Dialogue.Sat4}}",
+	"Sun4": "{{i18n:Mei.Dialogue.Sun4}}",
+	
+		//6 Hearts
+	"Mon6": "{{i18n:Mei.Dialogue.Mon6}}",
+	"Tue6": "{{i18n:Mei.Dialogue.Tue6}}",
+	"Wed6": "{{i18n:Mei.Dialogue.Wed6}}",
+	"Thu6": "{{i18n:Mei.Dialogue.Thu6}}",
+	"Fri6": "{{i18n:Mei.Dialogue.Fri6}}",
+	"Sat6": "{{i18n:Mei.Dialogue.Sat6}}",
+	"Sun6": "{{i18n:Mei.Dialogue.Sun6}}",
+			
+		//8 Hearts
+	"Mon8": "{{i18n:Mei.Dialogue.Mon8}}",
+	"Tue8": "{{i18n:Mei.Dialogue.Tue8}}",
+	"Wed8": "{{i18n:Mei.Dialogue.Wed8}}",
+	"Thu8": "{{i18n:Mei.Dialogue.Thu8}}",
+	"Fri8": "{{i18n:Mei.Dialogue.Fri8}}",
+	"Sat8": "{{i18n:Mei.Dialogue.Sat8}}",
+	"Sun8": "{{i18n:Mei.Dialogue.Sun8}}",
+	
+		//10 Hearts
+	"Mon10": "{{i18n:Mei.Dialogue.Mon10}}",
+	"Tue10": "{{i18n:Mei.Dialogue.Tue10}}",
+	"Wed10": "{{i18n:Mei.Dialogue.Wed10}}",
+	"Thu10": "{{i18n:Mei.Dialogue.Thu10}}",
+	"Fri10": "{{i18n:Mei.Dialogue.Fri10}}",
+	"Sat10": "{{i18n:Mei.Dialogue.Sat10}}",
+	"Sun10": "{{i18n:Mei.Dialogue.Sun10}}",
+
+	//Resort
+	"Resort_Entering": "{{i18n:Mei.Dialogue.Resort_Entering}}",
+	"Resort_Leaving": "{{i18n:Mei.Dialogue.Resort_Leaving}}",
+	"Resort_Shore": "{{i18n:Mei.Dialogue.Resort_Shore}}",
+	"Resort_Bar": "{{i18n:Mei.Dialogue.Resort_Bar}}",
+	"Resort": "{{i18n:Mei.Dialogue.Resort}}",
+
+	 //Special Dialogue
+	"MovieInvitation": "{{i18n:Mei.Dialogue.MovieInvitation}}",
+
+	//Location Dialogue
+	"ChurchInterior": "{{i18n:Mei.Dialogue.ChurchInterior}}",
+	"ChurchInterior_18_15": "{{i18n:Mei.Dialogue.ChurchInterior_18_15}}",
+
+	//CT Dialogue
+	"LucikielArrives": "{{i18n:Mei.Dialogue.LucikielArrivesMei.Dialogue.ChurchInterior_18_15}}"
+		},
+	},
+]
+}

@@ -1,0 +1,23 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Carter Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Carter",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_CarterHouseInterior 12 6 0/910 {{ModId}}_TownCenter 76 71 3/1300 {{ModId}}_ChurchInterior 10 10 2 carter_reading/1800 {{ModId}}_CarterHouseInterior 3 6 2/2200 {{ModId}}_CarterHouseInterior 11 6 1 carter_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Mon": "610 {{ModId}}_CarterHouseInterior 12 6 0/910 {{ModId}}_TownCenter 76 71 3/1300 {{ModId}}_ConfessionBox 2 4 2/1500 {{ModId}}_ChurchInterior 10 10 2 carter_reading/1800 {{ModId}}_CarterHouseInterior 3 6 2/2200 {{ModId}}_CarterHouseInterior 11 6 1 carter_sleep",
+        "Wed": "610 {{ModId}}_CarterHouseInterior 12 6 0/910 {{ModId}}_ConfessionBox 2 4 2/1300 {{ModId}}_ChurchInterior 10 10 2 carter_reading/1800 {{ModId}}_CarterHouseInterior 3 6 2/2200 {{ModId}}_CarterHouseInterior 11 6 1 carter_sleep",
+        "Sun": "610 {{ModId}}_CarterHouseInterior 12 6 0/800 {{ModId}}_ChurchInterior 19 9 1/1000 {{ModId}}_ChurchInterior 10 10 2/1200 {{ModId}}_ChurchInterior 11 8 2 carter_reading/1500 {{ModId}}_ChurchInterior 10 10 2/1700 {{ModId}}_ChurchInterior 19 9 1/1900 {{ModId}}_ChurchInterior 8 8 0/2200 {{ModId}}_CarterHouseInterior 11 6 1 carter_sleep",
+        "rain": "610 {{ModId}}_CarterHouseInterior 12 6 0/910 {{ModId}}_ChurchInterior 11 8 2/1300 {{ModId}}_ChurchInterior 10 10 2 Carter_reading/1800 {{ModId}}_CarterHouseInterior 3 6 2/2200 {{ModId}}_CarterHouseInterior 11 6 1 carter_sleep",
+        "GreenRain": "GOTO rain"
+      }
+    }
+  ]
+}

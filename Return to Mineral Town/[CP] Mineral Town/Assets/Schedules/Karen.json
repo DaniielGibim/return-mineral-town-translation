@@ -1,0 +1,24 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Karen Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Karen",
+      "Entries": {
+
+      //Regular Schedule
+        "spring": "610 {{ModId}}_MarketInterior 3 5 1/710 {{ModId}}_TownCenter 77 88 2/1000 {{ModId}}_MarketInterior 7 14 2/1300 {{ModId}}_MineralBeach 56 14 1/1700 {{ModId}}_InnInterior 9 8 2 karen_drink/2300 {{ModId}}_MarketInterior 2 5 3 karen_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sun": "610 {{ModId}}_GoddessHill 31 12 0/1000 {{ModId}}_MountainLake 34 34 1/1300 {{ModId}}_TownCenter 77 88 2/1700 {{ModId}}_InnInterior 23 10 2/2100 {{ModId}}_MarketInterior 6 7 1/2350 {{ModId}}_MarketInterior 2 5 3 karen_sleep",
+        "rain": "610 {{ModId}}_MarketInterior 3 5 1/1000 {{ModId}}_MarketInterior 7 14 2/1200 {{ModId}}_MarketInterior 12 15 1/1300 {{ModId}}_MarketInterior 6 7 1/1500 {{ModId}}_MarketInterior 6 5 0/1600 {{ModId}}_MarketInterior 3 7 1/1700 {{ModId}}_InnInterior 9 8 2 karen_drink/2300 {{ModId}}_MarketInterior 2 5 3 karen_sleep",
+        "GreenRain": "GOTO rain"
+      
+      //Marriage Schedule
+
+      }
+    }
+  ]
+}

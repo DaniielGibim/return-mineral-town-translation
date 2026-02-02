@@ -1,0 +1,29 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Barley Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Barley",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_YodelRanchInterior2ndFloor 2 5 0/810 {{ModId}}_YodelRanchInterior 2 5 0/900 {{ModId}}_YodelRanchInterior 10 9 1/1000 {{ModId}}_YodelRanchInterior 5 13 1/1800 {{ModId}}_YodelRanchInterior 12 8 2/2100 {{ModId}}_YodelRanchInterior2ndFloor 2 5 1 barley_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Mon": "610 {{ModId}}_YodelRanchInterior2ndFloor 2 5 0/810 {{ModId}}_GoddessHill 16 14 1/1200 {{ModId}}_YodelRanchInterior 5 13 1/1800 {{ModId}}_YodelRanchInterior 12 8 2/2100 {{ModId}}_YodelRanchInterior2ndFloor 2 5 1 barley_sleep",
+        "Thu": "610 {{ModId}}_YodelRanchInterior2ndFloor 2 5 0/810 {{ModId}}_YodelRanchInterior 2 5 0/1000 {{ModId}}_EllenInterior 22 17 0/1600 {{ModId}}_EllenInterior 12 14 2/1900 {{ModId}}_YodelRanchInterior 12 8 2/2100 {{ModId}}_YodelRanchInterior2ndFloor 2 5 1 barley_sleep",
+        "Sun": "610 {{ModId}}_YodelRanchInterior2ndFloor 2 5 0/1100 {{ModId}}_ChurchInterior 17 15 0/1500 {{ModId}}_ChurchInterior 15 14 2/1800 {{ModId}}_YodelRanchInterior 12 8 2/2100 {{ModId}}_YodelRanchInterior2ndFloor 2 5 1 barley_sleep",
+        "rain": "610 {{ModId}}_YodelRanchInterior2ndFloor 2 5 0/810 {{ModId}}_YodelRanchInterior 5 13 1/1800 {{ModId}}_YodelRanchInterior 12 8 2/2100 {{ModId}}_YodelRanchInterior2ndFloor 2 5 1 barley_sleep",
+        "GreenRain": "GOTO rain",
+
+        //Checkups
+        "spring_4": "610 {{ModId}}_YodelRanchInterior2ndFloor 2 5 0/810 {{ModId}}_YodelRanchInterior 5 13 1/1000 {{ModId}}_HospitalInterior 13 13 3/1300 {{ModId}}_HospitalInterior 24 14 3/1600 {{ModId}}_YodelRanchInterior 12 8 2/2100 {{ModId}}_YodelRanchInterior2ndFloor 2 5 1 barley_sleep",
+        "summer_4": "GOTO spring_4",
+        "fall_4": "GOTO spring_4",
+        "winter_4": "GOTO spring_4",
+      }
+    }
+  ]
+}

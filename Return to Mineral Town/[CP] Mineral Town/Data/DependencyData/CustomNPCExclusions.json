@@ -1,0 +1,36 @@
+{
+	"Changes":
+	[
+		/*********
+		** Custom NPC Exclusions
+		*********/
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries":
+			{
+				"Aja": "TownQuest",
+				"Anna": "WinterStar",
+				"Barley": "WinterStar",
+				"Basil": "WinterStar",
+				"Carter": "WinterStar",
+				"Ellen": "WinterStar",
+				"Gotz": "WinterStar",
+				"Harris": "WinterStar",
+				"HarvestGoddess": "TownQuest TownEvent IslandEvent",
+				"Jeff": "WinterStar",
+				"Kai": "TownQuest Winterstar",
+				"Kappa": "TownQuest TownEvent IslandEvent",
+				"Lillia": "WinterStar IslandEvent",
+				"Manna": "WinterStar",
+				"Mei": "WinterStar",
+				"Saibara": "WinterStar",
+				"Sasha": "WinterStar",
+				"Stu": "WinterStar",
+				"Thomas": "WinterStar",
+				"Won": "WinterStar",
+				"Zack": "WinterStar"
+			}
+		},
+	],
+}

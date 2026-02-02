@@ -1,0 +1,148 @@
+{
+"Changes": [
+	{
+   
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/Aja",
+   "Entries": {
+   	"Introduction": "{{i18n:{{TargetWithoutPath}}.Dialogue.Introduction}}",
+
+	
+ //Spring
+	"spring_1": "{{i18n:Aja.Dialogue.spring_1}}",
+	"spring_12": "{{i18n:Aja.Dialogue.spring_12}}",
+	"spring_23": "{{i18n:Aja.Dialogue.spring_23}}",
+	
+ //Summer
+	"summer_1": "{{i18n:Aja.Dialogue.summer_1}}",
+	"summer_10": "{{i18n:Aja.Dialogue.summer_10}}",
+	"summer_27": "{{i18n:Aja.Dialogue.summer_27}}",
+	 
+ //Fall
+	"fall_1": "{{i18n:Aja.Dialogue.fall_1}}",
+	"fall_15": "{{i18n:Aja.Dialogue.fall_15}}",
+	"fall_26": "{{i18n:Aja.Dialogue.fall_26}}",
+	 
+ //Winter
+	"winter_1": "{{i18n:Aja.Dialogue.winter_1}}",
+	"winter_7": "{{i18n:Aja.Dialogue.winter_7}}",
+	//"winter_14": "{{i18n:Aja.Dialogue.winter_14}}",
+	//"BeachNightMarket": "{{i18n:Aja.Dialogue.winter_15}}",
+	//"winter_16": "{{i18n:Aja.Dialogue.winter_16}}",
+	//"winter_17": "{{i18n:Aja.Dialogue.winter_17}}",
+	"winter_24": "{{i18n:Aja.Dialogue.winter_24}}",
+
+//Days of the Week 
+ 	//0 Hearts
+	"Mon": "{{i18n:Aja.Dialogue.Mon}}",
+	"Tue": "{{i18n:Aja.Dialogue.Tue}}",
+	"Wed": "{{i18n:Aja.Dialogue.Wed}}",
+	"Thu": "{{i18n:Aja.Dialogue.Thu}}",
+	"Fri": "{{i18n:Aja.Dialogue.Fri}}",
+	"Sat": "{{i18n:Aja.Dialogue.Sat}}",
+	"Sun": "{{i18n:Aja.Dialogue.Sun}}",
+	 	
+	 	//2 Hearts
+	"Mon2": "{{i18n:Aja.Dialogue.Mon2}}",
+	"Tue2": "{{i18n:Aja.Dialogue.Tue2}}",
+	"Wed2": "{{i18n:Aja.Dialogue.Wed2}}",
+	"Thu2": "{{i18n:Aja.Dialogue.Thu2}}",
+	"Fri2": "{{i18n:Aja.Dialogue.Fri2}}",
+	"Sat2": "{{i18n:Aja.Dialogue.Sat2}}",
+	"Sun2": "{{i18n:Aja.Dialogue.Sun2}}",
+	 	
+	 	//4 Hearts
+	"Mon4": "{{i18n:Aja.Dialogue.Mon4}}",
+	"Tue4": "{{i18n:Aja.Dialogue.Tue4}}",
+	"Wed4": "{{i18n:Aja.Dialogue.Wed4}}",
+	"Thu4": "{{i18n:Aja.Dialogue.Thu4}}",
+	"Fri4": "{{i18n:Aja.Dialogue.Fri4}}",
+	"Sat4": "{{i18n:Aja.Dialogue.Sat4}}",
+	"Sun4": "{{i18n:Aja.Dialogue.Sun4}}",
+	 	
+	 	//6 Hearts
+	"Mon6": "{{i18n:Aja.Dialogue.Mon6}}",
+	"Tue6": "{{i18n:Aja.Dialogue.Tue6}}",
+	"Wed6": "{{i18n:Aja.Dialogue.Wed6}}",
+	"Thu6": "{{i18n:Aja.Dialogue.Thu6}}",
+	"Fri6": "{{i18n:Aja.Dialogue.Fri6}}",
+	"Sat6": "{{i18n:Aja.Dialogue.Sat6}}",
+	"Sun6": "{{i18n:Aja.Dialogue.Sun6}}",
+	 	
+	 	//8 Hearts
+	"Mon8": "{{i18n:Aja.Dialogue.Mon8}}",
+	"Tue8": "{{i18n:Aja.Dialogue.Tue8}}",
+	"Wed8": "{{i18n:Aja.Dialogue.Wed8}}",
+	"Thu8": "{{i18n:Aja.Dialogue.Thu8}}",
+	"Fri8": "{{i18n:Aja.Dialogue.Fri8}}",
+	"Sat8": "{{i18n:Aja.Dialogue.Sat8}}",
+	"Sun8": "{{i18n:Aja.Dialogue.Sun8}}",
+	 	
+	 	//10 Hearts
+	"Mon10": "{{i18n:Aja.Dialogue.Mon10}}",
+	"Tue10": "{{i18n:Aja.Dialogue.Tue10}}",
+	"Wed10": "{{i18n:Aja.Dialogue.Wed10}}",
+	"Thu10": "{{i18n:Aja.Dialogue.Thu10}}",
+	"Fri10": "{{i18n:Aja.Dialogue.Fri10}}",
+	"Sat10": "{{i18n:Aja.Dialogue.Sat10}}",
+	"Sun10": "{{i18n:Aja.Dialogue.Sun10}}",
+	 	
+	 //Special Dialogue
+	"breakUp": "{{i18n:Aja.Dialogue.breakUp}}",
+	"danceRejection": "{{i18n:Aja.Dialogue.danceRejection}}",
+	"divorced": "{{i18n:Aja.Dialogue.divorced}}",
+	"MovieInvitation": "{{i18n:Aja.Dialogue.MovieInvitation}}",
+	 
+ 	//Resort
+	"Resort_Entering": "{{i18n:Aja.Dialogue.Resort_Entering}}",
+	"Resort_Leaving": "{{i18n:Aja.Dialogue.Resort_Leaving}}",
+	"Resort_Leaving_2": "{{i18n:Aja.Dialogue.Resort_Leaving_2}}",
+	"Resort_Shore": "{{i18n:Aja.Dialogue.Resort_Shore}}",
+	"Resort_Shore_2": "{{i18n:Aja.Dialogue.Resort_Shore_2}}",
+	"Resort_Umbrella": "{{i18n:Aja.Dialogue.Resort_Umbrella}}",
+	"Resort_Umbrella_2": "{{i18n:Aja.Dialogue.Resort_Umbrella_2}}",
+	"Resort_Umbrella_3": "{{i18n:Aja.Dialogue.Resort_Umbrella_3}}",
+	"Resort_Wander": "{{i18n:Aja.Dialogue.Resort_Wander}}",
+	"Resort_Bar": "{{i18n:Aja.Dialogue.Resort_Bar}}",
+	"Resort": "{{i18n:Aja.Dialogue.Resort}}",
+	
+	//Location Dialogue
+	"Town_1": "{{i18n:Aja.Dialogue.Town_1}}",
+	"Town_2": "{{i18n:Aja.Dialogue.Town_2}}",
+	"Town_3": "{{i18n:Aja.Dialogue.Town_3}}",
+	"Saloon_1": "{{i18n:Aja.Dialogue.Saloon_1}}",
+	"Saloon_2": "{{i18n:Aja.Dialogue.Saloon_2}}",
+	"BeachTideFalls": "{{i18n:Aja.Dialogue.BeachTideFalls}}",
+	"LibraryInterior": "{{i18n:Aja.Dialogue.LibraryInterior}}",
+	"InnInterior_1": "{{i18n:Aja.Dialogue.InnInterior_1}}",
+	"InnInterior_2": "{{i18n:Aja.Dialogue.InnInterior_2}}",
+
+	
+	//Custom Token Dialogue
+	"YriIntroduction": "{{i18n:Aja.Dialogue.YriIntroduction}}",
+		},
+	},
+
+
+//Romantic dialogue overwrite when dating
+	{
+   
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/Aja",
+   "When": {  	
+   	"Relationship:Aja": "Dating",
+   },
+   "Entries": {
+
+   	//8 Hearts and above
+	"Mon8": "{{i18n:Aja.Dialogue.Mon8.dating}}",
+	"Tue8": "{{i18n:Aja.Dialogue.Tue8.dating}}",
+	"Wed8": "{{i18n:Aja.Dialogue.Wed8.dating}}",
+	"Thu8": "{{i18n:Aja.Dialogue.Thu8.dating}}",
+	"Fri8": "{{i18n:Aja.Dialogue.Fri8.dating}}",
+	"Sat8": "{{i18n:Aja.Dialogue.Sat8.dating}}",
+	"Sun8": "{{i18n:Aja.Dialogue.Sun8.dating}}",
+		},
+	},
+]
+}

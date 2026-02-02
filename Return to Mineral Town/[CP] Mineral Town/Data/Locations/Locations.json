@@ -1,0 +1,1751 @@
+{
+        "Changes": [
+            {
+                "LogName": "Load Dynamic Maps",
+                "Action": "Load",
+                "Target": "Maps/{{ModId}}_BeachTideRises, Maps/{{ModId}}_HighwayNight, Maps/{{ModId}}_HighwayRainy, Maps/{{ModId}}_HighwayRainyNight, Maps/{{ModId}}_OceanSummitNight, Maps/{{ModId}}_OceanSummitRainy, Maps/{{ModId}}_OceanSummitRainyNight, Maps/{{ModId}}_SummitNight, Maps/{{ModId}}_SummitRainy, Maps/{{ModId}}_SummitRainyNight, Maps/{{ModId}}_InnInteriorNight",
+                "FromFile": "Assets/Maps/DynamicMaps/{{targetWithoutPath}}.tmx"
+            },
+            {
+                "LogName": "Load Indoor Maps",
+                "Action": "Load",
+                "Target": "Maps/{{ModId}}_BlacksmithInterior, Maps/{{ModId}}_BlacksmithWorkshop, Maps/{{ModId}}_CarterHouseInterior, Maps/{{ModId}}_ChurchInterior, Maps/{{ModId}}_ConfessionBox, Maps/{{ModId}}_DoctorHouseInterior, Maps/{{ModId}}_EllenInterior, Maps/{{ModId}}_MTNPCHiddenRoom, Maps/{{ModId}}_HospitalInterior, Maps/{{ModId}}_InnInterior2ndFloor, Maps/{{ModId}}_InnBasement, Maps/{{ModId}}_InnInterior, Maps/{{ModId}}_InnKitchen, Maps/{{ModId}}_KaiBed, Maps/{{ModId}}_LibraryHouseInterior, Maps/{{ModId}}_LibraryHouseInterior2ndFloor, Maps/{{ModId}}_LibraryInterior, Maps/{{ModId}}_LibraryInterior2ndFloor, Maps/{{ModId}}_MarketInterior, Maps/{{ModId}}_MayorInterior, Maps/{{ModId}}_MineralMine, Maps/{{ModId}}_MineralMineFirst, Maps/{{ModId}}_MineralAdventureGuild, Maps/{{ModId}}_MineralBarn, Maps/{{ModId}}_MineralCoop, Maps/{{ModId}}_MountainTent, Maps/{{ModId}}_PoultryInterior, Maps/{{ModId}}_PoultryInterior2ndFloor, Maps/{{ModId}}_SnackShackInterior, Maps/{{ModId}}_SpriteHutInterior,  Maps/{{ModId}}_WineryGreenhouse, Maps/{{ModId}}_WineryInterior, Maps/{{ModId}}_WineryInterior2ndFloor, Maps/{{ModId}}_WineryStorage, Maps/{{ModId}}_WoodCutterInterior, Maps/{{ModId}}_YodelRanchInterior, Maps/{{ModId}}_YodelRanchInterior2ndFloor, Maps/{{ModId}}_ZackHouseInterior ",
+                "FromFile": "Assets/Maps/IndoorMaps/{{targetWithoutPath}}.tmx"
+            },
+            {
+                "LogName": "Load Outdoor Maps",
+                "Action": "Load",
+                "Target": "Maps/{{ModId}}_Summit, Maps/{{ModId}}_Highway, Maps/{{ModId}}_OceanSummit, Maps/{{ModId}}_MineralBeach, Maps/{{ModId}}_EllenGarden, Maps/{{ModId}}_FlowerHill, Maps/{{ModId}}_GoddessHill, Maps/{{ModId}}_HighwayEntrance, Maps/{{ModId}}_MountainForest, Maps/{{ModId}}_MountainLake, Maps/{{ModId}}_TidePool, Maps/{{ModId}}_TownCenter, Maps/{{ModId}}_TownEntrance, Maps/{{ModId}}_UndergroundTunnel, Maps/{{ModId}}_Woodcutter",
+                "FromFile": "Assets/Maps/OutdoorMaps/{{targetWithoutPath}}.tmx"
+            },
+            {
+                "LogName": "Load Spouse Maps",
+                "Action": "Load",
+                "Target": "Maps/{{ModId}}_MTSpouseRooms, Maps/{{ModId}}_MTSpousePatios",
+                "FromFile": "Assets/Maps/SpouseRooms/{{targetWithoutPath}}.tmx"
+            },
+            {
+                "LogName": "Add Custom Locations Data",
+                "Action": "EditData",
+                "Target": "Data/Locations",
+                "Entries": {
+
+                //Interiors
+                    "{{ModId}}_BlacksmithInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_BlacksmithInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_BlacksmithInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 10,
+                            "Y": 18
+                        },
+                     
+                        "FormerLocationNames": ["Saibara's Workshop"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_BlacksmithWorkshop": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_BlacksmithWorkshop}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_BlacksmithWorkshop",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 1,
+                            "Y": 18
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_CarterHouseInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_CarterHouseInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_CarterHouseInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 3,
+                            "Y": 17
+                        },
+                     
+                        "FormerLocationNames": ["Carter's House"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_ChurchInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_ChurchInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_ChurchInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 10,
+                            "Y": 26
+                        },
+                     
+                        "FormerLocationNames": ["Mineral Church"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_ConfessionBox": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_ConfessionBox}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_ConfessionBox",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 2,
+                            "Y": 6
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_DoctorHouseInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_DoctorHouseInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_DoctorHouseInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 10,
+                            "Y": 18
+                        },
+                     
+                        "FormerLocationNames": ["Doctor's House"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_EllenInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_EllenInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_EllenInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 18,
+                            "Y": 19
+                        },
+                     
+                        "FormerLocationNames": ["Elli's House"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_MTNPCHiddenRoom": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MTNPCHiddenRoom}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_MTNPCHiddenRoom",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 2,
+                            "Y": 6
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_HospitalInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_HospitalInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_HospitalInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 11,
+                            "Y": 18
+                        },
+                     
+                        "FormerLocationNames": ["Mineral Hospital"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_InnInterior2ndFloor": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_InnInterior2ndFloor}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_InnInterior2ndFloor",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 7,
+                            "Y": 16
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_InnBasement": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_InnBasement}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_InnBasement",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 8,
+                            "Y": 14
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_InnInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_InnInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_InnInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 13,
+                            "Y": 19
+                        },
+                     
+                        "FormerLocationNames": ["Moonlight Inn"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_InnKitchen": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_InnKitchen}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_InnKitchen",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 6,
+                            "Y": 20
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_KaiBed": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_KaiBed}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_KaiBed",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 2,
+                            "Y": 6
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_LibraryHouseInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_LibraryHouseInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_LibraryHouseInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 3,
+                            "Y": 15
+                        },
+                     
+                        "FormerLocationNames": ["Mary's House"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_LibraryHouseInterior2ndFloor": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_LibraryHouseInterior2ndFloor}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_LibraryHouseInterior2ndFloor",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 18,
+                            "Y": 5
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_LibraryInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_LibraryInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_LibraryInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 6,
+                            "Y": 15
+                        },
+                     
+                        "FormerLocationNames": ["Mineral Library"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_LibraryInterior2ndFloor": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_LibraryInterior2ndFloor}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_LibraryInterior2ndFloor",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 18,
+                            "Y": 5
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_MarketInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MarketInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_MarketInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 9,
+                            "Y": 37
+                        },
+                     
+                        "FormerLocationNames": ["Jeff Market"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_MayorInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MarketInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_MayorInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 13,
+                            "Y": 19
+                        },
+                     
+                        "FormerLocationNames": ["Thomas' House"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_MineralMine": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MineralMine}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_MineralMine",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 6,
+                            "Y": 10
+                        },
+                     
+                        "FormerLocationNames": ["The Mine"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_MineralMineFirst": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MineralMineFirst}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_MineralMineFirst",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 18,
+                            "Y": 11
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_MineralAdventureGuild": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MineralAdventureGuild}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_MineralAdventureGuild",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 6,
+                            "Y": 13
+                        },
+                     
+                        "FormerLocationNames": ["Mineral Guild"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_MineralBarn": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MineralBarn}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_MineralBarn",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 11,
+                            "Y": 13
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_MineralCoop": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MineralCoop}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_MineralCoop",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 2,
+                            "Y": 9
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_MountainTent": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MountainTent}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_MountainTent",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 2,
+                            "Y": 6
+                        },
+                     
+                        "FormerLocationNames": ["Mountain Tent"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_PoultryInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_PoultryInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_PoultryInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 9,
+                            "Y": 16
+                        },
+                     
+                        "FormerLocationNames": ["Poultry Farm"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_PoultryInterior2ndFloor": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_PoultryInterior2ndFloor}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_PoultryInterior2ndFloor",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 2,
+                            "Y": 6
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_SnackShackInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_SnackShackInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_SnackShackInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 15,
+                            "Y": 17
+                        },
+                     
+                        "FormerLocationNames": ["Custom_HM_SnackShack"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_SpriteHutInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_SpriteHutInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_SpriteHutInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 10,
+                            "Y": 15
+                        },
+                     
+                        "FormerLocationNames": ["Sprite Tree House"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_WineryGreenhouse": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_WineryGreenhouse}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_WineryGreenhouse",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 10,
+                            "Y": 23
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_WineryInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_WineryInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_WineryInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 9,
+                            "Y": 21
+                        },
+                     
+                        "FormerLocationNames": ["Aja Winery"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_WineryInterior2ndFloor": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_WineryInterior2ndFloor}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_WineryInterior2ndFloor",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 16,
+                            "Y": 7
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_WineryStorage": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_WineryStorage}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_WineryStorage",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 10,
+                            "Y": 19
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_WoodCutterInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_WoodCutterInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_WoodCutterInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 11,
+                            "Y": 16
+                        },
+                     
+                        "FormerLocationNames": ["Wood Cutter"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_YodelRanchInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_YodelRanchInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_YodelRanchInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 13,
+                            "Y": 16
+                        },
+                     
+                        "FormerLocationNames": ["Yodel Ranch"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_YodelRanchInterior2ndFloor": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_YodelRanchInterior2ndFloor}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_YodelRanchInterior2ndFloor",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 18,
+                            "Y": 6
+                        },
+                     
+                        "FormerLocationNames": [],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                    "{{ModId}}_ZackHouseInterior": {
+                        "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_ZackHouseInterior}}",
+                        "CreateOnLoad": {
+                            "MapPath": "Maps/{{ModId}}_ZackHouseInterior",
+                            "Type": null,
+                            "AlwaysActive": false
+                        },
+                        "ExcludeFromNpcPathfinding": false,
+                        "DefaultArrivalTile": {
+                            "X": 14,
+                            "Y": 12
+                        },
+                     
+                        "FormerLocationNames": ["Custom_HM_ZackHouse"],
+                        "ArtifactSpots": [],
+                        "FishAreas": {},
+                        "Fish": [],
+                        "Forage": [],
+                    },
+                
+                //Exteriors
+
+                "{{ModId}}_EllenGarden": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_EllenGarden}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_EllenGarden",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 18,
+                        "Y": 7
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_FlowerHill": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_FlowerHill}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_FlowerHill",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 31,
+                        "Y": 38
+                    },
+                 
+                    "FormerLocationNames": ["Wisp Song Forest Flower Hill"],
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.3,
+                            "Season": null,
+                            "Condition": null,
+                            "Id": "(O){{ModID}}_Won_Ticket",
+                            "ItemId": "(O){{ModID}}_Won_Ticket",
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                        }
+                    ],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_GoddessHill": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_GoddessHill}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_GoddessHill",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 43,
+                        "Y": 20
+                    },
+                 
+                    "FormerLocationNames": ["Goddess Hill"],
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.3,
+                            "Season": null,
+                            "Condition": null,
+                            "Id": "(O){{ModID}}_Won_Ticket",
+                            "ItemId": "(O){{ModID}}_Won_Ticket",
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                        }
+                    ],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_HighwayEntrance": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_HighwayEntrance}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_HighwayEntrance",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 3,
+                        "Y": 13
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.3,
+                            "Season": null,
+                            "Condition": null,
+                            "Id": "(O){{ModID}}_Won_Ticket",
+                            "ItemId": "(O){{ModID}}_Won_Ticket",
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                        }
+                    ],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_MountainForest": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MountainForest}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_MountainForest",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 40,
+                        "Y": 21
+                    },
+                 
+                    "FormerLocationNames": ["Wisp Song Forest"],
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.3,
+                            "Season": null,
+                            "Condition": null,
+                            "Id": "(O){{ModID}}_Won_Ticket",
+                            "ItemId": "(O){{ModID}}_Won_Ticket",
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                        }
+                    ],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_MountainLake": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MountainLake}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_MountainLake",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 68,
+                        "Y": 46
+                    },
+                 
+                    "FormerLocationNames": ["Wisp Song Forest Lake"],
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.3,
+                            "Season": null,
+                            "Condition": null,
+                            "Id": "(O){{ModID}}_Won_Ticket",
+                            "ItemId": "(O){{ModID}}_Won_Ticket",
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                        }
+                    ],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_TownCenter": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_TownCenter}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_TownCenter",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 70
+                    },
+                 
+                    "FormerLocationNames": ["Mineral Town Center"],
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.3,
+                            "Season": null,
+                            "Condition": null,
+                            "Id": "(O){{ModID}}_Won_Ticket",
+                            "ItemId": "(O){{ModID}}_Won_Ticket",
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                        }
+                    ],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_TidePool": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_TidePool}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_TidePool",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 35,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.3,
+                            "Season": null,
+                            "Condition": null,
+                            "Id": "(O){{ModID}}_Won_Ticket",
+                            "ItemId": "(O){{ModID}}_Won_Ticket",
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                        }
+                    ],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_TownEntrance": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_TownEntrance}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_TownEntrance",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 31,
+                        "Y": 0
+                    },
+                 
+                    "FormerLocationNames": ["Mineral Town Entrance"],
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.3,
+                            "Season": null,
+                            "Condition": null,
+                            "Id": "(O){{ModID}}_Won_Ticket",
+                            "ItemId": "(O){{ModID}}_Won_Ticket",
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                        }
+                    ],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_UndergroundTunnel": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_UndergroundTunnel}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_UndergroundTunnel",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 0,
+                        "Y": 8
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_Woodcutter": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_WoodCutter}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_Woodcutter",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 41,
+                        "Y": 1
+                    },
+                 
+                    "FormerLocationNames": ["Wisp Song Forest Entrance"],
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.3,
+                            "Season": null,
+                            "Condition": null,
+                            "Id": "(O){{ModID}}_Won_Ticket",
+                            "ItemId": "(O){{ModID}}_Won_Ticket",
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                        }
+                    ],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },   
+                
+                //Dynamic Maps
+
+                "{{ModId}}_InnInteriorNight": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_InnInteriorNight}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_InnInteriorNight",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 13,
+                        "Y": 19
+                    },
+                 
+                    "FormerLocationNames": ["Moonlight Inn Night"],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+
+                "{{ModId}}_MineralBeach": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MineralBeach}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_MineralBeach",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": ["Mineral Town Beach"],
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.35,
+                            "Season": null,
+                            "Condition": null,
+                            "Id": "(O){{ModID}}_Won_Ticket",
+                            "ItemId": "(O){{ModID}}_Won_Ticket",
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                        }
+                    ],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_Highway": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_Highway}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_Highway",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 2,
+                        "Y": 29
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_HighwayNight": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_HighwayNight}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_HighwayNight",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_HighwayRainy": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_HighwayRainy}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_HighwayRainy",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_HighwayRainyNight": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_HighwayRainyNight}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_HighwayRainyNight",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_OceanSummit": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_OceanSummit}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_OceanSummit",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": ["Ocean Summit"],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_OceanSummitNight": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_OceanSummitNight}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_OceanSummitNight",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_OceanSummitRainy": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_OceanSummitRainy}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_OceanSummitRainy",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_OceanSummitRainyNight": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_OceanSummitRainyNight}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_OceanSummitRainyNight",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_Summit": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_Summit}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_Summit",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": ["Mountain Summit"],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_SummitNight": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_SummitNight}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_SummitNight",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_SummitRainy": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_SummitRainy}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_SummitRainy",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },
+                "{{ModId}}_SummitRainyNight": {
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_SummitRainyNight}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_SummitRainyNight",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 18
+                    },
+                 
+                    "FormerLocationNames": [],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                },  
+            }
+        },
+
+        		//Locations
+			{
+				"Action": "EditData",
+				"Target": "Data/Locations",
+				"Fields": {
+					"{{ModId}}_MineralBeach": {
+						"Fish": [
+					{
+						"ItemId": "{{ModID}}_Blackfin_Monkfish",
+						"Condition": "SEASON spring winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Blowfish",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Bonito",
+						"Condition": "SEASON spring fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Cod",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Filefish",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Fluke",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Greenling",
+						"Condition": "SEASON spring"
+					},
+					{
+						"ItemId": "{{ModID}}_Huchen",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Kelp_Bass",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Rocky_Trout",
+						"Condition": "SEASON spring winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Saury_Pike",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Scad"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Yellowtail",
+						"Condition": "SEASON summer winter"
+					}
+				]
+			},
+
+			"{{ModId}}_GoddessHill": {
+				"Fish": [
+					{
+						"ItemId": "{{ModID}}_Amur_Minnow",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Bighead"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Bitterling"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Black_Bass"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Brown_Hakeling",
+						"Condition": "SEASON spring summer winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Mountain_Trout",
+						"Condition": "SEASON spring summer fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Needlefish",
+						"Condition": "SEASON spring"
+					},
+					{
+						"ItemId": "{{ModID}}_Roach",
+						"Condition": "SEASON spring fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Silver_Carp"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Snakehead",
+						"Condition": "SEASON spring fall"
+					}
+				]
+			},
+			"{{ModId}}_Highway": {
+				"Fish": [
+					{
+						"ItemId": "{{ModID}}_Bluegill"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Cherry_Salmon",
+						"Condition": "SEASON summer fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Golden_Carp"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Lake_Smelt",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Pigfish",
+						"Condition": "SEASON spring summer winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Whitefish"
+
+					}
+				]
+			},
+			"{{ModId}}_MountainLake": {
+				"Fish": [
+					{
+						"ItemId": "{{ModID}}_Bluegill"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Cherry_Salmon",
+						"Condition": "SEASON summer fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Golden_Carp"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Lake_Smelt",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Pigfish",
+						"Condition": "SEASON spring summer winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Whitefish"
+
+					}
+				]
+			},
+			"{{ModId}}_TidePool": {
+				"Fish": [
+					{
+						"ItemId": "{{ModID}}_Blackfin_Monkfish",
+						"Condition": "SEASON spring winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Blowfish",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Bonito",
+						"Condition": "SEASON spring fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Cod",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Filefish",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Fluke",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Greenling",
+						"Condition": "SEASON spring"
+					},
+					{
+						"ItemId": "{{ModID}}_Huchen",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Kelp_Bass",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Rocky_Trout",
+						"Condition": "SEASON spring winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Saury_Pike",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Scad"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Yellowtail",
+						"Condition": "SEASON summer winter"
+					}
+				]
+			},
+			"{{ModId}}_TownCenter": {
+				"Fish": [
+					{
+						"ItemId": "{{ModID}}_Amur_Minnow",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Bighead"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Bitterling"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Black_Bass"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Brown_Hakeling",
+						"Condition": "SEASON spring summer winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Mountain_Trout",
+						"Condition": "SEASON spring summer fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Needlefish",
+						"Condition": "SEASON spring"
+					},
+					{
+						"ItemId": "{{ModID}}_Roach",
+						"Condition": "SEASON spring fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Silver_Carp"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Snakehead",
+						"Condition": "SEASON spring fall"
+					}
+				]
+			},
+
+			"{{ModId}}_TownEntrance": {
+				"Fish": [
+					{
+						"ItemId": "{{ModID}}_Amur_Minnow",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Bighead"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Bitterling"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Black_Bass"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Brown_Hakeling",
+						"Condition": "SEASON spring summer winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Mountain_Trout",
+						"Condition": "SEASON spring summer fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Needlefish",
+						"Condition": "SEASON spring"
+					},
+					{
+						"ItemId": "{{ModID}}_Roach",
+						"Condition": "SEASON spring fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Silver_Carp"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Snakehead",
+						"Condition": "SEASON spring fall"
+					}
+				]
+            }
+        }
+			}
+    ],
+}

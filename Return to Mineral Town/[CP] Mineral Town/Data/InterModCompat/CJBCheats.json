@@ -1,0 +1,67 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+            "When":{ "HasMod":"CJBok.CheatsMenu" },
+            "Entries": {
+                "{{ModId}}_Town": {
+                    "Id": "{{ModId}}_Town",
+                    "DisplayName": "{{i18n:WarpSection.cjbwarps.town}}"
+                },
+                "{{ModId}}_Surroundings": {
+                    "Id": "{{ModId}}_Surroundings",
+                    "DisplayName": "{{i18n:WarpSection.cjbwarps.surroundings}}"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Entries": {
+                "{{ModID}}_TownCenter": {
+                    "Id": "{{ModID}}_TownCenter",
+                    "SectionId": "{{ModId}}_Town",
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_TownCenter}}",
+                    "Location": "{{ModID}}_TownCenter",
+                    "Tile": "97, 56",
+                },
+                "{{ModID}}_MineralBeach": {
+                    "Id": "{{ModID}}_MineralBeach",
+                    "SectionId": "{{ModId}}_Surroundings",
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MineralBeach}}",
+                    "Location": "{{ModID}}_MineralBeach",
+                    "Tile": "20, 7",
+                },
+                "{{ModID}}_GoddessHill": {
+                    "Id": "{{ModID}}_GoddessHill",
+                    "SectionId": "{{ModId}}_Surroundings",
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_GoddessHill}}",
+                    "Location": "{{ModID}}_GoddessHill",
+                    "Tile": "19, 14",
+                },
+                "{{ModID}}_MountainLake": {
+                    "Id": "{{ModID}}_MountainLake",
+                    "SectionId": "{{ModId}}_Surroundings",
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MountainLake}}",
+                    "Location": "{{ModID}}_MountainLake",
+                    "Tile": "52, 15",
+                },
+                "{{ModID}}_MountainForest": {
+                    "Id": "{{ModID}}_MountainForest",
+                    "SectionId": "{{ModId}}_Surroundings",
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_MountainForest}}",
+                    "Location": "{{ModID}}_MountainForest",
+                    "Tile": "19, 23",
+                },
+                "{{ModID}}_FlowerHill": {
+                    "Id": "{{ModID}}_FlowerHill",
+                    "SectionId": "{{ModId}}_Surroundings",
+                    "DisplayName": "{{i18n:MapName.Rexstrife20.MineralTownCP_FlowerHill}}",
+                    "Location": "{{ModID}}_FlowerHill",
+                    "Tile": "16, 25",
+                }                
+            }
+        }
+    ]
+}

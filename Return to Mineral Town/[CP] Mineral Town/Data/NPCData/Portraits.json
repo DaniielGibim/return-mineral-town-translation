@@ -1,0 +1,38 @@
+{
+    "Changes": [
+    
+    //------------------------
+    // Portraits
+    //------------------------
+    
+        {
+            "LogName": "Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Aja, Portraits/Ann, Portraits/Anna, Portraits/Barley, Portraits/Basil, Portraits/Carter, Portraits/Cliff, Portraits/Doctor, Portraits/Doug, Portraits/Duke, Portraits/Ellen, Portraits/Elli, Portraits/Gotz, Portraits/Gray, Portraits/Harris, Portraits/HarvestGoddess, Portraits/Jeff, Portraits/Kai, Portraits/Kappa, Portraits/Karen, Portraits/Lillia, Portraits/Manna, Portraits/Marie, Portraits/Mei, Portraits/Popuri, Portraits/Rick, Portraits/Saibara, Portraits/Sasha, Portraits/Stu, Portraits/Thomas, Portraits/Won, Portraits/Zack, Portraits/Nami, Portraits/Tate",
+            "FromFile": "Assets/Portraits/{{TargetWithoutPath}}.png"
+        },
+//        {
+//            "LogName": "Seasonal Portraits",
+//            "Action": "EditImage",
+//            "Target": "Portraits/Nami",
+//            "FromFile": "Assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{season}}.png"
+//        },
+        {
+            "LogName": "Beach Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Aja_Beach, Portraits/Ann_Beach, Portraits/Anna_Beach, Portraits/Barley_Beach, Portraits/Basil_Beach, Portraits/Carter_Beach, Portraits/Cliff_Beach, Portraits/Doctor_Beach, Portraits/Doug_Beach, Portraits/Duke_Beach, Portraits/Ellen_Beach, Portraits/Elli_Beach, Portraits/Gotz_Beach, Portraits/Gray_Beach, Portraits/Harris_Beach, Portraits/Jeff_Beach, Portraits/Kai_Beach, Portraits/Karen_Beach, Portraits/Manna_Beach, Portraits/Marie_Beach, Portraits/Mei_Beach, Portraits/Nami_Beach, Portraits/Popuri_Beach, Portraits/Rick_Beach, Portraits/Saibara_Beach, Portraits/Sasha_Beach, Portraits/Stu_Beach, Portraits/Tate_Beach, Portraits/Thomas_Beach, Portraits/Won_Beach, Portraits/Zack_Beach",
+            "FromFile": "Assets/BeachPortraits/{{TargetWithoutPath}}.png"
+        },
+//        {
+//            "LogName": "Festival Character Portraits",
+//            "Action": "EditImage",
+//            "Target": "Portraits/Aja, Portraits/Ann, Portraits/Cliff, Portraits/Doctor, Portraits/Elli, Portraits/Gray, Portraits/Kai, Portraits/Karen, Portraits/Marie, Portraits/Nami, Portraits/Popuri, Portraits/Rick, Portraits/Tate",
+//            "FromFile": "Assets/FestivalPortraits/{{FestivalMT}}/{{TargetWithoutPath}}_{{FestivalMT}}.png",
+//            "Update": "OnLocationChange",            
+//			"When": {
+//                "HasFile:{{FromFile}}": true,
+//            },
+//        },
+    
+    ]
+}

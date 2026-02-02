@@ -1,0 +1,37 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Doctor Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Doctor",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "700 {{ModId}}_HospitalInterior 20 5 2/1000 {{ModId}}_HospitalInterior 25 5 0/1200 {{ModId}}_HospitalInterior 17 5 0/1330 {{ModId}}_HospitalInterior 20 5 2/1700 {{ModId}}_DoctorHouseInterior 13 14 2/2100 {{ModId}}_DoctorHouseInterior 15 6 1 doctor_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "rain": "GOTO spring",
+        "GreenRain": "GOTO rain",
+
+        //Checkups
+        "spring_12": "700 {{ModId}}_HospitalInterior 20 5 2/1000 {{ModId}}_HospitalInterior 25 5 0/1300 {{ModId}}_HospitalInterior 23 14 1 doctor_checkup/1600 {{ModId}}_HospitalInterior 13 14 2/2000 {{ModId}}_DoctorHouseInterior 15 6 1 doctor_sleep",
+        "summer_12": "GOTO spring_12",
+        "fall_12": "GOTO spring_12",
+        "winter_12": "GOTO spring_12", //Ellen
+
+        "spring_4": "GOTO spring_12",
+        "summer_4": "GOTO spring_12",
+        "fall_4": "GOTO spring_12",
+        "winter_4": "GOTO spring_12", //Barley
+
+        "spring_20": "GOTO spring_12",
+        "summer_20": "GOTO spring_12",
+        "fall_20": "GOTO spring_12",
+        "winter_20": "GOTO spring_12", //Saibara
+        //Marriage Schedule
+      }
+    }
+  ]
+}

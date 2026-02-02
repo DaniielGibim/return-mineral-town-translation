@@ -1,0 +1,24 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Gray Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Gray",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_InnInterior2ndFloor 28 6 0/700 {{ModId}}_TownCenter 19 114 2/900 {{ModId}}_BlacksmithInterior 15 16 0/1200 {{ModId}}_BlacksmithWorkshop 7 11 3/1500 {{ModId}}_LibraryInterior 8 8 0/1700 {{ModId}}_InnInterior 8 15 1/2000 {{ModId}}_InnInterior2ndFloor 31 7 2/2200 {{ModId}}_InnInterior2ndFloor 28 6 3 gray_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Thu": "610 {{ModId}}_MountainLake 25 31 3/1030 {{ModId}}_BlacksmithWorkshop 7 11 3/1500 {{ModId}}_LibraryInterior 8 8 0/1700 {{ModId}}_InnInterior 8 15 1/2000 {{ModId}}_InnInterior2ndFloor 31 7 2/2200 {{ModId}}_InnInterior2ndFloor 28 6 3 gray_sleep",
+        "rain": "610 {{ModId}}_InnInterior2ndFloor 28 6 0/900 {{ModId}}_BlacksmithInterior 15 16 0/1200 {{ModId}}_BlacksmithWorkshop 7 11 3/1500 {{ModId}}_LibraryInterior 8 8 0/1700 {{ModId}}_InnInterior 8 15 1/2000 {{ModId}}_InnInterior2ndFloor 31 7 2/2200 {{ModId}}_InnInterior2ndFloor 28 6 3 gray_sleep",
+        "GreenRain": "GOTO rain"
+
+        //Marriage Schedule
+
+      }
+    }
+  ]
+}

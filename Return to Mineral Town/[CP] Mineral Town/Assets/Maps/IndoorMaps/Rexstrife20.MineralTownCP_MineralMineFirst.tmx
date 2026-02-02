@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="5">
+ <tileset firstgid="1" name="mine" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="zMineralMine.png" width="256" height="288"/>
+  <tile id="0">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="137">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="138">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="139">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="140">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="154">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="155">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="165">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="166">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="168">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="169">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="171">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="172">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="181">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="182">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="183">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="184">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="185">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="186">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="188">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="198">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="199">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="200">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="201">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="202">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="203">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="204">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="217">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="218">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="219">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="233">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="234">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="235">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="240">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="241">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="242">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="256">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="257">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="258">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="272">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="273">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="274">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <wangsets>
+   <wangset name="Unnamed Set" type="corner" tile="-1">
+    <wangcolor name="Dirt" color="#ff0000" tile="-1" probability="1"/>
+    <wangtile tileid="149" wangid="0,1,0,1,0,0,0,1"/>
+    <wangtile tileid="150" wangid="0,1,0,0,0,1,0,1"/>
+    <wangtile tileid="151" wangid="0,0,0,1,0,1,0,1"/>
+    <wangtile tileid="152" wangid="0,1,0,1,0,1,0,0"/>
+    <wangtile tileid="165" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="166" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="167" wangid="0,0,0,1,0,1,0,0"/>
+    <wangtile tileid="168" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="181" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="182" wangid="0,1,0,1,0,0,0,0"/>
+    <wangtile tileid="183" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="184" wangid="0,0,0,0,0,1,0,1"/>
+    <wangtile tileid="198" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="199" wangid="0,1,0,0,0,0,0,1"/>
+    <wangtile tileid="200" wangid="0,0,0,0,0,0,0,1"/>
+   </wangset>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="289" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="325" name="zextraobjects" tilewidth="16" tileheight="16" tilecount="80" columns="8">
+  <image source="zextraobjects.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="405" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <layer id="1" name="Back" width="20" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzlkrENwjAQRS3IBMAEwLS2J0g8CSUtXaDClFCxBGfpf+U4OQQQHZaezrKi53/nOPd/qxW8cP+CnXFdhE7YC0dwwh033DMT5iM0cGbl83B6eMo+CD3qQlgaeLYSzsYX4Alwsvao64qPrm3FV1wJMGtCv7yrlrHBt3Z+xRGNMyEfz0rGDfLoXlPFFyuzC8hns0fjHsvXqRl2gO8RlU/POCv4/9ge6Sv7qxv+oXdxqg/WFpWZmTe45zfLFegrHD4gutfLzmOKdsL3q/UAugF7zQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="20" height="16">
+  <data encoding="base64" compression="zlib">
+   eJyt081KQkEYxvF3k9kFZHoBZV2AlVvFokiEooVCtWqRkInQoqAIqm3mR9u+u4CELkDQbUt3ioItgi7C/8BIcyh05DjwW817Hs7MeU5CRFawinXDBuKYwgQ8mITXmFH7u9hDwlBAESlEEMUlrhDANHyYgd+Y2UEGR8jqrBie8Iw0NrGFEspYwCzmEMS8MXOIc+RwofO28Y4KTg0veEUYISxiCcvGzBlukMetzttHVQavLpf3hR/P3717POBR5x0PybJdbZ13Paa8ls67c5GxJs6Oqf68uchLirNjqj8fLvIOxNkx1Z+6i7wTcXZM9UfdYcPi2Ro6FnP9f+57xHf7lN9v+p9Rzt0cktVnc26xzBqXHvnpRTk=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="96" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MT.Mine&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="112" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MT.Mine&quot;"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MT.Mine&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="16" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MT.Mine&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Paths" width="20" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhaQJMRgklRQ0g9NQE57qOFG4YSoLZ7KTWP1vFDKRjs7iMEsLl/oPwEAIGUA0k=
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="5" name="Front" width="20" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF6OAIGwPDUSA+wzbQLhlYcA6IrwPxjYF2yACDY0So2QLEF0kw8yYZ7rjLgIgPesQLOW4kBJDdjoumJwAA7eMUsQ==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="9" name="AlwaysFront" width="20" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4AwuDfQDhggcJQGZl6jgZnkAHxxSqq/iUkfxPqbnmkNAEYgBq8=
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

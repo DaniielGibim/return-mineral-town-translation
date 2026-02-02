@@ -1,0 +1,71 @@
+{
+    "Changes": [
+    
+    //------------------------
+    // FESTIVAL DIALOGUE
+    //------------------------
+    
+        //RSV: Gathering----------------------
+    
+            {
+                "LogName": "Ridgeside Gathering",
+                "Action": "EditData",
+                "Target": "Data/Festivals/fall20",
+                "Entries": {
+    
+                //Non-Dateables
+                    "Anna": "{{i18n:Festivals.Gathering.Anna}}",
+                    "Barley": "{{i18n:Festivals.Gathering.Barley}}",
+                    "Basil": "{{i18n:Festivals.Gathering.Basil}}",
+                    "Carter": "{{i18n:Festivals.Gathering.Carter}}",
+                    "Doug": "{{i18n:Festivals.Gathering.Doug}}",
+                    "Duke": "{{i18n:Festivals.Gathering.Duke}}",
+                    "Ellen": "{{i18n:Festivals.Gathering.Ellen}}",
+                    "Gotz": "{{i18n:Festivals.Gathering.Gotz}}",
+                    "Harris": "{{i18n:Festivals.Gathering.Harris}}",
+                    "HarvestGoddess": "{{i18n:Festivals.Gathering.HarvestGoddess}}",
+                    "Jeff": "{{i18n:Festivals.Gathering.Jeff}}",
+                    "Kappa": "{{i18n:Festivals.Gathering.Kappa}}",
+                    "Lillia": "{{i18n:Festivals.Gathering.Lillia}}",
+                    "Manna": "{{i18n:Festivals.Gathering.Manna}}",
+                    "Mei": "{{i18n:Festivals.Gathering.Mei}}",
+                    "Saibara": "{{i18n:Festivals.Gathering.Saibara}}",
+                    "Sasha": "{{i18n:Festivals.Gathering.Sasha}}",
+                    "Stu": "{{i18n:Festivals.Gathering.Stu}}",
+                    "Tate": "{{i18n:Festivals.Gathering.Tate}}",
+                    "Thomas": "{{i18n:Festivals.Gathering.Thomas}}",
+                    "Won": "{{i18n:Festivals.Gathering.Won}}",
+                    "Zack": "{{i18n:Festivals.Gathering.Zack}}",
+
+    
+                //Dateables
+                    "Aja": "{{i18n:Festivals.Gathering.Aja}}",
+                    "Aja_spouse": "{{i18n:Festivals.Gathering.Aja_spouse}}",
+                    "Ann": "{{i18n:Festivals.Gathering.Ann}}",
+                    "Ann_spouse": "{{i18n:Festivals.Gathering.Ann_spouse}}",
+                    "Cliff": "{{i18n:Festivals.Gathering.Cliff}}",
+                    "Cliff_spouse": "{{i18n:Festivals.Gathering.Cliff_spouse}}",
+                    "Doctor": "{{i18n:Festivals.Gathering.Doctor}}",
+                    "Doctor_spouse": "{{i18n:Festivals.Gathering.Doctor_spouse}}",
+                    "Elli": "{{i18n:Festivals.Gathering.Elli}}",
+                    "Elli_spouse": "{{i18n:Festivals.Gathering.Elli_spouse}}",
+                    "Gray": "{{i18n:Festivals.Gathering.Gray}}",
+                    "Gray_spouse": "{{i18n:Festivals.Gathering.Gray_spouse}}",
+                    "Kai": "{{i18n:Festivals.Gathering.Kai}}",
+                    "Kai_spouse": "{{i18n:Festivals.Gathering.Kai_spouse}}",
+                    "Karen": "{{i18n:Festivals.Gathering.Karen}}",
+                    "Karen_spouse": "{{i18n:Festivals.Gathering.Karen_spouse}}",
+                    "Marie": "{{i18n:Festivals.Gathering.Marie}}",
+                    "Marie_spouse": "{{i18n:Festivals.Gathering.Marie_spouse}}",
+                    "Nami": "{{i18n:Festivals.Gathering.Nami}}",
+                    "Nami_spouse": "{{i18n:Festivals.Gathering.Nami_spouse}}",
+                    "Popuri": "{{i18n:Festivals.Gathering.Popuri}}",
+                    "Popuri_spouse": "{{i18n:Festivals.Gathering.Popuri_spouse}}",
+                    "Rick": "{{i18n:Festivals.Gathering.Rick}}",
+                    "Rick_spouse": "{{i18n:Festivals.Gathering.Rick_spouse}}",
+
+                },
+            },
+    ]
+    }
+    

@@ -1,0 +1,218 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Portraits/Aja_SpiritsEve, Portraits/Ann_SpiritsEve, Portraits/Cliff_SpiritsEve, Portraits/Doctor_SpiritsEve, Portraits/Elli_SpiritsEve, Portraits/Gray_SpiritsEve, Portraits/Kai_SpiritsEve, Portraits/Karen_SpiritsEve, Portraits/Marie_SpiritsEve, Portraits/Nami_SpiritsEve, Portraits/Popuri_SpiritsEve, Portraits/Rick_SpiritsEve, Portraits/Tate_SpiritsEve, Characters/Aja_SpiritsEve, Characters/Ann_SpiritsEve, Characters/Cliff_SpiritsEve, Characters/Doctor_SpiritsEve, Characters/Elli_SpiritsEve, Characters/Gray_SpiritsEve, Characters/Kai_SpiritsEve, Characters/Karen_SpiritsEve, Characters/Marie_SpiritsEve, Characters/Nami_SpiritsEve, Characters/Popuri_SpiritsEve, Characters/Rick_SpiritsEve, Characters/Tate_SpiritsEve",
+            "FromFile": "Assets/FestivalOutfits/{{Target}}.png"
+        },
+
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Aja",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Aja", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.AjaSpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Aja_SpiritsEve",
+                    "Sprite": "Characters/Aja_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Ann",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Ann", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.AnnSpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Ann_SpiritsEve",
+                    "Sprite": "Characters/Ann_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Cliff",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Cliff", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.CliffSpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Cliff_SpiritsEve",
+                    "Sprite": "Characters/Cliff_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Doctor",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Doctor", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.DoctorSpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Doctor_SpiritsEve",
+                    "Sprite": "Characters/Doctor_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Elli",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Elli", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.ElliSpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Elli_SpiritsEve",
+                    "Sprite": "Characters/Elli_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Gray",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Gray", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.GraySpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Gray_SpiritsEve",
+                    "Sprite": "Characters/Gray_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Kai",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Kai", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.KaiSpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Kai_SpiritsEve",
+                    "Sprite": "Characters/Kai_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Karen",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Karen", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.KarenSpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Karen_SpiritsEve",
+                    "Sprite": "Characters/Karen_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Marie",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Marie", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.MarieSpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Marie_SpiritsEve",
+                    "Sprite": "Characters/Marie_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Nami",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Nami", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.NamiSpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Nami_SpiritsEve",
+                    "Sprite": "Characters/Nami_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Popuri",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Popuri", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.PopuriSpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Popuri_SpiritsEve",
+                    "Sprite": "Characters/Popuri_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Rick",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Rick", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.RickSpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Rick_SpiritsEve",
+                    "Sprite": "Characters/Rick_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+        {
+            "LogName": "Mineral Town Spirits Eve Outfit - Tate",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Tate", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.TateSpiritsEveOutfit": {
+                    "Id": "Spirit's Eve",
+                    "Condition": "SEASON_DAY fall 27",
+                    "Portrait": "Portraits/Tate_SpiritsEve",
+                    "Sprite": "Characters/Tate_SpiritsEve",
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+    ]
+}

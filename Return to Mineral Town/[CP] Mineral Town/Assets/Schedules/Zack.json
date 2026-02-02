@@ -1,0 +1,25 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Zack Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Zack",
+      "Entries": {
+
+      //Regular Schedule
+        "spring": "610 {{ModId}}_MineralBeach 31 9 2/700 {{ModId}}_MarketInterior 10 27 0/930 {{ModId}}_ZackHouseInterior 14 8 1/1400 {{ModId}}_BlacksmithInterior 8 14 0/1800 {{ModId}}_InnInterior 10 10 2/2200 {{ModId}}_ZackHouseInterior 19 5 3 zack_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        
+        "Wed": "610 {{ModId}}_ZackHouseInterior 8 5 0/900 {{ModId}}_TownCenter 132 105 0/1000 {{ModId}}_TownCenter 96 105 0/1100 {{ModId}}_TownCenter 84 91 0/1200 {{ModId}}_TownCenter 53 57 0/1400 {{ModId}}_MayorInterior 14 17 0/1600 {{ModId}}_InnInterior 10 10 2/2200 {{ModId}}_ZackHouseInterior 19 5 3 zack_sleep",
+        "Fri": "610 {{ModId}}_ZackHouseInterior 8 5 0/900 {{ModId}}_TownCenter 132 105 0/1000 {{ModId}}_TownCenter 96 105 0/1100 {{ModId}}_MayorInterior 4 16 1/1500 {{ModId}}_MineralBeach 31 9 2/1800 {{ModId}}_InnInterior 10 10 2/2200 {{ModId}}_ZackHouseInterior 19 5 3 zack_sleep",
+        "Sun": "610 {{ModId}}_MineralBeach 31 9 2/930 {{ModId}}_ZackHouseInterior 14 8 1/1400 {{ModId}}_BlacksmithInterior 8 14 0/1800 {{ModId}}_InnInterior 10 10 2/2200 {{ModId}}_ZackHouseInterior 19 5 3 zack_sleep",
+        "summer_Tue": "610 {{ModId}}_MineralBeach 31 9 2/900 {{ModId}}_TownCenter 132 105 0/1000 {{ModId}}_TownCenter 96 105 0/1200 {{ModId}}_SnackShackInterior 13 6 3/1400 {{ModId}}_MineralBeach 31 9 2/1600 {{ModId}}_MineralBeach 26 30 2/1800 {{ModId}}_InnInterior 10 10 2/2200 {{ModId}}_ZackHouseInterior 19 5 3 zack_sleep",
+        "rain": "610 {{ModId}}_ZackHouseInterior 8 5 0/700 {{ModId}}_ZackHouseInterior 10 9 0/800 {{ModId}}_ZackHouseInterior 13 5 0/930 {{ModId}}_MineralBeach 31 9 2/1300 {{ModId}}_ZackHouseInterior 14 8 1/1400 {{ModId}}_ZackHouseInterior 8 5 0/1500 {{ModId}}_ZackHouseInterior 10 9 0/1800 {{ModId}}_InnInterior 10 10 2/2200 {{ModId}}_ZackHouseInterior 19 5 3 zack_sleep",
+        "GreenRain": "GOTO rain"
+      }
+    }
+  ]
+}

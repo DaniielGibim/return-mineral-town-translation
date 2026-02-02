@@ -1,0 +1,119 @@
+{
+"Changes": [
+	{
+   
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/Manna",
+   "Entries": {
+   	"Introduction": "{{i18n:{{TargetWithoutPath}}.Dialogue.Introduction}}",
+
+
+		//Spring
+	"spring_1": "{{i18n:Manna.Dialogue.spring_1}}",
+	"spring_12": "{{i18n:Manna.Dialogue.spring_12}}",
+	"spring_23": "{{i18n:Manna.Dialogue.spring_23}}",
+
+		//Summer
+	"summer_1": "{{i18n:Manna.Dialogue.summer_1}}",
+	"summer_10": "{{i18n:Manna.Dialogue.summer_10}}",
+	"summer_27": "{{i18n:Manna.Dialogue.summer_27}}",
+
+		//Fall
+	"fall_1": "{{i18n:Manna.Dialogue.fall_1}}",
+	"fall_15": "{{i18n:Manna.Dialogue.fall_15}}",
+	"fall_26": "{{i18n:Manna.Dialogue.fall_26}}",
+
+		//Winter
+	"winter_1": "{{i18n:Manna.Dialogue.winter_1}}",
+	"winter_7": "{{i18n:Manna.Dialogue.winter_7}}",
+	"winter_24": "{{i18n:Manna.Dialogue.winter_24}}",
+
+		//Days of the Week
+
+		//0 Hearts
+	"Mon": "{{i18n:Manna.Dialogue.Mon}}",
+	"Tue": "{{i18n:Manna.Dialogue.Tue}}",
+	"Wed": "{{i18n:Manna.Dialogue.Wed}}",
+	"Thu": "{{i18n:Manna.Dialogue.Thu}}",
+	"Fri": "{{i18n:Manna.Dialogue.Fri}}",
+	"Sat": "{{i18n:Manna.Dialogue.Sat}}",
+	"Sun": "{{i18n:Manna.Dialogue.Sun}}",
+	
+		//2 Hearts
+	"Mon2": "{{i18n:Manna.Dialogue.Mon2}}",
+	"Tue2": "{{i18n:Manna.Dialogue.Tue2}}",
+	"Wed2": "{{i18n:Manna.Dialogue.Wed2}}",
+	"Thu2": "{{i18n:Manna.Dialogue.Thu2}}",
+	"Fri2": "{{i18n:Manna.Dialogue.Fri2}}",
+	"Sat2": "{{i18n:Manna.Dialogue.Sat2}}",
+	"Sun2": "{{i18n:Manna.Dialogue.Sun2}}",
+	
+		//4 Hearts
+	"Mon4": "{{i18n:Manna.Dialogue.Mon4}}",
+	"Tue4": "{{i18n:Manna.Dialogue.Tue4}}",
+	"Wed4": "{{i18n:Manna.Dialogue.Wed4}}",
+	"Thu4": "{{i18n:Manna.Dialogue.Thu4}}",
+	"Fri4": "{{i18n:Manna.Dialogue.Fri4}}",
+	"Sat4": "{{i18n:Manna.Dialogue.Sat4}}",
+	"Sun4": "{{i18n:Manna.Dialogue.Sun4}}",
+	
+		//6 Hearts
+	"Mon6": "{{i18n:Manna.Dialogue.Mon6}}",
+	"Tue6": "{{i18n:Manna.Dialogue.Tue6}}",
+	"Wed6": "{{i18n:Manna.Dialogue.Wed6}}",
+	"Thu6": "{{i18n:Manna.Dialogue.Thu6}}",
+	"Fri6": "{{i18n:Manna.Dialogue.Fri6}}",
+	"Sat6": "{{i18n:Manna.Dialogue.Sat6}}",
+	"Sun6": "{{i18n:Manna.Dialogue.Sun6}}",
+			
+		//8 Hearts
+	"Mon8": "{{i18n:Manna.Dialogue.Mon8}}",
+	"Tue8": "{{i18n:Manna.Dialogue.Tue8}}",
+	"Wed8": "{{i18n:Manna.Dialogue.Wed8}}",
+	"Thu8": "{{i18n:Manna.Dialogue.Thu8}}",
+	"Fri8": "{{i18n:Manna.Dialogue.Fri8}}",
+	"Sat8": "{{i18n:Manna.Dialogue.Sat8}}",
+	"Sun8": "{{i18n:Manna.Dialogue.Sun8}}",
+	
+		//10 Hearts
+	"Mon10": "{{i18n:Manna.Dialogue.Mon10}}",
+	"Tue10": "{{i18n:Manna.Dialogue.Tue10}}",
+	"Wed10": "{{i18n:Manna.Dialogue.Wed10}}",
+	"Thu10": "{{i18n:Manna.Dialogue.Thu10}}",
+	"Fri10": "{{i18n:Manna.Dialogue.Fri10}}",
+	"Sat10": "{{i18n:Manna.Dialogue.Sat10}}",
+	"Sun10": "{{i18n:Manna.Dialogue.Sun10}}",
+
+	//Resort
+	"Resort_Entering": "{{i18n:Manna.Dialogue.Resort_Entering}}",
+	"Resort_Leaving": "{{i18n:Manna.Dialogue.Resort_Leaving}}",
+	"Resort_Shore": "{{i18n:Manna.Dialogue.Resort_Shore}}",
+	"Resort_Bar": "{{i18n:Manna.Dialogue.Resort_Bar}}",
+	"Resort": "{{i18n:Manna.Dialogue.Resort}}",
+
+	 //Special Dialogue
+	"MovieInvitation": "{{i18n:Manna.Dialogue.MovieInvitation}}",
+
+	//CT Dialogue
+	"cc_Begin": "{{i18n:Manna.Dialogue.cc_Begin}}",
+	"joja_Begin": "{{i18n:Manna.Dialogue.joja_Begin}}",
+	"cc_Complete": "{{i18n:Manna.Dialogue.cc_Complete}}",
+	"movieTheater": "{{i18n:Manna.Dialogue.movieTheater}}",
+	"SterlingDrugs": "{{i18n:Manna.Dialogue.SterlingDrugs}}",
+	"LavrilUnlocked": "{{i18n:Manna.Dialogue.LavrilUnlocked}}",
+	"LucikielArrives": "{{i18n:Manna.Dialogue.LucikielArrives}}",
+	"ReputationIncreased": "{{i18n:Manna.Dialogue.ReputationIncreased}}",
+	"keahi_prank": "{{i18n:Manna.Dialogue.keahi_prank}}",
+	"YriIntroduction": "{{i18n:Manna.Dialogue.YriIntroduction}}",
+	"MeetTheCats": "{{i18n:Manna.Dialogue.MeetTheCats}}",
+	"TYRSA_AnewCoupleInTown": "{{i18n:Manna.Dialogue.TYRSA_AnewCoupleInTown}}",
+	"wedding": "{{i18n:Manna.Dialogue.wedding}}",
+	"divorce": "{{i18n:Manna.Dialogue.divorce}}",
+	"islandResortUnlocked": "{{i18n:Manna.Dialogue.islandResortUnlocked}}",
+	"leoValleyArrival": "{{i18n:Manna.Dialogue.leoValleyArrival}}",
+	"BookLaunchParty": "{{i18n:Manna.Dialogue.BookLaunchParty}}",
+
+		},
+	},
+]
+}

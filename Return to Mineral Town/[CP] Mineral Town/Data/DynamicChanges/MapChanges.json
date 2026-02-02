@@ -1,0 +1,135 @@
+{
+    "Changes": [
+    
+    
+    /*********
+    ** Map Changes
+    *********/
+      //Beach
+    {
+        "Action": "EditMap",
+        "Target": "Maps/{{ModId}}_MineralBeach",
+        "FromFile": "Assets/Maps/DynamicMaps/{{ModId}}_BeachTideRises.tmx",
+        "Update": "OnLocationChange",
+        "Priority":"Late",
+        "ToArea": {
+          "X": 0,
+          "Y": 0,
+          "Width": 80,
+          "Height": 60
+        },
+        "When": {
+          "Weather": "Sun",
+          "Time": "{{Range: 1200, 1800}}"
+        },
+      },
+    //Highway
+    
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_Highway",
+            "FromFile": "Assets/Maps/OutdoorMaps/{{ModId}}_Highway.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 89, "Height": 47 },
+            "ToArea": { "X": 0, "Y": 0, "Width": 89, "Height": 47 },
+            "PatchMode": "ReplaceByLayer",
+            "When": { "Time": "{{Range: 0600, 1900}}" },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_Highway",
+            "FromFile": "Assets/Maps/DynamicMaps/{{ModId}}_HighwayNight.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 89, "Height": 47 },
+            "ToArea": { "X": 0, "Y": 0, "Width": 89, "Height": 47 },
+            "PatchMode": "Overlay",
+            "When": { "Time": "{{Range: 1900, 2600}}" },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_Highway",
+            "FromFile": "Assets/Maps/DynamicMaps/{{ModId}}_HighwayRainy.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 89, "Height": 47 },
+            "ToArea": { "X": 0, "Y": 0, "Width": 89, "Height": 47 },
+            "PatchMode": "ReplaceByLayer",
+            "When": { 
+                "Time": "{{Range: 0600, 1900}}", 
+                "Weather": "Rain, Storm"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_Highway",
+            "FromFile": "Assets/Maps/DynamicMaps/{{ModId}}_HighwayRainyNight.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 89, "Height": 47 },
+            "ToArea": { "X": 0, "Y": 0, "Width": 89, "Height": 47 },
+            "PatchMode": "Overlay",
+            "When": { 
+                "Time": "{{Range: 1900, 2600}}",
+                "Weather": "Rain, Storm"
+            },
+            "Update": "OnLocationChange"
+        },
+    
+    //Ocean Summit
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_OceanSummit",
+            "FromFile": "Assets/Maps/OutdoorMaps/{{ModId}}_OceanSummit.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 43, "Height": 36 },
+            "ToArea": { "X": 0, "Y": 0, "Width": 43, "Height": 36 },
+            "PatchMode": "ReplaceByLayer",
+            "When": { "Time": "{{Range: 0600, 1900}}" },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_OceanSummit",
+            "FromFile": "Assets/Maps/DynamicMaps/{{ModId}}_OceanSummitNight.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 43, "Height": 36 },
+            "ToArea": { "X": 0, "Y": 0, "Width": 43, "Height": 36 },
+            "PatchMode": "Overlay",
+            "When": { "Time": "{{Range: 1900, 2600}}" },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_OceanSummit",
+            "FromFile": "Assets/Maps/DynamicMaps/{{ModId}}_OceanSummitRainy.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 43, "Height": 36 },
+            "ToArea": { "X": 0, "Y": 0, "Width": 43, "Height": 36 },
+            "PatchMode": "ReplaceByLayer",
+            "When": { 
+                "Time": "{{Range: 0600, 1900}}",
+                "Weather": "Rain, Storm"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_OceanSummit",
+            "FromFile": "Assets/Maps/DynamicMaps/{{ModId}}_OceanSummitRainyNight.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 43, "Height": 36 },
+            "ToArea": { "X": 0, "Y": 0, "Width": 43, "Height": 36 },
+            "PatchMode": "Overlay",
+            "When": { 
+                "Time": "{{Range: 1900, 2600}}",
+                "Weather": "Rain, Storm"
+            },
+            "Update": "OnLocationChange"
+        },
+
+        //Inn
+        {
+        "Action": "EditMap",
+        "Target": "Maps/{{ModId}}_InnInterior",
+        "FromFile": "Assets/Maps/IndoorMaps/{{ModId}}_InnInteriorNight.tmx",
+        "FromArea": { "X": 0, "Y": 0, "Width": 27, "Height": 20 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 20 },
+        "PatchMode": "ReplaceByLayer",
+        "When": { "Time": "{{Range: 1900, 2600}}" },
+        "Update": "OnLocationChange"
+        },
+    ]
+}

@@ -1,0 +1,49 @@
+{
+"Changes": [
+
+    {
+        //NPC Positions
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Aja 27 19 right/Ann 34 26 down/Cliff 21 10 down/Doctor 27 54 left/Elli 27 55 left/Gray 28 61 right/Kai 19 22 down/Karen 29 28 left/Marie 37 14 down/Nami 21 22 right/Popuri 33 23 up/Rick 12 18 right/Tate 22 12 right",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                "Value": "Aja 27 19 right/Ann 34 26 down/Cliff 21 10 down/Doctor 27 54 left/Elli 27 55 left/Gray 28 61 right/Kai 19 22 down/Karen 29 28 left/Marie 37 14 down/Nami 21 22 right/Popuri 33 23 up/Rick 12 18 right/Tate 22 12 right",
+                "Delimiter": "/"
+            }
+
+        ]
+    },
+    {
+        //NPC Positions SVE
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Aja 31 17 up/Ann 55 35 down/Cliff 16 21 right/Doctor 24 54 down/Elli 32 64 right/Gray 30 24 down/Kai 42 15 left/Karen 31 36 down/Marie 19 21 right/Nami 41 14 up/Popuri 37 13 left/Rick 14 31 down/Tate 49 58 left",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                "Value": "Aja 31 17 up/Ann 55 35 down/Cliff 16 21 right/Doctor 24 54 down/Elli 32 64 right/Gray 30 24 down/Kai 42 15 left/Karen 31 36 down/Marie 19 21 right/Nami 41 14 up/Popuri 37 13 left/Rick 14 31 down/Tate 49 58 left",
+                "Delimiter": "/"
+            }
+
+        ]
+    }
+]
+}

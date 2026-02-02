@@ -1,0 +1,282 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Portraits/Aja_Fall, Portraits/Ann_Fall, Portraits/Cliff_Fall, Portraits/Doctor_Fall, Portraits/Elli_Fall, Portraits/Gray_Fall, Portraits/Kai_Fall, Portraits/Karen_Fall, Portraits/Marie_Fall, Portraits/Nami_Fall, Portraits/Popuri_Fall, Portraits/Rick_Fall, Portraits/Tate_Fall, Characters/Aja_Fall, Characters/Ann_Fall, Characters/Cliff_Fall, Characters/Doctor_Fall, Characters/Elli_Fall, Characters/Gray_Fall, Characters/Kai_Fall, Characters/Karen_Fall, Characters/Marie_Fall, Characters/Nami_Fall, Characters/Popuri_Fall, Characters/Rick_Fall, Characters/Tate_Fall",
+            "FromFile": "Assets/FallOutfits/{{Target}}.png"
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Aja",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Aja", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.AjaFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Aja_Fall",
+                    "Sprite": "Characters/Aja_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Ann",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Ann", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.AnnFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Ann_Fall",
+                    "Sprite": "Characters/Ann_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Cliff",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Cliff", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.CliffFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Cliff_Fall",
+                    "Sprite": "Characters/Cliff_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Doctor",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Doctor", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.DoctorFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Doctor_Fall",
+                    "Sprite": "Characters/Doctor_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Elli",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Elli", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.ElliFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Elli_Fall",
+                    "Sprite": "Characters/Elli_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Gray",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Gray", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.GrayFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Gray_Fall",
+                    "Sprite": "Characters/Gray_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Kai",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Kai", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.KaiFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Kai_Fall",
+                    "Sprite": "Characters/Kai_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Karen",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Karen", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.KarenFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Karen_Fall",
+                    "Sprite": "Characters/Karen_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Marie",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Marie", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.MarieFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Marie_Fall",
+                    "Sprite": "Characters/Marie_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Nami",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Nami", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.NamiFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Nami_Fall",
+                    "Sprite": "Characters/Nami_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Popuri",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Popuri", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.PopuriFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Popuri_Fall",
+                    "Sprite": "Characters/Popuri_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Rick",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Rick", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.RickFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Rick_Fall",
+                    "Sprite": "Characters/Rick_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Fall Outfit - Tate",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Tate", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.TateFallOutfit": {
+                    "Id": "Fall",
+                    "Condition": null,
+                    "Season": "Fall",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Tate_Fall",
+                    "Sprite": "Characters/Tate_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 0
+                  }
+            }
+        },
+    ]
+}

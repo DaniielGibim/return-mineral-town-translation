@@ -1,0 +1,85 @@
+{
+	"Changes": [
+
+	//------------------------
+	// G I F T S
+	//------------------------
+
+		{
+			"LogName": "Gift tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+
+				"Aja": "{{i18n:Gift.Love.Aja}}/104 191 206 213 253 395 428/{{i18n:Gift.Like.Aja}}//{{i18n:Gift.Dislike.Aja}}//{{i18n:Gift.Hate.Aja}}//{{i18n:Gift.Neutral.Aja}}// ",
+
+				"Ann": "{{i18n:Gift.Love.Ann}}/{{ModId}}_Omelet_Rice {{ModId}}_Strawberry_Latte 20 402 233 211 196 227/{{i18n:Gift.Like.Ann}}/256 216 138 {{ModId}}_Orange_Grass 398 {{ModId}}_Mountain_Trout/{{i18n:Gift.Dislike.Ann}}/459 304 88 348 213 -4/{{i18n:Gift.Hate.Ann}}/{{ModId}}_Red_Grass {{ModId}}_Yellow_Grass 305 -2/{{i18n:Gift.Neutral.Ann}}/-4 167/ ",
+
+				"Anna": "{{i18n:Gift.Love.Anna}}/18 348 270 340 233 72 608/{{i18n:Gift.Like.Anna}}/852 376 203 873 771 815/{{i18n:Gift.Dislike.Anna}}/440 -80 422 281/{{i18n:Gift.Hate.Anna}}/346/{{i18n:Gift.Neutral.Anna}}/70/ ",
+
+				"Barley": "{{i18n:Gift.Love.Barley}}/406 604 565 797 614/{{i18n:Gift.Like.Barley}}/852 376 203 873 771 815/{{i18n:Gift.Dislike.Barley}}/197 223 424 312 211 306 307/{{i18n:Gift.Hate.Barley}}/346/{{i18n:Gift.Neutral.Barley}}/403 305 -2/ ",
+
+				"Basil": "{{i18n:Gift.Love.Basil}}/350 420 422 815/{{i18n:Gift.Like.Basil}}/233 194/{{i18n:Gift.Dislike.Basil}}/198 212 213 214 219 227 228/{{i18n:Gift.Hate.Basil}}/219/{{i18n:Gift.Neutral.Basil}}// ",
+
+				"Carter": "{{i18n:Gift.Love.Carter}}/246 424 426 907/{{i18n:Gift.Like.Carter}}/852 376 203 873 771 815/{{i18n:Gift.Dislike.Carter}}/395/{{i18n:Gift.Hate.Carter}}/-2/{{i18n:Gift.Neutral.Carter}}/403 305 -2/ ",
+				
+				"Cliff": "{{i18n:Gift.Love.Cliff}}/205 227 228 907/{{i18n:Gift.Like.Cliff}}/233 194/{{i18n:Gift.Dislike.Cliff}}/395 428 -2/{{i18n:Gift.Hate.Cliff}}/219/{{i18n:Gift.Neutral.Cliff}}// ",
+
+				"Doctor": "{{i18n:Gift.Love.Doctor}}/225 350 597 -6/{{i18n:Gift.Like.Doctor}}/233 194/{{i18n:Gift.Dislike.Doctor}}/211 220 221 -2/{{i18n:Gift.Hate.Doctor}}/210/{{i18n:Gift.Neutral.Doctor}}// ",
+
+				"Doug": "{{i18n:Gift.Love.Doug}}/220 253 340 395 728/{{i18n:Gift.Like.Doug}}/233 194/{{i18n:Gift.Dislike.Doug}}/428 -80/{{i18n:Gift.Hate.Doug}}/219/{{i18n:Gift.Neutral.Doug}}// ",
+
+				"Duke": "{{i18n:Gift.Love.Duke}}/216 219 228 231 272/{{i18n:Gift.Like.Duke}}/233 194/{{i18n:Gift.Dislike.Duke}}/350 395 614 815/{{i18n:Gift.Hate.Duke}}/-2/{{i18n:Gift.Neutral.Duke}}// ",
+
+				"Ellen": "{{i18n:Gift.Love.Ellen}}/340 341 428 440 614/{{i18n:Gift.Like.Ellen}}/233 194/{{i18n:Gift.Dislike.Ellen}}/70 194/{{i18n:Gift.Hate.Ellen}}/219/{{i18n:Gift.Neutral.Ellen}}// ",
+
+				"Elli": "{{i18n:Gift.Love.Elli}}/400 72 221 597 -6 {{ModId}}_Blue_Magic_Grass {{ModId}}_Harvest_Pink_Cat {{ModId}}_Toy_Flower/{{i18n:Gift.Like.Elli}}/{{ModId}}_Harvest_Cheesecake {{ModId}}_Sandwich {{ModId}}_Salted_Popcorn 227 815/{{i18n:Gift.Dislike.Elli}}/{{ModId}}_Spicy_Ketchup {{ModId}}_Omelet_Rice 194 260 606/{{i18n:Gift.Hate.Elli}}/215 226 907 {{ModId}}_Black_Grass {{ModId}}_Harvest_Curry_Powder/{{i18n:Gift.Neutral.Elli}}/403 305 -2/ ",
+
+				"Gotz": "{{i18n:Gift.Love.Gotz}}/306 307 424 426 440 613 635/{{i18n:Gift.Like.Gotz}}/852 376 203 873 771 815/{{i18n:Gift.Dislike.Gotz}}/215 428 -2/{{i18n:Gift.Hate.Gotz}}/346/{{i18n:Gift.Neutral.Gotz}}/403 305 -2/ ",
+
+				"Gray": "{{i18n:Gift.Love.Gray}}/62 64 66 70 232 270 904/{{i18n:Gift.Like.Gray}}/233 194/{{i18n:Gift.Dislike.Gray}}/215 226 260 907/{{i18n:Gift.Hate.Gray}}//{{i18n:Gift.Neutral.Gray}}// ",
+
+				"Harris": "{{i18n:Gift.Love.Harris}}/220 221 234 350/{{i18n:Gift.Like.Harris}}/233 194/{{i18n:Gift.Dislike.Harris}}/227 250 428 -2/{{i18n:Gift.Hate.Harris}}/219/{{i18n:Gift.Neutral.Harris}}// ",
+
+				"HarvestGoddess": "{{i18n:Gift.Love.HarvestGoddess}}//{{i18n:Gift.Like.HarvestGoddess}}//{{i18n:Gift.Dislike.HarvestGoddess}}//{{i18n:Gift.Hate.HarvestGoddess}}//{{i18n:Gift.Neutral.HarvestGoddess}}// ",
+
+				"Jeff": "{{i18n:Gift.Love.Jeff}}/705 610 432 276/{{i18n:Gift.Like.Jeff}}/852 376 203 873 771 815/{{i18n:Gift.Dislike.Jeff}}/197 233 424 426/{{i18n:Gift.Hate.Jeff}}/346/{{i18n:Gift.Neutral.Jeff}}/403 305 -2/ ",
+
+				"Kai": "{{i18n:Gift.Love.Kai}}/256 270 276 832 -5/{{i18n:Gift.Like.Kai}}/233 194/{{i18n:Gift.Dislike.Kai}}/205 218 404 606 -2/{{i18n:Gift.Hate.Kai}}/219/{{i18n:Gift.Neutral.Kai}}// ",
+
+				"Kappa": "{{i18n:Gift.Love.Kappa}}//{{i18n:Gift.Like.Kappa}}//{{i18n:Gift.Dislike.Kappa}}//{{i18n:Gift.Hate.Kappa}}//{{i18n:Gift.Neutral.Kappa}}// ",
+				
+				"Karen": "{{i18n:Gift.Love.Karen}}/{{ModId}}_Purple_Grass {{ModId}}_Bamboo_Shoot {{ModId}}_Harvest_Matsutake 210 227 424 426 348 346/{{i18n:Gift.Like.Karen}}/{{ModId}}_Harvest_Cucumber 260 215 {{ModId}}_Curry_Rice 226 64 -80/{{i18n:Gift.Dislike.Karen}}/{{ModId}}_Savory_Pancakes {{ModId}}_Mixed_Latte {{ModId}}_Harvest_Apple_Pie 208 211 220 221 223 280 613 635/{{i18n:Gift.Hate.Karen}}/70 428 440 815 614/{{i18n:Gift.Neutral.Karen}}/403 305 -2/ ",
+
+				"Lillia": "{{i18n:Gift.Love.Lillia}}/72 250 256 340 400 424 426 613 614 -6/{{i18n:Gift.Like.Lillia}}/852 376 203 873 771 815/{{i18n:Gift.Dislike.Lillia}}/459 304 88 348 213 -4/{{i18n:Gift.Hate.Lillia}}/346/{{i18n:Gift.Neutral.Lillia}}/403 305 -2/ ",
+
+				"Manna": "{{i18n:Gift.Love.Manna}}/72 198 212 834 444/{{i18n:Gift.Like.Manna}}/852 376 203 873 771 815/{{i18n:Gift.Dislike.Manna}}/907/{{i18n:Gift.Hate.Manna}}/346/{{i18n:Gift.Neutral.Manna}}/403 305 -2/ ",
+
+				"Marie": "{{i18n:Gift.Love.Marie}}/{{ModId}}_Vegetable_Latte {{ModId}}_Chocolate_Cookies {{ModId}}_Red_Grass 350 422/{{i18n:Gift.Like.Marie}}/{{ModId}}_White_Grass {{ModId}}_Indigo_Grass {{ModId}}_Green_Grass {{ModId}}_Cheese_Fondue 376 276 608/{{i18n:Gift.Dislike.Marie}}/{{ModId}}_Shrimp_Fried_Rice 232 423 905/{{i18n:Gift.Hate.Marie}}/{{ModId}}_Bebsi_Cola 346 459/{{i18n:Gift.Neutral.Marie}}/403 305 -2/ ",
+
+				"Mei": "{{i18n:Gift.Love.Mei}}/18 211 221 223 233/{{i18n:Gift.Like.Mei}}/852 376 203 873 771 815/{{i18n:Gift.Dislike.Mei}}/198 260/{{i18n:Gift.Hate.Mei}}/70 215 226 606/{{i18n:Gift.Neutral.Mei}}/403 305 -2/ ",
+
+				"Nami": "{{i18n:Gift.Love.Nami}}/398 907 125 119 100/{{i18n:Gift.Like.Nami}}/-2 -4/{{i18n:Gift.Dislike.Nami}}/72 233 236/{{i18n:Gift.Hate.Nami}}/344 440 709/{{i18n:Gift.Neutral.Nami}}/403 305 -2/ ",
+
+				"Popuri": "{{i18n:Gift.Love.Popuri}}/221 64 254 402 400 591/{{i18n:Gift.Like.Popuri}}/852 376 203 873 771 815/{{i18n:Gift.Dislike.Popuri}}/24 236 260 272 276 608/{{i18n:Gift.Hate.Popuri}}/215 226 606/{{i18n:Gift.Neutral.Popuri}}/403 305 -2/ ",
+
+				"Rick": "{{i18n:Gift.Love.Rick}}/194 253 240 143 16 395 -5/{{i18n:Gift.Like.Rick}}/233 194/{{i18n:Gift.Dislike.Rick}}/208 236 276 280 608/{{i18n:Gift.Hate.Rick}}/197 -2/{{i18n:Gift.Neutral.Rick}}// ",
+
+				"Saibara": "{{i18n:Gift.Love.Saibara}}/24 72 199 218 219/{{i18n:Gift.Like.Saibara}}/233 194/{{i18n:Gift.Dislike.Saibara}}/211 216 220 221 223 232 233 247 398 400 832/{{i18n:Gift.Hate.Saibara}}/219/{{i18n:Gift.Neutral.Saibara}}// ",
+
+				"Sasha": "{{i18n:Gift.Love.Sasha}}/64 224 593 597 905/{{i18n:Gift.Like.Sasha}}/852 376 203 873 771 815/{{i18n:Gift.Dislike.Sasha}}/66 197 198 219 227 424 426/{{i18n:Gift.Hate.Sasha}}/70/{{i18n:Gift.Neutral.Sasha}}/403 305 -2/ ",
+
+				"Stu": "{{i18n:Gift.Love.Stu}}/211 243 233 258 234 350/{{i18n:Gift.Like.Stu}}/852 376 203 873 771 815/{{i18n:Gift.Dislike.Stu}}/198 202 205 214 231 250 272 -80/{{i18n:Gift.Hate.Stu}}/215 226 260 907/{{i18n:Gift.Neutral.Stu}}/403 305 -2/ ",
+
+				"Tate": "{{i18n:Gift.Love.Tate}}/107 109 121 241 237 608/{{i18n:Gift.Like.Tate}}//{{i18n:Gift.Dislike.Tate}}//{{i18n:Gift.Hate.Tate}}/131 250 395 253/{{i18n:Gift.Neutral.Tate}}// ",
+				
+				"Thomas": "{{i18n:Gift.Love.Thomas}}/197 208 398 259 60/{{i18n:Gift.Like.Thomas}}/233 194/{{i18n:Gift.Dislike.Thomas}}/227 228 -2/{{i18n:Gift.Hate.Thomas}}/219/{{i18n:Gift.Neutral.Thomas}}// ",
+
+				"Won": "{{i18n:Gift.Love.Won}}/-2 -12/{{i18n:Gift.Like.Won}}/233 194/{{i18n:Gift.Dislike.Won}}/728/{{i18n:Gift.Hate.Won}}/219/{{i18n:Gift.Neutral.Won}}// ",
+
+				"Zack": "{{i18n:Gift.Love.Zack}}/72 195 227 400 424 426 613/{{i18n:Gift.Like.Zack}}/233 194/{{i18n:Gift.Dislike.Zack}}/-2/{{i18n:Gift.Hate.Zack}}/219/{{i18n:Gift.Neutral.Zack}}// "
+
+			},
+		},
+	]
+}

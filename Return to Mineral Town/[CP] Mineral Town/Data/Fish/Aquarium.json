@@ -1,0 +1,47 @@
+{
+    "Changes": [
+    
+    //Aquarium Data
+        {
+            "Action": "EditData",
+            "Target": "Data/AquariumFish",
+            "Entries": {
+                "Rexstrife20.MineralTownCP_Amur_Minnow": "0/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Bighead": "1/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Bitterling": "2/float/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Black_Bass": "3/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Blowfish": "4/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Bluegill": "5/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Bonito": "6/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Brown_Hakeling": "7/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Blackfin_Monkfish": "28/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Cherry_Salmon": "8/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Cod": "9/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Filefish": "10/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Fluke": "11/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Golden_Carp": "12/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Greenling": "13/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Huchen": "27/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Kelp_Bass": "14/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Lake_Smelt": "15/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Mountain_Trout": "16/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Needlefish": "17/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Pigfish": "18/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Roach": "19/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Rocky_Trout": "20/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Saury_Pike": "21/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Scad": "22/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Silver_Carp": "23/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Snakehead": "24/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Whitefish": "25/fish/////LooseSprites\\MTAquariumFish",
+                "Rexstrife20.MineralTownCP_Yellowtail": "26/fish/////LooseSprites\\MTAquariumFish",
+            },
+        },
+    
+        {
+            "Action": "Load",
+            "Target": "LooseSprites/MTAquariumFish",
+            "FromFile": "assets/LooseSprites/MTFishesAquarium.png",
+        },
+    ]
+    }

@@ -1,0 +1,25 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "popuri Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/popuri ",
+      "Entries": {
+
+      //Regular Schedule
+      "spring": "610 {{ModId}}_GoddessHill 16 10 0/1000 {{ModId}}_PoultryInterior 12 5 0/1250 {{ModId}}_PoultryInterior 11 7 2/1350 {{ModId}}_PoultryInterior 6 6 0/1500 {{ModId}}_TownCenter 78 112 2 popuri_hugchicken/1800 {{ModId}}_PoultryInterior 11 7 2/1900 {{ModId}}_PoultryInterior2ndFloor 9 12 2/2100 {{ModId}}_PoultryInterior2ndFloor 8 15 1 popuri_sleep",
+      "summer": "GOTO spring",
+      "fall": "GOTO spring",
+      "winter": "GOTO spring",
+      "summer_Fri": "610 {{ModId}}_PoultryInterior2ndFloor 9 12 2/1000 {{ModId}}_PoultryInterior 12 5 0/1200 {{ModId}}_SnackShackInterior 8 8 0/1300 {{ModId}}_SnackShackInterior 15 9 1/1700 {{ModId}}_PoultryInterior 11 7 2/1900 {{ModId}}_PoultryInterior2ndFloor 9 12 2/2100 {{ModId}}_PoultryInterior2ndFloor 8 15 1 popuri_sleep ",
+      "Sun": "610 {{ModId}}_PoultryInterior2ndFloor 9 12 2/810 {{ModId}}_ChurchInterior 6 12 0/1600 {{ModId}}_TownCenter 105 95 2/1900 {{ModId}}_PoultryInterior 11 7 2/2030 {{ModId}}_PoultryInterior2ndFloor 9 12 2/2200 {{ModId}}_PoultryInterior2ndFloor 8 15 1 popuri_sleep",
+      "rain": "610 {{ModId}}_PoultryInterior2ndFloor 9 12 2/1100 {{ModId}}_PoultryInterior 12 5 0/1200 {{ModId}}_PoultryInterior 11 7 2/1300 {{ModId}}_PoultryInterior 6 6 0/1500 {{ModId}}_MineralCoop 8 6 popuri_hugchicken/1800 {{ModId}}_PoultryInterior 11 7 2/1900 {{ModId}}_PoultryInterior2ndFloor 9 12 2/2100 {{ModId}}_PoultryInterior2ndFloor 8 15 1 popuri_sleep",
+      "GreenRain": "GOTO rain"
+      
+      //Marriage Schedule
+      
+      }
+    }
+  ]
+}

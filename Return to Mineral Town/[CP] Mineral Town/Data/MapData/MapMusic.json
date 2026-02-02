@@ -1,0 +1,24 @@
+{
+"Changes": [
+
+ 	  /*********
+	  ** Music Enabled
+	  *********/
+
+	//Seasonal
+		{
+			"LogName": "TownThemeHM(loop)",
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_TownCenter",
+			"MapProperties": {
+				"Music": "{{Random: TownThemeHM(loop)}}"
+				},
+			"When": {
+				"Weather": "Sun",
+        		"Season": "spring",
+				"Time": "{{Range: 0600, 1900}}",
+				},
+			"Update": "OnLocationChange"
+		},
+	]
+}

@@ -1,0 +1,359 @@
+{
+    "Changes": [
+    
+    //---------------------
+    //Fishes
+    //---------------------
+    //Data
+    {
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Entries": {
+
+					//Common Fish
+					"{{ModID}}_Amur_Minnow": "{{i18n:object.amur-minnow.name}}/50/smooth/5/9/600 2600/winter/both/-1/1/.8/.1/0",
+					"{{ModID}}_Bighead": "{{i18n:object.bighead.name}}/45/sinker/24/57/600 2600/spring summer fall winter/both/-1/1/.1/.1/0",
+					"{{ModID}}_Bitterling": "{{i18n:object.bitterling.name}}/20/mixed/3/4/600 2600/spring summer fall winter/both/-1/1/.45/.1/0",
+					"{{ModID}}_Black_Bass": "{{i18n:object.black-bass.name}}/60/smooth/20/24/600 2600/spring summer fall winter/both/-1/1/.8/.1/0",
+					"{{ModID}}_Blowfish": "{{i18n:object.blowfish.name}}/60/floater/10/22/2100 2600/winter/both/-1/1/.8/.1/2",
+					"{{ModID}}_Bluegill": "{{i18n:object.bluegill.name}}/25/dart/9/10/900 1600/spring summer fall winter/both/-1/1/.25/.1/0",
+					"{{ModID}}_Bonito": "{{i18n:object.bonito.name}}/40/smooth/27/30/1400 2600/spring fall/both/-1/1/.2/.1/1",
+					"{{ModID}}_Brown_Hakeling": "{{i18n:object.brown-hakeling.name}}/50/sinker/4/6/800 1800/spring summer winter/both/-1/1/.2/.1/0",
+					"{{ModID}}_Cherry_Salmon": "{{i18n:object.cherry-salmon.name}}/45/smooth/14/20/1600 2600/summer fall/both/-1/1/.2/.1/0",
+					"{{ModID}}_Cod": "{{i18n:object.cod.name}}/45/mixed/40/80/600 1600/winter/both/-1/1/.2/.1/2",
+					"{{ModID}}_Filefish": "{{i18n:object.filefish.name}}/50/dart/24/43/600 2600/winter/both/-1/1/.2/.1/0",
+					"{{ModID}}_Fluke": "{{i18n:object.fluke.name}}/55/sinker/15/20/600 1600/fall winter/both/-1/1/.2/.1/0",
+					"{{ModID}}_Greenling": "{{i18n:object.greenling.name}}/65/smooth/24/38/900 1700/spring/both/-1/1/.2/.1/2",
+					"{{ModID}}_Huchen": "{{i18n:object.huchen.name}}/55/mixed/60/80/600 2600/fall winter/both/-1/1/.2/.1/0",
+					"{{ModID}}_Kelp_Bass": "{{i18n:object.kelp-bass.name}}/30/mixed/25/28/1000 2000/fall winter/both/-1/1/.2/.1/0",
+					"{{ModID}}_Lake_Smelt": "{{i18n:object.lake-smelt.name}}/20/smooth/5/6/600 2600/winter/both/-1/1/.2/.1/0",
+					"{{ModID}}_Blackfin_Monkfish": "{{i18n:object.blackfin-monkfish.name}}/75/sinker/39/55/1800 2600/spring winter/both/-1/1/.2/.1/5",
+					"{{ModID}}_Mountain_Trout": "{{i18n:object.mountain-trout.name}}/50/dart/10/26/600 1400/spring summer fall/both/-1/1/.2/.1/0",
+					"{{ModID}}_Needlefish": "{{i18n:object.needlefish.name}}/55/dart/5/35/600 1600/spring/both/-1/1/.2/.1/0",
+					"{{ModID}}_Roach": "{{i18n:object.roach.name}}/25/smooth/14/20/600 2600/spring fall/both/-1/1/.2/.1/0",
+					"{{ModID}}_Rocky_Trout": "{{i18n:object.rocky-trout.name}}/45/mixed/12/20/600 1400/spring winter/both/-1/1/.2/.1/0",
+					"{{ModID}}_Saury_Pike": "{{i18n:object.saury-pike.name}}/65/mixed/20/48/600 2600/fall winter/both/-1/1/.2/.1/0",
+					"{{ModID}}_Scad": "{{i18n:object.scad.name}}/45/dart/15/18/1600 2600/spring summer fall winter/both/-1/1/.2/.1/0",
+					"{{ModID}}_Snakehead": "{{i18n:object.snakehead.name}}/60/smooth/12/35/1000 2000/spring fall/both/-1/1/.2/.1/0",
+					"{{ModID}}_Whitefish": "{{i18n:object.whitefish.name}}/45/mixed/10/12/600 2600/spring summer winter fall/both/-1/1/.2/.1/0",
+					"{{ModID}}_Yellowtail": "{{i18n:object.yellowtail.name}}/75/mixed/20/25/600 1400/summer winter/both/-1/1/.2/.1/0",
+
+					//Rare Fish
+					"{{ModID}}_Golden_Carp": "{{i18n:object.golden-carp.name}}/85/dart/20/48/1600 2600/spring summer fall winter/both/-1/1/.2/.1/8",
+					"{{ModID}}_Pigfish": "{{i18n:object.pigfish.name}}/85/sinker/53/100/2000 2600/spring summer fall winter/both/-1/1/.2/.1/8",
+					"{{ModID}}_Silver_Carp": "{{i18n:object.silver-carp.name}}/85/mixed/20/48/600 1400/spring summer fall winter/both/-1/1/.2/.1/6"
+				},
+			},
+		//Locations
+			{
+				"Action": "EditData",
+				"Target": "Data/Locations",
+				"Fields": {
+					"{{ModId}}_MineralBeach": {
+						"Fish": [
+					{
+						"ItemId": "{{ModID}}_Blackfin_Monkfish",
+						"Condition": "SEASON spring winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Blowfish",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Bonito",
+						"Condition": "SEASON spring fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Cod",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Filefish",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Fluke",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Greenling",
+						"Condition": "SEASON spring"
+					},
+					{
+						"ItemId": "{{ModID}}_Huchen",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Kelp_Bass",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Rocky_Trout",
+						"Condition": "SEASON spring winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Saury_Pike",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Scad"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Yellowtail",
+						"Condition": "SEASON summer winter"
+					}
+				]
+			},
+
+			"{{ModId}}_GoddessHill": {
+				"Fish": [
+					{
+						"ItemId": "{{ModID}}_Amur_Minnow",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Bighead"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Bitterling"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Black_Bass"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Brown_Hakeling",
+						"Condition": "SEASON spring summer winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Mountain_Trout",
+						"Condition": "SEASON spring summer fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Needlefish",
+						"Condition": "SEASON spring"
+					},
+					{
+						"ItemId": "{{ModID}}_Roach",
+						"Condition": "SEASON spring fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Silver_Carp"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Snakehead",
+						"Condition": "SEASON spring fall"
+					}
+				]
+			},
+			"{{ModId}}_Highway": {
+				"Fish": [
+					{
+						"ItemId": "{{ModID}}_Bluegill"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Cherry_Salmon",
+						"Condition": "SEASON summer fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Golden_Carp"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Lake_Smelt",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Pigfish",
+						"Condition": "SEASON spring summer winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Whitefish"
+
+					}
+				]
+			},
+			"{{ModId}}_MountainLake": {
+				"Fish": [
+					{
+						"ItemId": "{{ModID}}_Bluegill"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Cherry_Salmon",
+						"Condition": "SEASON summer fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Golden_Carp"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Lake_Smelt",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Pigfish",
+						"Condition": "SEASON spring summer winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Whitefish"
+
+					}
+				]
+			},
+			"{{ModId}}_TidePool": {
+				"Fish": [
+					{
+						"ItemId": "{{ModID}}_Blackfin_Monkfish",
+						"Condition": "SEASON spring winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Blowfish",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Bonito",
+						"Condition": "SEASON spring fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Cod",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Filefish",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Fluke",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Greenling",
+						"Condition": "SEASON spring"
+					},
+					{
+						"ItemId": "{{ModID}}_Huchen",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Kelp_Bass",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Rocky_Trout",
+						"Condition": "SEASON spring winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Saury_Pike",
+						"Condition": "SEASON fall winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Scad"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Yellowtail",
+						"Condition": "SEASON summer winter"
+					}
+				]
+			},
+			"{{ModId}}_TownCenter": {
+				"Fish": [
+					{
+						"ItemId": "{{ModID}}_Amur_Minnow",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Bighead"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Bitterling"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Black_Bass"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Brown_Hakeling",
+						"Condition": "SEASON spring summer winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Mountain_Trout",
+						"Condition": "SEASON spring summer fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Needlefish",
+						"Condition": "SEASON spring"
+					},
+					{
+						"ItemId": "{{ModID}}_Roach",
+						"Condition": "SEASON spring fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Silver_Carp"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Snakehead",
+						"Condition": "SEASON spring fall"
+					}
+				]
+			},
+
+			"{{ModId}}_TownEntrance": {
+				"Fish": [
+					{
+						"ItemId": "{{ModID}}_Amur_Minnow",
+						"Condition": "SEASON winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Bighead"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Bitterling"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Black_Bass"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Brown_Hakeling",
+						"Condition": "SEASON spring summer winter"
+					},
+					{
+						"ItemId": "{{ModID}}_Mountain_Trout",
+						"Condition": "SEASON spring summer fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Needlefish",
+						"Condition": "SEASON spring"
+					},
+					{
+						"ItemId": "{{ModID}}_Roach",
+						"Condition": "SEASON spring fall"
+					},
+					{
+						"ItemId": "{{ModID}}_Silver_Carp"
+
+					},
+					{
+						"ItemId": "{{ModID}}_Snakehead",
+						"Condition": "SEASON spring fall"
+					}
+				]
+			}
+		}
+	},
+]
+}
+
+        

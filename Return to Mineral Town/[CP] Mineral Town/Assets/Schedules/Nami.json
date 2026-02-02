@@ -1,0 +1,76 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+    "Changes": [
+    {
+        "LogName": "Nami Before Meeting",
+        "Action": "EditData",
+        "Target": "Characters/Schedules/Nami",
+        "Entries": {
+      
+        //Before meeting
+            "spring": "0 {{ModId}}_MTNPCHiddenRoom 4 6 1/2200 {{ModId}}_MTNPCHiddenRoom 4 6 1 nami_sleep",
+              
+        },
+    },
+
+        //Nami Mineral Town Schedule
+    {
+        "LogName": "nami Schedule - Base",
+        "Action": "EditData",
+        "Target": "Characters/Schedules/Nami",
+        "Entries": {
+            "spring_Mon": "610 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_nap/800 {{ModId}}_InnInterior 5 17 0/1000 {{ModId}}_MineralBeach 56 13 1/1500 {{ModId}}_SnackShackInterior 1 9 1/1700 {{ModId}}_MineralBeach 21 20 2/2000 {{ModId}}_InnInterior 5 17 0 nami_drinking/2300 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_sleep",
+		    "spring_Tue": "610 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_nap/700 {{ModId}}_InnInterior 5 17 0/900 {{ModId}}_GoddessHill 25 12 0/1400 {{ModId}}_GoddessHill 5 6 2/1800 {{ModId}}_TownCenter 46 74 0/2200 {{ModId}}_InnInterior 5 17 0 nami_drinking/2300 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_sleep",
+			"spring_Wed": "610 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_nap/800 {{ModId}}_InnInterior 5 17 0/900 {{ModId}}_LibraryInterior 2 7 0/1200 {{ModId}}_LibraryInterior2ndFloor 2 11 3/1400 {{ModId}}_MarketInterior 16 30 1/1500 {{ModId}}_MarketInterior 1 32 1/1700 {{ModId}}_TownCenter 9 86 0/2000 {{ModId}}_InnInterior 5 17 0 nami_drinking/2200 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_sleep",
+			"spring_Thu": "610 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_nap/1100 Beach 18 18 2/1500 Forest 84 40 2/1900 {{ModId}}_InnInterior 5 17 0/2100 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_sleep",
+			"spring_Fri": "610 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_nap/700 {{ModId}}_InnInterior 5 17 0/1000 {{ModId}}_TownCenter 22 27 0/1400 {{ModId}}_MountainLake 26 32 2/2000 {{ModId}}_FlowerHill 21 9 2/2200 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_sleep",
+			"spring_Sat": "610 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_nap/900 {{ModId}}_InnInterior2ndFloor 13 10 3/1200 {{ModId}}_TownCenter 49 68 2/1600 {{ModId}}_TownCenter 102 57 1/1900 {{ModId}}_InnInterior 15 12 1 nami_drinking/2300 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_sleep",
+			"spring_Sun": "610 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_nap/900 {{ModId}}_InnInterior2ndFloor 13 10 3/1200 {{ModId}}_MountainLake 42 15 3/1600 {{ModId}}_InnInterior2ndFloor 4 10 3/2100 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_sleep",
+			"spring_Rain": "610 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_nap/900 {{ModId}}_InnInterior2ndFloor 13 10 3/1300 {{ModId}}_InnInterior 14 8 0/1600 {{ModId}}_InnInterior 8 11 1 nami_drinking/2000 {{ModId}}_InnInterior2ndFloor 24 22 3 nami_sleep",
+            "winter": "GOTO spring"
+        },
+        "When": { "HasSeenEvent|contains=MT.NamiArrives": true }
+    },
+    
+    {
+        "LogName": "Nami Schedule - ES",
+        "Action": "EditData",
+        "Target": "Characters/schedules/Nami",
+        "Entries": {
+            "summer_Mon": "0 EastScarp_VillageInn 53 30 0/610 EastScarp_VillageInn 53 30 0 nami_nap/730 EastScarp_VillageInn 57 32 0/930 EastScarp_Village 20 65 1/1300 EastScarp_Village 64 84 3/1700 EastScarp_VillageInn 25 28 3 nami_drinking/2130 EastScarp_VillageInn 53 30 0 nami_sleep",
+            "summer_Tue": "0 EastScarp_VillageInn 53 30 0/610 EastScarp_VillageInn 53 30 0 nami_nap/730 EastScarp_VillageInn 57 32 0/930 EastScarp_Village 57 113 2/1300 EastScarp_Village 5 19 2/1700 EastScarp_VillageInn 25 28 3/2130 EastScarp_VillageInn 53 30 0 nami_sleep",
+            "summer_Wed": "0 EastScarp_VillageInn 53 30 0/610 EastScarp_VillageInn 53 30 0 nami_nap/730 EastScarp_VillageInn 57 32 0/930 EastScarp_Village 28 60 2/1300 EastScarp_VillageInn 46 34 3/1500 EastScarp_Village 33 66 3 nami_drinking/1700 EastScarp_VillageInn 31 32 1/2130 EastScarp_VillageInn 53 30 0 nami_sleep",
+            "summer_Thu": "0 EastScarp_VillageInn 53 30 0/610 EastScarp_VillageInn 53 30 0 nami_nap/730 EastScarp_VillageInn 57 32 0/1000 EastScarp_Village 44 130 2/1300 EastScarp_Village 46 88 2/1700 EastScarp_VillageInn 31 32 1/2130 EastScarp_VillageInn 53 30 0 nami_sleep",
+            "summer_Fri": "0 EastScarp_VillageInn 53 30 0/610 EastScarp_VillageInn 53 30 0 nami_nap/930 EastScarp_VillageInn 57 32 0/1000 EastScarp_VillageInn 45 21 0/1300 EastScarp_DeepMountains 59 42 2/1700 EastScarp_VillageInn 31 32 1 nami_drinking/2300 EastScarp_VillageInn 53 30 0 nami_sleep",
+            "summer_Sat": "0 EastScarp_VillageInn 53 30 0/610 EastScarp_VillageInn 53 30 0 nami_nap/930 EastScarp_VillageInn 57 32 0/1000 EastScarp_Village 24 119 2/1500 EastScarp_Village 18 36 2/1700 EastScarp_VillageInn 31 32 1 nami_drinking/2300 EastScarp_VillageInn 53 30 0 nami_sleep",
+            "summer_Sun": "0 EastScarp_VillageInn 53 30 0/610 EastScarp_VillageInn 53 30 0 nami_nap/930 EastScarp_VillageInn 57 32 0/1100 EastScarp_VillageInn 45 21 0/1500 EastScarp_Village 20 65 1/1700 EastScarp_VillageInn 25 28 3 nami_drinking/2130 EastScarp_VillageInn 53 30 0 nami_sleep",
+            "summer_Rain": "0 EastScarp_VillageInn 53 30 0/610 EastScarp_VillageInn 53 30 0 nami_nap/930 EastScarp_VillageInn 57 32 0/1100 EastScarp_Village 33 65 2/1500 EastScarp_Village 20 65 1/2000 EastScarp_VillageInn 53 30 0 nami_sleep",
+        },
+        "When": {
+            "HasMod |contains=LemurKat.EastScarpe.CP": true,
+            "HasSeenEvent|contains=MT.NamiArrives": true 
+        }
+    },
+      
+    {
+        "LogName": "Nami Schedule - PC",
+        "Action": "EditData",
+        "Target": "Characters/schedules/Nami",
+        "Entries": {
+            "fall_Mon": "0 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3/610 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_nap/900 Fellowclown.PC_TurnaboutSaloon 10 21 2/1100 Fellowclown.PC_AncientGraveYard 24 6 3/1700 Fellowclown.PC_TurnaboutSaloon 7 23 0 nami_drinking/1930 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_sleep",
+            "fall_Tue": "0 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3/610 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_nap/900 Fellowclown.PC_TurnaboutSaloon 10 21 2/930 FellowClown.PC_OldGraveYard 16 45 1/1100 Fellowclown.PC_PasserbyCliffs 11 9 1/1600 FellowClown.PC_OldGraveYard 18 16 0/1930 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_sleep",
+            "fall_Wed": "0 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3/610 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_nap/900 Fellowclown.PC_TurnaboutSaloon 10 21 2/1100 FellowClown.PC_OldGraveYard 34 47 3/1700 Fellowclown.PC_TurnaboutSaloon 7 23 0 nami_drinking/1930 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_sleep",
+            "fall_Thu": "0 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3/610 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_nap/900 Fellowclown.PC_TurnaboutSaloon 10 21 2/1100 FellowClown.PC_OldGraveYard 26 22 3/1500 Fellowclown.PC_PasserbyCliffs 11 9 1/1930 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_sleep",
+            "fall_Fri": "0 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3/610 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_nap/900 Fellowclown.PC_TurnaboutSaloon 10 21 2/1100 Fellowclown.PC_AncientGraveYard 33 16 0/1700 Fellowclown.PC_TurnaboutSaloon 7 23 0 nami_drinking/1930 Fellowclown.PC_TurnaboutSaloonBasement 11 20 1 nami_sleep",
+            "fall_Sat": "0 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3/610 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_nap/900 Fellowclown.PC_TurnaboutSaloon 10 21 2/930 FellowClown.PC_OldGraveYard 13 33 1/1130 Fellowclown.PC_TurnaboutSaloon 4 10 0/1700 Fellowclown.PC_TurnaboutSaloon 7 23 0 nami_drinking/1930 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_sleep",
+            "fall_Sun": "0 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3/610 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_nap/900 Fellowclown.PC_TurnaboutSaloon 10 21 2/930 FellowClown.PC_OldGraveYard 16 45 1/1200 Fellowclown.PC_PasserbyCliffs 11 9 1/1600 FellowClown.PC_OldGraveYard 18 16 0/1930 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_sleep",
+            "fall_Rain": "0 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3/610 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_nap/900 Fellowclown.PC_TurnaboutSaloon 10 21 2/930 Fellowclown.PC_TurnaboutSaloon 82 95 3/1100 Fellowclown.PC_TurnaboutSaloon 12 5 2/1500 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3/1930 Fellowclown.PC_TurnaboutSaloonBasement 11 20 3 nami_sleep1",
+        },
+        "When": {
+            "HasMod |contains=Fellowclown.PC": true,
+            "HasSeenEvent |contains=Fellowclown.PC_TurnAboutSaloon": true,
+            "HasSeenEvent|contains=MT.NamiArrives": true 
+        }
+    }
+  ]
+}

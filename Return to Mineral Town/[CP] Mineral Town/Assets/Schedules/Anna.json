@@ -1,0 +1,21 @@
+  //(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Anna Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Anna",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_LibraryHouseInterior 5 11 2/810 {{ModId}}_LibraryHouseInterior 9 5 0/830 {{ModId}}_LibraryHouseInterior 11 5 0/930 {{ModId}}_LibraryHouseInterior 9 5 0/1030 {{ModId}}_LibraryHouseInterior 11 5 0/1130 {{ModId}}_LibraryHouseInterior 12 5 0/1230 {{ModId}}_LibraryHouseInterior 13 5 0/1240 {{ModId}}_LibraryHouseInterior 5 11 2/1400 {{ModId}}_LibraryInterior 9 10 2/1730 {{ModId}}_InnInterior 2 12 1/2100 {{ModId}}_LibraryHouseInterior2ndFloor 4 11 3 anna_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sun": "610 {{ModId}}_LibraryHouseInterior 5 11 2/1400 {{ModId}}_TownCenter 51 75 3/1700 {{ModId}}_InnInterior 2 12 1/2100 {{ModId}}_LibraryHouseInterior2ndFloor 4 11 3 anna_sleep",
+        "rain": "610 {{ModId}}_LibraryHouseInterior 5 11 2/810 {{ModId}}_LibraryHouseInterior 9 5 0/830 {{ModId}}_LibraryHouseInterior 11 5 0/930 {{ModId}}_LibraryHouseInterior 9 5 0/1030 {{ModId}}_LibraryHouseInterior 11 5 0/1130 {{ModId}}_LibraryHouseInterior 12 5 0/1230 {{ModId}}_LibraryHouseInterior 13 5 0/1240 {{ModId}}_LibraryHouseInterior 5 11 2/1400 {{ModId}}_LibraryInterior 9 10 2/1730 {{ModId}}_LibraryHouseInterior 13 9 1/2100 4 11 3 anna_sleep",
+        "GreenRain": "GOTO rain"
+      },
+    },
+  ],
+}

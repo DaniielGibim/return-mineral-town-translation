@@ -1,0 +1,26 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Ann Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Ann",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_InnKitchen 16 9 2/730 {{ModId}}_MarketInterior 16 28 1/920 {{ModId}}_MarketInterior 10 31 2/940 {{ModId}}_MarketInterior 4 28 3/1000 {{ModId}}_InnInterior2ndFloor 7 10 2 ann_sweeping/1140 {{ModId}}_InnInterior2ndFloor 20 8 2 ann_sweeping/1210 {{ModId}}_InnInterior2ndFloor 29 8 2 ann_sweeping/1240 {{ModId}}_InnInterior 15 14 2 ann_sweeping/1320 {{ModId}}_InnInterior 5 8 2 ann_sweeping/1350 {{ModId}}_InnKitchen 6 8 3/1430 {{ModId}}_InnInterior 10 5 0 ann_washing/1600 {{ModId}}_InnInterior 16 5 0/1700 {{ModId}}_InnInterior 12 5 0/1800 {{ModId}}_InnInterior 15 5 0/1900 {{ModId}}_InnInterior 14 5 0/2000 {{ModId}}_InnInterior 16 6 2/2100 {{ModId}}_InnInterior 15 5 0/2200 {{ModId}}_InnInterior 11 5 0/2300 {{ModId}}_InnKitchen 11 5 3 ann_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Sat": "610 {{ModId}}_GoddessHill 24 25 1/1000 {{ModId}}_InnInterior 15 14 2 ann_sweeping/1320 {{ModId}}_InnInterior 5 8 2 ann_sweeping/1350 {{ModId}}_InnKitchen 6 8 3/1430 {{ModId}}_InnInterior 10 5 0 ann_washing/1600 {{ModId}}_InnInterior 16 5 0/1700 {{ModId}}_InnInterior 12 5 0/1800 {{ModId}}_InnInterior 15 5 0/1900 {{ModId}}_InnInterior 14 5 0/2000 {{ModId}}_InnInterior 16 6 2/2100 {{ModId}}_InnInterior 15 5 0/2200 {{ModId}}_InnInterior 11 5 0/2300 {{ModId}}_InnKitchen 11 5 3 ann_sleep",
+        "Sun": "610 {{ModId}}_InnKitchen 16 9 2/730 {{ModId}}_InnInterior2ndFloor 7 10 2 ann_sweeping/830 {{ModId}}_InnInterior2ndFloor 20 8 2 ann_sweeping/930 {{ModId}}_InnInterior2ndFloor 29 8 2 ann_sweeping/1030 {{ModId}}_InnInterior2ndFloor 39 7 2 ann_sweeping/1130 {{ModId}}_InnInterior2ndFloor 43 31 2 ann_sweeping/1200 {{ModId}}_InnInterior2ndFloor 15 24 2 ann_sweeping/1230 {{ModId}}_InnInterior 15 14 2 ann_sweeping/1320 {{ModId}}_InnInterior 5 8 2 ann_sweeping/1350 {{ModId}}_InnKitchen 6 8 3/1430 {{ModId}}_InnInterior 10 5 0 ann_washing/1600 {{ModId}}_InnInterior 16 5 0/1700 {{ModId}}_InnInterior 12 5 0/1800 {{ModId}}_InnInterior 15 5 0/1900 {{ModId}}_InnInterior 14 5 0/2000 {{ModId}}_InnInterior 16 6 2/2100 {{ModId}}_InnInterior 15 5 0/2200 {{ModId}}_InnInterior 11 5 0/2300 {{ModId}}_InnKitchen 11 5 3 ann_sleep",
+        "rain": "GOTO Sun",
+        "fall_5": "610 {{ModId}}_InnKitchen 16 9 2/700 {{ModId}}_TownCenter 28 27 0/1000 {{ModId}}_Summit 20 17 0/1500 {{ModId}}_InnInterior 10 5 0 ann_washing/1630 {{ModId}}_InnInterior 16 5 0/1730 {{ModId}}_InnInterior 12 5 0/1800 {{ModId}}_InnInterior 15 5 0/1900 {{ModId}}_InnInterior 14 5 0/2000 {{ModId}}_InnInterior 16 6 2/2100 {{ModId}}_InnInterior 15 5 0/2200 {{ModId}}_InnInterior 11 5 0/2300 {{ModId}}_InnKitchen 11 5 3 ann_sleep",
+        "GreenRain": "GOTO Sun"
+
+        //Marriage Schedule
+        
+      },
+    },
+  ],
+}

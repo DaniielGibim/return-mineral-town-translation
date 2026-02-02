@@ -1,0 +1,26 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Rick Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Rick ",
+      "Entries": {
+
+      //Regular Schedule
+      "spring": "610 {{ModId}}_PoultryInterior2ndFloor 4 15 2/710 {{ModId}}_TownCenter 77 89 0/1000 {{ModId}}_PoultryInterior 17 14 3/1200 {{ModId}}_PoultryInterior 9 8 1/1300 {{ModId}}_TownCenter 87 100 1/1410 {{ModId}}_TownCenter 80 110 2/1500 {{ModId}}_MineralCoop 6 5 2 rick_feed/1530 {{ModId}}_MineralCoop 7 4 0/1600 {{ModId}}_MineralCoop 10 4 0/1630 {{ModId}}_MineralCoop 13 4 0/1700 {{ModId}}_TownCenter 78 109 2/1900 {{ModId}}_InnInterior 8 8 2/2200 {{ModId}}_PoultryInterior2ndFloor 2 15 3 rick_sleep",
+      "summer": "GOTO spring",
+      "fall": "GOTO spring",
+      "winter": "GOTO spring",
+      "Tue": "610 {{ModId}}_PoultryInterior2ndFloor 4 15 2/1000 {{ModId}}_BlacksmithInterior 8 14 0/1200 {{ModId}}_PoultryInterior 17 14 3/1400 {{ModId}}_PoultryInterior 9 8 1/1500 {{ModId}}_MineralCoop 6 5 2 rick_feed/1530 {{ModId}}_MineralCoop 7 4 0/1600 {{ModId}}_MineralCoop 10 4 0/1630 {{ModId}}_MineralCoop 13 4 0/1800 {{ModId}}_InnInterior 8 8 2/2200 {{ModId}}_PoultryInterior2ndFloor 2 15 3 rick_sleep",
+      "Fri": "610 {{ModId}}_PoultryInterior2ndFloor 4 15 2/710 {{ModId}}_TownCenter 77 89 0/1000 {{ModId}}_MarketInterior 1 28 1/1040 {{ModId}}_MarketInterior 16 34 1/1110 {{ModId}}_MarketInterior 16 31 1/1130 {{ModId}}_MarketInterior 8 29 1/1200 {{ModId}}_PoultryInterior 12 5 0/1320 {{ModId}}_PoultryInterior 17 14 3/1400 {{ModId}}_PoultryInterior 9 8 1/1500 {{ModId}}_MineralCoop 6 5 2 rick_feed/1530 {{ModId}}_MineralCoop 7 4 0/1600 {{ModId}}_MineralCoop 10 4 0/1630 {{ModId}}_MineralCoop 13 4 0/1800 {{ModId}}_InnInterior 8 8 2/2200 {{ModId}}_PoultryInterior2ndFloor 2 15 3 rick_sleep",
+      "Sun": "610 {{ModId}}_PoultryInterior2ndFloor 4 15 2/710 {{ModId}}_TownCenter 77 89 3/1000 {{ModId}}_PoultryInterior 17 14 3/1200 {{ModId}}_PoultryInterior 9 8 1/1300 {{ModId}}_TownCenter 87 100 1/1410 {{ModId}}_TownCenter 80 110 2/1500 {{ModId}}_MineralCoop 6 5 2 rick_feed/1530 {{ModId}}_MineralCoop 7 4 0/1600 {{ModId}}_MineralCoop 10 4 0/1630 {{ModId}}_MineralCoop 13 4 0/1800 {{ModId}}_InnInterior 8 8 2/2200 {{ModId}}_PoultryInterior2ndFloor 2 15 3 rick_sleep",
+      "rain": "610 {{ModId}}_PoultryInterior2ndFloor 4 15 2/1000 {{ModId}}_PoultryInterior 17 14 3/1200 {{ModId}}_PoultryInterior 9 8 1/1300 {{ModId}}_MineralCoop 6 5 2 rick_feed/1330 {{ModId}}_MineralCoop 7 4 0/1400 {{ModId}}_MineralCoop 10 4 0/1430 {{ModId}}_MineralCoop 13 4 0/1500 {{ModId}}_MineralCoop 12 5 3/1600 {{ModId}}_MineralCoop 2 4 0/1730 {{ModId}}_InnInterior 8 8 2/2200 {{ModId}}_PoultryInterior2ndFloor 2 15 3 rick_sleep",
+      "GreenRain": "GOTO rain"
+
+      //Marriage Schedule
+
+      }
+    }
+  ]
+}

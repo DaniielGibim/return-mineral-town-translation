@@ -1,0 +1,105 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/ObjectContextTags",
+        "Entries": {
+  
+          //Fishes
+          "Amur Minnow": "color_green, fish_amur_minnow, mt_fish, fish_river, season_winter",
+          "Bighead": "color_gray, fish_bighead, mt_fish, fish_river, season_all",
+          "Bitterling": "color_blue, fish_bitterling, mt_fish, fish_river, season_all",
+          "Black Bass": "color_green, fish_black_bass, mt_fish, fish_river, season_all",
+          "Blackfin Monkfish": "color_brown, fish_blackfin_monkfish, mt_fish, fish_ocean, fish_semi_rare, season_spring, season_winter",
+          "Blowfish": "color_green, fish_blowfish, mt_fish, fish_ocean, season_winter",
+          "Bluegill": "color_blue, fish_bluegill, mt_fish, fish_lake, season_all",
+          "Bonito": "color_blue, fish_bonito, mt_fish, fish_ocean, season_summer, season_fall",
+          "Brown Hakeling": "color_brown, fish_brown_hakeling, mt_fish, fish_river, season_spring, season_summer, season_winter",
+          "Cherry Salmon": "color_brown, fish_cherry_salmon, mt_fish, fish_lake, season_summer, season_fall",
+          "Cod": "color_green, fish_cod, mt_fish, fish_ocean, season_winter",
+          "Filefish": "color_blue, fish_filefish, mt_fish, fish_ocean, season_winter",
+          "Fluke": "color_brown, fish_fluke, mt_fish, fish_ocean, season_fall, season_winter",
+          "Golden Carp": "color_gold, fish_golden_carp, mt_fish, fish_lake, fish_semi_rare, season_all",
+          "Greenling": "color_red, fish_greenling, mt_fish, fish_ocean, season_spring",
+          "Huchen": "color_blue, fish_huchen, mt_fish, fish_semi_rare, fish_ocean, season_fall, season_winter",
+          "Kelp Bass": "color_yellow, fish_kelp_bass, mt_fish, fish_ocean, season_fall, season_winter",
+          "Lake Smelt": "color_yellow, fish_lake_smelt, mt_fish, fish_lake, season_winter",
+          "Mountain Trout": "color_orange, fish_mountain_trout, mt_fish, fish_river, season_spring, season_summer, season_fall",
+          "Needlefish": "color_gray, fish_needlefish, mt_fish, fish_river, season_spring",
+          "Pigfish": "color_pink, fish_pigfish, mt_fish, fish_lake, season_spring, season_summer, season_winter",
+          "Roach": "color_gray, fish_roach, mt_fish, fish_river, season_spring, season_fall",
+          "Rocky Trout": "color_orange, fish_rocky_trout, mt_fish, fish_ocean, season_spring, season_winter",
+          "Saury Pike": "color_blue, fish_saury_pike, mt_fish, fish_ocean, season_fall, season_winter",
+          "Scad": "color_green, fish_scad, mt_fish, fish_ocean, season_all",
+          "Silver Carp": "color_silver, fish_silver_carp, mt_fish, fish_river, fish_semi_rare, season_all",
+          "Snakehead": "color_green, fish_snakehead, mt_fish, fish_river, season_spring, season_fall",
+          "Whitefish": "color_whitefish, fish_whitefish, mt_fish, fish_lake, season_all",
+          "Yellowtail": "color_gray, fish_yellowtail, mt_fish, fish_ocean, season_summer, season_winter",
+  
+          //Artifacts
+
+  
+          //Flowers, Fruits, Vegetables, and Forage
+          "Bamboo Shoot": "color_brown",
+          "Black Grass": "color_black",
+          "Blue Grass": "color_dark_blue",
+          "Blue Magic Grass": "color_blue",
+          "Green Grass": "color_light_green",
+          "Harvest Cucumber": "color_green",
+          "Harvest Matsutake": "color_brown",
+          "Harvest Pink Cat": "color_pink",
+          "Indigo Grass": "color_light_blue",
+          "Moondrop": "color_white",
+          "Orange Grass": "color_orange",
+          "Poisonous Mushroom": "color_dark_pink",
+          "Purple Grass": "color_purple",
+          "Red Grass": "color_red",
+          "Red Magic Grass": "color_red",
+          "Toy Flower": "color_white",
+          "White Flower": "color_white",
+          "White Grass": "color_white",
+          "Yellow Grass": "color_yellow",
+  
+          //Dishes and Drinks
+          "Baked Corn": "color_yellow",
+          "Candied Sweet Potatoes": "color_orange",
+          "Cheese Fondue": "color_orange",
+          "Chocolate Cookies": "color_brown",
+          "Corn Flakes": "color_yellow",
+          "Curry Rice": "color_white",
+          "Daily Special": "color_brown",
+          "Dark Chocolate Bar": "color_brown",
+          "French Fries": "color_red, color_yellow",
+          "Fruit Latte": "color_yellow",
+          "Happy Eggplant": "color_purple",
+          "Harvest Apple Pie": "color_light_brown",
+          "Harvest Cheesecake": "color_yellow",
+          "Harvest Curry Powder": "color_brown",
+          "Harvest Pudding": "color_orange",
+          "Mineral Salt": "color_white",
+          "Miso": "color_light_brown",
+          "Mixed Latte": "color_light_green",
+          "Omelet Rice": "color_white, color_yellow",
+          "Pudding": "color_yellow",
+          "Raisin Bread": "color_brown, color_purple",
+          "Salted Butter": "color_yellow",
+          "Salted Popcorn": "color_light_blue, color_yellow",
+          "Sandwich": "color_light_brown",
+          "Savory Pancakes": "color_brown",
+          "Shrimp Fried Rice": "color_yellow",
+          "Snow Cone": "color_white, color_red",
+          "Spicy Ketchup": "color_dark_red",
+          "Stew": "color_light_brown",
+          "Strawberry Latte": "color_green",
+          "Vegetable Latte": "color_orange",
+          "Yellow Miso Soup": "color_yellow",
+  
+          //Quest items
+
+          //Miscellaneous
+          "Bebsi Cola": "color_red",
+          "Warp Totem Mineral Town": "color_brown, color_blue"
+        }
+      },
+    ]
+}

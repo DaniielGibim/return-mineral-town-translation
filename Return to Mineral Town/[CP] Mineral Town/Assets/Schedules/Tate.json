@@ -1,0 +1,20 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Tate Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Tate",
+      "Entries": {
+
+      //Regular Schedule
+        "spring": "610 {{ModId}}_InnInterior2ndFloor 9 38 2/700 {{ModId}}_InnInterior2ndFloor 4 10 3/930 {{ModId}}_BlacksmithInterior 18 16 0/1100 {{ModId}}_TownCenter 122 85 1/1400 {{ModId}}_TownCenter 15 118 2/1800 {{ModId}}_InnInterior2ndFloor 13 40 1/2200 {{ModId}}_InnInterior2ndFloor 9 38 3 tate_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "rain": "GOTO spring",
+        "GreenRain": "GOTO spring"
+      }
+    }
+  ]
+}

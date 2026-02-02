@@ -1,0 +1,441 @@
+{
+  "Changes": [
+
+    //Loading Tilesheets
+    {
+      "Action": "Load",
+      "Target": "Maps/Cars",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Claire",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_cropsTrees",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_extra_beach",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_extra_outdoorsTileSheet",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_highway_and_entrance",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_highway_sky",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_highway_sky_night",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_highway_sky_night_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_highway_sky_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/HospitalBed",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_lunarelfhut",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_lunarsky",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_lunarsky_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_lunarskynight",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_lunarskynight_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_mill",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_mt_town",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_roads",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_winery_smith",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/mineraltown_interior",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Monkey",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/mtnpcs",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/ocean_sky",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/ocean_sky_night",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/ocean_sky_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/ocean_sky_rainy_night",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Pete",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_beach",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_cropsTrees",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_extra_beach",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_extra_outdoorsTileSheet",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_highway_and_entrance",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_highway_sky",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_highway_sky_night",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_highway_sky_night_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_highway_sky_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_lunarelfhut",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_lunarsky",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_lunarsky_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_lunarskynight",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_lunarskynight_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_mill",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_mt_town",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_roads",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_winery_smith",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_cropsTrees",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_extra_beach",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_extra_outdoorsTileSheet",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_highway_and_entrance",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_highway_sky",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_highway_sky_night",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_highway_sky_night_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_highway_sky_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_lunarelfhut",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_lunarsky",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_lunarsky_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_lunarskynight",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_lunarskynight_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_mill",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_mt_town",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_roads",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_winery_smith",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_cropsTrees",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_extra_beach",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_extra_outdoorsTileSheet",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_highway_and_entrance",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_highway_sky",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_highway_sky_night",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_highway_sky_night_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_highway_sky_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_lunarelfhut",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_lunarsky",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_lunarsky_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_lunarskynight",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_lunarskynight_rainy",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_mill",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_mt_town",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_roads",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_winery_smith",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zextraobjects",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zMineralMine",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zMineralTownCraftables",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zMineralTownFurniture",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zMTWallsFloors",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zWineryGreenhouse",
+      "FromFile": "Assets/Maps/TileSheets/{{TargetWithoutPath}}.png"
+    }
+  ]
+}

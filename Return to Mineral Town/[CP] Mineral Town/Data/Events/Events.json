@@ -1,0 +1,105 @@
+{
+	"Changes": [
+
+		////New event Id setup: MT.EVENTNAME
+		
+		//****************Intro**********************
+		//********************************************
+		{			
+			"LogName": "Introduction",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_TownCenter",
+			"Entries": {
+				//Intro with Thomas and Zack
+				"MT.Introduction/t 600 1800": "TownThemeHM(loop)/12 71/farmer 6 71 1 Thomas 13 70 3 Zack 12 70 1/skippable/addConversationTopic MineralTownIntro 10/pause 500/move farmer 2 0 1/emote Thomas 16/faceDirection Zack 3/jump Zack/emote Zack 16/move Thomas 0 1 3/move Thomas -1 0 3/pause 500/speak Thomas \"{{i18n:MT.Introduction.01}}\"/faceDirection Zack 2/emote Zack 8/speak Zack \"{{i18n:MT.Introduction.02}}\"/pause 500/faceDirection Thomas 0/jump Thomas/speak Thomas \"{{i18n:MT.Introduction.03}}\"/pause 500/speak Zack \"{{i18n:MT.Introduction.04}}\"/pause 500/emote Thomas 12/faceDirection Thomas 3/speak Thomas \"{{i18n:MT.Introduction.05}}\"/faceDirection Zack 3/pause 500/speak Thomas \"{{i18n:MT.Introduction.06}}\"/faceDirection Thomas 0/speak Thomas \"{{i18n:MT.Introduction.07}}\"/speak Zack \"{{i18n:MT.Introduction.08}}\"/faceDirection Thomas 3/emote Thomas 40/speak Thomas \"{{i18n:MT.Introduction.09}}\"/speed Thomas 7/move Thomas 25 0 1/warp Thomas -30 -30/speak Zack \"{{i18n:MT.Introduction.10}}\"/pause 1000/globalFade 0.01/viewport -1000 -1000/warp farmer 23 69/faceDirection farmer 0/warp Zack 24 69/faceDirection Zack 0/globalFadeToClear 0.01/viewport 24 69/pause 500/speak Zack \"{{i18n:MT.Introduction.11}}\"/jump Zack/speak Zack \"{{i18n:MT.Introduction.12}}\"/jump farmer/faceDirection farmer 1/speak Zack \"{{i18n:MT.Introduction.13}}\"/pause 1000/globalFade 0.01/viewport -1000 -1000/warp farmer 35 33/faceDirection farmer 0/warp Zack 36 33/faceDirection Zack 0/globalFadeToClear 0.01/viewport 35 30/pause 500/speak Zack \"{{i18n:MT.Introduction.14}}\"/pause 1000/globalFade 0.10/viewport -1000 -1000/warp farmer 49 53/faceDirection farmer 0/faceDirection Zack 0/warp Zack 50 53/globalFadeToClear 0.01/viewport 50 50/pause 500/speak Zack \"{{i18n:MT.Introduction.15}}\"/pause 1000/globalFade 0.01/viewport -1000 -1000/warp farmer 118 98/faceDirection farmer 2/faceDirection Zack 2/warp Zack 119 98/globalFadeToClear 0.01/viewport 119 101/pause 750/speak Zack \"{{i18n:MT.Introduction.16}}\"/faceDirection Zack 1 true/faceDirection farmer 1 true/speak Zack \"{{i18n:MT.Introduction.17}}\"/pause 1000/globalFade 0.01/viewport -1000 -1000/warp farmer 73 86/warp Zack 74 86/faceDirection farmer 0/faceDirection Zack 0/globalFadeToClear 0.01/viewport 73 86/pause 500/speak Zack \"{{i18n:MT.Introduction.19}}\"/emote farmer 20/pause 1000/globalFade 0.01/viewport -1000 -1000/warp farmer 81 97/warp Zack 82 97/faceDirection farmer 2/faceDirection Zack 2/globalFadeToClear 0.01/viewport 82 100/pause 500/speak Zack \"{{i18n:MT.Introduction.20}}\"/pause 1000/globalFade 0.01/viewport -1000 -1000/warp farmer 58 95/warp Zack 59 95/faceDirection farmer 2/faceDirection Zack 2/globalFadeToClear 0.01/viewport 58 95/pause 750/speak Zack \"{{i18n:MT.Introduction.21}}\"/pause 500/faceDirection Zack 0/faceDirection farmer 0/speak Zack \"{{i18n:MT.Introduction.22}}\"/pause 500/speak Zack \"{{i18n:MT.Introduction.23}}\"/pause 1000/globalFade 0.01/viewport -1000 -1000/warp farmer 35 113/warp Zack 35 114/faceDirection farmer 3/faceDirection Zack 3/globalFadeToClear 0.01/viewport 29 112/pause 750/speak Zack \"{{i18n:MT.Introduction.24}}\"/faceDirection Zack 2/faceDirection farmer 2/pause 500/speak Zack \"{{i18n:MT.Introduction.25}}\"/pause 1000/globalFade 0.01/viewport -1000 -1000/warp Zack 22 88/warp farmer 21 88/faceDirection Zack 0/faceDirection farmer 0/globalFadeToClear 0.01/viewport 21 85/pause 750/speak Zack \"{{i18n:MT.Introduction.26}}\"/pause 1000/globalFade 0.01/viewport -1000 -1000/warp Zack 13 70/warp farmer 11 70/faceDirection farmer 1/faceDirection Zack 3/globalFadeToClear 0.01/viewport 12 71/pause 500/speak Zack \"{{i18n:MT.Introduction.27}}\"/emote farmer 32/move Zack 5 0 1/jump Zack/emote Zack 16/faceDirection Zack 3/speak Zack \"{{i18n:MT.Introduction.28}}\"/speed Zack 7/move Zack 25 0 1/warp Zack -30 -30/emote farmer 8/globalFade 0.01/viewport -1000 -1000/end position 11 70",
+			 
+				//Aja Returns to Town
+				"MT.AjaReturns/t 600 2000/Season summer": "MainThemeHM(loop)/12 71/Aja 1 70 1/skippable/pause 500/move Aja 6 0 0/pause 1000/emote Aja 28/speak Aja \"{{i18n:MT.AjaReturns.01}}\"/pause 1000/speak Aja \"{{i18n:MT.AjaReturns.02}}\"/pause 500/faceDirection Aja 1/move Aja 5 0 1 true/globalFade/viewport -1000 -1000/end position 7 71",
+
+				//Nami Arrives to Town
+				"MT.NamiArrives/t 600 2000/n landslideDone": "MainThemeHM(loop)/21 88/Zack 22 89 3 Thomas 21 89 1 farmer 25 88 3 Nami -1000 -1000 2/skippable/pause 1000/playSound doorClose/warp Nami 21 85/pause 500/beginSimultaneousCommand/emote Zack 16 true/faceDirection Zack 0 true/jump Zack 8 true/emote Thomas 16 true/faceDirection Thomas 0 true/jump Thomas 8 true/move Nami 0 3 2 true/endSimultaneousCommand/pause 500/speak Thomas \"{{i18n:MT.NamiArrives.01}}\"/emote Zack 56/pause 600/speak Thomas \"{{i18n:MT.NamiArrives.02}}\"/pause 600/emote Nami 40/pause 1000/speak Thomas \"{{i18n:MT.NamiArrives.03}}\"/pause 1000/speak Nami \"{{i18n:MT.NamiArrives.04}}\"/pause 1000/beginSimultaneousCommand/move Nami 3 0 1 true/emote Zack 40 true/faceDirection Zack 1 true/emote Thomas 40 true/faceDirection Thomas 1 true/endSimultaneousCommand/pause 500/emote farmer 32/pause 1000/move Nami 0 1 1/faceDirection farmer 2/beginSimultaneousCommand/emote farmer 8/move Nami 3 0 1/faceDirection farmer 1/endSimultaneousCommand/speak Nami \"{{i18n:MT.NamiArrives.05}}\"/beginSimultaneousCommand/move Nami 6 0 1 true/globalFade/viewport -1000 -1000/end position 25 88",
+			 }
+		},
+		//****************Events**********************
+		//********************************************
+		{
+			"LogName": "Clinic Events",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_HospitalInterior",
+			"Entries": { 
+				//Elli and Stu Prank Scene
+				"MT.StuPrank/r 0.3/t 1000 1600": "summer2/10 6/farmer 9 15 0 Elli 10 7 3 Stu 9 7 1/skippable/pause 500/move farmer 0 -6 0/move farmer 1 0 0/speak Stu \"{{i18n:MT.StuPrank.01}}\"/emote Elli 40/speak Elli \"{{i18n:MT.StuPrank.02}}\"/speak Stu \"{{i18n:MT.StuPrank.03}}\"/faceDirection Stu 3/move Stu -2 0 3/pause 1000/shake Stu 2000/pause 1000/speak Stu \"{{i18n:MT.StuPrank.04}}\"/faceDirection Stu 1/speed Stu 3/move Stu 2 0 1/emote Elli 40/textAboveHead Elli \"{{i18n:MT.StuPrank.05}}\"/showFrame Elli 16/pause 1500/showFrame Elli 12/speak Elli \"{{i18n:MT.StuPrank.06}}\"/emote Stu 32/pause 1000/speak Stu \"{{i18n:MT.StuPrank.07}}\"/jump Elli/emote Elli 12/jump Stu/faceDirection Stu 3/speed Stu 4/move Stu -1 0 2/speed Stu 4/move Stu 0 7 1/speed Stu 4/move Stu 3 0 2/speed Stu 5/move Stu 0 11 2/warp Stu -30 -30/textAboveHead Elli \"{{i18n:MT.StuPrank.08}}\"/pause 2000/faceDirection Elli 2/emote Elli 16/speak Elli \"{{i18n:MT.StuPrank.09}}\"/emote farmer 32/globalFade/viewport -1000 -1000/end position 10 9",
+				
+				//Elli Phonecall with Maru (Elli 2 Hearts)
+				"MT.ElliPhoneCall/f Elli 500/t 1000 1600": "SettlingIn/10 6/farmer 9 15 0 Elli 12 5 0 Doctor 2 5 2/skippable/pause 500/move farmer 0 -6 3/move farmer 1 0 0/speak Elli \"{{i18n:MT.ElliPhoneCall.01}}\"/emote Elli 40/pause 500/speak Elli \"{{i18n:MT.ElliPhoneCall.02}}\"/emote Elli 40/pause 500/speak Elli \"{{i18n:MT.ElliPhoneCall.03}}\"/emote Elli 40/pause 500/speak Elli \"{{i18n:MT.ElliPhoneCall.04}}\"/playSound breathout/move Doctor 0 2 1/move Doctor 10 0 0/move Doctor 0 -1 0/jump Elli/faceDirection Elli 2/speak Doctor \"{{i18n:MT.ElliPhoneCall.05}}\"/pause 500/speak Elli \"{{i18n:MT.ElliPhoneCall.06}}\"/pause 500/speak Doctor \"{{i18n:MT.ElliPhoneCall.07}}\"/emote Elli 32/pause 500/speak Elli \"{{i18n:MT.ElliPhoneCall.08}}\"/speak Doctor \"{{i18n:MT.ElliPhoneCall.09}}\"/faceDirection Doctor 3/move Doctor -4 0 2/move Doctor 0 4 2/speak Doctor \"{{i18n:MT.ElliPhoneCall.10}}\"/faceDirection Doctor 1/speak Doctor \"{{i18n:MT.ElliPhoneCall.11}}\"/move Doctor 3 0 2/move Doctor 0 14 2/warp Doctor -30 -30/emote Elli 32/speak Elli \"{{i18n:MT.ElliPhoneCall.12}}\"/emote Elli 16/speak Elli \"{{i18n:MT.ElliPhoneCall.13}}\"/emote farmer 32/globalFade/viewport -1000 -1000/end position 10 9",
+			}
+		},
+		{
+			"LogName": "Ellen's House Events",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_EllenInterior",
+			"Entries": { 
+				//Doctor and Ellen Scene
+				"MT.DoctorEllen/f Doctor 500/t 0800 1400": "summer2/16 13/farmer -30 -30 0 Ellen 17 13 2 Doctor 16 13 1 Stu 14 14 2/skippable/pause 500/animate Stu true true 600 18 19/showFrame Doctor 17/speak Doctor \"{{i18n:MT.DoctorEllen.01}}\"/pause 500/emote Ellen 20/pause 500/speak Ellen \"{{i18n:MT.DoctorEllen.02}}\"/pause 500/showFrame Doctor 4/faceDirection Doctor 1/playSound doorClose/warp farmer 18 19/pause 500/move farmer 0 -4 0/move farmer -1 0 0/speak Doctor \"{{i18n:MT.DoctorEllen.03}}\"/pause 500/emote Doctor 16 true/emote Ellen 16 true/faceDirection Doctor 2/pause 500/speak Doctor \"{{i18n:MT.DoctorEllen.04}}\"/emote farmer 36/pause 500/speak Doctor \"{{i18n:MT.DoctorEllen.05}}\"/pause 500/speak Ellen \"{{i18n:MT.DoctorEllen.06}}\"/stopAnimation Stu/faceDirection Stu 1/emote Stu 32/pause 500/speak Stu \"{{i18n:MT.DoctorEllen.07}}\"/move Stu 0 -1 0/move Stu -6 0 0/pause 1000/faceDirection Stu 1/speak Stu \"{{i18n:MT.DoctorEllen.08}}\"/faceDirection Stu 0/pause 500/speak Doctor \"{{i18n:MT.DoctorEllen.09}}\"/pause 500/move Doctor 0 4 2/move Doctor 2 0 2/pause 500/faceDirection Doctor 0/speak Doctor \"{{i18n:MT.DoctorEllen.10}}\"/emote Ellen 32 true/emote farmer 32 true/pause 500/move Doctor 0 2 2/playSound doorOpen/warp Doctor -30 -30/playSound doorClose/move Stu 8 0 1/faceDirection Stu 2/speak Ellen \"{{i18n:MT.DoctorEllen.11}}\"/move Stu 0 1 2/move Stu 1 0 1/faceDirection Stu 2/emote Ellen 16/pause 500/speak Ellen \"{{i18n:MT.DoctorEllen.12}}\"/pause 500/speak Stu \"{{i18n:MT.DoctorEllen.13}}\"/pause 500/speak Stu \"{{i18n:MT.DoctorEllen.14}}\"/pause 500/farmerEat 350/pause 1000/emote farmer 8/pause 1000/showFrame farmer 94/speak Stu \"{{i18n:MT.DoctorEllen.15}}\"/faceDirection farmer 0/pause 500/speak Ellen \"{{i18n:MT.DoctorEllen.16}}\"/pause 500/speak Stu \"{{i18n:MT.DoctorEllen.17}}\"/pause 500/globalFade/viewport -1000 -1000/move Stu -10 0 0/emote farmer 12/end position 17 14", 
+			}
+		},
+		{			
+			"LogName": "General Store Events",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_MarketInterior",
+			"Entries": { 
+				//Karen, Sasha, and Jeff Scene
+				"MT.KarenMeltdown/t 0800 1400": "marnieShop/9 28/farmer 7 35 0 Karen 10 30 0 Sasha 4 31 3 Jeff 8 25 2/skippable/pause 500/move farmer 0 -6 1/move farmer 1 0 0/move farmer 0 -2 0/emote Karen 16 true/emote Sasha 16 true/emote Jeff 16 true/pause 1000/speak Jeff \"{{i18n:MT.KarenMeltdown.01}}\"/speed Karen 4/move Karen -2 0 0/speed Karen 4/move Karen 0 -2 0/pause 500/jump farmer/faceDirection farmer 2/pause 500/speak Karen \"{{i18n:MT.KarenMeltdown.02}}\"/pause 500/speak Karen \"{{i18n:MT.KarenMeltdown.03}}\"/pause 500/speak Karen \"{{i18n:MT.KarenMeltdown.04}}\"/pause 500/speak Karen \"{{i18n:MT.KarenMeltdown.05}}\"/pause 500/emote Jeff 40/speak Jeff \"{{i18n:MT.KarenMeltdown.06}}\"/pause 500/emote Karen 12/move Karen -1 0 3/faceDirection farmer 3/move Karen 0 -1 0/shake Karen 1000/speak Karen \"{{i18n:MT.KarenMeltdown.07}}\"/pause 500/faceDirection Karen 1/faceDirection Sasha 1/speak Karen \"{{i18n:MT.KarenMeltdown.08}}\"/quickQuestion #{{i18n:MT.KarenMeltdown.15}}#{{i18n:MT.KarenMeltdown.16}}#{{i18n:MT.KarenMeltdown.17}}(break)emote Karen 32\\pause 500\\speak Karen \"{{i18n:MT.KarenMeltdown.09}}\"\\pause 500 (break)emote Karen 60\\pause 500\\speak Karen \"{{i18n:MT.KarenMeltdown.10}}\"\\pause 500 (break)emote Karen 12\\speak Karen \"{{i18n:MT.KarenMeltdown.11}}\"/pause 500/speak Sasha \"{{i18n:MT.KarenMeltdown.12}}\"/pause 500/emote Karen 40/speak Karen \"{{i18n:MT.KarenMeltdown.13}}\"/faceDirection Karen 1/speak Karen \"{{i18n:MT.KarenMeltdown.14}}\"/pause 500/emote farmer 32/globalFade/viewport -1000 -1000/end position 8 27",
+			}
+		},
+		//{			
+		//	"LogName": "Hot Spring Events",
+		//	"Action": "EditData",
+		//	"Target": "Data/Events/{{ModId}}_GoddessHill",
+		//	"Entries": { 
+		//		//Popuri at Goddess Spring (Popuri 4 Hearts)
+		//		"MT.PopuriRedChicken/f Popuri 1000/w sunny/t 0800 1400": "echos/12 4/farmer 12 11 0 Popuri 12 5 0/skippable/pause 500/faceDirection Popuri 1/pause 500/faceDirection Popuri 2/pause 500/faceDirection Popuri 3/pause 500/emote Popuri 40/pause 1000/speak Popuri \"{{i18n:MT.PopuriRedChicken.01}}\"/move farmer 0 -4 0/pause 500/faceDirection Popuri 2/emote Popuri 16/jump Popuri/pause 500/speak Popuri \"{{i18n:MT.PopuriRedChicken.02}}\"/pause 500/emote farmer 32/pause 500/speak Popuri \"{{i18n:MT.PopuriRedChicken.03}}\"/pause 500/emote farmer 40/pause 500/speak Popuri \"{{i18n:MT.PopuriRedChicken.04}}\"/faceDirection Popuri 1/pause 1000/speak Popuri \"{{i18n:MT.PopuriRedChicken.05}}\"/pause 500/emote farmer 60/pause 500/faceDirection Popuri 2/speak Popuri \"{{i18n:MT.PopuriRedChicken.06}}\"/move Popuri -1 0 2/move Popuri 0 7 2/move Popuri 15 0 1/warp Popuri -30 -30/globalFade/viewport -1000 -1000/end",
+		//	}
+		//},
+		{
+			"LogName": "Inn Events",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_InnInterior",
+			"Entries": { 
+				//Ann and Doug Setting Up (Ann 2 Hearts)
+				"MT.HardworkingAnn/f Ann 500/d Fri/t 1000 1400": "SettlingIn/13 6/farmer -30 -30 0 Ann 13 5 0 Doug 16 5 0/skippable/pause 500/animate Ann true true 400 16 17/move Doug 2 0 0/pause 1000/move Doug -2 0 0/pause 500/speak Ann \"{{i18n:MT.HardworkingAnn.01}}\"/faceDirection Doug 3/speak Doug \"{{i18n:MT.HardworkingAnn.02}}\"/emote Doug 8/speak Doug \"{{i18n:MT.HardworkingAnn.03}}\"/pause 1000/speak Ann \"{{i18n:MT.HardworkingAnn.04}}\"/emote Doug 60/speak Doug \"{{i18n:MT.HardworkingAnn.05}}\"/pause 500/speak Ann \"{{i18n:MT.HardworkingAnn.06}}\"/pause 500/speak Doug \"{{i18n:MT.HardworkingAnn.07}}\"/pause 500/speak Ann \"{{i18n:MT.HardworkingAnn.08}}\"/emote Doug 40/pause 500/speak Ann \"{{i18n:MT.HardworkingAnn.09}}\"/emote Doug 60/pause 500/speak Doug \"{{i18n:MT.HardworkingAnn.10}}\"/move Doug 0 1 3/move Doug -10 0 0/move Doug 0 -2 0/speak Doug \"{{i18n:MT.HardworkingAnn.11}}\"/end",
+				
+				//Karen and Ann Hanging Out (Karen 2 Hearts)
+				"MT.KarenAnnBestFriends/f Karen 500/d Sat/t 1600 2400": "Saloon1/14 8/farmer 19 16 0 Ann 20 8 3 Karen 18 8 2/skippable/pause 500/animate Karen true true 1500 16 16 16 17 18 19 20/move farmer 0 -5 0/speak Karen \"{{i18n:MT.KarenAnnBestFriends.01}}\"/pause 500/speak Ann \"{{i18n:MT.KarenAnnBestFriends.02}}\"/pause 500/speak Karen \"{{i18n:MT.KarenAnnBestFriends.03}}\"/beginSimultaneousCommand/emote Karen 16 true/emote Ann 16 true/faceDirection Ann 2/pause 500/endSimultaneousCommand/speak Karen \"{{i18n:MT.KarenAnnBestFriends.04}}\"/move farmer 0 -1 0/pause 500/speak Ann \"{{i18n:MT.KarenAnnBestFriends.05}}\"/speak Karen \"{{i18n:MT.KarenAnnBestFriends.06}}\"/quickQuestion #{{i18n:MT.KarenAnnBestFriends.07}}#{{i18n:MT.KarenAnnBestFriends.08}}#{{i18n:MT.KarenAnnBestFriends.09}}(break)emote Karen 60\\speak Karen \"{{i18n:MT.KarenAnnBestFriends.10}}\"\\emote farmer 8 (break)emote Karen 40\\pause 500\\speak Karen \"{{i18n:MT.KarenAnnBestFriends.11}}\"\\emote farmer 40 (break)emote Karen 16\\pause 500\\speak Karen \"{{i18n:MT.KarenAnnBestFriends.12}}\"/pause 1000/emote Ann 60/speak Ann \"{{i18n:MT.KarenAnnBestFriends.13}}\"/faceDirection Karen 1/speak Karen \"{{i18n:MT.KarenAnnBestFriends.14}}\"/faceDirection Karen 2/speak Karen \"{{i18n:MT.KarenAnnBestFriends.15}}\"/emote farmer 32/pause 500/speak Karen \"{{i18n:MT.KarenAnnBestFriends.16}}\"/globalFade/viewport -1000 -1000/end",
+			}
+		},
+		//{
+		//	"LogName": "Library Events",
+		//	"Action": "EditData",
+		//	"Target": "Data/Events/{{ModId}}_LibraryInterior2ndFloor",
+		//	"Entries": { 
+		//		//Marie Writing her Story (Marie 2 Hearts)
+		//		"MT.MarieStoryStart/f Marie 500/t 600 2400": "libraryTheme/5 10/farmer 7 4 2 Marie 7 13 2/skippable/pause 500/move farmer 0 6 2/speak Marie \"{{i18n:MT.MarieStoryStart.01}}\"/emote Marie 60/pause 500/emote Marie 16/jump Marie/faceDirection Marie 0/speak Marie \"{{i18n:MT.MarieStoryStart.02}}\"/quickQuestion #{{i18n:MT.MarieStoryStart.03}}#{{i18n:MT.MarieStoryStart.04}} (break)pause 500\\speak Marie \"{{i18n:MT.MarieStoryStart.05}}\"\\emote farmer 40 (break)emote Marie 60\\pause 500\\speak Marie \"{{i18n:MT.MarieStoryStart.06}}\"/pause 500/emote Marie 16/speak Marie \"{{i18n:MT.MarieStoryStart.07}}\"/emote farmer 40/move farmer -2 0 2/move farmer 0 3 2/pause 500/speak Marie \"{{i18n:MT.MarieStoryStart.08}}\"/faceDirection Marie 2/pause 500/speak Marie \"{{i18n:MT.MarieStoryStart.09}}\"/emote farmer 60/pause 250/speak Marie \"{{i18n:MT.MarieStoryStart.10}}\"/emote farmer 40/pause 500/speak Marie \"{{i18n:MT.MarieStoryStart.11}}\"/globalFade/viewport -1000 -1000/end position 7 10 2",
+		//	}
+		//},
+		{
+			"LogName": "Mayor's House Events",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_MayorInterior",
+			"Entries": { 
+				//Won Wants to Go Home (Won 2 Hearts)
+				"MT.WonDistraught/f Won 500/t 1000 2000": "sadpiano/4 12/farmer 4 19 0 Harris 6 15 3 Won -30 -30 0/skippable/pause 500/move farmer 0 -3 1/pause 500/emote farmer 40/pause 1000/emote Harris 32/pause 1000/playSound doorClose/warp Won 4 19/speed Won 4/move Won 0 -2 0/emote Harris 16 true/emote farmer 16 true/faceDirection Harris 2 true/faceDirection farmer 2 true/pause 500/speak Won \"{{i18n:MT.WonDistraught.01}}\"/pause 500/move Won 1 0 0/jump Won/pause 500/speak Won \"{{i18n:MT.WonDistraught.02}}\"/pause 500/emote Harris 28/pause 1000/speak Harris \"{{i18n:MT.WonDistraught.03}}\"/pause 500/shake Won 1000 true/speak Won \"{{i18n:MT.WonDistraught.04}}\" true/pause 500/speak Harris \"{{i18n:MT.WonDistraught.05}}\"/pause 500/shake Won 2000 true/emote Won 12 true/pause 1000/speak Won \"{{i18n:MT.WonDistraught.06}}\"/pause 2000/speak Harris \"{{i18n:MT.WonDistraught.07}}\"/pause 500/jump Won/speak Won \"{{i18n:MT.WonDistraught.08}}\"/pause 500/move Won -1 0 0/pause 500/speak Won \"{{i18n:MT.WonDistraught.09}}\"/pause 500/speed Won 4/move Won 0 2 2/playSound doorClose/warp Won -30 -30/pause 1000 emote farmer 60/faceDirection farmer 1/pause 2000/speak Harris \"{{i18n:MT.WonDistraught.10}}\"/pause 1000/faceDirection Harris 3/speak Harris \"{{i18n:MT.WonDistraught.11}}\"/globalFade/viewport -1000 -1000/end position 4 14",
+			}
+		},
+		{
+			"LogName": "Snack Shack Events",
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_SnackShackInterior",
+			"Entries": { 
+				//Kai Arrives
+				"MT.KaiArrives/!z summer": "Tropical Jam/7 6/farmer 16 8 3 Kai 4 5 0 Popuri -30 -30 3/skippable/pause 500/move farmer -7 0 0/pause 500/emote Kai 16/faceDirection Kai 2/speak Kai \"{{i18n:MT.KaiArrives.01}}\"/pause 500/emote farmer 32/move Kai 0 1 2/move Kai 3 0 2/pause 500/speak Kai \"{{i18n:MT.KaiArrives.02}}\"/pause 500/emote farmer 32/move Kai 0 -1 0/move Kai 3 0 0/playSound doorClose/warp Popuri 13 15/pause 1000/faceDirection farmer 1/faceDirection Kai 2/move Popuri 0 -5 0/faceDirection Popuri 1/pause 500/faceDirection Popuri 2/pause 500/faceDirection Popuri 3/pause 500/speak Popuri \"{{i18n:MT.KaiArrives.03}}\"/emote Popuri 20/pause 500/move Popuri 0 -4 3/faceDirection Kai 1/speak Popuri \"{{i18n:MT.KaiArrives.04}}\"/pause 1000/speak Kai \"{{i18n:MT.KaiArrives.05}}\"/pause 500/speak Popuri \"{{i18n:MT.KaiArrives.06}}\"/move Kai 2 0 2/pause 500/speak Kai \"{{i18n:MT.KaiArrives.07}}\"/pause 500/emote Popuri 32/pause 1000/shake Popuri 1000/speak Popuri \"{{i18n:MT.KaiArrives.08}}\"/pause 500/speak Kai \"{{i18n:MT.KaiArrives.09}}\"/pause 500/speak Popuri \"{{i18n:MT.KaiArrives.10}}\"/pause 500/faceDirection Popuri 0/speak Popuri \"{{i18n:MT.KaiArrives.11}}\"/pause 500/emote Kai 8/speak Kai \"{{i18n:MT.KaiArrives.12}}\"/pause 500/emote Popuri 32/speak Popuri \"{{i18n:MT.KaiArrives.13}}\"/speak Kai \"{{i18n:MT.KaiArrives.14}}\"/pause 500/emote Popuri 32/speak Popuri \"{{i18n:MT.KaiArrives.15}}\"/move Popuri 0 7 2/faceDirection farmer 2/move Popuri 2 0 2/move Popuri 0 3 2/playSound doorClose/emote Kai 32/pause 500/jump Kai/faceDirection farmer 1/speak Kai \"{{i18n:MT.KaiArrives.16}}\"/pause 500/emote farmer 60/globalFade/viewport -1000 -1000/end position 9 8",
+				
+			}
+		}
+	]
+}

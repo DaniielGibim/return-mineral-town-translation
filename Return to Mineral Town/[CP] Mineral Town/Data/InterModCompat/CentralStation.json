@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Mods/Pathoschild.CentralStation/Stops",
+            "Entries": {
+                "{{ModId}}_MineralTown": {
+                "DisplayName": "{{i18n:mineral.town.bus}}",
+                "ToLocation": "{{ModId}}_TownEntrance",
+                "Network": "Bus",
+                "ToTile": { "X": 77, "Y": 22 }
+                }
+            }
+        }
+    ]
+}

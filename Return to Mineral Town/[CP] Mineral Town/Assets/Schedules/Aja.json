@@ -1,0 +1,67 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Aja Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Aja",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "0 {{ModId}}_MTNPCHiddenRoom 3 5 1/2200 {{ModId}}_MTNPCHiddenRoom 3 5 1 aja_sleep",
+        "fall": "0 {{ModId}}_MTNPCHiddenRoom 3 5 1/2200 {{ModId}}_MTNPCHiddenRoom 3 5 1 aja_sleep",
+        
+        "summer_Mon": "610 {{ModId}}_InnInterior2ndFloor 35 22 1/800 {{ModId}}_InnInterior2ndFloor 5 9 0/1100 {{ModId}}_MineralBeach 25 6 2/1400 {{ModId}}_MineralBeach 38 21 1/1600 {{ModId}}_SnackShackInterior 11 12 3/1900 {{ModId}}_InnInterior 11 8 0/2100 {{ModId}}_InnInterior2ndFloor 35 22 1 aja_sleep",
+        "summer_Tue": "610 {{ModId}}_InnInterior2ndFloor 35 22 1/800 {{ModId}}_InnInterior2ndFloor 5 9 0/1200 Saloon 11 20 0/1600 Town 33 36 2/1800 Town 56 24 0/2100 {{ModId}}_InnInterior2ndFloor 35 22 1 aja_sleep",
+        "summer_Wed": "GOTO summer_Mon",
+        "summer_Thu": "GOTO summer_Tue",
+        "summer_Fri": "610 {{ModId}}_InnInterior2ndFloor 35 22 1/800 {{ModId}}_InnInterior2ndFloor 5 9 0/1000 {{ModId}}_TownCenter 54 77 1/1300 {{ModId}}_TownCenter 37 121 1/1500 {{ModId}}_ChurchInterior 10 12 0/1800 {{ModId}}_InnInterior 11 8 0 aja_standdrink/2100 {{ModId}}_InnInterior2ndFloor 35 22 1 aja_sleep",
+        "summer_Sat": "610 {{ModId}}_InnInterior2ndFloor 35 22 1/800 {{ModId}}_InnInterior2ndFloor 5 9 0/1100 {{ModId}}_LibraryInterior 3 9 3/1300 {{ModId}}_TownCenter 54 77 1/1800 {{ModId}}_InnInterior 11 8 0 aja_standdrink/2100 {{ModId}}_InnInterior2ndFloor 35 22 1 aja_sleep",
+        "summer_Sun": "610 {{ModId}}_InnInterior2ndFloor 35 22 1/800 {{ModId}}_InnInterior2ndFloor 5 9 0/1100 {{ModId}}_ChurchInterior 4 21 0/1500 {{ModId}}_TownCenter 31 37 2/1900 {{ModId}}_InnInterior 11 8 0/2100 {{ModId}}_InnInterior2ndFloor 35 22 1 aja_sleep",
+        "summer_rain": "610 {{ModId}}_InnInterior2ndFloor 35 22 1/1000 {{ModId}}_InnInterior2ndFloor 5 9 0/1600 {{ModId}}_InnInterior 11 8 0/2000 {{ModId}}_InnInterior2ndFloor 35 22 1 aja_sleep",
+        "summer_GreenRain": "GOTO summer_rain",
+
+        "winter_Mon": "610 {{ModId}}_InnInterior2ndFloor 35 22 1/800 {{ModId}}_InnInterior2ndFloor 5 9 0/1100 {{ModId}}_GoddessHill 13 14 0/1600 {{ModId}}_LibraryInterior2ndFloor 8 11 0/1900 {{ModId}}_InnInterior 11 8 0/2100 {{ModId}}_InnInterior2ndFloor 35 22 1 aja_sleep",
+        "winter_Tue": "610 {{ModId}}_InnInterior2ndFloor 35 22 1/800 {{ModId}}_InnInterior2ndFloor 5 9 0/1200 Saloon 11 20 0/1500 Beach 22 24 2/2000 {{ModId}}_InnInterior 11 8 0/2100 {{ModId}}_InnInterior2ndFloor 35 22 1 aja_sleep",
+        "winter_Wed": "GOTO winter_Mon",
+        "winter_Thu": "GOTO winter_Tue",
+        "winter_Fri": "610 {{ModId}}_InnInterior2ndFloor 35 22 1/800 {{ModId}}_InnInterior2ndFloor 5 9 0/1100 {{ModId}}_MarketInterior 12 28 3/1400 {{ModId}}_InnInterior2ndFloor 11 9 2/1800 {{ModId}}_InnInterior 11 8 0 aja_standdrink/2100 {{ModId}}_InnInterior2ndFloor 35 22 1 aja_sleep",
+        "winter_Sat": "610 {{ModId}}_InnInterior2ndFloor 35 22 1/800 {{ModId}}_InnInterior2ndFloor 5 9 0/1200 {{ModId}}_InnInterior 17 13 0/1500 {{ModId}}_TownCenter 37 121 1/1800 {{ModId}}_InnInterior 11 8 0 aja_standdrink/2100 {{ModId}}_InnInterior2ndFloor 35 22 1 aja_sleep",
+        "winter_Sun": "610 {{ModId}}_InnInterior2ndFloor 35 22 1/800 {{ModId}}_InnInterior2ndFloor 5 9 0/1100 {{ModId}}_ChurchInterior 4 21 0/1500 {{ModId}}_TownCenter 31 37 2/1900 {{ModId}}_InnInterior 11 8 0/2100 {{ModId}}_InnInterior2ndFloor 35 22 1 aja_sleep",
+        "winter_rain": "610 {{ModId}}_InnInterior2ndFloor 35 22 1/1000 {{ModId}}_InnInterior2ndFloor 5 9 0/1600 {{ModId}}_InnInterior 11 8 0/2000 {{ModId}}_InnInterior2ndFloor 35 22 1 aja_sleep",
+        "winter_GreenRain": "GOTO winter_rain"
+        }
+      },
+      {
+        
+        //Zuzu Schedule
+          "LogName": "Aja Schedule - DTZ",
+          "Action": "EditData",
+          "Target": "Characters/schedules/Aja",
+          "Entries": {
+              "spring_Mon": "0 Custom_DTZ_ApartmentLobby 23 7 0/0610 Custom_DTZ_ApartmentLobby 23 8 0/0700 Custom_DTZ_ApartmentLobby 11 15 0 aja_sitright/0900 Custom_DTZ_UniversityExterior 34 34 2/1400 Custom_DTZ_Pizzeria 10 13 0/1500 Custom_DTZ_Pizzeria 10 16 3 aja_sitleft/2000 Custom_DTZ_HazelHouse 19 34 3 aja_sitleft/2400 Custom_DTZ_ApartmentLobby 23 7 0 aja_sleep",
+              "spring_Tue": "0 Custom_DTZ_ApartmentLobby 23 7 0/0610 Custom_DTZ_ApartmentLobby 23 8 0/0700 Custom_DTZ_ApartmentLobby 11 15 0 aja_sitright/0900 Custom_DTZ_UniversityExterior 34 34 2/1500 Custom_DTZ_Bakery 13 12 0/1600 Custom_DTZ_Bakery 14 17 1 aja_sitright/2000 Custom_DTZ_ApartmentLobby 5 9 0/2400 Custom_DTZ_ApartmentLobby 23 7 0 aja_sleep",
+              "spring_Wed": "GOTO spring_Mon",
+              "spring_Thu": "GOTO spring_Tue",
+              "spring_Fri": "0 Custom_DTZ_ApartmentLobby 23 7 0/0610 Custom_DTZ_ApartmentLobby 23 8 0/0700 Custom_DTZ_ApartmentLobby 11 15 0 aja_sitright/0900 Custom_DTZ_UniversityExterior 34 34 2/1400 Custom_DTZ_Pizzeria 10 13 0/1500 Custom_DTZ_Pizzeria 10 16 3 aja_sitleft/1900 Custom_DTZ_NightClubEntrance 13 7 2/2000 Custom_DTZ_NightClubMain 26 16 0 aja_dance/2400 Custom_DTZ_ApartmentLobby 23 7 0 aja_sleep",
+              "spring_Sat": "0 Custom_DTZ_ApartmentLobby 23 7 0/0610 Custom_DTZ_ApartmentLobby 23 8 0/0700 Custom_DTZ_ApartmentLobby 11 15 0 aja_sitright/1200 Custom_DTZ_Pizzeria 10 13 0/1500 Custom_DTZ_Pizzeria 10 16 3 aja_sitleft/1700 Custom_DTZ_ZuzuCityOasis1 28 26 3 aja_sitleft/1900 Custom_DTZ_NightClubEntrance 13 7 2/2000 Custom_DTZ_NightClubMain 26 16 0 aja_dance/2400 Custom_DTZ_ApartmentLobby 23 7 0 aja_sleep",
+              "spring_Sun": "0 Custom_DTZ_ApartmentLobby 23 7 0/830 Custom_DTZ_Forest2 69 31 2/1200 Custom_DTZ_ZuzuCityOasis1 7 23 1/1400 Custom_DTZ_SancInt 12 15 1/1800 Custom_DTZ_SancInt 8 9 0 aja_situp/2000 Custom_DTZ_HazelHouse 17 31 2 aja_sitdown/2200 Custom_DTZ_HazelHouse 18 22 0/2400 Custom_DTZ_ApartmentLobby 23 7 0 aja_sleep",
+              "spring_rain": "0 Custom_DTZ_ApartmentLobby 23 7 0/0610 Custom_DTZ_ApartmentLobby 23 8 0/0700 Custom_DTZ_ApartmentLobby 11 15 0 aja_sitright/1500 Custom_DTZ_Pizzeria 10 16 3 aja_sitleft/1900 Custom_DTZ_ApartmentLobby 11 15 0 aja_sitright/2400 Custom_DTZ_ApartmentLobby 23 7 0 aja_sleep",
+              "spring_GreenRain": "GOTO spring_rain",
+              
+              "fall_Mon": "GOTO spring_Mon",
+              "fall_Tue": "GOTO spring_Tue",
+              "fall_Wed": "GOTO spring_Wed",
+              "fall_Thu": "GOTO spring_Thu",
+              "fall_Fri": "GOTO spring_Fri",
+              "fall_Sat": "GOTO spring_Sat",
+              "fall_Sun": "GOTO spring_Sun",
+              "fall_rain": "0 Custom_DTZ_ApartmentLobby 23 7 0/0610 Custom_DTZ_ApartmentLobby 23 8 0/0700 Custom_DTZ_ApartmentLobby 11 15 0 aja_sitright/1500 Custom_DTZ_Pizzeria 10 16 3 aja_sitleft/1900 Custom_DTZ_ApartmentLobby 11 15 0 aja_sitright/2400 Custom_DTZ_ApartmentLobby 23 7 0 aja_sleep",
+              "fall_GreenRain": "GOTO spring_rain",
+          },
+          "When": {
+              "HasMod |contains=DTZ.DowntownZuzuCP": true
+          }
+      }
+  ],
+}

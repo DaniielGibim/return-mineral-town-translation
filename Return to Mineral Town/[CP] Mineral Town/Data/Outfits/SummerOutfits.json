@@ -1,0 +1,282 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Portraits/Aja_Summer, Portraits/Ann_Summer, Portraits/Cliff_Summer, Portraits/Doctor_Summer, Portraits/Elli_Summer, Portraits/Gray_Summer, Portraits/Kai_Summer, Portraits/Karen_Summer, Portraits/Marie_Summer, Portraits/Nami_Summer, Portraits/Popuri_Summer, Portraits/Rick_Summer, Portraits/Tate_Summer, Characters/Aja_Summer, Characters/Ann_Summer, Characters/Cliff_Summer, Characters/Doctor_Summer, Characters/Elli_Summer, Characters/Gray_Summer, Characters/Kai_Summer, Characters/Karen_Summer, Characters/Marie_Summer, Characters/Nami_Summer, Characters/Popuri_Summer, Characters/Rick_Summer, Characters/Tate_Summer",
+            "FromFile": "Assets/SummerOutfits/{{Target}}.png"
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Aja",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Aja", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.AjaSummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Aja_Summer",
+                    "Sprite": "Characters/Aja_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Ann",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Ann", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.AnnSummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Ann_Summer",
+                    "Sprite": "Characters/Ann_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Cliff",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Cliff", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.TateSummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Cliff_Summer",
+                    "Sprite": "Characters/Cliff_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Doctor",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Doctor", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.DoctorSummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Doctor_Summer",
+                    "Sprite": "Characters/Doctor_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Elli",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Elli", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.ElliSummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Elli_Summer",
+                    "Sprite": "Characters/Elli_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Gray",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Gray", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.GraySummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Gray_Summer",
+                    "Sprite": "Characters/Gray_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Kai",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Kai", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.KaiSummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Kai_Summer",
+                    "Sprite": "Characters/Kai_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Karen",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Karen", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.KarenSummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Karen_Summer",
+                    "Sprite": "Characters/Karen_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Marie",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Marie", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.MarieSummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Marie_Summer",
+                    "Sprite": "Characters/Marie_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Nami",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Nami", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.NamiSummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Nami_Summer",
+                    "Sprite": "Characters/Nami_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Popuri",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Popuri", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.PopuriSummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Popuri_Summer",
+                    "Sprite": "Characters/Popuri_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Rick",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Rick", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.RickSummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Rick_Summer",
+                    "Sprite": "Characters/Rick_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Summer Outfit - Tate",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Tate", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.TateSummerOutfit": {
+                    "Id": "Summer",
+                    "Condition": null,
+                    "Season": "Summer",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Tate_Summer",
+                    "Sprite": "Characters/Tate_Summer",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+    ]
+}

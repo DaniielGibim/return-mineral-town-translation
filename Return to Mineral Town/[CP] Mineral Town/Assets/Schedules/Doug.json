@@ -1,0 +1,20 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Doug Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Doug",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "610 {{ModId}}_InnKitchen 25 9 2/810 {{ModId}}_InnInterior 12 6 2 doug_work/1200 {{ModId}}_InnKitchen 6 10 3/1300 {{ModId}}_InnKitchen 2 5 0/1400 {{ModId}}_InnInterior 14 6 2 doug_work/2300 {{ModId}}_InnKitchen 25 5 1 doug_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "fall_5": "610 {{ModId}}_InnKitchen 25 9 2/700 {{ModId}}_TownCenter 27 27 0/1000 {{ModId}}_Summit 19 17/1500 {{ModId}}_InnKitchen 6 10 3/1630 {{ModId}}_InnKitchen 2 5 0/1730 {{ModId}}_InnInterior 14 6 2 doug_work/2300 {{ModId}}_InnKitchen 25 5 1 doug_sleep",
+        "GreenRain": "GOTO spring"
+      }
+    }
+  ]
+}

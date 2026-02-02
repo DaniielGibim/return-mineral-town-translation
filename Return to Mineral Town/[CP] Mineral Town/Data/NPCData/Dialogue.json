@@ -1,0 +1,24 @@
+{
+"Changes": [
+    
+//------------------------
+// Regular Dialogue
+//------------------------
+    
+      {
+        "LogName": "Load Empty Mineral Town Dialogue File",
+           "Action": "Load",
+           "Target": "Characters/Dialogue/Aja, Characters/Dialogue/Ann, Characters/Dialogue/Anna, Characters/Dialogue/Barley, Characters/Dialogue/Basil, Characters/Dialogue/Carter, Characters/Dialogue/Cliff, Characters/Dialogue/Doctor, Characters/Dialogue/Doug, Characters/Dialogue/Duke, Characters/Dialogue/Ellen, Characters/Dialogue/Elli, Characters/Dialogue/Gotz, Characters/Dialogue/Gray, Characters/Dialogue/Harris, Characters/Dialogue/HarvestGoddess, Characters/Dialogue/Jeff, Characters/Dialogue/Kai, Characters/Dialogue/Kappa, Characters/Dialogue/Karen, Characters/Dialogue/Lillia, Characters/Dialogue/Manna, Characters/Dialogue/Marie, Characters/Dialogue/Mei, Characters/Dialogue/Nami, Characters/Dialogue/Popuri, Characters/Dialogue/Rick, Characters/Dialogue/Saibara, Characters/Dialogue/Sasha, Characters/Dialogue/Stu, Characters/Dialogue/Tate, Characters/Dialogue/Thomas, Characters/Dialogue/Won, Characters/Dialogue/Zack",
+           "FromFile": "Data/blank.json"
+      },
+    
+/*********
+** Include Dialogue Files
+*********/
+      {
+        "LogName": "Include Mineral Town Dialogue Files",
+           "Action": "Include",
+           "FromFile": "Assets/Dialogue/Aja.json, Assets/Dialogue/Ann.json, Assets/Dialogue/Anna.json, Assets/Dialogue/Barley.json, Assets/Dialogue/Basil.json, Assets/Dialogue/Carter.json, Assets/Dialogue/Cliff.json, Assets/Dialogue/Doctor.json, Assets/Dialogue/Doug.json, Assets/Dialogue/Duke.json, Assets/Dialogue/Ellen.json, Assets/Dialogue/Elli.json, Assets/Dialogue/Gotz.json, Assets/Dialogue/Gray.json, Assets/Dialogue/Harris.json, Assets/Dialogue/HarvestGoddess.json, Assets/Dialogue/Jeff.json, Assets/Dialogue/Kai.json, Assets/Dialogue/Kappa.json, Assets/Dialogue/Karen.json, Assets/Dialogue/Lillia.json, Assets/Dialogue/Manna.json, Assets/Dialogue/Marie.json, Assets/Dialogue/Mei.json, Assets/Dialogue/Nami.json, Assets/Dialogue/Popuri.json, Assets/Dialogue/Rick.json, Assets/Dialogue/Saibara.json, Assets/Dialogue/Sasha.json, Assets/Dialogue/Stu.json, Assets/Dialogue/Tate.json, Assets/Dialogue/Thomas.json, Assets/Dialogue/Won.json, Assets/Dialogue/Zack.json",
+      },
+    ]
+}

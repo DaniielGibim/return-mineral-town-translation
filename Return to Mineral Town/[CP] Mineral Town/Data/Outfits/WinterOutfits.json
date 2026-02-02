@@ -1,0 +1,324 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Portraits/Aja_Winter, Portraits/Ann_Winter, Portraits/Cliff_Winter, Portraits/Doctor_WinterIndoors, Portraits/Doctor_WinterOutdoors, Portraits/Elli_WinterIndoors, Portraits/Elli_WinterOutdoors, Portraits/Gray_Winter, Portraits/Kai_Winter, Portraits/Karen_Winter, Portraits/Marie_Winter, Portraits/Nami_Winter, Portraits/Popuri_Winter, Portraits/Rick_Winter, Portraits/Tate_Winter, Characters/Aja_Winter, Characters/Ann_Winter, Characters/Cliff_Winter, Characters/Doctor_WinterIndoors, Characters/Doctor_WinterOutdoors, Characters/Elli_WinterIndoors, Characters/Elli_WinterOutdoors, Characters/Gray_Winter, Characters/Kai_Winter, Characters/Karen_Winter, Characters/Marie_Winter, Characters/Nami_Winter, Characters/Popuri_Winter, Characters/Rick_Winter, Characters/Tate_Winter",
+            "FromFile": "Assets/WinterOutfits/{{Target}}.png"
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outfit - Aja",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Aja", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.AjaWinterOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Aja_Winter",
+                    "Sprite": "Characters/Aja_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outfit - Ann",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Ann", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.AnnWinterOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Ann_Winter",
+                    "Sprite": "Characters/Ann_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outfit - Cliff",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Cliff", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.CliffWinterOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Cliff_Winter",
+                    "Sprite": "Characters/Cliff_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Indoors Outfit - Doctor",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Doctor", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.DoctorWinterIndoorsOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": false,
+                    "Portrait": "Portraits/Doctor_WinterIndoors",
+                    "Sprite": "Characters/Doctor_WinterIndoors",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outdoors Outfit - Doctor",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Doctor", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.DoctorWinterOutdoorsOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": false,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Doctor_WinterOutdoors",
+                    "Sprite": "Characters/Doctor_WinterOutdoors",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Indoors Outfit - Elli",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Elli", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.ElliWinterIndoorsOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": false,
+                    "Portrait": "Portraits/Elli_WinterIndoors",
+                    "Sprite": "Characters/Elli_WinterIndoors",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outdoors Outfit - Elli",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Elli", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.ElliWinterOutdoorsOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": false,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Elli_WinterOutdoors",
+                    "Sprite": "Characters/Elli_WinterOutdoors",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outfit - Gray",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Gray", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.GrayWinterOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Gray_Winter",
+                    "Sprite": "Characters/Gray_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outfit - Kai",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Kai", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.KaiWinterOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Kai_Winter",
+                    "Sprite": "Characters/Kai_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outfit - Karen",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Karen", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.KarenWinterOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Karen_Winter",
+                    "Sprite": "Characters/Karen_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outfit - Marie",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Marie", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.MarieWinterOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Marie_Winter",
+                    "Sprite": "Characters/Marie_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outfit - Nami",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Nami", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.NamiWinterOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Nami_Winter",
+                    "Sprite": "Characters/Nami_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outfit - Popuri",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Popuri", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.PopuriWinterOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Popuri_Winter",
+                    "Sprite": "Characters/Popuri_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outfit - Rick",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Rick", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.RickWinterOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Rick_Winter",
+                    "Sprite": "Characters/Rick_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+
+        {
+            "LogName": "Mineral Town Winter Outfit - Tate",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [ "Tate", "Appearance" ],
+            "Entries": {
+                "{{ModId}}.TateWinterOutfit": {
+                    "Id": "Winter",
+                    "Condition": null,
+                    "Season": "Winter",
+                    "Indoors": true,
+                    "Outdoors": true,
+                    "Portrait": "Portraits/Tate_Winter",
+                    "Sprite": "Characters/Tate_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": -100,
+                    "Weight": 0
+                  }
+            }
+        },
+    ]
+}

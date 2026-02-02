@@ -1,0 +1,111 @@
+{
+	"Changes": [
+
+//------------------------------------- D A T A B L E S -------------------------------------
+
+//------------------------
+// E N G A G E M E N T    
+//------------------------
+
+{
+
+	"LogName": "Engagement Dialogue",
+	"Action": "EditData",
+	"Target": "Data/EngagementDialogue",
+	"Entries": {
+		
+		"Aja0": "{{i18n:Romance.Engagement.Aja0}}",
+		"Aja1": "{{i18n:Romance.Engagement.Aja1}}",
+
+		"Ann0": "{{i18n:Romance.Engagement.Ann0}}",
+		"Ann1": "{{i18n:Romance.Engagement.Ann1}}",
+
+		"Cliff0": "{{i18n:Romance.Engagement.Cliff0}}",
+		"Cliff1": "{{i18n:Romance.Engagement.Cliff1}}",
+
+		"Doctor0": "{{i18n:Romance.Engagement.Doctor0}}",
+		"Doctor1": "{{i18n:Romance.Engagement.Doctor1}}",
+
+		"Elli0": "{{i18n:Romance.Engagement.Elli0}}",
+		"Elli1": "{{i18n:Romance.Engagement.Elli1}}",
+
+		"Gray0": "{{i18n:Romance.Engagement.Gray0}}",
+		"Gray1": "{{i18n:Romance.Engagement.Gray1}}",
+
+		"Kai0": "{{i18n:Romance.Engagement.Kai0}}",
+		"Kai1": "{{i18n:Romance.Engagement.Kai1}}",
+
+		"Karen0": "{{i18n:Romance.Engagement.Karen0}}",
+		"Karen1": "{{i18n:Romance.Engagement.Karen1}}",
+
+		"Marie0": "{{i18n:Romance.Engagement.Marie0}}",
+		"Marie1": "{{i18n:Romance.Engagement.Marie1}}",
+
+		"Nami0": "{{i18n:Romance.Engagement.Nami0}}",
+		"Nami1": "{{i18n:Romance.Engagement.Nami1}}",
+
+		"Popuri0": "{{i18n:Romance.Engagement.Popuri0}}",
+		"Popuri1": "{{i18n:Romance.Engagement.Popuri1}}",
+
+		"Rick0": "{{i18n:Romance.Engagement.Rick0}}",
+		"Rick1": "{{i18n:Romance.Engagement.Rick1}}"
+
+	}
+},
+	
+//--------------------
+// Special Dialogue   
+//--------------------
+
+{
+	"LogName": "Special Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Aja, Characters/Dialogue/Ann, Characters/Dialogue/Cliff, Characters/Dialogue/Doctor, Characters/Dialogue/Elli, Characters/Dialogue/Gray, Characters/Dialogue/Kai, Characters/Dialogue/Karen, Characters/Dialogue/Marie, Characters/Dialogue/Nami, Characters/Dialogue/Popuri, Characters/Dialogue/Rick",
+	"Entries": {
+		"give_flowersA": "{{i18n: Romance.give.flowersA.{{TargetWithoutPath}} }}",
+		"give_flowersB": "{{i18n: Romance.give.flowersB.{{TargetWithoutPath}} }}",
+		"stardrop_gift": "{{i18n: Romance.stardrop.gift.{{TargetWithoutPath}} }}",
+		"rejectNPCA": "{{i18n: Romance.rejectNPCA.{{TargetWithoutPath}} }}",
+		"rejectNPCB": "{{i18n: Romance.rejectNPCB.{{TargetWithoutPath}} }}"
+	},
+},
+
+//-----------------------------------
+// M A R R I A G E  D I A L O G U E  
+//-----------------------------------
+
+{
+	"LogName": "Load Empty Mineral Town MarriageDialogue File",
+	"Action": "Load",
+	"Target": "Characters/Dialogue/MarriageDialogueAja, Characters/Dialogue/MarriageDialogueAnn, Characters/Dialogue/MarriageDialogueCliff, Characters/Dialogue/MarriageDialogueDoctor, Characters/Dialogue/MarriageDialogueElli, Characters/Dialogue/MarriageDialogueGray, Characters/Dialogue/MarriageDialogueKai, Characters/Dialogue/MarriageDialogueKaren, Characters/Dialogue/MarriageDialogueMarie, Characters/Dialogue/MarriageDialogueNami, Characters/Dialogue/MarriageDialoguePopuri, Characters/Dialogue/MarriageDialogueRick",
+	"FromFile": "Data/blank.json"
+},
+
+{
+	"LogName": "Include Mineral Town MarriageDialogue Files",
+	"Action": "Include",
+	"FromFile": "Assets/MarriageDialogue/MarriageDialogueAja.json, Assets/MarriageDialogue/MarriageDialogueAnn.json, Assets/MarriageDialogue/MarriageDialogueCliff.json, Assets/MarriageDialogue/MarriageDialogueDoctor.json, Assets/MarriageDialogue/MarriageDialogueElli.json, Assets/MarriageDialogue/MarriageDialogueGray.json, Assets/MarriageDialogue/MarriageDialogueKai.json, Assets/MarriageDialogue/MarriageDialogueKaren.json, Assets/MarriageDialogue/MarriageDialogueMarie.json, Assets/MarriageDialogue/MarriageDialogueNami.json, Assets/MarriageDialogue/MarriageDialoguePopuri.json, Assets/MarriageDialogue/MarriageDialogueRick.json"
+},  
+
+{
+	"LogName": "Movie Invitation Dialogue",
+	"Action": "EditData",
+	"Target": "Strings/Characters",
+	"Entries": {
+		"MovieInvite_Spouse_Aja": "{{i18n:Romance.MovieInvite.Spouse.Aja}}",
+		"MovieInvite_Spouse_Ann": "{{i18n:Romance.MovieInvite.Spouse.Ann}}",
+		"MovieInvite_Spouse_Cliff": "{{i18n:Romance.MovieInvite.Spouse.Cliff}}",
+		"MovieInvite_Spouse_Doctor": "{{i18n:Romance.MovieInvite.Spouse.Doctor}}",
+		"MovieInvite_Spouse_Elli": "{{i18n:Romance.MovieInvite.Spouse.Elli}}",
+		"MovieInvite_Spouse_Gray": "{{i18n:Romance.MovieInvite.Spouse.Gray}}",
+		"MovieInvite_Spouse_Kai": "{{i18n:Romance.MovieInvite.Spouse.Kai}}",
+		"MovieInvite_Spouse_Karen": "{{i18n:Romance.MovieInvite.Spouse.Karen}}",
+		"MovieInvite_Spouse_Marie": "{{i18n:Romance.MovieInvite.Spouse.Marie}}",
+		"MovieInvite_Spouse_Nami": "{{i18n:Romance.MovieInvite.Spouse.Nami}}",
+		"MovieInvite_Spouse_Popuri": "{{i18n:Romance.MovieInvite.Spouse.Popuri}}",
+        "MovieInvite_Spouse_Rick": "{{i18n:Romance.MovieInvite.Spouse.Rick}}",
+
+	}
+}
+]
+}

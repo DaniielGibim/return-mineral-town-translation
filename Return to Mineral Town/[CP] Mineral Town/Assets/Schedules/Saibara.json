@@ -1,0 +1,26 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Saibara Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/Saibara ",
+      "Entries": {
+
+      //Regular Schedule
+        "spring": "610 {{ModId}}_BlacksmithInterior 15 8 0/810 {{ModId}}_BlacksmithInterior 7 12 2/1200 {{ModId}}_BlacksmithWorkshop 6 16 3 saibara_work/1500 {{ModId}}_BlacksmithInterior 7 12 2/1800 {{ModId}}_InnInterior 12 15 3/2300 {{ModId}}_BlacksmithInterior 19 5 2 saibara_sleep",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Mon": "610 {{ModId}}_BlacksmithInterior 15 8 0/1000 Blacksmith 9 14 0/1200 Blacksmith 5 13 3/1800 {{ModId}}_InnInterior 12 15 3/2300 {{ModId}}_BlacksmithInterior 19 5 2 saibara_sleep",
+        "GreenRain": "GOTO spring",
+
+        //Checkup
+        "spring_20": "610 {{ModId}}_BlacksmithInterior 15 8 0/810 {{ModId}}_BlacksmithInterior 7 12 2/1100 {{ModId}}_HospitalInterior 7 12 1/1300 {{ModId}}_HospitalInterior 24 14 3/1600 {{ModId}}_InnInterior 12 15 3/2300 {{ModId}}_BlacksmithInterior 19 5 2 saibara_sleep",
+        "summer_20": "GOTO spring_20",
+        "fall_20": "GOTO spring_20",
+        "winter_20": "GOTO spring_20",
+      }
+    }
+  ]
+}

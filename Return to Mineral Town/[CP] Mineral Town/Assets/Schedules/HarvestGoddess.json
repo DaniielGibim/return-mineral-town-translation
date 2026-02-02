@@ -1,0 +1,19 @@
+//(0 = up, 1 = right, 2 = down, 3 = left)
+{
+  "Changes": [
+    {
+      "LogName": "Harvest Goddess Schedule",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/HarvestGoddess",
+      "Entries": {
+
+        //Regular Schedule
+        "spring": "0610 {{ModId}}_MTNPCHiddenRoom 12 6 2",
+        "summer": "GOTO spring", 
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "GreenRain": "GOTO spring"
+      }
+    }
+  ]
+}

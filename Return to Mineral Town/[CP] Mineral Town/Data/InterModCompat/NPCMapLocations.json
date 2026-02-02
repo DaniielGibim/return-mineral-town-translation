@@ -1,0 +1,134 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/Locations",
+            "Entries": {
+                "{{ModID}}_MTNPCHiddenRoom": {
+                    "Exclude": true
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+            "Entries": {
+                "HarvestGoddess": {
+                    "Exclude": true
+                },
+                "Kappa": {
+                    "Exclude": true
+                }
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+            "Entries": {
+                "Aja": {
+                    "MarkerCropOffset": 5
+                },
+                "Ann": {
+                    "MarkerCropOffset": 4
+                },
+                "Anna": {
+                    "MarkerCropOffset": 4
+                },
+                "Barley": {
+                    "MarkerCropOffset": 5
+                },
+                "Basil": {
+                    "MarkerCropOffset": 0
+                },
+                "Carter": {
+                    "MarkerCropOffset": 2
+                },
+                "Cliff": {
+                    "MarkerCropOffset": 2
+                },
+                "Doctor": {
+                    "MarkerCropOffset": 1
+                },
+                "Doug": {
+                    "MarkerCropOffset": 2
+                },
+                "Duke": {
+                    "MarkerCropOffset": 1
+                },
+                "Ellen": {
+                    "MarkerCropOffset": 6
+                },
+                "Elli": {
+                    "MarkerCropOffset": 5
+                },
+                "Gotz": {
+                    "MarkerCropOffset": 2
+                },
+                "Gray": {
+                    "MarkerCropOffset": 1
+                },
+                "Harris": {
+                    "MarkerCropOffset": 1
+                },
+                "HarvestGoddess": {
+                    "MarkerCropOffset": 5
+                },
+                "Jeff": {
+                    "MarkerCropOffset": 2
+                },
+                "Kai": {
+                    "MarkerCropOffset": 2
+                },
+                "Kappa": {
+                    "MarkerCropOffset": 3
+                },
+                "Karen": {
+                    "MarkerCropOffset": 4
+                },
+                "Lillia": {
+                    "MarkerCropOffset": 6
+                },
+                "Manna": {
+                    "MarkerCropOffset": 5
+                },
+                "Marie": {
+                    "MarkerCropOffset": 5
+                },
+                "Mei": {
+                    "MarkerCropOffset": 10
+                },
+                "Nami": {
+                    "MarkerCropOffset": 4
+                },
+                "Popuri": {
+                    "MarkerCropOffset": 6
+                },
+                "Rick": {
+                    "MarkerCropOffset": 3
+                },
+                "Saibara": {
+                    "MarkerCropOffset": 8
+                },
+                "Sasha": {
+                    "MarkerCropOffset": 5
+                },
+                "Stu": {
+                    "MarkerCropOffset": 8
+                },
+                "Tate": {
+                    "MarkerCropOffset": 7
+                },
+                "Thomas": {
+                    "MarkerCropOffset": 3
+                },
+                "Won": {
+                    "MarkerCropOffset": 1
+                },
+                "Zack": {
+                    "MarkerCropOffset": 1
+                }
+            }
+        },
+    ]
+}

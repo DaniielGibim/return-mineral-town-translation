@@ -1,0 +1,114 @@
+{
+"Changes": [
+
+    {
+        //NPC Positions
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Aja 25 65 left/Ann 19 79 right/Cliff 21 79 left/Doctor 33 70 right/Elli 34 69 down/Gray 34 68 up/Kai 30 70 left/Karen 34 57 down/Marie 33 68 up/Nami 39 72 down/Popuri 28 70 right/Rick 35 57 down/Tate 44 72 down",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters"],
+                "Value": "Aja 22 64 right/Ann 18 64 right/Cliff 17 64 down/Doctor 35 67 left/Elli 35 68 left/Gray 35 59 down/Kai 24 74 up/Karen 30 57 down/Marie 34 59 down/Nami 37 72 left/Popuri 23 74 up/Rick 31 57 down/Tate 37 65 left",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                "Value": "Aja 25 65 left/Ann 19 79 right/Cliff 21 79 left/Doctor 33 70 right/Elli 34 69 down/Gray 34 68 up/Kai 30 70 left/Karen 34 57 down/Marie 33 68 up/Nami 39 72 down/Popuri 28 70 right/Rick 35 57 down/Tate 44 72 down",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                "Value": "Aja 22 64 right/Ann 18 64 right/Cliff 17 64 down/Doctor 35 67 left/Elli 35 68 left/Gray 35 59 down/Kai 24 74 up/Karen 30 57 down/Marie 34 59 down/Nami 37 72 left/Popuri 23 74 up/Rick 31 57 down/Tate 37 65 left",
+                "Delimiter": "/"
+            }
+            
+        ]
+    },
+    {
+        //NPC Positions SVE
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true },
+        "TextOperations": [
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "Aja 22 63 down/Ann 18 77 right/Cliff 20 77 left/Doctor 33 70 right/Elli 34 71 up/Gray 34 67 up/Kai 29 69 left/Karen 34 57 down/Marie 33 67 up/Nami 40 72 down/Popuri 27 69 right/Rick 35 57 down/Tate 44 59 up",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters"],
+                "Value": "Aja 23 65 right/Ann 17 64 right/Cliff 17 65 right/Doctor 35 67 left/Elli 35 68 left/Gray 34 57 down/Kai 25 73 up/Karen 30 56 down/Marie 33 57 down/Nami 37 72 left/Popuri 24 73 up/Rick 31 56 down/Tate 36 64 left",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                "Value": "Aja 22 63 down/Ann 18 77 right/Cliff 20 77 left/Doctor 33 70 right/Elli 34 71 up/Gray 34 67 up/Kai 29 69 left/Karen 34 57 down/Marie 33 67 up/Nami 40 72 down/Popuri 27 69 right/Rick 35 57 down/Tate 44 59 up",
+                "Delimiter": "/"
+            },
+
+            {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                "Value": "Aja 23 65 right/Ann 17 64 right/Cliff 17 65 right/Doctor 35 67 left/Elli 35 68 left/Gray 34 57 down/Kai 25 73 up/Karen 30 56 down/Marie 33 57 down/Nami 37 72 left/Popuri 24 73 up/Rick 31 56 down/Tate 36 64 left",
+                "Delimiter": "/"
+            }
+        ]
+    },
+
+    {
+    //Kai Arrives
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring13",
+    "When": {
+         "HasSeenEvent|contains=MT.KaiArrives": true
+    },
+    "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "Kimpoi 40 26 down/Malaya 40 28 right",
+            "Delimiter": "/"
+        },
+
+        {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "Kimpoi 40 26 down/Malaya 40 28 right",
+            "Delimiter": "/"
+        },
+        
+        {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "Kimpoi 40 26 down/Malaya 40 28 right",
+            "Delimiter": "/"
+        },
+
+        {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "Kimpoi 40 26 down/Malaya 40 28 right",
+            "Delimiter": "/"
+        },
+    ]
+},
+]
+}

@@ -1,0 +1,1405 @@
+{
+   "Changes": [
+
+//Fishpond
+
+   {
+   // Amur Minnow
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Amur_Minnow": {
+      "ID": "{{ModID}}_Amur_Minnow",
+      "RequiredTags": [ "fish_amur_minnow" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+         ],
+         "PopulationGates": {
+            "2": [ "176 2" ],
+            "4": [ "296 2" ],
+            "8": [ "66 2" ],
+      }
+      }
+      }
+   },
+   {
+      // Bighead
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Bighead": {
+      "ID": "{{ModID}}_Bighead",
+      "RequiredTags": [ "fish_bighead" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+         ],
+         "PopulationGates": {
+            "2": [ "176 2" ],
+            "4": [ "296 2" ],
+            "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Bitterling
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Bitterling": {
+      "ID": "{{ModID}}_Bitterling",
+      "RequiredTags": [ "fish_bitterling" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+         ],
+         "PopulationGates": {
+            "2": [ "176 2" ],
+            "4": [ "296 2" ],
+            "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Black Bass
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Black_Bass": {
+      "ID": "{{ModID}}_Black_Bass",
+      "RequiredTags": [ "fish_black_bass" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Blowfish
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Blowfish": {
+      "ID": "{{ModID}}_Blowfish",
+      "RequiredTags": [ "fish_blowfish" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+         ],
+         "PopulationGates": {
+            "2": [ "176 2" ],
+            "4": [ "296 2" ],
+            "8": [ "66 2" ],
+      }
+      }
+      }
+   },
+   {
+      // Bluegill
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Bluegill": {
+      "ID": "{{ModID}}_Bluegill",
+      "RequiredTags": [ "fish_bluegill" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+         ],
+         "PopulationGates": {
+            "2": [ "176 2" ],
+            "4": [ "296 2" ],
+            "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Bonito
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Bonito": {
+      "ID": "{{ModID}}_Bonito",
+      "RequiredTags": [ "fish_bonito" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Brown Hakeling
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Brown_Hakeling": {
+      "ID": "{{ModID}}_Brown_Hakeling",
+      "RequiredTags": [ "fish_brown_hakeling" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Cherry Salmon
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Cherry_Salmon": {
+      "ID": "{{ModID}}_Cherry_Salmon",
+      "RequiredTags": [ "fish_cherry_salmon" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Cod
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Cod": {
+      "ID": "{{ModID}}_Cod",
+      "RequiredTags": [ "fish_cod" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Filefish
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Filefish": {
+      "ID": "{{ModID}}_Filefish",
+      "RequiredTags": [ "fish_filefish" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Fluke
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Fluke": {
+      "ID": "{{ModID}}_Fluke",
+      "RequiredTags": [ "fish_fluke" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Golden Carp
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Golden_Carp": {
+      "ID": "{{ModID}}_Golden_Carp",
+      "RequiredTags": [ "fish_golden_carp" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Greenling
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Greenling": {
+      "ID": "{{ModID}}_Greenling",
+      "RequiredTags": [ "fish_greenling" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Huchen
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Huchen": {
+      "ID": "{{ModID}}_Huchen",
+      "RequiredTags": [ "fish_huchen" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Kelp Bass
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Kelp_Bass": {
+      "ID": "{{ModID}}_Kelp_Bass",
+      "RequiredTags": [ "fish_kelp_bass" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Lake Smelt
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Lake_Smelt": {
+      "ID": "{{ModID}}_Lake_Smelt",
+      "RequiredTags": [ "fish_lake_smelt" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Blackfin Monkfish
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Blackfin_Monkfish": {
+      "ID": "{{ModID}}_Blackfin_Monkfish",
+      "RequiredTags": [ "fish_blackfin_monkfish" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Mountain Trout
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Mountain_Trout": {
+      "ID": "{{ModID}}_Mountain_Trout",
+      "RequiredTags": [ "fish_mountain_trout" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Needlefish
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Needlefish": {
+      "ID": "{{ModID}}_Needlefish",
+      "RequiredTags": [ "fish_needlefish" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Pigfish
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Pigfish": {
+      "ID": "{{ModID}}_Pigfish",
+      "RequiredTags": [ "fish_pigfish" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Roach
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Roach": {
+      "ID": "{{ModID}}_Roach",
+      "RequiredTags": [ "fish_roach" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Rocky Trout
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Rocky_Trout": {
+      "ID": "{{ModID}}_Rocky_Trout",
+      "RequiredTags": [ "fish_rocky_trout" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Saury Pike
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Saury_Pike": {
+      "ID": "{{ModID}}_Saury_Pike",
+      "RequiredTags": [ "fish_saury_pike" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Scad
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Scad": {
+      "ID": "{{ModID}}_Scad",
+      "RequiredTags": [ "fish_scad" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Silver Carp
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Silver_Carp": {
+      "ID": "{{ModID}}_Silver_Carp",
+      "RequiredTags": [ "fish_silver_carp" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {    
+      // Snakehead
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Snakehead": {
+      "ID": "{{ModID}}_Snakehead",
+      "RequiredTags": [ "fish_snakehead" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Whitefish
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Whitefish": {
+      "ID": "{{ModID}}_Whitefish",
+      "RequiredTags": [ "fish_whitefish" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+      // Yellowtail
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+      "{{ModID}}_Yellowtail": {
+      "ID": "{{ModID}}_Yellowtail",
+      "RequiredTags": [ "fish_yellowtail" ],
+      "SpawnTime": -1,
+      "ProducedItems": [
+      {
+         "RequiredPopulation": 10,
+         "Chance": 0.40,
+         "ItemID": 66,
+         "MinQuantity": 4,
+         "MaxQuantity": 8
+      },
+      {
+         "RequiredPopulation": 6,
+         "Chance": 0.45,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 2
+      },
+      {
+         "RequiredPopulation": 3,
+         "Chance": 0.50,
+         "ItemID": 66,
+         "MinQuantity": 1,
+         "MaxQuantity": 1
+      },
+      {
+         "RequiredPopulation": 0,
+         "Chance": 0.70,
+         "ItemID": 774,
+         "MinQuantity": 5,
+         "MaxQuantity": 8
+      }
+      ],
+      "PopulationGates": {
+         "2": [ "176 2" ],
+         "4": [ "296 2" ],
+         "8": [ "66 2" ]
+      }
+      }
+      }
+   },
+   {
+   "Action": "EditData",
+   "Target": "Data/FishPondData",
+   "MoveEntries": [
+      { "ID": "{{ModID}}_Amur_Minnow", "ToPosition": "Top" },
+      { "ID": "{{ModID}}_Bighead", "AfterID": "{{ModId}}_Amur_Minnow" },
+      { "ID": "{{ModID}}_Bitterling", "AfterID": "{{ModID}}_Bighead" },
+      { "ID": "{{ModID}}_Black_Bass", "AfterID": "{{ModID}}_Bitterling" },
+      { "ID": "{{ModID}}_Blowfish", "AfterID": "{{ModId}}_Black_Bass" },
+      { "ID": "{{ModID}}_Bluegill", "AfterID": "{{ModID}}_Blowfish" },
+      { "ID": "{{ModID}}_Bonito", "AfterID": "{{ModID}}_Bluegill" },
+      { "ID": "{{ModID}}_Brown_Hakeling", "AfterID": "{{ModID}}_Bonito" },
+      { "ID": "{{ModID}}_Cherry_Salmon", "AfterID": "{{ModID}}_Brown_Hakeling" },
+      { "ID": "{{ModID}}_Cod", "AfterID": "{{ModID}}_Cherry_Salmon" },
+      { "ID": "{{ModID}}_Filefish", "AfterID": "{{ModID}}_Cod" },
+      { "ID": "{{ModID}}_Fluke", "AfterID": "{{ModID}}_Filefish" },
+      { "ID": "{{ModID}}_Golden_Carp", "AfterID": "{{ModID}}_Fluke" },
+      { "ID": "{{ModID}}_Greenling", "AfterID": "{{ModID}}_Golden_Carp" },
+      { "ID": "{{ModID}}_Huchen", "AfterID": "{{ModID}}_Greenling" },
+      { "ID": "{{ModID}}_Kelp_Bass", "AfterID": "{{ModID}}_Huchen" },
+      { "ID": "{{ModID}}_Lake_Smelt", "AfterID": "{{ModID}}_Kelp_Bass" },
+      { "ID": "{{ModID}}_Blackfin_Monkfish", "AfterID": "{{ModID}}_Lake_Smelt" },
+      { "ID": "{{ModID}}_Mountain_Trout", "AfterID": "{{ModID}}_Blackfin_Monkfish" },
+      { "ID": "{{ModID}}_Needlefish", "AfterID": "{{ModID}}_Mountain_Trout" },
+      { "ID": "{{ModID}}_Pigfish", "AfterID": "{{ModID}}_Needlefish" },
+      { "ID": "{{ModID}}_Roach", "AfterID": "{{ModID}}_Pigfish" },
+      { "ID": "{{ModID}}_Rocky_Trout", "AfterID": "{{ModID}}_Roach" },
+      { "ID": "{{ModID}}_Saury_Pike", "AfterID": "{{ModID}}_Rocky_Trout" },
+      { "ID": "{{ModID}}_Scad", "AfterID": "{{ModID}}_Saury_Pike" },
+      { "ID": "{{ModID}}_Silver_Carp", "AfterID": "{{ModID}}_Scad" },
+      { "ID": "{{ModID}}_Snakehead", "AfterID": "{{ModID}}_Silver_Carp" },
+      { "ID": "{{ModID}}_Whitefish", "AfterID": "{{ModID}}_Snakehead" },
+      { "ID": "{{ModID}}_Yellowtail", "AfterID": "{{ModID}}_Whitefish" }
+   ]
+}
+]
+}
